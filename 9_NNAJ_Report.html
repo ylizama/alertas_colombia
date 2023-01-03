@@ -3,7 +3,7 @@
 <head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>1_Parsing_Data</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>9_NNAJ_Report</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
 
 
@@ -14579,7 +14579,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="1.-Installs,-Settings,-Imports">1. Installs, Settings, Imports<a class="anchor-link" href="#1.-Installs,-Settings,-Imports">&#182;</a></h1>
+<h1 id="1.-Installs,-Imports-and-Settings">1. Installs, Imports and Settings<a class="anchor-link" href="#1.-Installs,-Imports-and-Settings">&#182;</a></h1>
 </div>
 </div>
 </div>
@@ -14591,46 +14591,36 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#install pyPDF2</span>
-<span class="c1">#!pip install PyPDF2</span>
-</pre></div>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="ch">#!pip install spacy==3.1.1 #restart runtime after this</span>
+<span class="c1">#!python -m spacy download en_core_web_sm</span>
 
-     </div>
-</div>
-</div>
-</div>
+<span class="kn">import</span> <span class="nn">timer</span>
+<span class="kn">import</span> <span class="nn">csv</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="n">pd</span><span class="o">.</span><span class="n">options</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">max_rows</span>
+<span class="n">pd</span><span class="o">.</span><span class="n">set_option</span><span class="p">(</span><span class="s1">&#39;display.max_colwidth&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
 
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># importing all the required modules</span>
-<span class="kn">import</span> <span class="nn">PyPDF2</span>
-<span class="kn">from</span> <span class="nn">PyPDF2</span> <span class="kn">import</span> <span class="n">PdfReader</span>
-<span class="kn">import</span> <span class="nn">os</span><span class="o">,</span> <span class="nn">glob</span><span class="o">,</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span><span class="o">,</span> <span class="nn">re</span>
-<span class="kn">import</span> <span class="nn">ntpath</span>
-</pre></div>
+<span class="kn">import</span> <span class="nn">string</span>
+<span class="kn">import</span> <span class="nn">operator</span>
+<span class="kn">from</span> <span class="nn">itertools</span> <span class="kn">import</span> <span class="n">islice</span>
+<span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">Counter</span>
 
-     </div>
-</div>
-</div>
-</div>
+<span class="c1">#!pip install nltk</span>
+<span class="kn">from</span> <span class="nn">nltk</span> <span class="kn">import</span> <span class="n">ngrams</span>
+<span class="kn">import</span> <span class="nn">nltk</span> <span class="k">as</span> <span class="nn">nltk</span>
+<span class="kn">from</span> <span class="nn">nltk.corpus</span> <span class="kn">import</span> <span class="n">stopwords</span>
+<span class="c1">#nltk.download(&#39;stopwords&#39;)</span>
+<span class="c1">#nltk.download(&#39;punkt&#39;)</span>
+<span class="c1">#nltk.download(&#39;averaged_perceptron_tagger&#39;)</span>
+<span class="c1">#nltk.download(&#39;wordnet&#39;);</span>
 
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pd</span><span class="o">.</span><span class="n">set_option</span><span class="p">(</span><span class="s1">&#39;display.max_columns&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>  <span class="c1"># or 1000</span>
-<span class="n">pd</span><span class="o">.</span><span class="n">set_option</span><span class="p">(</span><span class="s1">&#39;display.max_rows&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>  <span class="c1"># or 1000</span>
-<span class="n">pd</span><span class="o">.</span><span class="n">set_option</span><span class="p">(</span><span class="s1">&#39;display.max_colwidth&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>  <span class="c1"># or 199</span>
+<span class="kn">import</span> <span class="nn">spacy</span>
+<span class="n">nlp</span> <span class="o">=</span> <span class="n">spacy</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s2">&quot;es_core_news_md&quot;</span><span class="p">)</span>
+
+<span class="c1">#!pip install pyenchant</span>
+<span class="kn">import</span> <span class="nn">enchant</span>
+
+<span class="kn">import</span> <span class="nn">time</span>
 </pre></div>
 
      </div>
@@ -14645,7 +14635,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="1.Import-data">1.Import data<a class="anchor-link" href="#1.Import-data">&#182;</a></h1>
+<h1 id="2.-Reading-files">2. Reading files<a class="anchor-link" href="#2.-Reading-files">&#182;</a></h1>
 </div>
 </div>
 </div>
@@ -14654,22 +14644,817 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">files_info</span> <span class="o">=</span> <span class="p">[]</span>
-<span class="k">for</span> <span class="n">filename</span> <span class="ow">in</span> <span class="n">glob</span><span class="o">.</span><span class="n">iglob</span><span class="p">(</span><span class="s1">&#39;data/**/*.pdf&#39;</span><span class="p">,</span>
-                           <span class="n">recursive</span> <span class="o">=</span> <span class="kc">True</span><span class="p">):</span>
-    <span class="k">try</span><span class="p">:</span>
-        <span class="n">reader</span> <span class="o">=</span> <span class="n">PdfReader</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
-        <span class="n">text</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
-        <span class="k">for</span> <span class="n">page</span> <span class="ow">in</span> <span class="n">reader</span><span class="o">.</span><span class="n">pages</span><span class="p">:</span>
-            <span class="n">text</span> <span class="o">+=</span> <span class="n">page</span><span class="o">.</span><span class="n">extract_text</span><span class="p">()</span> <span class="o">+</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span>
-        <span class="n">files_info</span><span class="o">.</span><span class="n">append</span><span class="p">([</span><span class="n">filename</span><span class="p">,</span> <span class="n">text</span><span class="p">])</span>
-    <span class="k">except</span><span class="p">:</span>
-        <span class="nb">print</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;data/alertas_NNAJ_keywords&quot;</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s2">&quot;|&quot;</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Size of Data:&quot;</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Columns : &quot;</span><span class="p">,</span> <span class="nb">list</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="p">))</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
     
-<span class="nb">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">files_info</span><span class="p">))</span>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>Size of Data: 1753
+
+Columns :  [&#39;Filename&#39;, &#39;Text&#39;, &#39;Subtype&#39;, &#39;Type&#39;, &#39;Year&#39;, &#39;Path&#39;, &#39;Departamento&#39;, &#39;NNAJ&#39;, &#39;NNAJ_clean_text&#39;, &#39;NNAJ_keywords&#39;, &#39;NNAJ_keywords2&#39;, &#39;NNAJ_keywords3&#39;]
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h1 id="3.-Functions">3. Functions<a class="anchor-link" href="#3.-Functions">&#182;</a></h1>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_topKWDs</span><span class="p">(</span><span class="n">dfcolumn</span><span class="p">):</span>
+
+    <span class="n">data</span> <span class="o">=</span> <span class="p">{</span> 
+             <span class="s1">&#39;keywords&#39;</span><span class="p">:</span> <span class="nb">list</span><span class="p">(</span><span class="n">Counter</span><span class="p">(</span><span class="n">dfcolumn</span><span class="p">)</span><span class="o">.</span><span class="n">keys</span><span class="p">()),</span> 
+             <span class="s1">&#39;frequency&#39;</span><span class="p">:</span> <span class="nb">list</span><span class="p">(</span><span class="n">Counter</span><span class="p">(</span><span class="n">dfcolumn</span><span class="p">)</span><span class="o">.</span><span class="n">values</span><span class="p">())</span>
+           <span class="p">}</span>
+
+    <span class="n">counterdf</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+    <span class="n">counterdf</span> <span class="o">=</span> <span class="n">counterdf</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">&#39;keywords&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">agg</span><span class="p">({</span><span class="s1">&#39;frequency&#39;</span> <span class="p">:</span> <span class="s1">&#39;sum&#39;</span><span class="p">})</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s1">&#39;frequency&#39;</span><span class="p">,</span> <span class="n">ascending</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">counterdf</span>
+
+<span class="k">def</span> <span class="nf">get_list</span><span class="p">(</span><span class="n">colname</span><span class="p">,</span> <span class="n">n</span><span class="p">):</span>
+    <span class="n">allcols</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">colname</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+    <span class="k">if</span> <span class="nb">type</span><span class="p">(</span><span class="n">allcols</span><span class="p">)</span> <span class="o">==</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="n">allcols</span> <span class="o">=</span> <span class="n">allcols</span><span class="o">.</span><span class="n">strip</span><span class="p">(</span><span class="s2">&quot;&#39;][&#39;&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;&#39;, &#39;&quot;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">get_topKWDs</span><span class="p">(</span><span class="n">allcols</span><span class="p">)[:</span><span class="n">n</span><span class="p">]</span> <span class="k">if</span> <span class="n">n</span> <span class="k">else</span> <span class="n">get_topKWDs</span><span class="p">(</span><span class="n">allcols</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">list1</span> <span class="o">=</span> <span class="n">get_list</span><span class="p">(</span><span class="s1">&#39;NNAJ_keywords&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
+<span class="n">list2</span> <span class="o">=</span> <span class="n">get_list</span><span class="p">(</span><span class="s1">&#39;NNAJ_keywords2&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
+<span class="n">list3</span> <span class="o">=</span> <span class="n">get_list</span><span class="p">(</span><span class="s1">&#39;NNAJ_keywords3&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h1 id="4.-Trigrams">4. Trigrams<a class="anchor-link" href="#4.-Trigrams">&#182;</a></h1>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[21]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">list2</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">20</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[21]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>frequency</th>
+    </tr>
+    <tr>
+      <th>keywords</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>grupo armado</th>
+      <td>2354</td>
+    </tr>
+    <tr>
+      <th>armado ilegal</th>
+      <td>1738</td>
+    </tr>
+    <tr>
+      <th>reclutamiento uso</th>
+      <td>1660</td>
+    </tr>
+    <tr>
+      <th>reclutamiento forzado</th>
+      <td>1335</td>
+    </tr>
+    <tr>
+      <th>población civil</th>
+      <td>1305</td>
+    </tr>
+    <tr>
+      <th>uso ilícito</th>
+      <td>1124</td>
+    </tr>
+    <tr>
+      <th>derechos humanos</th>
+      <td>1067</td>
+    </tr>
+    <tr>
+      <th>desplazamiento forzado</th>
+      <td>1055</td>
+    </tr>
+    <tr>
+      <th>uso nnaj</th>
+      <td>930</td>
+    </tr>
+    <tr>
+      <th>prevención reclutamiento</th>
+      <td>884</td>
+    </tr>
+    <tr>
+      <th>ilícito nnaj</th>
+      <td>881</td>
+    </tr>
+    <tr>
+      <th>bienestar familiar</th>
+      <td>796</td>
+    </tr>
+    <tr>
+      <th>prevención protección</th>
+      <td>769</td>
+    </tr>
+    <tr>
+      <th>violencia sexual</th>
+      <td>740</td>
+    </tr>
+    <tr>
+      <th>alerta temprano</th>
+      <td>723</td>
+    </tr>
+    <tr>
+      <th>homicidio selectivo</th>
+      <td>713</td>
+    </tr>
+    <tr>
+      <th>parte grupo</th>
+      <td>707</td>
+    </tr>
+    <tr>
+      <th>colombiano bienestar</th>
+      <td>702</td>
+    </tr>
+    <tr>
+      <th>forzado uso</th>
+      <td>635</td>
+    </tr>
+    <tr>
+      <th>defensoría pueblo</th>
+      <td>581</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[23]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">list2</span><span class="p">[</span><span class="n">list2</span><span class="o">.</span><span class="n">frequency</span><span class="o">&gt;</span><span class="mi">50</span><span class="p">]</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[23]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>frequency</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>467.000000</td>
+    </tr>
+    <tr>
+      <th>mean</th>
+      <td>155.659529</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>223.797554</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>51.000000</td>
+    </tr>
+    <tr>
+      <th>25%</th>
+      <td>63.000000</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>87.000000</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>135.000000</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>2354.000000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[24]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">list</span><span class="p">(</span><span class="n">list2</span><span class="p">[:</span><span class="mi">100</span><span class="p">]</span><span class="o">.</span><span class="n">index</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[24]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>[&#39;grupo armado&#39;,
+ &#39;armado ilegal&#39;,
+ &#39;reclutamiento uso&#39;,
+ &#39;reclutamiento forzado&#39;,
+ &#39;población civil&#39;,
+ &#39;uso ilícito&#39;,
+ &#39;derechos humanos&#39;,
+ &#39;desplazamiento forzado&#39;,
+ &#39;uso nnaj&#39;,
+ &#39;prevención reclutamiento&#39;,
+ &#39;ilícito nnaj&#39;,
+ &#39;bienestar familiar&#39;,
+ &#39;prevención protección&#39;,
+ &#39;violencia sexual&#39;,
+ &#39;alerta temprano&#39;,
+ &#39;homicidio selectivo&#39;,
+ &#39;parte grupo&#39;,
+ &#39;colombiano bienestar&#39;,
+ &#39;forzado uso&#39;,
+ &#39;defensoría pueblo&#39;,
+ &#39;zona rural&#39;,
+ &#39;mujer nnaj&#39;,
+ &#39;conflicto armado&#39;,
+ &#39;nnaj parte&#39;,
+ &#39;reclutamiento nnaj&#39;,
+ &#39;actor armado&#39;,
+ &#39;versión vigente&#39;,
+ &#39;nnaj mujer&#39;,
+ &#39;temprano versión&#39;,
+ &#39;forzado nnaj&#39;,
+ &#39;menor edad&#39;,
+ &#39;sexual nnaj&#39;,
+ &#39;desaparición forzado&#39;,
+ &#39;vida integridad&#39;,
+ &#39;mina antipersonal&#39;,
+ &#39;fuerza público&#39;,
+ &#39;derecho fundamental&#39;,
+ &#39;riesgo reclutamiento&#39;,
+ &#39;violación derechos&#39;,
+ &#39;nombre prevención&#39;,
+ &#39;comisión prevención&#39;,
+ &#39;nnaj año&#39;,
+ &#39;situación riesgo&#39;,
+ &#39;explotación sexual&#39;,
+ &#39;restricción movilidad&#39;,
+ &#39;interposición población&#39;,
+ &#39;selectivo múltiple&#39;,
+ &#39;artefacto explosivo&#39;,
+ &#39;nnaj grupo&#39;,
+ &#39;líder social&#39;,
+ &#39;alcaldía municipal&#39;,
+ &#39;escenario riesgo&#39;,
+ &#39;protección alerta&#39;,
+ &#39;margen ley&#39;,
+ &#39;informe riesgo&#39;,
+ &#39;vigente página&#39;,
+ &#39;institución educativo&#39;,
+ &#39;línea nacional&#39;,
+ &#39;integridad personal&#39;,
+ &#39;sistema alerta&#39;,
+ &#39;amenaza muerte&#39;,
+ &#39;consumo sustancia&#39;,
+ &#39;bien civil&#39;,
+ &#39;uso violencia&#39;,
+ &#39;cabecera municipal&#39;,
+ &#39;consejería presidencial&#39;,
+ &#39;nnaj municipio&#39;,
+ &#39;estructura armado&#39;,
+ &#39;enfrentamiento armado&#39;,
+ &#39;derecho internacional&#39;,
+ &#39;prevención riesgo&#39;,
+ &#39;grupo ilegal&#39;,
+ &#39;comunidad indígena&#39;,
+ &#39;riesgo violación&#39;,
+ &#39;internacional humanitario&#39;,
+ &#39;secretaría educación&#39;,
+ &#39;correo electrónico&#39;,
+ &#39;instituto colombiano&#39;,
+ &#39;humanos infracción&#39;,
+ &#39;atentado vida&#39;,
+ &#39;plantilla vigente&#39;,
+ &#39;condición vulnerabilidad&#39;,
+ &#39;infracción derecho&#39;,
+ &#39;zona urbano&#39;,
+ &#39;forzado reclutamiento&#39;,
+ &#39;rural municipio&#39;,
+ &#39;tener cuenta&#39;,
+ &#39;armado interposición&#39;,
+ &#39;ruta prevención&#39;,
+ &#39;violación derecho&#39;,
+ &#39;secretaría técnico&#39;,
+ &#39;delegado prevención&#39;,
+ &#39;defensor pueblo&#39;,
+ &#39;vinculación nnaj&#39;,
+ &#39;año edad&#39;,
+ &#39;derecho nnaj&#39;,
+ &#39;presidencial derechos&#39;,
+ &#39;nacional plantilla&#39;,
+ &#39;nnaj víctima&#39;,
+ &#39;generar terror&#39;]</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">get_list</span><span class="p">(</span><span class="s1">&#39;NNAJ_keywords&#39;</span><span class="p">,</span> <span class="mi">50</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[7]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>frequency</th>
+    </tr>
+    <tr>
+      <th>keywords</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>nnaj</th>
+      <td>11820</td>
+    </tr>
+    <tr>
+      <th>armado</th>
+      <td>4447</td>
+    </tr>
+    <tr>
+      <th>reclutamiento</th>
+      <td>4409</td>
+    </tr>
+    <tr>
+      <th>grupo</th>
+      <td>4040</td>
+    </tr>
+    <tr>
+      <th>uso</th>
+      <td>3520</td>
+    </tr>
+    <tr>
+      <th>población</th>
+      <td>3476</td>
+    </tr>
+    <tr>
+      <th>forzado</th>
+      <td>3260</td>
+    </tr>
+    <tr>
+      <th>riesgo</th>
+      <td>3167</td>
+    </tr>
+    <tr>
+      <th>municipio</th>
+      <td>2767</td>
+    </tr>
+    <tr>
+      <th>prevención</th>
+      <td>2618</td>
+    </tr>
+    <tr>
+      <th>ilegal</th>
+      <td>2613</td>
+    </tr>
+    <tr>
+      <th>acción</th>
+      <td>2206</td>
+    </tr>
+    <tr>
+      <th>parte</th>
+      <td>2154</td>
+    </tr>
+    <tr>
+      <th>civil</th>
+      <td>1856</td>
+    </tr>
+    <tr>
+      <th>amenaza</th>
+      <td>1778</td>
+    </tr>
+    <tr>
+      <th>social</th>
+      <td>1751</td>
+    </tr>
+    <tr>
+      <th>protección</th>
+      <td>1738</td>
+    </tr>
+    <tr>
+      <th>derecho</th>
+      <td>1688</td>
+    </tr>
+    <tr>
+      <th>zona</th>
+      <td>1674</td>
+    </tr>
+    <tr>
+      <th>violencia</th>
+      <td>1603</td>
+    </tr>
+    <tr>
+      <th>ilícito</th>
+      <td>1559</td>
+    </tr>
+    <tr>
+      <th>comunidad</th>
+      <td>1553</td>
+    </tr>
+    <tr>
+      <th>sexual</th>
+      <td>1536</td>
+    </tr>
+    <tr>
+      <th>mujer</th>
+      <td>1533</td>
+    </tr>
+    <tr>
+      <th>persona</th>
+      <td>1519</td>
+    </tr>
+    <tr>
+      <th>situación</th>
+      <td>1480</td>
+    </tr>
+    <tr>
+      <th>desplazamiento</th>
+      <td>1424</td>
+    </tr>
+    <tr>
+      <th>homicidio</th>
+      <td>1372</td>
+    </tr>
+    <tr>
+      <th>año</th>
+      <td>1296</td>
+    </tr>
+    <tr>
+      <th>nacional</th>
+      <td>1244</td>
+    </tr>
+    <tr>
+      <th>pueblo</th>
+      <td>1229</td>
+    </tr>
+    <tr>
+      <th>actividad</th>
+      <td>1219</td>
+    </tr>
+    <tr>
+      <th>familiar</th>
+      <td>1219</td>
+    </tr>
+    <tr>
+      <th>víctima</th>
+      <td>1203</td>
+    </tr>
+    <tr>
+      <th>tener</th>
+      <td>1165</td>
+    </tr>
+    <tr>
+      <th>derechos</th>
+      <td>1157</td>
+    </tr>
+    <tr>
+      <th>él</th>
+      <td>1127</td>
+    </tr>
+    <tr>
+      <th>municipal</th>
+      <td>1093</td>
+    </tr>
+    <tr>
+      <th>humanos</th>
+      <td>1088</td>
+    </tr>
+    <tr>
+      <th>indígena</th>
+      <td>1086</td>
+    </tr>
+    <tr>
+      <th>vida</th>
+      <td>1080</td>
+    </tr>
+    <tr>
+      <th>público</th>
+      <td>1039</td>
+    </tr>
+    <tr>
+      <th>educación</th>
+      <td>1030</td>
+    </tr>
+    <tr>
+      <th>familia</th>
+      <td>998</td>
+    </tr>
+    <tr>
+      <th>rural</th>
+      <td>990</td>
+    </tr>
+    <tr>
+      <th>atención</th>
+      <td>966</td>
+    </tr>
+    <tr>
+      <th>temprano</th>
+      <td>932</td>
+    </tr>
+    <tr>
+      <th>caso</th>
+      <td>920</td>
+    </tr>
+    <tr>
+      <th>bienestar</th>
+      <td>919</td>
+    </tr>
+    <tr>
+      <th>selectivo</th>
+      <td>918</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h1 id="5.-Extract-NGRMAS">5. Extract NGRMAS<a class="anchor-link" href="#5.-Extract-NGRMAS">&#182;</a></h1>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[30]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;NNAJ_keywords&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;NNAJ_clean_text&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">get_list_nnaj_terms</span><span class="p">)</span>
+<span class="n">df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s2">&quot;data/alertas_NNAJ_keywords&quot;</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s2">&quot;|&quot;</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="5.-Exporting-to-html">5. Exporting to html<a class="anchor-link" href="#5.-Exporting-to-html">&#182;</a></h2>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[32]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>jupyter nbconvert --to html 8_NNAJ.ipynb
 </pre></div>
 
      </div>
@@ -14691,605 +15476,14 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>unknown widths : 
-[0, IndirectObject(242, 0, 2559868980192)]
-unknown widths : 
-[0, IndirectObject(245, 0, 2559868980192)]
-unknown widths : 
-[0, IndirectObject(248, 0, 2559868980192)]
-unknown widths : 
-[0, IndirectObject(251, 0, 2559868980192)]
-unknown widths : 
-[0, IndirectObject(254, 0, 2559868980192)]
-unknown widths : 
-[0, IndirectObject(257, 0, 2559868980192)]
-unknown widths : 
-[0, IndirectObject(260, 0, 2559868980192)]
-unknown widths : 
-[0, IndirectObject(263, 0, 2559868980192)]
-unknown widths : 
-[0, IndirectObject(266, 0, 2559868980192)]
-unknown widths : 
-[0, IndirectObject(269, 0, 2559868980192)]
-unknown widths : 
-[0, IndirectObject(272, 0, 2559868980192)]
-unknown widths : 
-[0, IndirectObject(275, 0, 2559868980192)]
-unknown widths : 
-[0, IndirectObject(278, 0, 2559868980192)]
-unknown widths : 
-[0, IndirectObject(281, 0, 2559868980192)]
-</pre>
-</div>
-</div>
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>data\Advertencia_PDF\AT 2021\AT N° 007-2021 CAU-Caloto.pdf
-data\Advertencia_PDF\AT 2021\AT N° 008-2021 BOY-Pajarito, Paya, Pisba CAS-Aguazul,La Salina,Sácama,Támara y Yopal.pdf
-data\Advertencia_PDF\AT 2021\AT N° 010-2021 Bogotá DC.pdf
-data\Advertencia_PDF\AT 2021\AT N° 014-2021 VAL-Restrepo.pdf
-data\Advertencia_PDF\AT 2021\AT N° 029-2021 CHO-San José del Palmar.pdf
-data\Advertencia_PDF\AT 2021\~BROMIUM\AT N° 008-2021 BOY-Pajarito, Paya, Pisba CAS-Aguazul,La Salina,Sácama,Támara y Yopal.pdf
-data\Informes de Seguimiento\2020\Informe de Seguimiento AT 029-19 ARAUCA- Arauquita, Saravena, fortul y Tame.pdf
-data\Informes de Seguimiento\2020\Informe de Seguimiento AT 047-19  TOLIMA- Murillo y santa Isabel.pdf
-data\Informes de Seguimiento\2021\IS 08_04_2021 IS AT 033-2019 CAU-Suárez.pdf
-data\Informes de Seguimiento\2021\IS 08_04_2021 IS AT 065-2018 MET-Mapiripán y Puerto Concordia.pdf
-data\Informes de Seguimiento\2021\IS 08_26_2021 IS AT 038-2019 CHO-Unguía of.pdf
-data\Informes de Seguimiento\2021\IS 09_08_2021 IS AT 050-2019 CAS-Hato Corozal y Paz de Ariporo.pdf
-data\Informes de Seguimiento\2021\IS 09_16_2021 IS AT 053-2019 VAL-Calima Darien.pdf
-data\Informes de Seguimiento\2021\IS 10_05_2021 IS AT 046-2019 Bogotá D.C..pdf
+<pre>[NbConvertApp] Converting notebook 8_NNAJ.ipynb to html
+[NbConvertApp] Writing 659358 bytes to 8_NNAJ.html
 </pre>
 </div>
 </div>
 
 </div>
 
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">files_info</span><span class="p">,</span> <span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Filename&#39;</span><span class="p">,</span> <span class="s1">&#39;Text&#39;</span><span class="p">])</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="p">))</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="2.-Adding-Type,-Subtype">2. Adding Type, Subtype<a class="anchor-link" href="#2.-Adding-Type,-Subtype">&#182;</a></h1>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">path_leaf</span><span class="p">(</span><span class="n">path</span><span class="p">):</span>
-    <span class="n">head</span><span class="p">,</span> <span class="n">tail</span> <span class="o">=</span> <span class="n">ntpath</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
-    <span class="k">return</span> <span class="n">tail</span> <span class="ow">or</span> <span class="n">ntpath</span><span class="o">.</span><span class="n">basename</span><span class="p">(</span><span class="n">head</span><span class="p">)</span>
-
-<span class="k">def</span> <span class="nf">extract_subtype</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
-    <span class="k">if</span> <span class="n">path_leaf</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;AT&quot;</span><span class="p">):</span>
-        <span class="k">return</span> <span class="s2">&quot;Alerta Temprana&quot;</span>
-    <span class="k">elif</span> <span class="n">path_leaf</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;IR&quot;</span><span class="p">):</span>
-        <span class="k">return</span> <span class="s2">&quot;Informe de Riesgo&quot;</span>
-    <span class="k">elif</span> <span class="n">path_leaf</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;NS&quot;</span><span class="p">):</span>
-        <span class="k">return</span> <span class="s2">&quot;Notas&quot;</span>
-    <span class="k">elif</span> <span class="n">path_leaf</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;IS&quot;</span><span class="p">)</span> <span class="ow">or</span> <span class="n">path_leaf</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;Informe&quot;</span><span class="p">):</span>
-        <span class="k">return</span> <span class="s2">&quot;Informe de Seguimiento&quot;</span>
-    <span class="k">else</span><span class="p">:</span> 
-        <span class="k">return</span> <span class="s2">&quot;Not Identified&quot;</span>
-        
-    
-<span class="n">df</span><span class="p">[</span><span class="s2">&quot;Subtype&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">&quot;Filename&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">extract_subtype</span><span class="p">)</span>
-
-<span class="n">df</span><span class="p">[</span><span class="s2">&quot;Type&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">&quot;Subtype&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="s2">&quot;Seguimiento&quot;</span> <span class="k">if</span> <span class="n">x</span> <span class="o">==</span> <span class="s2">&quot;Informe de Seguimiento&quot;</span> <span class="k">else</span> <span class="s2">&quot;Advertencia&quot;</span> <span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">columns</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="3.-Adding-Year">3. Adding Year<a class="anchor-link" href="#3.-Adding-Year">&#182;</a></h1>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_year</span><span class="p">(</span><span class="n">filename</span><span class="p">):</span>
-    <span class="n">filenames</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;data</span><span class="se">\\</span><span class="s2">Informes de Seguimiento</span><span class="se">\\</span><span class="s2">&quot;</span><span class="p">,</span> 
-                 <span class="s2">&quot;data</span><span class="se">\\</span><span class="s2">Advertencia_PDF</span><span class="se">\\</span><span class="s2">AT &quot;</span><span class="p">,</span> 
-                 <span class="s2">&quot;data</span><span class="se">\\</span><span class="s2">Advertencia_PDF</span><span class="se">\\</span><span class="s2">IR &quot;</span><span class="p">,</span> 
-                 <span class="s2">&quot;data</span><span class="se">\\</span><span class="s2">Advertencia_PDF</span><span class="se">\\</span><span class="s2">Notas &quot;</span><span class="p">]</span>
-    <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">filenames</span><span class="p">:</span>
-        <span class="k">if</span> <span class="n">filename</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
-            <span class="k">return</span> <span class="n">filename</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="n">x</span><span class="p">)[</span><span class="mi">1</span><span class="p">][:</span><span class="mi">4</span><span class="p">]</span>
-        
-<span class="n">df</span><span class="p">[</span><span class="s2">&quot;Year&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">&quot;Filename&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">get_year</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">s</span> <span class="o">=</span> <span class="s2">&quot;data</span><span class="se">\\</span><span class="s2">advertencia_PDF</span><span class="se">\\</span><span class="s2">Notas 2002PDF&quot;</span>
-<span class="n">s</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;data</span><span class="se">\\</span><span class="s2">advertencia_PDF</span><span class="se">\\</span><span class="s2">Notas &quot;</span><span class="p">)[</span><span class="mi">1</span><span class="p">][:</span><span class="mi">4</span><span class="p">]</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">Year</span><span class="o">.</span><span class="n">unique</span><span class="p">()</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="4-Adding-filename">4 Adding filename<a class="anchor-link" href="#4-Adding-filename">&#182;</a></h1>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">columns</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;Path&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Filename&#39;</span><span class="p">]</span>
-<span class="n">df</span><span class="p">[</span><span class="s1">&#39;Filename&#39;</span><span class="p">]</span> <span class="o">=</span>  <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Filename&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">path_leaf</span><span class="p">)</span>
-<span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="5-Adding-Departamento">5 Adding Departamento<a class="anchor-link" href="#5-Adding-Departamento">&#182;</a></h1>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">dpts_abv</span> <span class="o">=</span> <span class="p">{</span>
- <span class="s1">&#39;Meta&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;met&#39;</span><span class="p">],</span>
- <span class="s1">&#39;Vichada&#39;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;vic&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Vaupés&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;vau&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Valle del Cauca&#39;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;val&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Tolima&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;tol&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Sucre&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;suc&quot;</span><span class="p">],</span>
- <span class="s1">&#39;San Andrés y Providencia&#39;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;san andres islas&quot;</span><span class="p">,</span> <span class="s2">&quot;SAN ANDRES, PROVIDENCIA Y SANTA CATALINA&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Risaralda&#39;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;ris&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Quindío&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;qui&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Putumayo&#39;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;put&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Norte de Santander&#39;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;nsant&quot;</span><span class="p">,</span> <span class="s2">&quot;nsan&quot;</span><span class="p">,</span> <span class="s2">&quot;nor&quot;</span><span class="p">,</span> <span class="s2">&quot;A.I NORTE DE SANTADER&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Nariño&#39;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;nar&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Magdalena&#39;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;mag&quot;</span><span class="p">],</span>
- <span class="s1">&#39;La Guajira&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;lag&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Huila&#39;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;hui&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Guaviare&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;guav&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Guainía&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;guai&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Cundinamarca&#39;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;cun&quot;</span><span class="p">,</span> <span class="p">],</span>
- <span class="s1">&#39;Córdoba&#39;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;cor&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Chocó&#39;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;cho&quot;</span><span class="p">,</span> <span class="s2">&quot;chó&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Cesar&#39;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;ces&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Cauca&#39;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;cau&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Casanare&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;cas&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Caquetá&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;caq&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Caldas&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;cal&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Boyacá&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;boy&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Bolívar&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;bol&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Bogotá&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;bog&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Atlántico&#39;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;atl&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Arauca&#39;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;ara&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Antioquia&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;ant&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Amazonas&#39;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;ama&quot;</span><span class="p">],</span> 
- <span class="s1">&#39;Santander&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;SANTADER&quot;</span><span class="p">],</span>
-    
-<span class="p">}</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">replace_accents</span><span class="p">(</span><span class="n">w</span><span class="p">):</span>
-    <span class="k">return</span> <span class="n">w</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;á&#39;</span><span class="p">,</span> <span class="s1">&#39;a&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;é&#39;</span><span class="p">,</span> <span class="s1">&#39;e&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;í&#39;</span><span class="p">,</span> <span class="s1">&#39;i&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;ó&#39;</span><span class="p">,</span> <span class="s1">&#39;o&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;ú&#39;</span><span class="p">,</span> <span class="s1">&#39;u&#39;</span><span class="p">)</span>
-
-<span class="k">def</span> <span class="nf">extract_location</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>      
-    <span class="k">for</span> <span class="n">key</span> <span class="ow">in</span> <span class="n">dpts_abv</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
-        <span class="k">if</span> <span class="n">replace_accents</span><span class="p">(</span><span class="n">key</span><span class="o">.</span><span class="n">lower</span><span class="p">())</span> <span class="ow">in</span> <span class="n">replace_accents</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">lower</span><span class="p">()):</span>            
-            <span class="k">return</span> <span class="n">key</span>
-        <span class="k">for</span> <span class="n">d</span> <span class="ow">in</span> <span class="n">dpts_abv</span><span class="p">[</span><span class="n">key</span><span class="p">]:</span>
-            <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="p">[</span><span class="s2">&quot; -&quot;</span><span class="p">,</span> <span class="s2">&quot;-&quot;</span><span class="p">,</span> <span class="s2">&quot;- &quot;</span><span class="p">,</span> <span class="s2">&quot;.&quot;</span><span class="p">]:</span>
-                <span class="k">if</span> <span class="n">d</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="o">+</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">x</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="ow">or</span> <span class="n">c</span> <span class="o">+</span> <span class="n">d</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="ow">in</span> <span class="n">x</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="ow">or</span> <span class="n">d</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span> <span class="ow">in</span> <span class="n">x</span><span class="p">:</span>            
-                    <span class="k">return</span> <span class="n">key</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-    <span class="k">return</span> <span class="s2">&quot;Not Identified&quot;</span>
-
-<span class="n">df</span><span class="p">[</span><span class="s1">&#39;Departamento&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Filename&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">extract_location</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s2">&quot;Filename&quot;</span><span class="p">)</span>
-
-<span class="c1">#elecciones - violencia</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;AT N° 022-18 Riesgo Electoral firmada.pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Countrywide&quot;</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;AT N° 004-2022 Riesgo Electoral of.pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Countrywide&quot;</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;AT N° 035-19 Riesgo Electoral.pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Countrywide&quot;</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;Informe de Seguimiento AT 035-19 - Informe Electoral.pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Countrywide&quot;</span>
-
-<span class="c1">#covid</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;AT N° 018-2020.pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Countrywide&quot;</span>
-
-<span class="c1">#otros</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;IR N° 069-03 Cobertura Nacional Baja Resolución.pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Countrywide&quot;</span>
-
-<span class="c1">#asesinato a lideres</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;AT N° 026-18 Líderes y Defensores DDHH_bajaresolución.pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Countrywide&quot;</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;IR N° 010-17 Líderes y Defensores de DDHH.pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Countrywide&quot;</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;Informe de Seguimiento AT 026-18  Líderes Sociales y Defensores de Derechos Humanos.pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Countrywide&quot;</span>
-
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;AT N° 019-18.pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Chocó&quot;</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;AT N° 046-18 San Andrés Islas.pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;San Andrés y Providencia&quot;</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;IR N° 001-14 San Andrés y Providencia.pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Countrywide&quot;</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;AT Alerta Temprana No. 001-17.pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Bolívar&quot;</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;NS 13-04 IR N° 043-03.pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Antioquía&quot;</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;NS N° 046-07 a IR N° 032-06A.I Arauquita, Tame, Fortul y Saravena-TAME.pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Arauca&quot;</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;NS N° 025-08 a IR N° 004-08 El Doncello, El Paujil, Puerto….pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Caquetá&quot;</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;NS N° 031-08 a IR N° 036-07 Cúcuta, Los Patios, Puerto San….pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Norte de Santander&quot;</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;NS N° 016-09 a IR N° 022-07 Algeciras, Campoalegre, Gigant….pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Huila&quot;</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;NS N° 008-10 a IR N° 029-07 Barbacoas, Magui Payán y Rober….pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Nariño&quot;</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;NS N° 009-10 a IR Nº 006-06 Montelibano y Puerto Libertado….pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Córdoba&quot;</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;Informe de Seguimiento  AT 02-18 Anserma.pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Caldas&quot;</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;Informe de Seguimiento  AT 04-18 Tumaco.pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Nariño&quot;</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;Informe de Seguimiento AT 001-18 Suarez.pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Cauca&quot;</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;Informe de Seguimiento AT 005-18 Tierralta.pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Córdoba&quot;</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;Informe de Seguimiento AT 01-17 Cartagena.pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Bolívar&quot;</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;Informe de Seguimiento AT 012-18 Rio Quito.pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Chocó&quot;</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;NS N° 027-08 a IR N° 016-07A.I.pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Nariño&quot;</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;IS 12_31_2021 IS AT 025-2020.pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Bolívar&quot;</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;IS N° 006-2022 a AT N° 004-2021.pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Norte de Santander&quot;</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;Departamento&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;Not Identified&quot;</span><span class="p">])</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">list</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;Departamento&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;Not Identified&quot;</span><span class="p">][</span><span class="s1">&#39;Path&#39;</span><span class="p">])</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">dict</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;Antioquía&quot;</span> <span class="p">:</span> <span class="s1">&#39;Antioquia&#39;</span><span class="p">}</span>
-<span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">replace</span><span class="p">({</span><span class="s2">&quot;Departamento&quot;</span><span class="p">:</span> <span class="nb">dict</span><span class="p">})</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="6-Cleaning-Text">6 Cleaning Text<a class="anchor-link" href="#6-Cleaning-Text">&#182;</a></h1>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">string</span><span class="o">,</span> <span class="nn">math</span>
-<span class="k">def</span> <span class="nf">cleantext</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
-    <span class="k">if</span> <span class="n">text</span> <span class="o">==</span> <span class="n">text</span><span class="p">:</span> <span class="c1">#check for nan values</span>
-        <span class="n">text</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">,</span> <span class="s2">&quot; &quot;</span><span class="p">)</span>
-        <span class="n">text</span> <span class="o">=</span> <span class="s2">&quot; &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">text</span><span class="o">.</span><span class="n">split</span><span class="p">())</span>
-    <span class="k">return</span> <span class="n">text</span>
-
-<span class="n">df</span><span class="p">[</span><span class="s2">&quot;Text&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">&quot;Text&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">cleantext</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">t</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="mi">15</span><span class="p">][</span><span class="s2">&quot;Text&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
-<span class="n">t</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="6.-Saving-text-in-csv">6. Saving text in csv<a class="anchor-link" href="#6.-Saving-text-in-csv">&#182;</a></h1>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s2">&quot;data/alertas.csv&quot;</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s2">&quot;|&quot;</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="7.-Saving-HTML">7. Saving HTML<a class="anchor-link" href="#7.-Saving-HTML">&#182;</a></h1>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>jupyter nbconvert --to html 1_Parsing_Data.ipynb
-</pre></div>
-
-     </div>
-</div>
-</div>
 </div>
 
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">

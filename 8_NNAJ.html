@@ -3,7 +3,7 @@
 <head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>1_Parsing_Data</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>8_NNAJ</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
 
 
@@ -14579,7 +14579,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="1.-Installs,-Settings,-Imports">1. Installs, Settings, Imports<a class="anchor-link" href="#1.-Installs,-Settings,-Imports">&#182;</a></h1>
+<h1 id="1.-Installs,-Imports-and-Settings">1. Installs, Imports and Settings<a class="anchor-link" href="#1.-Installs,-Imports-and-Settings">&#182;</a></h1>
 </div>
 </div>
 </div>
@@ -14588,49 +14588,39 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#install pyPDF2</span>
-<span class="c1">#!pip install PyPDF2</span>
-</pre></div>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="ch">#!pip install spacy==3.1.1 #restart runtime after this</span>
+<span class="c1">#!python -m spacy download en_core_web_sm</span>
 
-     </div>
-</div>
-</div>
-</div>
+<span class="kn">import</span> <span class="nn">timer</span>
+<span class="kn">import</span> <span class="nn">csv</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="n">pd</span><span class="o">.</span><span class="n">options</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">max_rows</span>
+<span class="n">pd</span><span class="o">.</span><span class="n">set_option</span><span class="p">(</span><span class="s1">&#39;display.max_colwidth&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
 
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># importing all the required modules</span>
-<span class="kn">import</span> <span class="nn">PyPDF2</span>
-<span class="kn">from</span> <span class="nn">PyPDF2</span> <span class="kn">import</span> <span class="n">PdfReader</span>
-<span class="kn">import</span> <span class="nn">os</span><span class="o">,</span> <span class="nn">glob</span><span class="o">,</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span><span class="o">,</span> <span class="nn">re</span>
-<span class="kn">import</span> <span class="nn">ntpath</span>
-</pre></div>
+<span class="kn">import</span> <span class="nn">string</span>
+<span class="kn">import</span> <span class="nn">operator</span>
+<span class="kn">from</span> <span class="nn">itertools</span> <span class="kn">import</span> <span class="n">islice</span>
+<span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">Counter</span>
 
-     </div>
-</div>
-</div>
-</div>
+<span class="c1">#!pip install nltk</span>
+<span class="kn">from</span> <span class="nn">nltk</span> <span class="kn">import</span> <span class="n">ngrams</span>
+<span class="kn">import</span> <span class="nn">nltk</span> <span class="k">as</span> <span class="nn">nltk</span>
+<span class="kn">from</span> <span class="nn">nltk.corpus</span> <span class="kn">import</span> <span class="n">stopwords</span>
+<span class="c1">#nltk.download(&#39;stopwords&#39;)</span>
+<span class="c1">#nltk.download(&#39;punkt&#39;)</span>
+<span class="c1">#nltk.download(&#39;averaged_perceptron_tagger&#39;)</span>
+<span class="c1">#nltk.download(&#39;wordnet&#39;);</span>
 
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pd</span><span class="o">.</span><span class="n">set_option</span><span class="p">(</span><span class="s1">&#39;display.max_columns&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>  <span class="c1"># or 1000</span>
-<span class="n">pd</span><span class="o">.</span><span class="n">set_option</span><span class="p">(</span><span class="s1">&#39;display.max_rows&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>  <span class="c1"># or 1000</span>
-<span class="n">pd</span><span class="o">.</span><span class="n">set_option</span><span class="p">(</span><span class="s1">&#39;display.max_colwidth&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>  <span class="c1"># or 199</span>
+<span class="kn">import</span> <span class="nn">spacy</span>
+<span class="n">nlp</span> <span class="o">=</span> <span class="n">spacy</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s2">&quot;es_core_news_md&quot;</span><span class="p">)</span>
+
+<span class="c1">#!pip install pyenchant</span>
+<span class="kn">import</span> <span class="nn">enchant</span>
+
+<span class="kn">import</span> <span class="nn">time</span>
 </pre></div>
 
      </div>
@@ -14645,7 +14635,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="1.Import-data">1.Import data<a class="anchor-link" href="#1.Import-data">&#182;</a></h1>
+<h1 id="2.-Reading-files">2. Reading files<a class="anchor-link" href="#2.-Reading-files">&#182;</a></h1>
 </div>
 </div>
 </div>
@@ -14654,22 +14644,2206 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;data/alertas_NNA_sentences.csv&quot;</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s2">&quot;|&quot;</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Size of Data:&quot;</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Columns : &quot;</span><span class="p">,</span> <span class="nb">list</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="p">))</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>Size of Data: 1753
+
+Columns :  [&#39;Filename&#39;, &#39;Text&#39;, &#39;Subtype&#39;, &#39;Type&#39;, &#39;Year&#39;, &#39;Path&#39;, &#39;Departamento&#39;, &#39;NNAJ&#39;]
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h1 id="3.-Functions">3. Functions<a class="anchor-link" href="#3.-Functions">&#182;</a></h1>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">exceptions</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">red_flags</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">green_flags</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;posdesmovilización&#39;</span><span class="p">,</span> <span class="s1">&#39;nnaj&#39;</span><span class="p">]</span>
+<span class="n">stop_words</span> <span class="o">=</span> <span class="n">stopwords</span><span class="o">.</span><span class="n">words</span><span class="p">(</span><span class="s1">&#39;spanish&#39;</span><span class="p">)</span> <span class="o">+</span> <span class="nb">list</span><span class="p">(</span><span class="s1">&#39;abcdefgghijklmnopqrstuvwxyz&#39;</span><span class="p">)</span> <span class="o">+</span> <span class="n">red_flags</span>
+<span class="n">punct_signs</span> <span class="o">=</span> <span class="n">string</span><span class="o">.</span><span class="n">punctuation</span> <span class="o">+</span> <span class="s1">&#39;…¿•”“·*&#39;</span>
+
+<span class="n">sim_dict</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;nnaj&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;niños&#39;</span><span class="p">,</span> <span class="s1">&#39;niñas&#39;</span><span class="p">,</span> <span class="s1">&#39;adolescentes&#39;</span><span class="p">,</span> <span class="s1">&#39;jovenes&#39;</span><span class="p">,</span> <span class="s1">&#39;jóvenes&#39;</span><span class="p">,</span> <span class="s1">&#39;niño&#39;</span><span class="p">,</span> <span class="s1">&#39;niña&#39;</span><span class="p">,</span> <span class="s1">&#39;j0ve&#39;</span><span class="p">,</span> <span class="s1">&#39;adolescente&#39;</span><span class="p">,</span> <span class="s1">&#39;joven&#39;</span><span class="p">],</span> 
+            <span class="s1">&#39;reclutamiento&#39;</span> <span class="p">:</span> <span class="p">[</span><span class="s1">&#39;eclutaniento&#39;</span><span class="p">],</span>
+            <span class="s1">&#39;uso&#39;</span> <span class="p">:</span> <span class="p">[</span><span class="s1">&#39;utilización&#39;</span><span class="p">],</span>
+            <span class="s1">&#39;situación&#39;</span> <span class="p">:</span> <span class="p">[</span><span class="s1">&#39;sit11 cién&#39;</span><span class="p">]</span>
+           <span class="p">}</span>
+
+<span class="n">d</span> <span class="o">=</span> <span class="n">enchant</span><span class="o">.</span><span class="n">Dict</span><span class="p">(</span><span class="s2">&quot;es_CO&quot;</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">replace_similars</span><span class="p">(</span><span class="n">text</span><span class="p">,</span> <span class="n">sim_dict</span> <span class="o">=</span> <span class="n">sim_dict</span><span class="p">):</span>
+    <span class="n">text</span> <span class="o">=</span> <span class="s1">&#39; &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">text</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">key</span> <span class="ow">in</span> <span class="n">sim_dict</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
+        <span class="k">for</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">sim_dict</span><span class="p">[</span><span class="n">key</span><span class="p">]:</span>
+            <span class="n">text</span> <span class="o">=</span> <span class="n">text</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">v</span><span class="p">,</span> <span class="n">key</span><span class="p">)</span>
+            
+        <span class="n">text</span> <span class="o">=</span> <span class="n">text</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39; &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="n">key</span><span class="p">]</span><span class="o">*</span><span class="mi">3</span><span class="p">),</span> <span class="n">key</span><span class="p">)</span>
+        <span class="n">text</span> <span class="o">=</span> <span class="n">text</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39; &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="n">key</span><span class="p">]</span><span class="o">*</span><span class="mi">2</span><span class="p">),</span> <span class="n">key</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">text</span><span class="o">.</span><span class="n">split</span><span class="p">()</span>
+
+<span class="k">def</span> <span class="nf">replace_accents</span><span class="p">(</span><span class="n">w</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">w</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;á&#39;</span><span class="p">,</span><span class="s1">&#39;a&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;é&#39;</span><span class="p">,</span><span class="s1">&#39;e&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;í&#39;</span><span class="p">,</span><span class="s1">&#39;i&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;ó&#39;</span><span class="p">,</span><span class="s1">&#39;o&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;ú&#39;</span><span class="p">,</span><span class="s1">&#39;u&#39;</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">check_spelling</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
+    <span class="n">new</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">token</span> <span class="ow">in</span> <span class="n">text</span><span class="o">.</span><span class="n">split</span><span class="p">():</span>
+        <span class="k">if</span> <span class="n">token</span> <span class="ow">in</span> <span class="n">green_flags</span><span class="p">:</span>
+            <span class="n">new</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">token</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="n">d</span><span class="o">.</span><span class="n">check</span><span class="p">(</span><span class="n">token</span><span class="p">):</span>
+            <span class="n">new</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">token</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="p">(</span><span class="ow">not</span> <span class="n">d</span><span class="o">.</span><span class="n">check</span><span class="p">(</span><span class="n">token</span><span class="p">)</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">d</span><span class="o">.</span><span class="n">suggest</span><span class="p">(</span><span class="n">token</span><span class="p">))</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="ow">and</span> <span class="p">(</span><span class="n">replace_accents</span><span class="p">(</span><span class="n">token</span><span class="p">)</span> <span class="o">==</span> <span class="n">replace_accents</span><span class="p">(</span><span class="n">d</span><span class="o">.</span><span class="n">suggest</span><span class="p">(</span><span class="n">token</span><span class="p">)[</span><span class="mi">0</span><span class="p">]))):</span>
+                <span class="n">new</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">d</span><span class="o">.</span><span class="n">suggest</span><span class="p">(</span><span class="n">token</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">lower</span><span class="p">())</span>
+    <span class="k">return</span> <span class="s1">&#39; &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">new</span><span class="p">)</span>
+            
+<span class="k">def</span> <span class="nf">remove_exceptions</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
+    <span class="n">clean_text</span> <span class="o">=</span> <span class="n">text</span>
+    <span class="k">for</span> <span class="n">e</span> <span class="ow">in</span> <span class="n">exceptions</span><span class="p">:</span>
+        <span class="n">clean_text</span> <span class="o">=</span> <span class="n">clean_text</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">e</span><span class="p">,</span><span class="s1">&#39; &#39;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">clean_text</span>
+
+<span class="c1">#clean stopwords and punctuation, lemmatization</span>
+<span class="k">def</span> <span class="nf">clean_text</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>   
+    
+    <span class="k">if</span> <span class="nb">type</span><span class="p">(</span><span class="n">text</span><span class="p">)</span> <span class="o">==</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="n">text</span> <span class="o">=</span> <span class="n">text</span><span class="o">.</span><span class="n">strip</span><span class="p">(</span><span class="s2">&quot;&#39;][&#39;&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;&#39;, &#39;&quot;</span><span class="p">)</span>
+        
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">text</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="k">return</span> <span class="s2">&quot;&quot;</span>
+    
+    <span class="n">tic</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">perf_counter</span><span class="p">()</span>
+    
+    <span class="n">clean_text</span> <span class="o">=</span> <span class="s1">&#39; &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">text</span><span class="p">)</span>
+    <span class="n">clean_text</span> <span class="o">=</span> <span class="n">clean_text</span><span class="o">.</span><span class="n">translate</span><span class="p">(</span><span class="nb">str</span><span class="o">.</span><span class="n">maketrans</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="n">punct_signs</span><span class="p">))</span>
+    <span class="n">clean_text</span> <span class="o">=</span> <span class="n">check_spelling</span><span class="p">(</span><span class="n">clean_text</span><span class="p">)</span>
+    
+    <span class="c1">#clean_text = remove_exceptions (clean_text)</span>
+    <span class="n">nlp</span><span class="o">.</span><span class="n">max_length</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">clean_text</span><span class="p">)</span> <span class="o">+</span> <span class="mi">100</span>
+    <span class="n">doc</span> <span class="o">=</span> <span class="n">nlp</span><span class="p">(</span><span class="n">clean_text</span><span class="o">.</span><span class="n">lower</span><span class="p">())</span>
+    
+    <span class="n">txt</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">token</span> <span class="ow">in</span> <span class="n">doc</span><span class="p">:</span>  
+        <span class="k">if</span> <span class="n">token</span><span class="o">.</span><span class="n">lemma_</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">stop_words</span> <span class="ow">and</span> <span class="n">token</span><span class="o">.</span><span class="n">lemma</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">token</span><span class="o">.</span><span class="n">pos_</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">&#39;NOUN&#39;</span><span class="p">,</span> <span class="s1">&#39;ADJ&#39;</span><span class="p">,</span> <span class="s1">&#39;VERB&#39;</span><span class="p">]:</span>
+                <span class="n">txt</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">token</span><span class="o">.</span><span class="n">lemma_</span><span class="p">)</span>
+                    
+    <span class="n">txt</span> <span class="o">=</span> <span class="n">replace_similars</span><span class="p">(</span><span class="n">txt</span><span class="p">)</span>
+    <span class="n">toc</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">perf_counter</span><span class="p">()</span>  
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Performedy in </span><span class="si">{</span><span class="n">toc</span> <span class="o">-</span> <span class="n">tic</span><span class="si">:</span><span class="s2">0.4f</span><span class="si">}</span><span class="s2"> seconds&quot;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">txt</span>
+
+<span class="c1">#m is the number of top ngrams.</span>
+<span class="k">def</span> <span class="nf">getNGrams</span><span class="p">(</span><span class="n">text</span><span class="p">,</span> <span class="n">n</span><span class="p">):</span>
+    <span class="n">ngramas</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">ngrams</span><span class="p">(</span><span class="n">text</span><span class="p">,</span> <span class="n">n</span><span class="p">))</span>
+    <span class="k">return</span> <span class="p">[</span><span class="s1">&#39; &#39;</span><span class="o">.</span><span class="n">join</span> <span class="p">(</span><span class="n">n</span><span class="p">)</span> <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">ngramas</span><span class="p">]</span>
+
+<span class="k">def</span> <span class="nf">get_list_nnaj_terms</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
+    <span class="n">tic</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">perf_counter</span><span class="p">()</span>
+
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">text</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="k">return</span> <span class="p">[]</span>
+
+    <span class="n">unigrams</span> <span class="o">=</span> <span class="n">getNGrams</span><span class="p">(</span><span class="n">text</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+    <span class="n">bigrams</span> <span class="o">=</span> <span class="n">getNGrams</span><span class="p">(</span><span class="n">text</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+    
+    <span class="n">toc</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">perf_counter</span><span class="p">()</span>  
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Performedx in </span><span class="si">{</span><span class="n">toc</span> <span class="o">-</span> <span class="n">tic</span><span class="si">:</span><span class="s2">0.4f</span><span class="si">}</span><span class="s2"> seconds&quot;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="p">[</span><span class="n">unigrams</span><span class="p">,</span> <span class="n">bigrams</span><span class="p">]</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[11]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">clean_text</span><span class="p">([</span><span class="s1">&#39;violencia sexual es uno de los crimenes de guerra&#39;</span><span class="p">,</span>
+                     <span class="s1">&#39;drogas ilicitas y el mercado del dolar&#39;</span><span class="p">,</span> <span class="s1">&#39;anterior al dia de los muertos&#39;</span><span class="p">])</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>Performedy in 0.0806 seconds
+</pre>
+</div>
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[11]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>[&#39;violencia&#39;,
+ &#39;sexual&#39;,
+ &#39;crimen&#39;,
+ &#39;guerra&#39;,
+ &#39;droga&#39;,
+ &#39;ilícito&#39;,
+ &#39;mercado&#39;,
+ &#39;dólar&#39;,
+ &#39;anterior&#39;,
+ &#39;día&#39;,
+ &#39;muerto&#39;]</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="4-Extract-Ngrams">4 Extract Ngrams<a class="anchor-link" href="#4-Extract-Ngrams">&#182;</a></h2>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[12]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">clean_text</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="s1">&#39;NNAJ&#39;</span><span class="p">])</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>Performedy in 1.2245 seconds
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[17]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">list2_</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">list1_</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;NNAJ&#39;</span><span class="p">]</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[18]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[18]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>1753</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[19]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">l</span> <span class="ow">in</span> <span class="n">list1_</span><span class="p">:</span>
+    <span class="n">list2_</span><span class="o">.</span><span class="n">append</span> <span class="p">(</span><span class="n">clean_text</span><span class="p">(</span><span class="n">l</span><span class="p">))</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>Performedy in 1.2246 seconds
+Performedy in 2.3825 seconds
+Performedy in 1.2620 seconds
+Performedy in 0.9154 seconds
+Performedy in 12.6172 seconds
+Performedy in 7.2407 seconds
+Performedy in 1.7798 seconds
+Performedy in 0.3567 seconds
+Performedy in 5.1204 seconds
+Performedy in 1.9409 seconds
+Performedy in 0.0976 seconds
+Performedy in 0.6883 seconds
+Performedy in 0.0003 seconds
+Performedy in 2.1252 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.2761 seconds
+Performedy in 0.2660 seconds
+Performedy in 6.9550 seconds
+Performedy in 0.7176 seconds
+Performedy in 6.4837 seconds
+Performedy in 0.7762 seconds
+Performedy in 2.3261 seconds
+Performedy in 1.3530 seconds
+Performedy in 1.7468 seconds
+Performedy in 0.2281 seconds
+Performedy in 0.7699 seconds
+Performedy in 2.0745 seconds
+Performedy in 9.6844 seconds
+Performedy in 0.8891 seconds
+Performedy in 1.3752 seconds
+Performedy in 2.2415 seconds
+Performedy in 0.6845 seconds
+Performedy in 5.4037 seconds
+Performedy in 0.6654 seconds
+Performedy in 0.4630 seconds
+Performedy in 0.4609 seconds
+Performedy in 0.0003 seconds
+Performedy in 5.9386 seconds
+Performedy in 4.7654 seconds
+Performedy in 10.3722 seconds
+Performedy in 53.5487 seconds
+Performedy in 0.3135 seconds
+Performedy in 7.1227 seconds
+Performedy in 2.0633 seconds
+Performedy in 3.6911 seconds
+Performedy in 0.5947 seconds
+Performedy in 2.9690 seconds
+Performedy in 9.2857 seconds
+Performedy in 0.4195 seconds
+Performedy in 0.0003 seconds
+Performedy in 5.0117 seconds
+Performedy in 0.4145 seconds
+Performedy in 2.0866 seconds
+Performedy in 1.7409 seconds
+Performedy in 4.3105 seconds
+Performedy in 12.8604 seconds
+Performedy in 0.0185 seconds
+Performedy in 3.6961 seconds
+Performedy in 0.5355 seconds
+Performedy in 10.6962 seconds
+Performedy in 45.7591 seconds
+Performedy in 5.0508 seconds
+Performedy in 2.5167 seconds
+Performedy in 11.5610 seconds
+Performedy in 11.4704 seconds
+Performedy in 7.3226 seconds
+Performedy in 1.6637 seconds
+Performedy in 1.4348 seconds
+Performedy in 0.7192 seconds
+Performedy in 0.8407 seconds
+Performedy in 1.7906 seconds
+Performedy in 3.3443 seconds
+Performedy in 6.9251 seconds
+Performedy in 3.9216 seconds
+Performedy in 9.1696 seconds
+Performedy in 0.0002 seconds
+Performedy in 3.4273 seconds
+Performedy in 2.5443 seconds
+Performedy in 11.9648 seconds
+Performedy in 8.3537 seconds
+Performedy in 5.2718 seconds
+Performedy in 5.7825 seconds
+Performedy in 0.7693 seconds
+Performedy in 12.0022 seconds
+Performedy in 34.3634 seconds
+Performedy in 3.5685 seconds
+Performedy in 10.1517 seconds
+Performedy in 3.1613 seconds
+Performedy in 3.2643 seconds
+Performedy in 12.6582 seconds
+Performedy in 2.0411 seconds
+Performedy in 6.2083 seconds
+Performedy in 0.0005 seconds
+Performedy in 7.1231 seconds
+Performedy in 6.8229 seconds
+Performedy in 11.2358 seconds
+Performedy in 4.0627 seconds
+Performedy in 4.6928 seconds
+Performedy in 0.2824 seconds
+Performedy in 0.0003 seconds
+Performedy in 5.0127 seconds
+Performedy in 7.1290 seconds
+Performedy in 0.8850 seconds
+Performedy in 2.8717 seconds
+Performedy in 0.9410 seconds
+Performedy in 6.4734 seconds
+Performedy in 0.0354 seconds
+Performedy in 27.3736 seconds
+Performedy in 3.1593 seconds
+Performedy in 3.1849 seconds
+Performedy in 25.2718 seconds
+Performedy in 8.0503 seconds
+Performedy in 0.0762 seconds
+Performedy in 23.5493 seconds
+Performedy in 0.5532 seconds
+Performedy in 0.0004 seconds
+Performedy in 0.0003 seconds
+Performedy in 7.3266 seconds
+Performedy in 2.8251 seconds
+Performedy in 2.5947 seconds
+Performedy in 29.4963 seconds
+Performedy in 5.7325 seconds
+Performedy in 1.0243 seconds
+Performedy in 8.0180 seconds
+Performedy in 1.7404 seconds
+Performedy in 0.2373 seconds
+Performedy in 8.2044 seconds
+Performedy in 23.2058 seconds
+Performedy in 14.3623 seconds
+Performedy in 8.8279 seconds
+Performedy in 35.5976 seconds
+Performedy in 0.2561 seconds
+Performedy in 16.2911 seconds
+Performedy in 57.4784 seconds
+Performedy in 11.1865 seconds
+Performedy in 7.9527 seconds
+Performedy in 1.1595 seconds
+Performedy in 0.0139 seconds
+Performedy in 11.7810 seconds
+Performedy in 0.8120 seconds
+Performedy in 4.2501 seconds
+Performedy in 0.5193 seconds
+Performedy in 15.3831 seconds
+Performedy in 17.1209 seconds
+Performedy in 22.0514 seconds
+Performedy in 1.3680 seconds
+Performedy in 7.9155 seconds
+Performedy in 8.9748 seconds
+Performedy in 5.9218 seconds
+Performedy in 9.6962 seconds
+Performedy in 2.2168 seconds
+Performedy in 0.1260 seconds
+Performedy in 5.4113 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 2.2294 seconds
+Performedy in 5.0705 seconds
+Performedy in 0.5334 seconds
+Performedy in 6.0816 seconds
+Performedy in 0.3857 seconds
+Performedy in 25.9690 seconds
+Performedy in 2.1417 seconds
+Performedy in 6.6164 seconds
+Performedy in 4.7301 seconds
+Performedy in 27.1360 seconds
+Performedy in 6.3335 seconds
+Performedy in 0.0314 seconds
+Performedy in 2.9077 seconds
+Performedy in 10.0824 seconds
+Performedy in 1.3785 seconds
+Performedy in 2.3098 seconds
+Performedy in 23.9033 seconds
+Performedy in 7.4356 seconds
+Performedy in 7.2351 seconds
+Performedy in 17.6747 seconds
+Performedy in 1.1213 seconds
+Performedy in 20.1617 seconds
+Performedy in 0.0003 seconds
+Performedy in 25.4530 seconds
+Performedy in 13.6613 seconds
+Performedy in 45.9806 seconds
+Performedy in 3.2459 seconds
+Performedy in 6.4244 seconds
+Performedy in 23.5944 seconds
+Performedy in 25.7160 seconds
+Performedy in 2.5615 seconds
+Performedy in 8.4092 seconds
+Performedy in 0.3904 seconds
+Performedy in 0.0004 seconds
+Performedy in 12.1021 seconds
+Performedy in 6.4621 seconds
+Performedy in 4.7853 seconds
+Performedy in 1.1951 seconds
+Performedy in 0.3954 seconds
+Performedy in 18.7678 seconds
+Performedy in 3.9066 seconds
+Performedy in 1.0727 seconds
+Performedy in 8.6065 seconds
+Performedy in 4.7787 seconds
+Performedy in 1.4160 seconds
+Performedy in 0.0127 seconds
+Performedy in 4.2811 seconds
+Performedy in 27.7153 seconds
+Performedy in 5.6757 seconds
+Performedy in 2.1079 seconds
+Performedy in 17.2363 seconds
+Performedy in 2.2069 seconds
+Performedy in 2.8713 seconds
+Performedy in 10.3439 seconds
+Performedy in 0.0003 seconds
+Performedy in 4.8646 seconds
+Performedy in 9.5414 seconds
+Performedy in 13.8398 seconds
+Performedy in 1.2458 seconds
+Performedy in 8.6046 seconds
+Performedy in 0.0003 seconds
+Performedy in 23.4799 seconds
+Performedy in 32.0441 seconds
+Performedy in 1.1759 seconds
+Performedy in 22.1751 seconds
+Performedy in 10.9907 seconds
+Performedy in 5.2485 seconds
+Performedy in 9.7548 seconds
+Performedy in 8.2450 seconds
+Performedy in 1.4882 seconds
+Performedy in 4.7558 seconds
+Performedy in 1.4712 seconds
+Performedy in 2.7872 seconds
+Performedy in 3.6699 seconds
+Performedy in 2.8029 seconds
+Performedy in 0.5239 seconds
+Performedy in 3.6457 seconds
+Performedy in 4.6401 seconds
+Performedy in 0.0004 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0004 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0811 seconds
+Performedy in 0.0005 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0004 seconds
+Performedy in 0.0004 seconds
+Performedy in 0.0004 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.9700 seconds
+Performedy in 2.2198 seconds
+Performedy in 0.1921 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 2.5323 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 2.2215 seconds
+Performedy in 0.0001 seconds
+Performedy in 1.3368 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 3.7612 seconds
+Performedy in 0.2463 seconds
+Performedy in 2.3702 seconds
+Performedy in 0.0004 seconds
+Performedy in 3.1518 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 2.1549 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 2.9180 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.9713 seconds
+Performedy in 1.0761 seconds
+Performedy in 0.0004 seconds
+Performedy in 2.2555 seconds
+Performedy in 0.0003 seconds
+Performedy in 2.8129 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 2.1634 seconds
+Performedy in 4.6370 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.7979 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 1.7465 seconds
+Performedy in 1.6469 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.2619 seconds
+Performedy in 2.4380 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0002 seconds
+Performedy in 2.2315 seconds
+Performedy in 0.0004 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.5621 seconds
+Performedy in 1.7615 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0862 seconds
+Performedy in 0.0004 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.2531 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.2646 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.6740 seconds
+Performedy in 0.0004 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0548 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.1626 seconds
+Performedy in 0.4718 seconds
+Performedy in 0.0231 seconds
+Performedy in 0.0165 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.4909 seconds
+Performedy in 0.2848 seconds
+Performedy in 0.0003 seconds
+Performedy in 2.4691 seconds
+Performedy in 0.0004 seconds
+Performedy in 0.8481 seconds
+Performedy in 0.0002 seconds
+Performedy in 1.3475 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.1813 seconds
+Performedy in 0.0002 seconds
+Performedy in 6.2677 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0216 seconds
+Performedy in 0.0004 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0265 seconds
+Performedy in 0.0006 seconds
+Performedy in 7.5222 seconds
+Performedy in 0.0003 seconds
+Performedy in 7.2881 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.9990 seconds
+Performedy in 0.0002 seconds
+Performedy in 1.9350 seconds
+Performedy in 0.0004 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.8102 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.4732 seconds
+Performedy in 0.0004 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.3432 seconds
+Performedy in 0.0009 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.1162 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.1016 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.4585 seconds
+Performedy in 0.6762 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0000 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 1.3340 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 4.0313 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.3664 seconds
+Performedy in 0.0004 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 1.1016 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.1848 seconds
+Performedy in 0.0003 seconds
+Performedy in 1.3016 seconds
+Performedy in 0.1444 seconds
+Performedy in 1.5621 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.3298 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.3744 seconds
+Performedy in 0.0004 seconds
+Performedy in 0.6738 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0000 seconds
+Performedy in 0.4124 seconds
+Performedy in 0.0302 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.2799 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.3422 seconds
+Performedy in 1.3337 seconds
+Performedy in 0.7085 seconds
+Performedy in 0.3879 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0131 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 1.0623 seconds
+Performedy in 0.1727 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.2658 seconds
+Performedy in 0.4486 seconds
+Performedy in 0.1807 seconds
+Performedy in 0.5417 seconds
+Performedy in 0.0002 seconds
+Performedy in 1.0178 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.2507 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0001 seconds
+Performedy in 1.9655 seconds
+Performedy in 0.1240 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0004 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.2275 seconds
+Performedy in 0.2534 seconds
+Performedy in 0.0004 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 1.2818 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.1809 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.2692 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 1.2840 seconds
+Performedy in 0.8588 seconds
+Performedy in 0.6927 seconds
+Performedy in 0.1492 seconds
+Performedy in 2.3550 seconds
+Performedy in 1.1661 seconds
+Performedy in 0.9363 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 1.0814 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.1607 seconds
+Performedy in 0.0006 seconds
+Performedy in 0.0004 seconds
+Performedy in 0.0179 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.2792 seconds
+Performedy in 1.6749 seconds
+Performedy in 0.3242 seconds
+Performedy in 2.1478 seconds
+Performedy in 2.2016 seconds
+Performedy in 0.4629 seconds
+Performedy in 0.7882 seconds
+Performedy in 0.0004 seconds
+Performedy in 0.6823 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.7370 seconds
+Performedy in 0.5238 seconds
+Performedy in 0.0003 seconds
+Performedy in 1.4928 seconds
+Performedy in 0.0003 seconds
+Performedy in 1.1188 seconds
+Performedy in 1.6957 seconds
+Performedy in 1.0363 seconds
+Performedy in 0.3086 seconds
+Performedy in 1.8754 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.3479 seconds
+Performedy in 0.9952 seconds
+Performedy in 7.3758 seconds
+Performedy in 0.0004 seconds
+Performedy in 0.0111 seconds
+Performedy in 0.0002 seconds
+Performedy in 1.1179 seconds
+Performedy in 0.3062 seconds
+Performedy in 0.0614 seconds
+Performedy in 1.0471 seconds
+Performedy in 0.0004 seconds
+Performedy in 1.3626 seconds
+Performedy in 0.3957 seconds
+Performedy in 0.2359 seconds
+Performedy in 0.7177 seconds
+Performedy in 0.0003 seconds
+Performedy in 2.6551 seconds
+Performedy in 0.0004 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0002 seconds
+Performedy in 2.5522 seconds
+Performedy in 0.0004 seconds
+Performedy in 0.1000 seconds
+Performedy in 0.0003 seconds
+Performedy in 1.4498 seconds
+Performedy in 1.7857 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0002 seconds
+Performedy in 2.1292 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.6644 seconds
+Performedy in 0.0081 seconds
+Performedy in 0.0922 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.7536 seconds
+Performedy in 1.8071 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.7299 seconds
+Performedy in 0.0656 seconds
+Performedy in 2.8038 seconds
+Performedy in 0.7023 seconds
+Performedy in 1.3368 seconds
+Performedy in 0.7635 seconds
+Performedy in 0.0004 seconds
+Performedy in 0.5748 seconds
+Performedy in 1.5914 seconds
+Performedy in 0.5015 seconds
+Performedy in 2.1387 seconds
+Performedy in 0.0086 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.9077 seconds
+Performedy in 3.9580 seconds
+Performedy in 0.0003 seconds
+Performedy in 1.2266 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.3600 seconds
+Performedy in 1.7393 seconds
+Performedy in 0.5110 seconds
+Performedy in 4.2861 seconds
+Performedy in 0.7609 seconds
+Performedy in 2.7821 seconds
+Performedy in 2.3330 seconds
+Performedy in 0.0003 seconds
+Performedy in 2.8890 seconds
+Performedy in 0.6433 seconds
+Performedy in 0.6236 seconds
+Performedy in 0.5134 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.2902 seconds
+Performedy in 4.9368 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.2807 seconds
+Performedy in 0.0002 seconds
+Performedy in 1.7649 seconds
+Performedy in 8.4316 seconds
+Performedy in 4.7068 seconds
+Performedy in 1.9059 seconds
+Performedy in 4.4876 seconds
+Performedy in 0.0002 seconds
+Performedy in 1.3524 seconds
+Performedy in 0.0004 seconds
+Performedy in 0.0002 seconds
+Performedy in 2.5814 seconds
+Performedy in 2.5855 seconds
+Performedy in 0.4309 seconds
+Performedy in 0.0004 seconds
+Performedy in 1.6665 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 1.9494 seconds
+Performedy in 3.0270 seconds
+Performedy in 0.0097 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 4.0376 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.6402 seconds
+Performedy in 0.2158 seconds
+Performedy in 1.9473 seconds
+Performedy in 0.3389 seconds
+Performedy in 0.0002 seconds
+Performedy in 2.6943 seconds
+Performedy in 4.4697 seconds
+Performedy in 1.1981 seconds
+Performedy in 0.0002 seconds
+Performedy in 1.6737 seconds
+Performedy in 1.8951 seconds
+Performedy in 3.6968 seconds
+Performedy in 0.0004 seconds
+Performedy in 18.0941 seconds
+Performedy in 4.7292 seconds
+Performedy in 7.9337 seconds
+Performedy in 1.7261 seconds
+Performedy in 2.5948 seconds
+Performedy in 2.6220 seconds
+Performedy in 0.0003 seconds
+Performedy in 5.1349 seconds
+Performedy in 8.4749 seconds
+Performedy in 1.2243 seconds
+Performedy in 0.0004 seconds
+Performedy in 8.8923 seconds
+Performedy in 2.6715 seconds
+Performedy in 0.1940 seconds
+Performedy in 5.2541 seconds
+Performedy in 0.0002 seconds
+Performedy in 2.4552 seconds
+Performedy in 4.3366 seconds
+Performedy in 4.0625 seconds
+Performedy in 12.9365 seconds
+Performedy in 6.0665 seconds
+Performedy in 0.0003 seconds
+Performedy in 7.9927 seconds
+Performedy in 3.9645 seconds
+Performedy in 6.3167 seconds
+Performedy in 8.2873 seconds
+Performedy in 5.5307 seconds
+Performedy in 3.2730 seconds
+Performedy in 1.8409 seconds
+Performedy in 3.1992 seconds
+Performedy in 0.4382 seconds
+Performedy in 7.1868 seconds
+Performedy in 0.0003 seconds
+Performedy in 7.1011 seconds
+Performedy in 40.0534 seconds
+Performedy in 0.0004 seconds
+Performedy in 13.2568 seconds
+Performedy in 7.7789 seconds
+Performedy in 5.8839 seconds
+Performedy in 9.3859 seconds
+Performedy in 3.6396 seconds
+Performedy in 1.9378 seconds
+Performedy in 0.4560 seconds
+Performedy in 4.8838 seconds
+Performedy in 3.5622 seconds
+Performedy in 4.4405 seconds
+Performedy in 13.3209 seconds
+Performedy in 8.0115 seconds
+Performedy in 2.5393 seconds
+Performedy in 2.7261 seconds
+Performedy in 8.0336 seconds
+Performedy in 8.4859 seconds
+Performedy in 2.7998 seconds
+Performedy in 9.9422 seconds
+Performedy in 6.6726 seconds
+Performedy in 6.1262 seconds
+Performedy in 2.9525 seconds
+Performedy in 0.3859 seconds
+Performedy in 11.8002 seconds
+Performedy in 18.7472 seconds
+Performedy in 11.3037 seconds
+Performedy in 3.1310 seconds
+Performedy in 0.0890 seconds
+Performedy in 0.0002 seconds
+Performedy in 10.6060 seconds
+Performedy in 1.0864 seconds
+Performedy in 4.4315 seconds
+Performedy in 10.5875 seconds
+Performedy in 6.5779 seconds
+Performedy in 71.2649 seconds
+Performedy in 5.1058 seconds
+Performedy in 6.3795 seconds
+Performedy in 8.8838 seconds
+Performedy in 0.1884 seconds
+Performedy in 2.7592 seconds
+Performedy in 9.3778 seconds
+Performedy in 0.8578 seconds
+Performedy in 0.9408 seconds
+Performedy in 10.9500 seconds
+Performedy in 0.1274 seconds
+Performedy in 0.8842 seconds
+Performedy in 1.5331 seconds
+Performedy in 2.0179 seconds
+Performedy in 0.6840 seconds
+Performedy in 6.1687 seconds
+Performedy in 5.8119 seconds
+Performedy in 9.3599 seconds
+Performedy in 1.5818 seconds
+Performedy in 5.9278 seconds
+Performedy in 0.3918 seconds
+Performedy in 16.6685 seconds
+Performedy in 0.0004 seconds
+Performedy in 9.4118 seconds
+Performedy in 13.2062 seconds
+Performedy in 1.2138 seconds
+Performedy in 5.6139 seconds
+Performedy in 0.5172 seconds
+Performedy in 4.5630 seconds
+Performedy in 19.3654 seconds
+Performedy in 7.5629 seconds
+Performedy in 5.1261 seconds
+Performedy in 9.7066 seconds
+Performedy in 2.0456 seconds
+Performedy in 5.7423 seconds
+Performedy in 8.2866 seconds
+Performedy in 7.0048 seconds
+Performedy in 4.8681 seconds
+Performedy in 14.1945 seconds
+Performedy in 5.8180 seconds
+Performedy in 1.7946 seconds
+Performedy in 7.4512 seconds
+Performedy in 1.6275 seconds
+Performedy in 3.2557 seconds
+Performedy in 4.2632 seconds
+Performedy in 10.7082 seconds
+Performedy in 5.3415 seconds
+Performedy in 0.1027 seconds
+Performedy in 3.5208 seconds
+Performedy in 1.5907 seconds
+Performedy in 5.9067 seconds
+Performedy in 2.0893 seconds
+Performedy in 0.0004 seconds
+Performedy in 0.9280 seconds
+Performedy in 4.5549 seconds
+Performedy in 3.1034 seconds
+Performedy in 9.6876 seconds
+Performedy in 0.5306 seconds
+Performedy in 8.7618 seconds
+Performedy in 2.9042 seconds
+Performedy in 0.0004 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.5908 seconds
+Performedy in 10.4469 seconds
+Performedy in 14.5725 seconds
+Performedy in 2.8360 seconds
+Performedy in 8.6308 seconds
+Performedy in 0.4231 seconds
+Performedy in 0.2369 seconds
+Performedy in 6.4382 seconds
+Performedy in 7.0293 seconds
+Performedy in 7.7948 seconds
+Performedy in 8.9774 seconds
+Performedy in 0.2881 seconds
+Performedy in 3.6449 seconds
+Performedy in 11.8781 seconds
+Performedy in 6.0356 seconds
+Performedy in 1.2824 seconds
+Performedy in 3.5299 seconds
+Performedy in 0.0004 seconds
+Performedy in 4.0207 seconds
+Performedy in 0.0003 seconds
+Performedy in 2.9568 seconds
+Performedy in 4.1139 seconds
+Performedy in 5.1546 seconds
+Performedy in 2.2949 seconds
+Performedy in 0.0004 seconds
+Performedy in 6.2466 seconds
+Performedy in 3.3690 seconds
+Performedy in 2.2422 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0283 seconds
+Performedy in 2.7575 seconds
+Performedy in 0.5101 seconds
+Performedy in 0.0002 seconds
+Performedy in 3.7105 seconds
+Performedy in 17.0715 seconds
+Performedy in 2.1579 seconds
+Performedy in 10.7894 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.2576 seconds
+Performedy in 0.0003 seconds
+Performedy in 6.4516 seconds
+Performedy in 1.1715 seconds
+Performedy in 0.1961 seconds
+Performedy in 0.0002 seconds
+Performedy in 1.1314 seconds
+Performedy in 0.9230 seconds
+Performedy in 4.8087 seconds
+Performedy in 6.4216 seconds
+Performedy in 6.5455 seconds
+Performedy in 0.3632 seconds
+Performedy in 2.0575 seconds
+Performedy in 3.1462 seconds
+Performedy in 0.1926 seconds
+Performedy in 5.3632 seconds
+Performedy in 0.5591 seconds
+Performedy in 0.0002 seconds
+Performedy in 9.6725 seconds
+Performedy in 4.3761 seconds
+Performedy in 4.6532 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.6601 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0001 seconds
+Performedy in 3.2967 seconds
+Performedy in 0.8539 seconds
+Performedy in 0.0004 seconds
+Performedy in 17.7861 seconds
+Performedy in 22.4579 seconds
+Performedy in 2.2682 seconds
+Performedy in 0.6348 seconds
+Performedy in 3.3613 seconds
+Performedy in 0.0005 seconds
+Performedy in 6.0097 seconds
+Performedy in 5.4693 seconds
+Performedy in 1.7742 seconds
+Performedy in 1.7093 seconds
+Performedy in 12.5754 seconds
+Performedy in 0.5950 seconds
+Performedy in 0.6760 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 2.0947 seconds
+Performedy in 0.0002 seconds
+Performedy in 3.7797 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0168 seconds
+Performedy in 0.8602 seconds
+Performedy in 4.0140 seconds
+Performedy in 2.9175 seconds
+Performedy in 0.0002 seconds
+Performedy in 1.8821 seconds
+Performedy in 0.0006 seconds
+Performedy in 0.0004 seconds
+Performedy in 6.1206 seconds
+Performedy in 4.8786 seconds
+Performedy in 1.1638 seconds
+Performedy in 0.0003 seconds
+Performedy in 7.2121 seconds
+Performedy in 0.0006 seconds
+Performedy in 1.5326 seconds
+Performedy in 2.9488 seconds
+Performedy in 0.0002 seconds
+Performedy in 7.2617 seconds
+Performedy in 0.0003 seconds
+Performedy in 1.4619 seconds
+Performedy in 3.0361 seconds
+Performedy in 0.0004 seconds
+Performedy in 0.0549 seconds
+Performedy in 2.8105 seconds
+Performedy in 5.8632 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.9260 seconds
+Performedy in 8.0531 seconds
+Performedy in 0.2754 seconds
+Performedy in 1.0490 seconds
+Performedy in 0.2342 seconds
+Performedy in 5.5950 seconds
+Performedy in 10.3665 seconds
+Performedy in 5.4115 seconds
+Performedy in 3.0329 seconds
+Performedy in 0.0243 seconds
+Performedy in 2.2645 seconds
+Performedy in 12.7989 seconds
+Performedy in 15.3315 seconds
+Performedy in 0.6967 seconds
+Performedy in 0.3259 seconds
+Performedy in 2.2741 seconds
+Performedy in 0.9949 seconds
+Performedy in 0.0273 seconds
+Performedy in 14.0910 seconds
+Performedy in 0.0003 seconds
+Performedy in 5.0666 seconds
+Performedy in 4.9546 seconds
+Performedy in 6.2050 seconds
+Performedy in 3.6274 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.4393 seconds
+Performedy in 0.0003 seconds
+Performedy in 3.5110 seconds
+Performedy in 0.0484 seconds
+Performedy in 2.8204 seconds
+Performedy in 0.0003 seconds
+Performedy in 3.5166 seconds
+Performedy in 2.1966 seconds
+Performedy in 0.7172 seconds
+Performedy in 0.3942 seconds
+Performedy in 5.1146 seconds
+Performedy in 11.9977 seconds
+Performedy in 4.6989 seconds
+Performedy in 1.4927 seconds
+Performedy in 1.0586 seconds
+Performedy in 0.7176 seconds
+Performedy in 0.8090 seconds
+Performedy in 4.4693 seconds
+Performedy in 3.6658 seconds
+Performedy in 3.4825 seconds
+Performedy in 2.5553 seconds
+Performedy in 4.0594 seconds
+Performedy in 8.9194 seconds
+Performedy in 3.9055 seconds
+Performedy in 2.2894 seconds
+Performedy in 5.1567 seconds
+Performedy in 7.1431 seconds
+Performedy in 13.9865 seconds
+Performedy in 0.0003 seconds
+Performedy in 5.4021 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.1300 seconds
+Performedy in 1.7055 seconds
+Performedy in 7.9036 seconds
+Performedy in 1.2892 seconds
+Performedy in 4.4330 seconds
+Performedy in 7.6844 seconds
+Performedy in 2.0463 seconds
+Performedy in 3.9435 seconds
+Performedy in 4.9847 seconds
+Performedy in 8.4109 seconds
+Performedy in 12.8324 seconds
+Performedy in 0.0306 seconds
+Performedy in 13.5941 seconds
+Performedy in 0.0004 seconds
+Performedy in 3.1040 seconds
+Performedy in 5.1053 seconds
+Performedy in 0.4333 seconds
+Performedy in 0.4330 seconds
+Performedy in 13.1782 seconds
+Performedy in 1.2181 seconds
+Performedy in 1.0686 seconds
+Performedy in 13.5609 seconds
+Performedy in 0.9659 seconds
+Performedy in 1.1422 seconds
+Performedy in 4.9152 seconds
+Performedy in 1.8429 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0175 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 1.5352 seconds
+Performedy in 0.0004 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0005 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.5147 seconds
+Performedy in 0.2862 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.4067 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.1963 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.8851 seconds
+Performedy in 1.9596 seconds
+Performedy in 2.7762 seconds
+Performedy in 0.0292 seconds
+Performedy in 0.0004 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0006 seconds
+Performedy in 0.0005 seconds
+Performedy in 0.0405 seconds
+Performedy in 0.6191 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0760 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0195 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0270 seconds
+Performedy in 0.4510 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.2506 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.1952 seconds
+Performedy in 0.2113 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.1427 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.8472 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0156 seconds
+Performedy in 1.8329 seconds
+Performedy in 0.0005 seconds
+Performedy in 0.3054 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.7317 seconds
+Performedy in 0.0677 seconds
+Performedy in 8.8727 seconds
+Performedy in 1.9981 seconds
+Performedy in 0.0882 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.1199 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.7168 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.6953 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.1810 seconds
+Performedy in 0.4248 seconds
+Performedy in 0.2894 seconds
+Performedy in 0.2777 seconds
+Performedy in 0.5151 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.8309 seconds
+Performedy in 0.4429 seconds
+Performedy in 0.0004 seconds
+Performedy in 0.6774 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.9416 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.3209 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0279 seconds
+Performedy in 0.0004 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.3853 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.9364 seconds
+Performedy in 0.0003 seconds
+Performedy in 2.3221 seconds
+Performedy in 0.0003 seconds
+Performedy in 2.5542 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0305 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.2010 seconds
+Performedy in 1.5503 seconds
+Performedy in 0.1883 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0334 seconds
+Performedy in 0.0004 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 1.6635 seconds
+Performedy in 0.0004 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.4188 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.6766 seconds
+Performedy in 0.0005 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.1261 seconds
+Performedy in 0.0004 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 1.1837 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.8106 seconds
+Performedy in 0.5505 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.2204 seconds
+Performedy in 1.7202 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.2140 seconds
+Performedy in 0.0004 seconds
+Performedy in 0.7448 seconds
+Performedy in 0.9322 seconds
+Performedy in 0.0004 seconds
+Performedy in 0.0002 seconds
+Performedy in 1.6273 seconds
+Performedy in 0.6751 seconds
+Performedy in 1.0579 seconds
+Performedy in 0.0004 seconds
+Performedy in 0.5070 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.3422 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.3809 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0003 seconds
+Performedy in 1.8796 seconds
+Performedy in 0.1559 seconds
+Performedy in 2.8390 seconds
+Performedy in 0.0002 seconds
+Performedy in 1.2951 seconds
+Performedy in 0.5140 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.4398 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.5009 seconds
+Performedy in 0.4937 seconds
+Performedy in 0.0523 seconds
+Performedy in 2.0549 seconds
+Performedy in 0.0004 seconds
+Performedy in 0.1887 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.2923 seconds
+Performedy in 0.5298 seconds
+Performedy in 0.0002 seconds
+Performedy in 2.0228 seconds
+Performedy in 0.0004 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.7787 seconds
+Performedy in 0.5812 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.5524 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.4870 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.3528 seconds
+Performedy in 0.0004 seconds
+Performedy in 0.1295 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.7082 seconds
+Performedy in 0.9085 seconds
+Performedy in 0.5797 seconds
+Performedy in 0.4116 seconds
+Performedy in 0.2859 seconds
+Performedy in 1.4771 seconds
+Performedy in 0.2697 seconds
+Performedy in 0.0004 seconds
+Performedy in 0.4023 seconds
+Performedy in 0.4818 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.3235 seconds
+Performedy in 0.5260 seconds
+Performedy in 1.3845 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.4287 seconds
+Performedy in 2.7914 seconds
+Performedy in 0.0003 seconds
+Performedy in 1.1907 seconds
+Performedy in 1.6033 seconds
+Performedy in 0.9941 seconds
+Performedy in 4.3553 seconds
+Performedy in 1.9815 seconds
+Performedy in 2.7158 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.8858 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.8305 seconds
+Performedy in 1.1067 seconds
+Performedy in 2.0901 seconds
+Performedy in 0.0004 seconds
+Performedy in 2.2797 seconds
+Performedy in 2.7429 seconds
+Performedy in 5.3364 seconds
+Performedy in 2.8064 seconds
+Performedy in 7.8138 seconds
+Performedy in 0.2241 seconds
+Performedy in 2.0737 seconds
+Performedy in 1.8639 seconds
+Performedy in 1.9579 seconds
+Performedy in 4.7306 seconds
+Performedy in 1.5766 seconds
+Performedy in 1.6721 seconds
+Performedy in 1.3051 seconds
+Performedy in 3.1836 seconds
+Performedy in 7.0407 seconds
+Performedy in 1.3636 seconds
+Performedy in 5.7448 seconds
+Performedy in 4.5221 seconds
+Performedy in 3.9667 seconds
+Performedy in 5.4415 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 1.3655 seconds
+Performedy in 17.9600 seconds
+Performedy in 10.0537 seconds
+Performedy in 1.2782 seconds
+Performedy in 0.5033 seconds
+Performedy in 3.0297 seconds
+Performedy in 2.7422 seconds
+Performedy in 0.0004 seconds
+Performedy in 2.4725 seconds
+Performedy in 4.2055 seconds
+Performedy in 2.7282 seconds
+Performedy in 3.9489 seconds
+Performedy in 2.0333 seconds
+Performedy in 3.0673 seconds
+Performedy in 4.2760 seconds
+Performedy in 4.2044 seconds
+Performedy in 4.0173 seconds
+Performedy in 7.4066 seconds
+Performedy in 5.2091 seconds
+Performedy in 2.3680 seconds
+Performedy in 2.7378 seconds
+Performedy in 0.0004 seconds
+Performedy in 8.3598 seconds
+Performedy in 2.8003 seconds
+Performedy in 0.0003 seconds
+Performedy in 8.3899 seconds
+Performedy in 5.5681 seconds
+Performedy in 2.0750 seconds
+Performedy in 5.0552 seconds
+Performedy in 6.3687 seconds
+Performedy in 7.5876 seconds
+Performedy in 2.7814 seconds
+Performedy in 5.6247 seconds
+Performedy in 7.3001 seconds
+Performedy in 7.6689 seconds
+Performedy in 3.8125 seconds
+Performedy in 6.6102 seconds
+Performedy in 1.6438 seconds
+Performedy in 4.2605 seconds
+Performedy in 1.4153 seconds
+Performedy in 3.0569 seconds
+Performedy in 4.5078 seconds
+Performedy in 1.5323 seconds
+Performedy in 4.5610 seconds
+Performedy in 7.1978 seconds
+Performedy in 2.3179 seconds
+Performedy in 1.9003 seconds
+Performedy in 6.4880 seconds
+Performedy in 5.0021 seconds
+Performedy in 11.8399 seconds
+Performedy in 7.1293 seconds
+Performedy in 3.9212 seconds
+Performedy in 1.3189 seconds
+Performedy in 2.1392 seconds
+Performedy in 3.8612 seconds
+Performedy in 7.5072 seconds
+Performedy in 4.9976 seconds
+Performedy in 7.1193 seconds
+Performedy in 2.8342 seconds
+Performedy in 1.8685 seconds
+Performedy in 5.7812 seconds
+Performedy in 0.9323 seconds
+Performedy in 14.5010 seconds
+Performedy in 2.7147 seconds
+Performedy in 5.1540 seconds
+Performedy in 1.3532 seconds
+Performedy in 5.5182 seconds
+Performedy in 11.2739 seconds
+Performedy in 7.4472 seconds
+Performedy in 5.3547 seconds
+Performedy in 3.3096 seconds
+Performedy in 3.6961 seconds
+Performedy in 4.8207 seconds
+Performedy in 4.1509 seconds
+Performedy in 2.9182 seconds
+Performedy in 3.2511 seconds
+Performedy in 1.6117 seconds
+Performedy in 1.5049 seconds
+Performedy in 6.8174 seconds
+Performedy in 1.2012 seconds
+Performedy in 4.7693 seconds
+Performedy in 6.1170 seconds
+Performedy in 1.5271 seconds
+Performedy in 3.1575 seconds
+Performedy in 1.9676 seconds
+Performedy in 8.7952 seconds
+Performedy in 3.4476 seconds
+Performedy in 3.8935 seconds
+Performedy in 9.9417 seconds
+Performedy in 4.2857 seconds
+Performedy in 6.0482 seconds
+Performedy in 1.2848 seconds
+Performedy in 7.4705 seconds
+Performedy in 2.9061 seconds
+Performedy in 8.0696 seconds
+Performedy in 12.6231 seconds
+Performedy in 12.3945 seconds
+Performedy in 13.1456 seconds
+Performedy in 3.2141 seconds
+Performedy in 6.0027 seconds
+Performedy in 4.3651 seconds
+Performedy in 7.2684 seconds
+Performedy in 3.6658 seconds
+Performedy in 7.5080 seconds
+Performedy in 4.1947 seconds
+Performedy in 2.9773 seconds
+Performedy in 7.6941 seconds
+Performedy in 2.0044 seconds
+Performedy in 4.9881 seconds
+Performedy in 6.6884 seconds
+Performedy in 1.8218 seconds
+Performedy in 1.2636 seconds
+Performedy in 1.4297 seconds
+Performedy in 5.5330 seconds
+Performedy in 5.9251 seconds
+Performedy in 3.7389 seconds
+Performedy in 10.2107 seconds
+Performedy in 20.4249 seconds
+Performedy in 9.8869 seconds
+Performedy in 3.2248 seconds
+Performedy in 9.1057 seconds
+Performedy in 1.2642 seconds
+Performedy in 4.0243 seconds
+Performedy in 5.2965 seconds
+Performedy in 6.6380 seconds
+Performedy in 3.8701 seconds
+Performedy in 4.5812 seconds
+Performedy in 2.8134 seconds
+Performedy in 14.6513 seconds
+Performedy in 10.5268 seconds
+Performedy in 4.7454 seconds
+Performedy in 2.8063 seconds
+Performedy in 4.5737 seconds
+Performedy in 5.1889 seconds
+Performedy in 5.0906 seconds
+Performedy in 6.5960 seconds
+Performedy in 20.7069 seconds
+Performedy in 3.0745 seconds
+Performedy in 5.4306 seconds
+Performedy in 4.4723 seconds
+Performedy in 13.5571 seconds
+Performedy in 0.2337 seconds
+Performedy in 3.6346 seconds
+Performedy in 2.5650 seconds
+Performedy in 4.2917 seconds
+Performedy in 8.1441 seconds
+Performedy in 3.0333 seconds
+Performedy in 14.3703 seconds
+Performedy in 4.0360 seconds
+Performedy in 1.8354 seconds
+Performedy in 8.1753 seconds
+Performedy in 3.5114 seconds
+Performedy in 2.6012 seconds
+Performedy in 3.2205 seconds
+Performedy in 4.2241 seconds
+Performedy in 0.0004 seconds
+Performedy in 7.9368 seconds
+Performedy in 4.0645 seconds
+Performedy in 0.5261 seconds
+Performedy in 2.7195 seconds
+Performedy in 3.9275 seconds
+Performedy in 4.8353 seconds
+Performedy in 1.1208 seconds
+Performedy in 21.3219 seconds
+Performedy in 13.7216 seconds
+Performedy in 3.9483 seconds
+Performedy in 2.2873 seconds
+Performedy in 4.1141 seconds
+Performedy in 7.1666 seconds
+Performedy in 4.5109 seconds
+Performedy in 5.9712 seconds
+Performedy in 4.2339 seconds
+Performedy in 7.5231 seconds
+Performedy in 0.8038 seconds
+Performedy in 5.0021 seconds
+Performedy in 0.8883 seconds
+Performedy in 8.2661 seconds
+Performedy in 5.6807 seconds
+Performedy in 15.1839 seconds
+Performedy in 11.4375 seconds
+Performedy in 9.4960 seconds
+Performedy in 6.2857 seconds
+Performedy in 5.0821 seconds
+Performedy in 9.0246 seconds
+Performedy in 16.5355 seconds
+Performedy in 5.3288 seconds
+Performedy in 3.5499 seconds
+Performedy in 7.0011 seconds
+Performedy in 14.3763 seconds
+Performedy in 13.1861 seconds
+Performedy in 6.4470 seconds
+Performedy in 4.1586 seconds
+Performedy in 0.4828 seconds
+Performedy in 10.6753 seconds
+Performedy in 5.6198 seconds
+Performedy in 4.2414 seconds
+Performedy in 0.6852 seconds
+Performedy in 2.0031 seconds
+Performedy in 3.5079 seconds
+Performedy in 24.8763 seconds
+Performedy in 4.6203 seconds
+Performedy in 3.4337 seconds
+Performedy in 7.4973 seconds
+Performedy in 3.4106 seconds
+Performedy in 8.3999 seconds
+Performedy in 6.2893 seconds
+Performedy in 0.0003 seconds
+Performedy in 17.3996 seconds
+Performedy in 9.9564 seconds
+Performedy in 5.8229 seconds
+Performedy in 68.1107 seconds
+Performedy in 9.9365 seconds
+Performedy in 33.8354 seconds
+Performedy in 4.1181 seconds
+Performedy in 13.6092 seconds
+Performedy in 3.5948 seconds
+Performedy in 16.2769 seconds
+Performedy in 3.4003 seconds
+Performedy in 0.2102 seconds
+Performedy in 3.4812 seconds
+Performedy in 12.1322 seconds
+Performedy in 17.0965 seconds
+Performedy in 0.7523 seconds
+Performedy in 7.6760 seconds
+Performedy in 0.0006 seconds
+Performedy in 10.6202 seconds
+Performedy in 0.8012 seconds
+Performedy in 0.6261 seconds
+Performedy in 6.4292 seconds
+Performedy in 1.8430 seconds
+Performedy in 10.0977 seconds
+Performedy in 0.6983 seconds
+Performedy in 7.8241 seconds
+Performedy in 9.9400 seconds
+Performedy in 0.6607 seconds
+Performedy in 4.0918 seconds
+Performedy in 0.5612 seconds
+Performedy in 1.9095 seconds
+Performedy in 0.0005 seconds
+Performedy in 0.5414 seconds
+Performedy in 0.6280 seconds
+Performedy in 8.1898 seconds
+Performedy in 0.5258 seconds
+Performedy in 0.0003 seconds
+Performedy in 1.1960 seconds
+Performedy in 0.0005 seconds
+Performedy in 0.6118 seconds
+Performedy in 5.2085 seconds
+Performedy in 2.0061 seconds
+Performedy in 0.0004 seconds
+Performedy in 0.9245 seconds
+Performedy in 14.6435 seconds
+Performedy in 0.8986 seconds
+Performedy in 0.0004 seconds
+Performedy in 2.0288 seconds
+Performedy in 1.7793 seconds
+Performedy in 2.0469 seconds
+Performedy in 3.9823 seconds
+Performedy in 5.0578 seconds
+Performedy in 0.7067 seconds
+Performedy in 0.4344 seconds
+Performedy in 0.0110 seconds
+Performedy in 8.2346 seconds
+Performedy in 0.1088 seconds
+Performedy in 0.0004 seconds
+Performedy in 8.4602 seconds
+Performedy in 3.4281 seconds
+Performedy in 14.9219 seconds
+Performedy in 6.3329 seconds
+Performedy in 9.1317 seconds
+Performedy in 3.0556 seconds
+Performedy in 5.1215 seconds
+Performedy in 5.9177 seconds
+Performedy in 1.3907 seconds
+Performedy in 16.6814 seconds
+Performedy in 0.0003 seconds
+Performedy in 2.1774 seconds
+Performedy in 2.8907 seconds
+Performedy in 5.7356 seconds
+Performedy in 0.0003 seconds
+Performedy in 10.5694 seconds
+Performedy in 0.0004 seconds
+Performedy in 0.0001 seconds
+Performedy in 4.6995 seconds
+Performedy in 0.0002 seconds
+Performedy in 1.0088 seconds
+Performedy in 0.0002 seconds
+Performedy in 0.0001 seconds
+Performedy in 0.1752 seconds
+Performedy in 9.5046 seconds
+Performedy in 0.0004 seconds
+Performedy in 1.8427 seconds
+Performedy in 0.0004 seconds
+Performedy in 0.0002 seconds
+Performedy in 2.5030 seconds
+Performedy in 0.8491 seconds
+Performedy in 3.8377 seconds
+Performedy in 2.6262 seconds
+Performedy in 5.1289 seconds
+Performedy in 0.0004 seconds
+Performedy in 14.0738 seconds
+Performedy in 0.3609 seconds
+Performedy in 0.1457 seconds
+Performedy in 5.9790 seconds
+Performedy in 1.8830 seconds
+Performedy in 7.2698 seconds
+Performedy in 7.1108 seconds
+Performedy in 7.5034 seconds
+Performedy in 8.0852 seconds
+Performedy in 0.0217 seconds
+Performedy in 0.0255 seconds
+Performedy in 0.4922 seconds
+Performedy in 0.3811 seconds
+Performedy in 0.0745 seconds
+Performedy in 0.1629 seconds
+Performedy in 0.7051 seconds
+Performedy in 0.2068 seconds
+Performedy in 0.0003 seconds
+Performedy in 0.1454 seconds
+Performedy in 10.6641 seconds
+Performedy in 10.3721 seconds
+Performedy in 7.3726 seconds
+Performedy in 18.8122 seconds
+Performedy in 17.1324 seconds
+Performedy in 10.6907 seconds
+Performedy in 1.6217 seconds
+Performedy in 0.3089 seconds
+Performedy in 14.4193 seconds
+Performedy in 15.2761 seconds
+Performedy in 1.5500 seconds
+Performedy in 14.4030 seconds
+Performedy in 4.8192 seconds
+Performedy in 41.7206 seconds
+Performedy in 0.1366 seconds
+Performedy in 0.7065 seconds
+Performedy in 0.9694 seconds
+Performedy in 1.4009 seconds
+Performedy in 2.0169 seconds
+Performedy in 3.6457 seconds
+Performedy in 9.2605 seconds
+Performedy in 23.4276 seconds
+Performedy in 14.0688 seconds
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[24]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;NNAJ_clean_text&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">list2_</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[26]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s2">&quot;data/alertas_NNAJ_keywords&quot;</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s2">&quot;|&quot;</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h1 id="5.-Extract-NGRMAS">5. Extract NGRMAS<a class="anchor-link" href="#5.-Extract-NGRMAS">&#182;</a></h1>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">files_info</span> <span class="o">=</span> <span class="p">[]</span>
-<span class="k">for</span> <span class="n">filename</span> <span class="ow">in</span> <span class="n">glob</span><span class="o">.</span><span class="n">iglob</span><span class="p">(</span><span class="s1">&#39;data/**/*.pdf&#39;</span><span class="p">,</span>
-                           <span class="n">recursive</span> <span class="o">=</span> <span class="kc">True</span><span class="p">):</span>
-    <span class="k">try</span><span class="p">:</span>
-        <span class="n">reader</span> <span class="o">=</span> <span class="n">PdfReader</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
-        <span class="n">text</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
-        <span class="k">for</span> <span class="n">page</span> <span class="ow">in</span> <span class="n">reader</span><span class="o">.</span><span class="n">pages</span><span class="p">:</span>
-            <span class="n">text</span> <span class="o">+=</span> <span class="n">page</span><span class="o">.</span><span class="n">extract_text</span><span class="p">()</span> <span class="o">+</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span>
-        <span class="n">files_info</span><span class="o">.</span><span class="n">append</span><span class="p">([</span><span class="n">filename</span><span class="p">,</span> <span class="n">text</span><span class="p">])</span>
-    <span class="k">except</span><span class="p">:</span>
-        <span class="nb">print</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
-    
-<span class="nb">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">files_info</span><span class="p">))</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;NNAJ_keywords&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;NNAJ_clean_text&#39;</span><span class="p">]</span><span class="o">.</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="5.-Exporting-to-html">5. Exporting to html<a class="anchor-link" href="#5.-Exporting-to-html">&#182;</a></h2>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[61]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>jupyter nbconvert --to html 8_NNAJ.ipynb
 </pre></div>
 
      </div>
@@ -14691,621 +16865,14 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>unknown widths : 
-[0, IndirectObject(242, 0, 2559868980192)]
-unknown widths : 
-[0, IndirectObject(245, 0, 2559868980192)]
-unknown widths : 
-[0, IndirectObject(248, 0, 2559868980192)]
-unknown widths : 
-[0, IndirectObject(251, 0, 2559868980192)]
-unknown widths : 
-[0, IndirectObject(254, 0, 2559868980192)]
-unknown widths : 
-[0, IndirectObject(257, 0, 2559868980192)]
-unknown widths : 
-[0, IndirectObject(260, 0, 2559868980192)]
-unknown widths : 
-[0, IndirectObject(263, 0, 2559868980192)]
-unknown widths : 
-[0, IndirectObject(266, 0, 2559868980192)]
-unknown widths : 
-[0, IndirectObject(269, 0, 2559868980192)]
-unknown widths : 
-[0, IndirectObject(272, 0, 2559868980192)]
-unknown widths : 
-[0, IndirectObject(275, 0, 2559868980192)]
-unknown widths : 
-[0, IndirectObject(278, 0, 2559868980192)]
-unknown widths : 
-[0, IndirectObject(281, 0, 2559868980192)]
-</pre>
-</div>
-</div>
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>data\Advertencia_PDF\AT 2021\AT N° 007-2021 CAU-Caloto.pdf
-data\Advertencia_PDF\AT 2021\AT N° 008-2021 BOY-Pajarito, Paya, Pisba CAS-Aguazul,La Salina,Sácama,Támara y Yopal.pdf
-data\Advertencia_PDF\AT 2021\AT N° 010-2021 Bogotá DC.pdf
-data\Advertencia_PDF\AT 2021\AT N° 014-2021 VAL-Restrepo.pdf
-data\Advertencia_PDF\AT 2021\AT N° 029-2021 CHO-San José del Palmar.pdf
-data\Advertencia_PDF\AT 2021\~BROMIUM\AT N° 008-2021 BOY-Pajarito, Paya, Pisba CAS-Aguazul,La Salina,Sácama,Támara y Yopal.pdf
-data\Informes de Seguimiento\2020\Informe de Seguimiento AT 029-19 ARAUCA- Arauquita, Saravena, fortul y Tame.pdf
-data\Informes de Seguimiento\2020\Informe de Seguimiento AT 047-19  TOLIMA- Murillo y santa Isabel.pdf
-data\Informes de Seguimiento\2021\IS 08_04_2021 IS AT 033-2019 CAU-Suárez.pdf
-data\Informes de Seguimiento\2021\IS 08_04_2021 IS AT 065-2018 MET-Mapiripán y Puerto Concordia.pdf
-data\Informes de Seguimiento\2021\IS 08_26_2021 IS AT 038-2019 CHO-Unguía of.pdf
-data\Informes de Seguimiento\2021\IS 09_08_2021 IS AT 050-2019 CAS-Hato Corozal y Paz de Ariporo.pdf
-data\Informes de Seguimiento\2021\IS 09_16_2021 IS AT 053-2019 VAL-Calima Darien.pdf
-data\Informes de Seguimiento\2021\IS 10_05_2021 IS AT 046-2019 Bogotá D.C..pdf
+<pre>[NbConvertApp] Converting notebook 8_NNAJ.ipynb to html
+[NbConvertApp] Writing 618621 bytes to 8_NNAJ.html
 </pre>
 </div>
 </div>
 
 </div>
 
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">files_info</span><span class="p">,</span> <span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Filename&#39;</span><span class="p">,</span> <span class="s1">&#39;Text&#39;</span><span class="p">])</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="p">))</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="2.-Adding-Type,-Subtype">2. Adding Type, Subtype<a class="anchor-link" href="#2.-Adding-Type,-Subtype">&#182;</a></h1>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">path_leaf</span><span class="p">(</span><span class="n">path</span><span class="p">):</span>
-    <span class="n">head</span><span class="p">,</span> <span class="n">tail</span> <span class="o">=</span> <span class="n">ntpath</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
-    <span class="k">return</span> <span class="n">tail</span> <span class="ow">or</span> <span class="n">ntpath</span><span class="o">.</span><span class="n">basename</span><span class="p">(</span><span class="n">head</span><span class="p">)</span>
-
-<span class="k">def</span> <span class="nf">extract_subtype</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
-    <span class="k">if</span> <span class="n">path_leaf</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;AT&quot;</span><span class="p">):</span>
-        <span class="k">return</span> <span class="s2">&quot;Alerta Temprana&quot;</span>
-    <span class="k">elif</span> <span class="n">path_leaf</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;IR&quot;</span><span class="p">):</span>
-        <span class="k">return</span> <span class="s2">&quot;Informe de Riesgo&quot;</span>
-    <span class="k">elif</span> <span class="n">path_leaf</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;NS&quot;</span><span class="p">):</span>
-        <span class="k">return</span> <span class="s2">&quot;Notas&quot;</span>
-    <span class="k">elif</span> <span class="n">path_leaf</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;IS&quot;</span><span class="p">)</span> <span class="ow">or</span> <span class="n">path_leaf</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;Informe&quot;</span><span class="p">):</span>
-        <span class="k">return</span> <span class="s2">&quot;Informe de Seguimiento&quot;</span>
-    <span class="k">else</span><span class="p">:</span> 
-        <span class="k">return</span> <span class="s2">&quot;Not Identified&quot;</span>
-        
-    
-<span class="n">df</span><span class="p">[</span><span class="s2">&quot;Subtype&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">&quot;Filename&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">extract_subtype</span><span class="p">)</span>
-
-<span class="n">df</span><span class="p">[</span><span class="s2">&quot;Type&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">&quot;Subtype&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="s2">&quot;Seguimiento&quot;</span> <span class="k">if</span> <span class="n">x</span> <span class="o">==</span> <span class="s2">&quot;Informe de Seguimiento&quot;</span> <span class="k">else</span> <span class="s2">&quot;Advertencia&quot;</span> <span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">columns</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="3.-Adding-Year">3. Adding Year<a class="anchor-link" href="#3.-Adding-Year">&#182;</a></h1>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_year</span><span class="p">(</span><span class="n">filename</span><span class="p">):</span>
-    <span class="n">filenames</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;data</span><span class="se">\\</span><span class="s2">Informes de Seguimiento</span><span class="se">\\</span><span class="s2">&quot;</span><span class="p">,</span> 
-                 <span class="s2">&quot;data</span><span class="se">\\</span><span class="s2">Advertencia_PDF</span><span class="se">\\</span><span class="s2">AT &quot;</span><span class="p">,</span> 
-                 <span class="s2">&quot;data</span><span class="se">\\</span><span class="s2">Advertencia_PDF</span><span class="se">\\</span><span class="s2">IR &quot;</span><span class="p">,</span> 
-                 <span class="s2">&quot;data</span><span class="se">\\</span><span class="s2">Advertencia_PDF</span><span class="se">\\</span><span class="s2">Notas &quot;</span><span class="p">]</span>
-    <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">filenames</span><span class="p">:</span>
-        <span class="k">if</span> <span class="n">filename</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
-            <span class="k">return</span> <span class="n">filename</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="n">x</span><span class="p">)[</span><span class="mi">1</span><span class="p">][:</span><span class="mi">4</span><span class="p">]</span>
-        
-<span class="n">df</span><span class="p">[</span><span class="s2">&quot;Year&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">&quot;Filename&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">get_year</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">s</span> <span class="o">=</span> <span class="s2">&quot;data</span><span class="se">\\</span><span class="s2">advertencia_PDF</span><span class="se">\\</span><span class="s2">Notas 2002PDF&quot;</span>
-<span class="n">s</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;data</span><span class="se">\\</span><span class="s2">advertencia_PDF</span><span class="se">\\</span><span class="s2">Notas &quot;</span><span class="p">)[</span><span class="mi">1</span><span class="p">][:</span><span class="mi">4</span><span class="p">]</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">Year</span><span class="o">.</span><span class="n">unique</span><span class="p">()</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="4-Adding-filename">4 Adding filename<a class="anchor-link" href="#4-Adding-filename">&#182;</a></h1>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">columns</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;Path&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Filename&#39;</span><span class="p">]</span>
-<span class="n">df</span><span class="p">[</span><span class="s1">&#39;Filename&#39;</span><span class="p">]</span> <span class="o">=</span>  <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Filename&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">path_leaf</span><span class="p">)</span>
-<span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="5-Adding-Departamento">5 Adding Departamento<a class="anchor-link" href="#5-Adding-Departamento">&#182;</a></h1>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">dpts_abv</span> <span class="o">=</span> <span class="p">{</span>
- <span class="s1">&#39;Meta&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;met&#39;</span><span class="p">],</span>
- <span class="s1">&#39;Vichada&#39;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;vic&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Vaupés&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;vau&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Valle del Cauca&#39;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;val&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Tolima&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;tol&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Sucre&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;suc&quot;</span><span class="p">],</span>
- <span class="s1">&#39;San Andrés y Providencia&#39;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;san andres islas&quot;</span><span class="p">,</span> <span class="s2">&quot;SAN ANDRES, PROVIDENCIA Y SANTA CATALINA&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Risaralda&#39;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;ris&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Quindío&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;qui&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Putumayo&#39;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;put&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Norte de Santander&#39;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;nsant&quot;</span><span class="p">,</span> <span class="s2">&quot;nsan&quot;</span><span class="p">,</span> <span class="s2">&quot;nor&quot;</span><span class="p">,</span> <span class="s2">&quot;A.I NORTE DE SANTADER&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Nariño&#39;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;nar&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Magdalena&#39;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;mag&quot;</span><span class="p">],</span>
- <span class="s1">&#39;La Guajira&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;lag&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Huila&#39;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;hui&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Guaviare&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;guav&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Guainía&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;guai&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Cundinamarca&#39;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;cun&quot;</span><span class="p">,</span> <span class="p">],</span>
- <span class="s1">&#39;Córdoba&#39;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;cor&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Chocó&#39;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;cho&quot;</span><span class="p">,</span> <span class="s2">&quot;chó&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Cesar&#39;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;ces&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Cauca&#39;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;cau&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Casanare&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;cas&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Caquetá&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;caq&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Caldas&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;cal&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Boyacá&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;boy&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Bolívar&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;bol&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Bogotá&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;bog&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Atlántico&#39;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;atl&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Arauca&#39;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;ara&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Antioquia&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;ant&quot;</span><span class="p">],</span>
- <span class="s1">&#39;Amazonas&#39;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;ama&quot;</span><span class="p">],</span> 
- <span class="s1">&#39;Santander&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;SANTADER&quot;</span><span class="p">],</span>
-    
-<span class="p">}</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">replace_accents</span><span class="p">(</span><span class="n">w</span><span class="p">):</span>
-    <span class="k">return</span> <span class="n">w</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;á&#39;</span><span class="p">,</span> <span class="s1">&#39;a&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;é&#39;</span><span class="p">,</span> <span class="s1">&#39;e&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;í&#39;</span><span class="p">,</span> <span class="s1">&#39;i&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;ó&#39;</span><span class="p">,</span> <span class="s1">&#39;o&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;ú&#39;</span><span class="p">,</span> <span class="s1">&#39;u&#39;</span><span class="p">)</span>
-
-<span class="k">def</span> <span class="nf">extract_location</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>      
-    <span class="k">for</span> <span class="n">key</span> <span class="ow">in</span> <span class="n">dpts_abv</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
-        <span class="k">if</span> <span class="n">replace_accents</span><span class="p">(</span><span class="n">key</span><span class="o">.</span><span class="n">lower</span><span class="p">())</span> <span class="ow">in</span> <span class="n">replace_accents</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">lower</span><span class="p">()):</span>            
-            <span class="k">return</span> <span class="n">key</span>
-        <span class="k">for</span> <span class="n">d</span> <span class="ow">in</span> <span class="n">dpts_abv</span><span class="p">[</span><span class="n">key</span><span class="p">]:</span>
-            <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="p">[</span><span class="s2">&quot; -&quot;</span><span class="p">,</span> <span class="s2">&quot;-&quot;</span><span class="p">,</span> <span class="s2">&quot;- &quot;</span><span class="p">,</span> <span class="s2">&quot;.&quot;</span><span class="p">]:</span>
-                <span class="k">if</span> <span class="n">d</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="o">+</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">x</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="ow">or</span> <span class="n">c</span> <span class="o">+</span> <span class="n">d</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="ow">in</span> <span class="n">x</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="ow">or</span> <span class="n">d</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span> <span class="ow">in</span> <span class="n">x</span><span class="p">:</span>            
-                    <span class="k">return</span> <span class="n">key</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-    <span class="k">return</span> <span class="s2">&quot;Not Identified&quot;</span>
-
-<span class="n">df</span><span class="p">[</span><span class="s1">&#39;Departamento&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Filename&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">extract_location</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s2">&quot;Filename&quot;</span><span class="p">)</span>
-
-<span class="c1">#elecciones - violencia</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;AT N° 022-18 Riesgo Electoral firmada.pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Countrywide&quot;</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;AT N° 004-2022 Riesgo Electoral of.pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Countrywide&quot;</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;AT N° 035-19 Riesgo Electoral.pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Countrywide&quot;</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;Informe de Seguimiento AT 035-19 - Informe Electoral.pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Countrywide&quot;</span>
-
-<span class="c1">#covid</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;AT N° 018-2020.pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Countrywide&quot;</span>
-
-<span class="c1">#otros</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;IR N° 069-03 Cobertura Nacional Baja Resolución.pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Countrywide&quot;</span>
-
-<span class="c1">#asesinato a lideres</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;AT N° 026-18 Líderes y Defensores DDHH_bajaresolución.pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Countrywide&quot;</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;IR N° 010-17 Líderes y Defensores de DDHH.pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Countrywide&quot;</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;Informe de Seguimiento AT 026-18  Líderes Sociales y Defensores de Derechos Humanos.pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Countrywide&quot;</span>
-
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;AT N° 019-18.pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Chocó&quot;</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;AT N° 046-18 San Andrés Islas.pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;San Andrés y Providencia&quot;</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;IR N° 001-14 San Andrés y Providencia.pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Countrywide&quot;</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;AT Alerta Temprana No. 001-17.pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Bolívar&quot;</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;NS 13-04 IR N° 043-03.pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Antioquía&quot;</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;NS N° 046-07 a IR N° 032-06A.I Arauquita, Tame, Fortul y Saravena-TAME.pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Arauca&quot;</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;NS N° 025-08 a IR N° 004-08 El Doncello, El Paujil, Puerto….pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Caquetá&quot;</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;NS N° 031-08 a IR N° 036-07 Cúcuta, Los Patios, Puerto San….pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Norte de Santander&quot;</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;NS N° 016-09 a IR N° 022-07 Algeciras, Campoalegre, Gigant….pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Huila&quot;</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;NS N° 008-10 a IR N° 029-07 Barbacoas, Magui Payán y Rober….pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Nariño&quot;</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;NS N° 009-10 a IR Nº 006-06 Montelibano y Puerto Libertado….pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Córdoba&quot;</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;Informe de Seguimiento  AT 02-18 Anserma.pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Caldas&quot;</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;Informe de Seguimiento  AT 04-18 Tumaco.pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Nariño&quot;</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;Informe de Seguimiento AT 001-18 Suarez.pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Cauca&quot;</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;Informe de Seguimiento AT 005-18 Tierralta.pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Córdoba&quot;</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;Informe de Seguimiento AT 01-17 Cartagena.pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Bolívar&quot;</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;Informe de Seguimiento AT 012-18 Rio Quito.pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Chocó&quot;</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;NS N° 027-08 a IR N° 016-07A.I.pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Nariño&quot;</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;IS 12_31_2021 IS AT 025-2020.pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Bolívar&quot;</span>
-<span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s2">&quot;IS N° 006-2022 a AT N° 004-2021.pdf&quot;</span><span class="p">,</span> <span class="s2">&quot;Departamento&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Norte de Santander&quot;</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;Departamento&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;Not Identified&quot;</span><span class="p">])</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">list</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;Departamento&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;Not Identified&quot;</span><span class="p">][</span><span class="s1">&#39;Path&#39;</span><span class="p">])</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">dict</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;Antioquía&quot;</span> <span class="p">:</span> <span class="s1">&#39;Antioquia&#39;</span><span class="p">}</span>
-<span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">replace</span><span class="p">({</span><span class="s2">&quot;Departamento&quot;</span><span class="p">:</span> <span class="nb">dict</span><span class="p">})</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="6-Cleaning-Text">6 Cleaning Text<a class="anchor-link" href="#6-Cleaning-Text">&#182;</a></h1>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">string</span><span class="o">,</span> <span class="nn">math</span>
-<span class="k">def</span> <span class="nf">cleantext</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
-    <span class="k">if</span> <span class="n">text</span> <span class="o">==</span> <span class="n">text</span><span class="p">:</span> <span class="c1">#check for nan values</span>
-        <span class="n">text</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">,</span> <span class="s2">&quot; &quot;</span><span class="p">)</span>
-        <span class="n">text</span> <span class="o">=</span> <span class="s2">&quot; &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">text</span><span class="o">.</span><span class="n">split</span><span class="p">())</span>
-    <span class="k">return</span> <span class="n">text</span>
-
-<span class="n">df</span><span class="p">[</span><span class="s2">&quot;Text&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">&quot;Text&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">cleantext</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">t</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="mi">15</span><span class="p">][</span><span class="s2">&quot;Text&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
-<span class="n">t</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="6.-Saving-text-in-csv">6. Saving text in csv<a class="anchor-link" href="#6.-Saving-text-in-csv">&#182;</a></h1>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s2">&quot;data/alertas.csv&quot;</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s2">&quot;|&quot;</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="7.-Saving-HTML">7. Saving HTML<a class="anchor-link" href="#7.-Saving-HTML">&#182;</a></h1>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>jupyter nbconvert --to html 1_Parsing_Data.ipynb
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-     </div>
-</div>
-</div>
 </div>
 
 </div>
