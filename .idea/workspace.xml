@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e75048ce-60c0-4f7d-98de-651f08f55317" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/11_Distribution_of_NNAJ_Docs_Time-Copy1-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/7_NNA-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/7_NNA-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/8_NNAJ_NGrams-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/8_NNAJ_NGrams-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/9_NNAJ_Report-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/9_NNAJ_Report-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_NNAJ_Count_NNAJ_Sentences.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/10_NNAJ_Count_NNAJ_Sentences.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11_Distribution_of_NNAJ_Docs_Time-Copy1.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11_Distribution_of_NNAJ_Docs_Time.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/11_Distribution_of_NNAJ_Docs_Time.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/15_Cleaning_NNAJ_reclutamiento.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/15_Cleaning_NNAJ_reclutamiento.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7_NNA.html" beforeDir="false" afterPath="$PROJECT_DIR$/7_NNA.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7_NNA.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/7_NNA.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8_NNAJ_NGrams.html" beforeDir="false" afterPath="$PROJECT_DIR$/8_NNAJ_NGrams.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8_NNAJ_NGrams.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/8_NNAJ_NGrams.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9_NNAJ_Report.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/9_NNAJ_Report.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/alertas_NNAJ_keywords" beforeDir="false" afterPath="$PROJECT_DIR$/data/alertas_NNAJ_keywords" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/alertas_NNAJ_keywords.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/alertas_NNAJ_keywords.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/alertas_NNA_sentences.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/alertas_NNA_sentences.csv" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2LIZNgv5UHpsJerLEtSdq18zA9D" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/yadir/Documents/workspace/alertas_colombia"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e75048ce-60c0-4f7d-98de-651f08f55317" name="Changes" comment="" />
+      <created>1675560518944</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675560518944</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
