@@ -1,0 +1,545 @@
+LOC;lat;lon;Filename
+Abrego, Norte de Santander;8.082246099999999;-73.13496049999999;5
+Acacias, Meta;3.991663;-73.76612899999999;28
+Acandí, Chocó;8.510109;-77.27897999999999;33
+Achí, Bolívar;8.567684999999999;-74.5559339;1
+Achí, Cauca;2.57301;-76.77915999999999;16
+Achí, Cesar;8.570080743082608;-74.55650886273637;3
+Aguachica, Cesar;8.3097459;-73.61448709999999;5
+Aguazul, Casanare;5.170847;-72.55081899999999;15
+Albania, Caquetá;1.3291425;-75.87856339999999;4
+Albán, Caquetá;0.869892;-73.8419063;2
+Algarrobo, Magdalena;10.10004;-74.26662999999999;1
+Algeciras, Huila;2.523286;-75.3156229;31
+Alto Baudo, Chocó;5.516347;-76.974502;56
+Altos del Rosario, Bolívar;8.7931714;-74.1608708;3
+Andes, Antioquia;5.656421;-75.879654;4
+Andes, Nariño;1.4937224;-77.5213227;12
+Anorí, Quindío;7.073592499999999;-75.1469662;1
+Apartadó, Antioquia;7.882760999999999;-76.624692;7
+Apartadó, Quindío;4.4610191;-75.667356;23
+Aracataca, Magdalena;10.591925;-74.186103;29
+Araquita, Arauca;7.029334;-71.4294759;12
+Arauca, Arauca;6.7801281;-70.7168469;72
+Arauquita, Arauca;7.029334;-71.4294759;51
+Arenal, Bolívar;8.45917;-73.94093;21
+Arenal, Norte de Santander;7.9462831;-72.8988069;7
+Argelia, Cauca;2.3611583;-77.2405153;12
+Argelia, Valle del Cauca;4.727773;-76.12151399999999;1
+Ariguaní, Magdalena;9.844197;-74.22811899999999;7
+Arjona, Bolívar;10.252471;-75.347308;13
+Armenia, Quindío;4.535000399999999;-75.6756888;20
+Armenia, Risaralda;4.97586;-75.75666;21
+Armero, Tolima;5.0051173;-74.8273184;2
+Astrea, Magdalena;9.499569752906764;-73.97463916706934;18
+Ataco, Tolima;3.591068;-75.381727;16
+Atrato Medio, Chocó;5.989716400000001;-76.7336521;11
+Atrato, Chocó;5.5549057;-76.6181655;6
+Ayapel, Córdoba;8.3092849;-75.140264;13
+Bahía Solano, Chocó;6.222551999999999;-77.40115399999999;2
+Bahía Solano, Chocó;6.222551999999999;-77.40115399999999;28
+Bajo Baudó, Chocó;5.3442678;-77.2864879;58
+Balboa, Cauca;2.0409787;-77.2164114;8
+Baraya, Huila;3.151685;-75.054209;2
+Barbacoas, Nariño;1.5635978;-78.0195387;42
+Barrancabermeja, Antioquia;6.816669999999999;-74.0833;80
+Barranco de Loba, Bolívar;8.948135;-74.106454;12
+Barrancominas, Guainía;3.4944415;-69.8153804;4
+Barranquilla, Atlántico;11.0041072;-74.80698129999999;35
+Belén de los Andaquíes, Caquetá;1.420043;-75.8724671;3
+Bello, Antioquia;6.336728799999999;-75.55958869999999;10
+Bello, Cesar;10.409447189821881;-73.58981210668578;9
+Belén de Bajira, Chocó;7.3716922;-76.714186;14
+Belén de Los Andaquies, Caquetá;1.420043;-75.8724671;11
+Belén, Caquetá;1.345558;-75.840813;2
+Betania, Antioquia;5.746649;-75.977569;4
+Bogotá D.C, Bolívar;4.710988599999999;-74.072092;8
+Bogotá D.C., Bogotá;4.710988599999999;-74.072092;199
+Bogotá D.C., Cundinamarca;4.710988599999999;-74.072092;21
+Bogotá D.C., Tolima;4.710988599999999;-74.072092;13
+Bogotá. D.C, Bogotá;4.710988599999999;-74.072092;22
+Bojaya, Chocó;6.5213281;-76.9728457;32
+Bojaya, Quindío;6.5213281;-76.9728457;4
+Bojayá, Chocó;6.5213281;-76.9728457;1
+Bolívar, Bolívar;8.6704382;-74.0300122;28
+Bolívar, Quindío;4.4610191;-75.667356;6
+Boyacá, Boyacá;5.454511;-73.362003;14
+Briceño, Antioquia;7.1129229;-75.55109980000002;4
+Briceño, Antioquia;7.1129229;-75.55109980000002;24
+Bucaramanga, Antioquia;7.119349;-73.1227416;20
+Bucarasica, Norte de Santander;8.039551;-72.866872;4
+Buenaventura, Valle del Cauca;3.8830471;-77.01972119999999;49
+Buenavista, Córdoba;8.222953;-75.482981;13
+Buenavista, Quindío;4.3526315;-75.7487779;4
+Buenventura, Valle del Cauca;3.8830471;-77.01972119999999;2
+Cabrera, Cundinamarca;3.9842364;-74.4842232;21
+Cabrera, Nariño;1.2333;-77.21672;4
+Cabuyaro, Meta;4.284528;-72.7923129;10
+Cacahual, Guainía;3.52618;-67.4124933;1
+Caicedonia, Valle del Cauca;4.3329129;-75.827107;2
+Cajamarca, Tolima;4.441792;-75.426844;1
+Calamar, Guaviare;1.920614;-72.554237;75
+Calarca, Quindío;4.5266936;-75.64095739999999;5
+Calarcá, Quindío;4.5266936;-75.64095739999999;18
+Caldas, Caldas;5.054639660097866;-75.47940460716484;4
+Caldono, Cauca;2.7977575;-76.4834781;23
+Cali, Norte de Santander;7.9462831;-72.8988069;2
+Cali, Valle del Cauca;3.4516467;-76.5319854;28
+Caloto, Cauca;3.0358187;-76.40786659999999;18
+Campoalegre, Huila;2.6851058;-75.3266416;6
+Cantagallo, Bolívar;7.381529999999999;-73.91912099999999;1
+Cantagallo, Quindío;4.4610191;-75.667356;6
+Cantón, Chocó;5.6914548;-76.65897939999999;12
+Caracolí, Antioquia;6.408748999999999;-74.7576179;21
+Carepa, Antioquia;7.755354;-76.6554309;1
+Carepa, Quindío;7.755354;-76.6554309;5
+Carmen de Atrato, Quindío;5.8998577;-76.14223179999999;2
+Carmen de Bolívar, Bolívar;9.7180213;-75.1209887;8
+Carmen del Darien, Chocó;5.253016970279803;-76.82596520469436;49
+Cartagena, Bolívar;10.3932277;-75.4832311;35
+Carurú, Vaupés;1.0126327;-71.2965117;14
+Casabianca, Tolima;5.078568;-75.119717;2
+Caucasia, Cauca;7.983182100000001;-75.1981665;12
+Caucasia, Quindío;7.983182100000001;-75.1981665;7
+Cañasgordas, Antioquia;6.7509209;-76.02597879999999;11
+Cañasgordas, Quindío;6.7509209;-76.02597879999999;6
+Cáceres, Cauca;2.20849;-77.8288199;10
+Cerrito, Valle del Cauca;3.684084;-76.312996;5
+Chaguaní, Cundinamarca;4.9493414;-74.5938658;18
+Chaparral, Tolima;3.7440073;-75.5742467;19
+Chibolo, Magdalena;10.0274472;-74.6238453;7
+Chigorodó, Antioquia;7.6645455;-76.67748449999999;1
+Chigorodó, Quindío;7.6645455;-76.67748449999999;11
+Chimichagua, Cesar;9.258032300000002;-73.8142384;4
+Chimichagua, Magdalena;9.258032300000002;-73.8142384;18
+Chiscas, Boyacá;6.5527257;-72.4995814;11
+Chita, Boyacá;6.187449;-72.4732654;11
+Cimitarra, Antioquia;6.315208999999999;-73.9489059;5
+Circasia, Quindío;4.616093999999999;-75.635595;14
+Ciudad Bolívar, Antioquia;5.852475999999999;-76.0218469;4
+Ciudad Bolívar, Bolívar;5.851450055027782;-76.02167748047562;12
+Ciénaga, Magdalena;11.007984;-74.248926;29
+Colombia, Atlántico;10.6966159;-74.8741045;14
+Colombia, Huila;3.3762396;-74.8023651;10
+Concordia, Meta;2.6227918;-72.7598422;25
+Condoto, Chocó;5.089545999999999;-76.652079;23
+Convención, Norte de Santander;8.470146;-73.337007;3
+Cordoba, Quindío;4.392094999999999;-75.687434;5
+Corinto, Cauca;3.1756423;-76.2591932;10
+Corozal, Casanare;5.35;-72.30002;7
+Cota, Boyacá;5.454511;-73.362003;2
+Coveñas, Sucre;9.403438999999999;-75.68008669999999;17
+Cravo Norte, Arauca;6.304349999999999;-70.202659;16
+Cubará, Boyacá;7.00178;-72.108186;13
+Cumaribo, Vichada;4.444922;-69.79807869999999;24
+Cumbitara, Nariño;1.6479737;-77.57850549999999;26
+Curillo, Putumayo;1.0340079;-75.9214427;13
+Curumaní, Cesar;9.201062;-73.5425659;4
+Cúcuta, Norte de Santander;7.8890971;-72.4966896;3
+Cáceres, Antioquia;7.579028999999998;-75.34954499999999;2
+Cértegui, Chocó;5.371643199999999;-76.6085705;26
+Córdoba, Córdoba;8.765106754125203;-75.87187833545246;45
+Córdoba, Quindío;4.392094999999999;-75.687434;6
+Cúcuta, Norte de Santander;7.8890971;-72.4966896;25
+Cúcuta, Santander;7.8890971;-72.4966896;6
+Dabeiba, Antioquia;6.997374;-76.256824;11
+Dabeiba, Quindío;6.997374;-76.256824;6
+Dibulla, La Guajira;11.2724671;-73.3094943;21
+Dosquebradas, Risaralda;4.8318256;-75.68056779999999;18
+Duitama, Boyacá;5.8268951;-73.0329273;1
+El Bagre, Cauca;7.6049669;-74.8090098;10
+El Bagre, Quindío;7.6049669;-74.8090098;7
+El Banco, Magdalena;9.003506999999999;-73.97386399999999;18
+El Cairo, Valle del Cauca;4.760770400000001;-76.2216962;3
+El Carmen de Bolívar, Bolívar;9.7180213;-75.1209887;8
+El Carmen, Norte de Santander;8.49567;-73.44704;3
+El Castillo, Meta;3.564252;-73.794394;11
+El Charco, Nariño;2.479311;-78.11021099999999;48
+El Cocuy, Boyacá;6.408891;-72.4454499;11
+El Copey, Cesar;10.148976;-73.960233;3
+El Doncello, Caquetá;1.680042;-75.2833349;23
+El Dovio, Valle del Cauca;4.5081065;-76.2371857;26
+El Encanto, Amazonas;-1.7471448;-73.20910099999999;2
+El Espino, Boyacá;6.4864;-72.43285999999999;11
+El Paujil, Caquetá;1.5710821;-75.3268349;14
+El Retorno, Guaviare;2.331899;-72.62812699999999;75
+El Retén, Magdalena;10.611793;-74.26938299999999;5
+El Rosario, Nariño;1.742897;-77.33513239999999;26
+El Tambo, Cauca;2.452695;-76.81132199999999;12
+El Tarra, Norte de Santander;8.57451;-73.09339;43
+El Zulia, Norte de Santander;7.937289;-72.604826;2
+El Zulia, Santander;7.937289;-72.604826;6
+El charo, Nariño;2.479311;-78.11021099999999;1
+Espinal, Tolima;4.147075;-74.89749250000001;4
+Espinal, Tolima, Tolima;4.147075;-74.89749250000001;2
+Falan, Tolima;5.1206208;-74.95246910000002;2
+Flandes, Tolima;4.2867309;-74.812294;4
+Flandes, Tolima, Tolima;4.2867309;-74.812294;2
+Florencia, Caquetá;1.6153858;-75.60423639999999;8
+Florida, Antioquia;6.2476598;-75.565816;10
+Florida, Valle del Cauca;3.3213339;-76.235361;26
+Floridablanca, Antioquia;6.2476598;-75.565816;20
+Fortul, Arauca;6.794366999999999;-71.7715489;53
+Francisco Pizarro, Nariño;2.0403017;-78.6582394;20
+Fredonia, Antioquia;5.9270266;-75.67135379999999;3
+Frontino, Antioquia;6.772999899999999;-76.1313454;9
+Fundación, Magdalena;10.517179;-74.1819979;37
+Fusagasugá, Cundinamarca;4.345152;-74.361823;20
+Galapa, Atlántico;10.8996383;-74.88618819999999;33
+Gama, Cesar;8.31940019494776;-73.74460033658191;3
+Gamarra, Cesar;8.319315999999999;-73.743937;3
+Girardot, Cundinamarca, Tolima;4.3045959;-74.8031414;2
+Girardot, Tolima;4.3045959;-74.8031414;4
+Giron, Antioquia;6.2476598;-75.565816;4
+Girón, Antioquia;6.2476598;-75.565816;16
+Granada, Meta;3.5436442;-73.7028107;34
+Guadalajara de Buga, Valle del Cauca;3.8946048;-76.3055772;5
+Guaduas, Cundinamarca;5.0678088;-74.5953205;18
+Guamal, Magdalena;9.144527;-74.22629400000001;18
+Guapi, Cauca;2.5728709;-77.8889378;2
+Guapi, Quindío;4.4610191;-75.667356;3
+Guaranda, Sucre;8.468309999999999;-74.537025;9
+Génova, Quindío;4.2497299;-75.66954;18
+Güicán de la Sierra, Boyacá;6.4630011;-72.411958;9
+Güicán, Boyacá;6.4630011;-72.411958;2
+Hacarí, Norte de Santander;8.320680099999999;-73.1461958;1
+Hato Corozal, Casanare;6.154946;-71.76236;16
+Hato Corozal, Nariño;6.154946;-71.76236;2
+Hato, Casanare;6.154946;-71.76236;7
+Hispania, Antioquia;5.7991967;-75.908417;4
+Ibagué, Tolima;4.444675999999999;-75.24243799999999;3
+Icononzo, Tolima;4.17645;-74.531723;13
+Inírida, Guainía;3.8702044;-67.92433609999999;1
+Iscuande, Nariño;2.4505212;-77.98026930000002;7
+Iscuandé, Nariño;2.4505212;-77.98026930000002;5
+Istmina, Chocó;5.157448899999999;-76.6880899;37
+Itagui, Quindío;4.4610191;-75.667356;1
+Ituango, Antioquia;7.1722236;-75.764398;30
+Ituango, Quindío;7.1722236;-75.764398;14
+Íquira, Huila;2.649516;-75.635076;3
+Jambaló, Cauca;2.7768879;-76.3247615;22
+Jardín, Antioquia;5.598813199999999;-75.8198172;4
+Jericó, Boyacá;6.146030000000001;-72.57065399999999;11
+Juradó, Chocó;7.102626;-77.762046;27
+La Apartada, Córdoba;8.048048999999999;-75.33410099999999;13
+La Chorrera, Amazonas;-1.443383;-72.788945;2
+La Dorada, Caldas;5.472709;-74.66798399999999;4
+La Gloria, Cesar;8.6180139;-73.80227719999999;3
+La Guadalupe, Guainía;1.3648401;-67.04645909999999;1
+La Llanada, Nariño;1.472852;-77.5798499;12
+La Macarena, Meta;2.1831929;-73.7843783;55
+La Montañita, Caquetá;1.4342295;-75.3878525;11
+La Paz, Cesar;10.3868315;-73.1706425;5
+La Pedrera, Amazonas;-1.3220043;-69.578386;12
+La Primavera, Vichada;5.4915919;-70.4139951;9
+La Salina, Casanare;6.1281064;-72.3343478;12
+La Salina, Nariño;1.2897467;-77.3580033;10
+La Tebaida, Quindío;4.453588;-75.79153;14
+La Tola, Nariño;2.399572;-78.189712;49
+La Unión, Valle del Cauca;4.529822999999999;-76.1088001;16
+La Victoria, Amazonas;-0.1060558;-71.1448516;5
+La Victoria, Vaupés;0.8553561;-70.81199529999999;1
+La Virginia, Risaralda;4.9019631;-75.88444020000001;6
+Labranzagrande, Boyacá;5.562762999999999;-72.57762799999999;4
+Leguízamo, Putumayo;-0.185957;-74.78366;5
+Leiva, Nariño;1.9354157;-77.3035623;26
+Lejanías, Meta;3.5272204;-74.022413;13
+Litoral de San Juan, Chocó;4.2006777;-76.7336521;2
+Lloró, Chocó;5.499682;-76.542596;5
+Lorica, Córdoba;9.2376398;-75.81362450000002;20
+Los Andes, Nariño;1.4937224;-77.5213227;12
+Los Patios, Norte de Santander;7.833199;-72.504392;19
+Los Patios, Santander;7.8328574308121075;-72.50490863729128;6
+Lérida, Tolima;4.8658613;-74.89749250000001;2
+Líbano, Córdoba;9.30001;-75.88333999999999;5
+Líbano, Tolima;4.9224602;-75.0642244;2
+López de Micay, Cauca;2.8458039;-77.24803899999999;2
+López de Micay, Quindío;2.8458039;-77.24803899999999;3
+López, Meta;4.129390111599738;-73.62940173168514;5
+Maceo, Antioquia;6.551367;-74.787294;21
+Magangué, Magdalena;9.2414156;-74.7527587;3
+Magui Payán, Nariño;1.7658466;-78.1838239;3
+Maguí Payán, Nariño;1.7658466;-78.1838239;22
+Maicao, La Guajira;11.3800543;-72.2422465;13
+Maicaol, La Guajira;11.3800543;-72.2422465;5
+Majagual, Sucre;8.4865278;-74.7337069;9
+Malambo, Atlántico;10.8575824;-74.7746834;40
+Manizales, Risaralda;5.0629743;-75.5027698;21
+Maní, Nariño;1.2897467;-77.3580033;12
+Maní, Risaralda;5.315847499999999;-75.9927652;21
+Mapiripán, Meta;2.892506;-72.13317500000001;70
+Marquetalia, Caldas;5.300064;-75.051548;2
+María la Baja, Bolívar;9.983431500000002;-75.30223749999999;4
+Medellín, Antioquia;6.2476376;-75.56581530000001;38
+Medellín, Antioquia;6.2476376;-75.56581530000001;5
+Medellín, Quindío;6.2476376;-75.56581530000001;63
+Medio Atrato, Chocó;5.989716400000001;-76.7336521;21
+Medio Atrato, Quindío;5.989716400000001;-76.7336521;2
+Medio Baudó, Chocó;5.1334095;-76.964306;56
+Medio San Juan, Chocó;5.6914548;-76.65897939999999;37
+Mesetas, Meta;3.381995;-74.043801;25
+Milán, Caquetá;1.33546;-75.51080999999999;10
+Miraflores, Guaviare;1.337454;-71.950914;38
+Miranda, Cauca;3.2135542;-76.2131474;2
+Miranda, Valle del Cauca;3.2135542;-76.2131474;9
+Mirití-Parana, Amazonas;-1.205904;-69.887903;5
+Mistrató, Risaralda;5.2962025;-75.88155549999999;12
+Mitú, Vaupés;1.2521739;-70.23361799999999;29
+Montañita, Caquetá;1.4342295;-75.3878525;10
+Montecristo, Bolívar;8.294838;-74.4750948;3
+Montecristo, Cauca;2.57301;-76.77915999999999;16
+Montelíbano, Córdoba;7.976803;-75.417209;85
+Montenegro, Quindío;4.566637;-75.75012;14
+Montería, Córdoba;8.750983;-75.8785348;3
+Montería, Córdoba;8.750983;-75.8785348;25
+Morales, Bolívar;8.27533;-73.86817599999999;17
+Mosquera, Nariño;2.50923;-78.451284;26
+Moñitos, Córdoba;9.246122699999999;-76.1316984;20
+Murillo, Tolima;3.80419;-74.94281;1
+Murindó, Antioquia;6.976297;-76.81975;3
+Mutatá, Quindío;7.361357399999999;-76.5025742;11
+Nariño, Nariño;1.289151;-77.35794000000001;25
+Nechí, Cauca;8.0909315;-74.77964659999999;10
+Nechí, Quindío;8.0909315;-74.77964659999999;10
+Neiva, Huila;2.9344837;-75.2809001;2
+Norcasia, Caldas;5.576269;-74.889557;2
+Norosí, Bolívar;8.528027;-74.037018;21
+Norosí, Norte de Santander;7.9462831;-72.8988069;7
+Nuquí, Chocó;5.709563;-77.2666969;26
+Nóvita, Chocó;4.956167;-76.60734900000001;23
+Ocaña, Norte de Santander;8.252049999999999;-73.3532199;8
+Ocaña, Norte de Santander;8.252049999999999;-73.3532199;5
+Olaya Herrera, Nariño;2.2772880621602263;-78.31589372202436;49
+Olaya, Nariño;2.2740962;-78.3159411;1
+Orito, Putumayo;0.6766344999999999;-76.87960609999999;19
+Ovejas, Sucre;9.525146;-75.2296693;1
+Pacoa, Vaupés;0.1410295;-70.6216794;19
+Pailitas, Cesar;8.959667;-73.626268;7
+Palmar, Chocó;8.360035511409237;-77.10802946234729;11
+Palmira, Valle del Cauca;3.5379718;-76.2971657;5
+Palocabildo, Tolima;5.119358;-75.023736;2
+Pandi, Cundinamarca;4.19065;-74.486751;20
+Panqueba, Boyacá;6.4426733;-72.4594939;11
+Papunahua, Vaupés;1.8028463;-70.7168469;5
+Papunaua, Vaupés;1.8028463;-70.7168469;5
+Paratebueno, Cundinamarca;4.3746917;-73.2120879;4
+Pasca, Cundinamarca;4.308498;-74.299995;20
+Patía, Cauca;2.1482437;-77.0794705;3
+Paya, Boyacá;5.6260229;-72.4221792;4
+Paya, Nariño;1.2897467;-77.3580033;14
+Paz de Ariporo, Casanare;5.880639;-71.892912;9
+Paz de Ariporo, Nariño;5.880639;-71.892912;2
+Pelaya, Cesar;8.688030999999999;-73.666377;5
+Pensilvania, Caldas;5.38211;-75.16142599999999;3
+Peque, Antioquia;7.021420099999999;-75.9088137;11
+Peque, Quindío;4.4610191;-75.667356;6
+Pereira, Risaralda;4.8087174;-75.690601;38
+Piamonte, Cauca;1.2155968;-76.4100267;1
+Piamonte, Putumayo;1.2155968;-76.4100267;13
+Piedecuesta, Antioquia;6.991539;-73.05399799999999;20
+Pijao, Quindío;4.334346099999999;-75.7036308;18
+Pisba, Boyacá;5.722797;-72.48457499999999;4
+Planadas, Tolima;3.1207486;-75.8533954;19
+Planeta Rica, Córdoba;8.412749;-75.584048;16
+Plato, Magdalena;9.791337;-74.7975249;7
+Playa de Belén, Norte de Santander;8.274846799999999;-73.2057595;5
+Policarpa, Nariño;1.6289529;-77.4592061;27
+Pradera, Valle del Cauca;3.4195763;-76.24053119999999;26
+Pueblo Bello, Cesar;10.43458;-73.5829689;18
+Pueblo Bello, Valle del Cauca;3.8008893;-76.64127119999999;2
+Pueblo Nuevo, Córdoba;8.503178;-75.5075239;16
+Pueblo Rico, Risaralda;5.221976;-76.03042330000001;21
+Puerto Arica, Amazonas;-2.1495;-71.7546;2
+Puerto Asís, Putumayo;0.4985097;-76.4977428;10
+Puerto Berrío, Antioquia;6.4895388;-74.4047587;21
+Puerto Berrío, Quindío;6.4895388;-74.4047587;6
+Puerto Boyacá, Boyacá;5.975676699999999;-74.5922391;3
+Puerto Caicedo, Putumayo;0.6842064;-76.60416169999999;3
+Puerto Caidedo, Putumayo;0.6842064;-76.60416169999999;3
+Puerto Carreño, Vichada;6.1899117;-67.48256959999999;11
+Puerto Colombia, Atlántico;11.001004;-74.950761;40
+Puerto Colombia, Guainía;2.72032;-67.56446;1
+Puerto Concordia, Meta;2.6227918;-72.7598422;66
+Puerto Gaitán, Meta;4.3123762;-72.0826822;27
+Puerto Guzmán, Putumayo;0.9637699999999999;-76.40798099999999;18
+Puerto Leguízamo, Putumayo;-0.185957;-74.78366;8
+Puerto Libertador, Córdoba;7.8877104;-75.67099759999999;80
+Puerto Lleras, Meta;3.272414;-73.369542;60
+Puerto López, Meta;4.091354;-72.955918;27
+Puerto Nare, Antioquia;6.186497;-74.583726;21
+Puerto Rico, Caquetá;1.909918;-75.157235;23
+Puerto Rico, Meta;2.941214;-73.20746799999999;60
+Puerto Rondón, Arauca;6.281167;-71.1047959;17
+Puerto Santander, Amazonas;-0.6218736;-72.3825557;7
+Puerto Santander, Norte de Santander;8.361323;-72.408389;16
+Puerto Santander, Santander;8.361323;-72.408389;6
+Páez, Huila;2.5359349;-75.52766989999999;3
+Quibdó, Chocó;5.695633;-76.649812;14
+Quibdó, Quindío;5.695633;-76.649812;150
+Quimbaya, Quindío;4.625907;-75.761865;14
+Quinchía, Risaralda;5.341119099999999;-75.73047559999999;48
+Qunidío, Quindío;4.4610191;-75.667356;5
+Remedios, Antioquia;7.0281273;-74.69360689999999;5
+Remedios, Quindío;4.4610191;-75.667356;10
+Ricaurte, Cundinamarca, Tolima;4.277309;-74.77230500000002;2
+Ricaurte, Nariño;1.1483351;-78.0651931;2
+Ricaurte, Tolima;4.277309;-74.77230500000002;4
+Rio Quito, Chocó;5.5380856;-76.7798172;12
+Rioblanco, Tolima;3.530079;-75.643671;5
+Riohacha, La Guajira;11.5384151;-72.91678379999999;34
+Riosucio, Caldas;5.420683899999999;-75.705388;8
+Riosucio, Chocó;7.437558799999999;-77.11333479999999;51
+Rioviejo, Bolívar;8.588396999999999;-73.84025799999999;1
+Risaralda, Risaralda;5.315847499999999;-75.9927652;36
+Roberto Payán, Nariño;1.718516;-78.25312;25
+Roldanillo, Valle del Cauca;4.415473599999999;-76.1513942;4
+Río Quito, Chocó;5.5380856;-76.7798172;7
+Río Viejo, Bolívar;8.588396999999999;-73.84025799999999;9
+Ríoblanco, Tolima;3.530079;-75.643671;10
+Sabanalarga, Antioquia;6.8543086;-75.8133342;4
+Sabanas de San Angel, Magdalena;10.0297699;-74.21531;1
+Sabanas, Magdalena;10.3792953;-74.7056095;7
+Salento, Quindío;4.637365;-75.5703107;9
+Salgar, Antioquia;5.963336;-75.963942;4
+Samaniego, Nariño;1.332614;-77.58615499999999;12
+Samaná, Caldas;5.413047;-74.99146390000001;3
+San Alberto, Cesar;7.7636684;-73.3932117;3
+San Andrés de Cuerquía, Quindío;6.913245;-75.67555999999999;13
+San Antero, Córdoba;9.374642;-75.758517;20
+San Benito Abad, Sucre;8.93159;-75.0308214;6
+San Benito, Sucre;8.93159;-75.0308214;6
+San Bernardo del Viento, Córdoba;9.3525858;-75.9535815;20
+San Bernardo, Cundinamarca;4.179444;-74.421566;1
+San Calixto, Norte de Santander;8.4015989;-73.2089979;15
+San Carlos, Córdoba;8.7946422;-75.6995195;3
+San Felipe, Guainía;1.9169897;-67.0762467;1
+San Francisco, Quindío;4.5369;-75.67177;1
+San Jacinto del Cauca, Cauca;8.2314212;-74.7337069;16
+San Jacinto, Bolívar;9.8297142;-75.12294899999999;9
+San José de Uré, Córdoba;7.787317900000001;-75.53590609999999;19
+San José del Fragua, Caquetá;1.3315742;-75.9733147;11
+San José del Fragua, Putumayo;1.3315742;-75.9733147;13
+San José del Guaviare, Guaviare;2.5677606;-72.6396535;32
+San José del Guaviare, Meta;2.5677606;-72.6396535;46
+San José del Guavire, Meta;2.5677606;-72.6396535;11
+San José del Palmar, Chocó;4.97262;-76.22922;29
+San José, Caquetá;1.36056;-75.94908099999999;2
+San José, Chocó;4.222589999999999;-77.09631999999999;11
+San José, Meta;3.986680375727126;-73.77348313869281;16
+San Juan Nepomuceno, Bolívar;9.951139999999999;-75.083828;4
+San Marcos, Sucre;8.663761;-75.13268289999999;6
+San Martín, Meta;3.698492;-73.697308;4
+San Martín, Cesar;7.929618;-73.5122928;3
+San Martín, Meta;3.698492;-73.697308;46
+San Miguel, Putumayo;0.33002;-76.87635999999999;42
+San Onofre, Sucre;9.74084;-75.519872;27
+San Pablo, Bolívar;7.477887;-73.92410799999999;23
+San Sebastián, Magdalena;9.2389289;-74.3500155;18
+San Vicente del Caguán, Caquetá;2.1136446;-74.7732056;19
+San Vicente del Caguán, Meta;2.1136446;-74.7732056;3
+Santa Bárbara de Iscuande, Nariño;2.4505212;-77.98026930000002;1
+Santa Bárbara, Nariño;2.4505212;-77.98026930000002;34
+Santa Isabel, Tolima;4.713973999999999;-75.0972892;1
+Santa Marta, Magdalena;11.2403547;-74.2110227;31
+Santa Rosa de Osos, Risaralda;5.315847499999999;-75.9927652;6
+Santa Rosa del Sur, Bolívar;7.9630638;-74.05097479999999;15
+Santa Rosa, Bolívar;10.445791;-75.368501;14
+Santa Rosa, Risaralda;4.870121;-75.62239;6
+Santa Rosalía, Vichada;5.135381;-70.86496090000001;9
+Santacruz, Nariño;1.51723;-77.25113999999999;12
+Santander de Quilichao, Cauca;3.0090132;-76.48630469999999;22
+Santiago de Tolú, Sucre;9.527477000000001;-75.5812215;10
+Sarave, Arauca;6.956106999999999;-71.87259499999999;6
+Saravena, Arauca;6.956106999999999;-71.87259499999999;48
+Sardinata, Norte de Santander;8.085092;-72.799937;4
+Segovia, Antioquia;7.079743499999999;-74.7004374;5
+Segovia, Quindío;4.4610191;-75.667356;10
+Sevilla, Valle del Cauca;4.2743779;-75.931004;2
+Sibaté, Cundinamarca;4.491196;-74.2593771;18
+Silvania, Cundinamarca;4.3867287;-74.3994432;20
+Silvia, Cauca;2.611615;-76.37754;17
+Simití, Bolívar;7.957151;-73.946404;22
+Sincelejo, Sucre;9.3045773;-75.39055669999999;10
+Sipí, Chocó;4.65306;-76.64417;32
+Soacha, Cundinamarca;4.5827227;-74.21174649999999;235
+Socha, Boyacá;5.997129999999999;-72.692665;11
+Socotá, Boyacá;6.041520999999999;-72.636498;11
+Solano, Caquetá;0.699152;-75.25355499999999;13
+Soledad, Atlántico;10.9215472;-74.7688173;40
+Solita, Putumayo;0.4359506;-75.52766989999999;13
+Sucre, Sucre;8.916538147248733;-74.72682304315609;13
+Sumapaz, Tolima;4.112506545093167;-74.5813021227584;13
+Supía, Caldas;5.45589;-75.65040100000002;7
+Suárez, Cauca;2.9532079;-76.6937039;2
+Sácama, Casanare;6.098996;-72.248193;19
+Sácama, Nariño;6.098996;-72.248193;10
+Tadó, Chocó;5.2649419;-76.55943300000001;10
+Tadó, Córdoba;5.2649419;-76.55943300000001;5
+Tadó, Risaralda;5.315847499999999;-75.9927652;3
+Tamalameque, Cesar;8.861748;-73.810756;3
+Tamalameque, Magdalena;10.33333;-74.54198;18
+Tame, Arauca;6.4586679;-71.73477369999999;59
+Taraira, Vaupés;-0.5644218999999999;-69.63385339999999;13
+Tarazá, Antioquia;7.583190999999999;-75.39996599999999;2
+Tarazá, Cauca;7.583190999999999;-75.39996599999999;10
+Tarazá, Quindío;7.583190999999999;-75.39996599999999;1
+Tello, Huila;3.0673499;-75.1381059;2
+Teorama, Norte de Santander;8.437521;-73.2869429;16
+Tibú, Norte de Santander;8.642356;-72.73773299999999;26
+Tierralta, Córdoba;8.171571;-76.062313;52
+Timbiquí, Cauca;2.777744;-77.66760599999999;2
+Timbiquí, Quindío;2.777744;-77.66760599999999;3
+Tiquisio, Bolívar;8.5555864;-74.26470429999999;24
+Tiquisio, Norte de Santander;8.5555864;-74.26470429999999;7
+Toledo, Quindío;4.4610191;-75.667356;11
+Tolu, Sucre;9.527477000000001;-75.5812215;2
+Toluviejo, Sucre;9.452848999999999;-75.4391349;5
+Tolú, Sucre;9.527477000000001;-75.5812215;5
+Toribio, Cauca;2.9562909;-76.2704;22
+Trujillo, Valle del Cauca;4.211646;-76.3187681;10
+Tuluá, Valle del Cauca;4.089869;-76.1914991;29
+Tumaco, Nariño;1.787434;-78.791265;46
+Turbaco, Bolívar;10.334638;-75.412672;13
+Turbo, Antioquia;8.0951588;-76.7284559;1
+Turbo, Quindío;4.4610191;-75.667356;23
+Támara, Casanare;5.83034;-72.163056;7
+Umbita, Nariño;5.22138;-73.45687;12
+Unguía, Chocó;8.041038799999999;-77.093099;33
+Uramita, Antioquia;6.899406;-76.17451489999999;11
+Uramita, Quindío;6.899406;-76.17451489999999;6
+Uribe, Meta;3.239241;-74.350661;28
+Uribia, La Guajira;11.7149978;-72.26593910000001;7
+Urrao, Antioquia;6.313860999999999;-76.13181;9
+Valaparaiso, Caquetá;1.1951639;-75.70532399999999;2
+Valdivia, Valle del Cauca;3.8008893;-76.64127119999999;14
+Valencia, Córdoba;8.2009388;-76.2247366;12
+Valencia, Valle del Cauca;3.8008893;-76.64127119999999;5
+Valle de Guamuez, Putumayo;0.4015861;-76.7798172;3
+Valle del Guamuez, Putumayo;0.4015861;-76.7798172;16
+Valledupar, Cesar;10.4742449;-73.2436335;10
+Valledupar, Valle del Cauca;4.18049;-77.16171;3
+ValparaísoAlbania, Caquetá;0.869892;-73.8419063;7
+Vaupés, Vaupés;0.8553561;-70.81199529999999;7
+Venecia, Antioquia;5.963962;-75.735417;3
+Venecia, Cundinamarca;4.089014;-74.4779102;29
+Victoria, Vaupés;0.8553561;-70.81199529999999;1
+Vigía del Fuerte, Chocó;6.588654099999999;-76.896277;31
+Vigía del Fuerte, Quindío;6.588654099999999;-76.896277;4
+Villa de Rosario, Norte de Santander;7.8437879;-72.46968970000002;17
+Villa del Rosario, Norte de Santander;7.8437879;-72.46968970000002;11
+Villa del Rosario, Santander;7.8437879;-72.46968970000002;6
+Villahermosa, Tolima;5.029564;-75.1168256;2
+Villavicencio, Meta;4.1491688;-73.6285475;12
+Vista Hermosa, Meta;3.127883;-73.752512;60
+Yarumal, Antioquia;6.961969;-75.4190689;5
+Yavaraté, Vaupés;0.6150599999999999;-69.2080299;13
+Yondó, Bolívar;6.951009099999999;-74.1709702;1
+Yondó, Quindío;6.951009099999999;-74.1709702;7
+Yopal, Casanare;5.348903;-72.40052299999999;15
+Zambrano, Bolívar;9.760999799999999;-74.89749250000001;8
+Zaragoza, Cauca;2.20849;-77.8288199;10
+Zaragoza, Quindío;4.4610191;-75.667356;17
+Zona Bananera, Magdalena;10.7922447;-74.1709702;29
+nan, Antioquia;6.2476598;-75.565816;2
+nan, Norte de Santander;7.9462831;-72.8988069;33
+nan, Valle del Cauca;3.8008893;-76.64127119999999;2
