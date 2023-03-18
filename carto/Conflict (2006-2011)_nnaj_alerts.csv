@@ -10,7 +10,7 @@ Conflict (2006-2011);Andes, Nariño;1.4937224;-77.5213227;12
 Conflict (2006-2011);Anorí, Quindío;7.073592499999999;-75.1469662;1
 Conflict (2006-2011);Apartadó, Quindío;4.4610191;-75.667356;4
 Conflict (2006-2011);Aracataca, Magdalena;10.591925;-74.186103;5
-Conflict (2006-2011);Arauca, Arauca;6.7801281;-70.7168469;22
+Conflict (2006-2011);Arauca, Arauca;6.547306;-71.0022311;22
 Conflict (2006-2011);Arauquita, Arauca;7.029334;-71.4294759;19
 Conflict (2006-2011);Arenal, Norte de Santander;7.9462831;-72.8988069;7
 Conflict (2006-2011);Argelia, Cauca;2.3611583;-77.2405153;5
@@ -24,7 +24,7 @@ Conflict (2006-2011);Barbacoas, Nariño;1.5635978;-78.0195387;24
 Conflict (2006-2011);Barrancabermeja, Antioquia;6.816669999999999;-74.0833;13
 Conflict (2006-2011);Barranco de Loba, Bolívar;8.948135;-74.106454;9
 Conflict (2006-2011);Barranquilla, Atlántico;11.0041072;-74.80698129999999;11
-Conflict (2006-2011);Bello, Cesar;10.409447189821881;-73.58981210668578;9
+Conflict (2006-2011);Bello, Cesar;10.40944718982188;-73.58981210668578;9
 Conflict (2006-2011);Belén de Bajira, Chocó;7.3716922;-76.714186;14
 Conflict (2006-2011);Belén de Los Andaquies, Caquetá;1.420043;-75.8724671;11
 Conflict (2006-2011);Belén, Caquetá;1.345558;-75.840813;2
@@ -59,7 +59,7 @@ Conflict (2006-2011);Concordia, Meta;2.6227918;-72.7598422;6
 Conflict (2006-2011);Condoto, Chocó;5.089545999999999;-76.652079;2
 Conflict (2006-2011);Cordoba, Quindío;4.392094999999999;-75.687434;5
 Conflict (2006-2011);Corinto, Cauca;3.1756423;-76.2591932;5
-Conflict (2006-2011);Coveñas, Sucre;9.403438999999999;-75.68008669999999;7
+Conflict (2006-2011);Coveñas, Sucre;9.403439;-75.68008669999999;7
 Conflict (2006-2011);Cravo Norte, Arauca;6.304349999999999;-70.202659;1
 Conflict (2006-2011);Cumaribo, Vichada;4.444922;-69.79807869999999;5
 Conflict (2006-2011);Cumbitara, Nariño;1.6479737;-77.57850549999999;18
@@ -68,7 +68,7 @@ Conflict (2006-2011);Córdoba, Quindío;4.392094999999999;-75.687434;4
 Conflict (2006-2011);Cúcuta, Norte de Santander;7.8890971;-72.4966896;17
 Conflict (2006-2011);Dibulla, La Guajira;11.2724671;-73.3094943;12
 Conflict (2006-2011);Dosquebradas, Risaralda;4.8318256;-75.68056779999999;6
-Conflict (2006-2011);El Bagre, Quindío;7.6049669;-74.8090098;5
+Conflict (2006-2011);El Bagre, Quindío;4.4610191;-75.667356;5
 Conflict (2006-2011);El Castillo, Meta;3.564252;-73.794394;6
 Conflict (2006-2011);El Charco, Nariño;2.479311;-78.11021099999999;15
 Conflict (2006-2011);El Doncello, Caquetá;1.680042;-75.2833349;3
@@ -130,7 +130,7 @@ Conflict (2006-2011);Mitú, Vaupés;1.2521739;-70.23361799999999;1
 Conflict (2006-2011);Montelíbano, Córdoba;7.976803;-75.417209;32
 Conflict (2006-2011);Montería, Córdoba;8.750983;-75.8785348;7
 Conflict (2006-2011);Mosquera, Nariño;2.50923;-78.451284;8
-Conflict (2006-2011);Moñitos, Córdoba;9.246122699999999;-76.1316984;10
+Conflict (2006-2011);Moñitos, Córdoba;9.2461227;-76.1316984;10
 Conflict (2006-2011);Nariño, Nariño;1.289151;-77.35794000000001;22
 Conflict (2006-2011);Nechí, Quindío;8.0909315;-74.77964659999999;10
 Conflict (2006-2011);Norosí, Norte de Santander;7.9462831;-72.8988069;7
@@ -155,7 +155,7 @@ Conflict (2006-2011);Puerto Asís, Putumayo;0.4985097;-76.4977428;2
 Conflict (2006-2011);Puerto Caidedo, Putumayo;0.6842064;-76.60416169999999;3
 Conflict (2006-2011);Puerto Colombia, Atlántico;11.001004;-74.950761;11
 Conflict (2006-2011);Puerto Concordia, Meta;2.6227918;-72.7598422;6
-Conflict (2006-2011);Puerto Guzmán, Putumayo;0.9637699999999999;-76.40798099999999;3
+Conflict (2006-2011);Puerto Guzmán, Putumayo;0.96377;-76.40798099999999;3
 Conflict (2006-2011);Puerto Libertador, Córdoba;7.8877104;-75.67099759999999;27
 Conflict (2006-2011);Puerto Lleras, Meta;3.272414;-73.369542;13
 Conflict (2006-2011);Puerto Rico, Caquetá;1.909918;-75.157235;3
@@ -210,9 +210,9 @@ Conflict (2006-2011);Tierralta, Córdoba;8.171571;-76.062313;13
 Conflict (2006-2011);Timbiquí, Cauca;2.777744;-77.66760599999999;2
 Conflict (2006-2011);Timbiquí, Quindío;2.777744;-77.66760599999999;3
 Conflict (2006-2011);Tiquisio, Norte de Santander;8.5555864;-74.26470429999999;7
-Conflict (2006-2011);Tolu, Sucre;9.527477000000001;-75.5812215;2
-Conflict (2006-2011);Toluviejo, Sucre;9.452848999999999;-75.4391349;5
-Conflict (2006-2011);Tolú, Sucre;9.527477000000001;-75.5812215;5
+Conflict (2006-2011);Tolu, Sucre;9.527477;-75.5812215;2
+Conflict (2006-2011);Toluviejo, Sucre;9.452849;-75.4391349;5
+Conflict (2006-2011);Tolú, Sucre;9.527477;-75.5812215;5
 Conflict (2006-2011);Toribio, Cauca;2.9562909;-76.2704;7
 Conflict (2006-2011);Tuluá, Valle del Cauca;4.089869;-76.1914991;9
 Conflict (2006-2011);Tumaco, Nariño;1.787434;-78.791265;9
