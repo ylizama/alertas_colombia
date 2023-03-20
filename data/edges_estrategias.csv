@@ -1,0 +1,1385 @@
+Source;Target;Year;Weight
+Amazonas;Disidensias FARC;2021;1
+Amazonas;Guerrillas;2014;1
+Amazonas;Guerrillas;2021;1
+Antioquia;Guerrillas;2012;1
+Antioquia;Guerrillas;2016;1
+Antioquia;Guerrillas;2017;2
+Antioquia;Guerrillas;2018;2
+Antioquia;Guerrillas;2019;3
+Antioquia;Guerrillas;2020;1
+Antioquia;Guerrillas;2021;3
+Antioquia;Nuevos Paramilitares (Narco-Para);2009;1
+Antioquia;Nuevos Paramilitares (Narco-Para);2012;1
+Antioquia;Nuevos Paramilitares (Narco-Para);2013;1
+Antioquia;Nuevos Paramilitares (Narco-Para);2014;1
+Antioquia;Nuevos Paramilitares (Narco-Para);2016;1
+Antioquia;Nuevos Paramilitares (Narco-Para);2017;2
+Antioquia;Nuevos Paramilitares (Narco-Para);2018;6
+Antioquia;Nuevos Paramilitares (Narco-Para);2019;1
+Antioquia;Nuevos Paramilitares (Narco-Para);2020;2
+Antioquia;Nuevos Paramilitares (Narco-Para);2021;1
+Antioquia;Paramilitares;2007;1
+Antioquia;Paramilitares;2008;1
+Antioquia;Paramilitares;2009;1
+Antioquia;Paramilitares;2012;1
+Antioquia;Paramilitares;2016;1
+Antioquia;Paramilitares;2018;2
+Antioquia;Paramilitares;2020;2
+Antioquia;Pequeños Grupos Ilegales;2009;1
+Antioquia;Pequeños Grupos Ilegales;2018;1
+Antioquia;Pequeños Grupos Ilegales;2020;1
+Antioquia;Pequeños Grupos Ilegales;2021;2
+Arauca;Disidensias FARC;2019;1
+Arauca;Guerrillas;2004;1
+Arauca;Guerrillas;2008;1
+Arauca;Guerrillas;2010;2
+Arauca;Guerrillas;2011;2
+Arauca;Guerrillas;2012;4
+Arauca;Guerrillas;2013;1
+Arauca;Guerrillas;2014;2
+Arauca;Guerrillas;2015;1
+Arauca;Guerrillas;2016;1
+Arauca;Guerrillas;2017;3
+Arauca;Guerrillas;2018;1
+Arauca;Guerrillas;2019;2
+Arauca;Guerrillas;2020;1
+Arauca;Guerrillas;2021;1
+Arauca;Nuevos Paramilitares (Narco-Para);2009;1
+Arauca;Paramilitares;2005;1
+Arauca;Paramilitares;2014;1
+Arauca;Paramilitares;2017;1
+Arauca;Paramilitares;2019;1
+Arauca;Pequeños Grupos Ilegales;2017;1
+Atlántico;Nuevos Paramilitares (Narco-Para);2011;1
+Atlántico;Nuevos Paramilitares (Narco-Para);2015;1
+Atlántico;Nuevos Paramilitares (Narco-Para);2018;1
+Atlántico;Nuevos Paramilitares (Narco-Para);2019;1
+Atlántico;Nuevos Paramilitares (Narco-Para);2020;1
+Atlántico;Paramilitares;2009;1
+Atlántico;Paramilitares;2018;1
+Atlántico;Pequeños Grupos Ilegales;2011;1
+Bogotá;Guerrillas;2015;1
+Bogotá;Guerrillas;2018;1
+Bogotá;Guerrillas;2019;2
+Bogotá;Guerrillas;2020;1
+Bogotá;Nuevos Paramilitares (Narco-Para);2009;1
+Bogotá;Nuevos Paramilitares (Narco-Para);2013;1
+Bogotá;Nuevos Paramilitares (Narco-Para);2014;1
+Bogotá;Nuevos Paramilitares (Narco-Para);2015;1
+Bogotá;Nuevos Paramilitares (Narco-Para);2018;2
+Bogotá;Nuevos Paramilitares (Narco-Para);2019;1
+Bogotá;Paramilitares;2006;1
+Bogotá;Paramilitares;2009;1
+Bogotá;Paramilitares;2014;1
+Bogotá;Paramilitares;2015;1
+Bogotá;Paramilitares;2018;2
+Bogotá;Paramilitares;2019;2
+Bogotá;Pequeños Grupos Ilegales;2013;1
+Bogotá;Pequeños Grupos Ilegales;2018;2
+Bogotá;Pequeños Grupos Ilegales;2019;2
+Bogotá;Pequeños Grupos Ilegales;2020;2
+Bolívar;Guerrillas;2003;1
+Bolívar;Guerrillas;2005;1
+Bolívar;Guerrillas;2009;1
+Bolívar;Guerrillas;2012;2
+Bolívar;Guerrillas;2013;1
+Bolívar;Guerrillas;2015;1
+Bolívar;Guerrillas;2016;1
+Bolívar;Guerrillas;2017;1
+Bolívar;Guerrillas;2018;2
+Bolívar;Guerrillas;2019;4
+Bolívar;Guerrillas;2020;3
+Bolívar;Guerrillas;2021;2
+Bolívar;Nuevos Paramilitares (Narco-Para);2010;1
+Bolívar;Nuevos Paramilitares (Narco-Para);2011;2
+Bolívar;Nuevos Paramilitares (Narco-Para);2012;1
+Bolívar;Nuevos Paramilitares (Narco-Para);2013;1
+Bolívar;Nuevos Paramilitares (Narco-Para);2014;3
+Bolívar;Nuevos Paramilitares (Narco-Para);2015;2
+Bolívar;Nuevos Paramilitares (Narco-Para);2016;2
+Bolívar;Nuevos Paramilitares (Narco-Para);2017;1
+Bolívar;Paramilitares;2005;1
+Bolívar;Paramilitares;2009;2
+Bolívar;Paramilitares;2015;1
+Bolívar;Paramilitares;2019;1
+Bolívar;Pequeños Grupos Ilegales;2005;1
+Bolívar;Pequeños Grupos Ilegales;2010;1
+Bolívar;Pequeños Grupos Ilegales;2016;1
+Bolívar;Pequeños Grupos Ilegales;2017;1
+Boyacá;Guerrillas;2003;1
+Boyacá;Guerrillas;2013;2
+Boyacá;Guerrillas;2014;1
+Boyacá;Nuevos Paramilitares (Narco-Para);2017;1
+Caldas;Guerrillas;2005;1
+Caldas;Guerrillas;2007;1
+Caldas;Guerrillas;2014;1
+Caldas;Nuevos Paramilitares (Narco-Para);2009;1
+Caldas;Nuevos Paramilitares (Narco-Para);2014;1
+Caldas;Paramilitares;2004;1
+Caldas;Paramilitares;2019;1
+Caquetá;Guerrillas;2005;1
+Caquetá;Guerrillas;2010;1
+Caquetá;Guerrillas;2011;3
+Caquetá;Guerrillas;2012;1
+Caquetá;Guerrillas;2013;2
+Caquetá;Guerrillas;2017;1
+Caquetá;Guerrillas;2020;1
+Caquetá;Guerrillas;2022;1
+Caquetá;Nuevos Paramilitares (Narco-Para);2008;1
+Caquetá;Nuevos Paramilitares (Narco-Para);2010;1
+Caquetá;Paramilitares;2008;1
+Caquetá;Pequeños Grupos Ilegales;2013;1
+Caquetá;Pequeños Grupos Ilegales;2020;1
+Casanare;Disidensias FARC;2019;1
+Casanare;Guerrillas;2017;1
+Casanare;Guerrillas;2018;1
+Casanare;Guerrillas;2019;1
+Casanare;Guerrillas;2020;1
+Casanare;Nuevos Paramilitares (Narco-Para);2017;1
+Cauca;Guerrillas;2009;2
+Cauca;Guerrillas;2010;1
+Cauca;Guerrillas;2011;4
+Cauca;Guerrillas;2012;1
+Cauca;Guerrillas;2013;1
+Cauca;Guerrillas;2014;1
+Cauca;Guerrillas;2017;2
+Cauca;Guerrillas;2018;2
+Cauca;Guerrillas;2019;4
+Cauca;Guerrillas;2020;3
+Cauca;Nuevos Paramilitares (Narco-Para);2009;1
+Cauca;Nuevos Paramilitares (Narco-Para);2011;1
+Cauca;Nuevos Paramilitares (Narco-Para);2017;2
+Cauca;Nuevos Paramilitares (Narco-Para);2019;1
+Cauca;Nuevos Paramilitares (Narco-Para);2020;1
+Cauca;Pequeños Grupos Ilegales;2011;1
+Cauca;Pequeños Grupos Ilegales;2019;1
+Cesar;Guerrillas;2022;1
+Cesar;Nuevos Paramilitares (Narco-Para);2010;1
+Cesar;Nuevos Paramilitares (Narco-Para);2011;1
+Cesar;Nuevos Paramilitares (Narco-Para);2016;1
+Cesar;Nuevos Paramilitares (Narco-Para);2019;1
+Cesar;Nuevos Paramilitares (Narco-Para);2022;1
+Cesar;Paramilitares;2004;1
+Cesar;Paramilitares;2010;1
+Cesar;Paramilitares;2011;1
+Cesar;Paramilitares;2012;1
+Cesar;Paramilitares;2022;1
+Cesar;Pequeños Grupos Ilegales;2011;1
+Cesar;Pequeños Grupos Ilegales;2019;1
+Chocó;Disidensias FARC;2017;2
+Chocó;Disidensias FARC;2018;1
+Chocó;Disidensias FARC;2019;1
+Chocó;Disidensias FARC;2020;1
+Chocó;Guerrillas;2003;2
+Chocó;Guerrillas;2004;1
+Chocó;Guerrillas;2006;1
+Chocó;Guerrillas;2009;2
+Chocó;Guerrillas;2010;1
+Chocó;Guerrillas;2011;3
+Chocó;Guerrillas;2012;3
+Chocó;Guerrillas;2013;1
+Chocó;Guerrillas;2014;1
+Chocó;Guerrillas;2015;1
+Chocó;Guerrillas;2016;5
+Chocó;Guerrillas;2017;4
+Chocó;Guerrillas;2018;4
+Chocó;Guerrillas;2019;3
+Chocó;Guerrillas;2020;4
+Chocó;Guerrillas;2021;2
+Chocó;Nuevos Paramilitares (Narco-Para);2009;2
+Chocó;Nuevos Paramilitares (Narco-Para);2010;2
+Chocó;Nuevos Paramilitares (Narco-Para);2011;3
+Chocó;Nuevos Paramilitares (Narco-Para);2012;4
+Chocó;Nuevos Paramilitares (Narco-Para);2013;1
+Chocó;Nuevos Paramilitares (Narco-Para);2014;1
+Chocó;Nuevos Paramilitares (Narco-Para);2015;1
+Chocó;Nuevos Paramilitares (Narco-Para);2016;3
+Chocó;Nuevos Paramilitares (Narco-Para);2018;2
+Chocó;Nuevos Paramilitares (Narco-Para);2019;1
+Chocó;Paramilitares;2003;1
+Chocó;Paramilitares;2004;2
+Chocó;Paramilitares;2006;1
+Chocó;Paramilitares;2009;1
+Chocó;Paramilitares;2010;1
+Chocó;Paramilitares;2011;1
+Chocó;Paramilitares;2012;3
+Chocó;Paramilitares;2016;3
+Chocó;Paramilitares;2017;1
+Chocó;Paramilitares;2018;1
+Chocó;Pequeños Grupos Ilegales;2019;1
+Countrywide;Guerrillas;2019;1
+Countrywide;Guerrillas;2022;1
+Countrywide;Nuevos Paramilitares (Narco-Para);2014;1
+Countrywide;Pequeños Grupos Ilegales;2018;1
+Countrywide;Pequeños Grupos Ilegales;2019;1
+Cundinamarca;Guerrillas;2002;1
+Cundinamarca;Guerrillas;2003;3
+Cundinamarca;Guerrillas;2004;3
+Cundinamarca;Guerrillas;2011;1
+Cundinamarca;Guerrillas;2016;2
+Cundinamarca;Guerrillas;2017;1
+Cundinamarca;Guerrillas;2018;2
+Cundinamarca;Nuevos Paramilitares (Narco-Para);2011;2
+Cundinamarca;Nuevos Paramilitares (Narco-Para);2012;1
+Cundinamarca;Nuevos Paramilitares (Narco-Para);2015;2
+Cundinamarca;Nuevos Paramilitares (Narco-Para);2016;2
+Cundinamarca;Nuevos Paramilitares (Narco-Para);2017;3
+Cundinamarca;Nuevos Paramilitares (Narco-Para);2018;2
+Cundinamarca;Nuevos Paramilitares (Narco-Para);2019;1
+Cundinamarca;Nuevos Paramilitares (Narco-Para);2020;1
+Cundinamarca;Paramilitares;2002;1
+Cundinamarca;Paramilitares;2003;2
+Cundinamarca;Paramilitares;2004;4
+Cundinamarca;Paramilitares;2005;1
+Cundinamarca;Paramilitares;2007;1
+Cundinamarca;Paramilitares;2008;1
+Cundinamarca;Paramilitares;2012;1
+Cundinamarca;Paramilitares;2013;1
+Cundinamarca;Paramilitares;2015;1
+Cundinamarca;Paramilitares;2016;2
+Cundinamarca;Paramilitares;2017;3
+Cundinamarca;Paramilitares;2018;1
+Cundinamarca;Paramilitares;2020;1
+Cundinamarca;Pequeños Grupos Ilegales;2013;1
+Cundinamarca;Pequeños Grupos Ilegales;2015;1
+Cundinamarca;Pequeños Grupos Ilegales;2016;1
+Cundinamarca;Pequeños Grupos Ilegales;2017;1
+Cundinamarca;Pequeños Grupos Ilegales;2018;1
+Cundinamarca;Pequeños Grupos Ilegales;2019;1
+Cundinamarca;Pequeños Grupos Ilegales;2020;1
+Córdoba;Guerrillas;2006;2
+Córdoba;Guerrillas;2009;1
+Córdoba;Guerrillas;2010;2
+Córdoba;Guerrillas;2013;1
+Córdoba;Guerrillas;2015;1
+Córdoba;Guerrillas;2016;1
+Córdoba;Guerrillas;2019;1
+Córdoba;Nuevos Paramilitares (Narco-Para);2009;1
+Córdoba;Nuevos Paramilitares (Narco-Para);2010;3
+Córdoba;Nuevos Paramilitares (Narco-Para);2011;3
+Córdoba;Nuevos Paramilitares (Narco-Para);2012;2
+Córdoba;Nuevos Paramilitares (Narco-Para);2013;2
+Córdoba;Nuevos Paramilitares (Narco-Para);2014;1
+Córdoba;Nuevos Paramilitares (Narco-Para);2015;2
+Córdoba;Nuevos Paramilitares (Narco-Para);2016;1
+Córdoba;Nuevos Paramilitares (Narco-Para);2017;1
+Córdoba;Nuevos Paramilitares (Narco-Para);2019;1
+Córdoba;Nuevos Paramilitares (Narco-Para);2020;1
+Córdoba;Nuevos Paramilitares (Narco-Para);2021;1
+Córdoba;Paramilitares;2005;1
+Córdoba;Paramilitares;2010;2
+Córdoba;Paramilitares;2013;1
+Córdoba;Pequeños Grupos Ilegales;2009;1
+Córdoba;Pequeños Grupos Ilegales;2010;2
+Córdoba;Pequeños Grupos Ilegales;2011;1
+Córdoba;Pequeños Grupos Ilegales;2012;1
+Córdoba;Pequeños Grupos Ilegales;2017;1
+Guainía;Guerrillas;2012;1
+Guaviare;Disidensias FARC;2017;2
+Guaviare;Disidensias FARC;2018;1
+Guaviare;Disidensias FARC;2021;1
+Guaviare;Guerrillas;2009;1
+Guaviare;Guerrillas;2012;1
+Guaviare;Guerrillas;2014;2
+Guaviare;Guerrillas;2015;2
+Guaviare;Guerrillas;2016;1
+Guaviare;Guerrillas;2017;2
+Guaviare;Guerrillas;2018;1
+Guaviare;Guerrillas;2019;1
+Guaviare;Nuevos Paramilitares (Narco-Para);2019;1
+Guaviare;Paramilitares;2012;1
+Guaviare;Paramilitares;2014;1
+Guaviare;Paramilitares;2015;1
+Guaviare;Paramilitares;2017;1
+Guaviare;Paramilitares;2019;1
+Guaviare;Pequeños Grupos Ilegales;2012;1
+Guaviare;Pequeños Grupos Ilegales;2021;1
+Huila;Guerrillas;2009;1
+Huila;Guerrillas;2011;1
+Huila;Guerrillas;2013;2
+Huila;Guerrillas;2014;2
+Huila;Guerrillas;2018;2
+Huila;Pequeños Grupos Ilegales;2013;1
+Huila;Pequeños Grupos Ilegales;2015;1
+Huila;Pequeños Grupos Ilegales;2018;1
+La Guajira;Guerrillas;2005;2
+La Guajira;Guerrillas;2010;1
+La Guajira;Guerrillas;2019;1
+La Guajira;Nuevos Paramilitares (Narco-Para);2009;1
+La Guajira;Nuevos Paramilitares (Narco-Para);2010;2
+La Guajira;Nuevos Paramilitares (Narco-Para);2013;1
+La Guajira;Paramilitares;2005;1
+La Guajira;Paramilitares;2009;3
+La Guajira;Paramilitares;2010;2
+La Guajira;Paramilitares;2013;1
+La Guajira;Pequeños Grupos Ilegales;2009;1
+Magdalena;Guerrillas;2002;1
+Magdalena;Guerrillas;2006;1
+Magdalena;Nuevos Paramilitares (Narco-Para);2010;1
+Magdalena;Nuevos Paramilitares (Narco-Para);2019;1
+Magdalena;Nuevos Paramilitares (Narco-Para);2021;1
+Magdalena;Paramilitares;2002;1
+Magdalena;Paramilitares;2009;2
+Magdalena;Paramilitares;2010;1
+Magdalena;Paramilitares;2013;1
+Magdalena;Pequeños Grupos Ilegales;2009;1
+Magdalena;Pequeños Grupos Ilegales;2010;1
+Magdalena;Pequeños Grupos Ilegales;2019;1
+Magdalena;Pequeños Grupos Ilegales;2021;1
+Meta;Disidensias FARC;2017;2
+Meta;Guerrillas;2005;2
+Meta;Guerrillas;2009;2
+Meta;Guerrillas;2010;3
+Meta;Guerrillas;2011;2
+Meta;Guerrillas;2012;6
+Meta;Guerrillas;2014;1
+Meta;Guerrillas;2015;2
+Meta;Guerrillas;2016;2
+Meta;Guerrillas;2017;3
+Meta;Guerrillas;2018;5
+Meta;Guerrillas;2019;3
+Meta;Guerrillas;2020;2
+Meta;Nuevos Paramilitares (Narco-Para);2011;1
+Meta;Nuevos Paramilitares (Narco-Para);2015;1
+Meta;Nuevos Paramilitares (Narco-Para);2016;2
+Meta;Nuevos Paramilitares (Narco-Para);2017;3
+Meta;Nuevos Paramilitares (Narco-Para);2018;4
+Meta;Nuevos Paramilitares (Narco-Para);2019;1
+Meta;Nuevos Paramilitares (Narco-Para);2020;2
+Meta;Nuevos Paramilitares (Narco-Para);2022;1
+Meta;Paramilitares;2009;1
+Meta;Paramilitares;2012;5
+Meta;Paramilitares;2014;1
+Meta;Paramilitares;2015;1
+Meta;Paramilitares;2016;1
+Meta;Paramilitares;2017;4
+Meta;Paramilitares;2018;4
+Meta;Pequeños Grupos Ilegales;2019;1
+Meta;Pequeños Grupos Ilegales;2021;1
+Meta;Pequeños Grupos Ilegales;2022;1
+Nariño;Guerrillas;2006;2
+Nariño;Guerrillas;2007;3
+Nariño;Guerrillas;2008;2
+Nariño;Guerrillas;2009;2
+Nariño;Guerrillas;2010;2
+Nariño;Guerrillas;2011;2
+Nariño;Guerrillas;2012;3
+Nariño;Guerrillas;2013;2
+Nariño;Guerrillas;2014;1
+Nariño;Guerrillas;2015;2
+Nariño;Guerrillas;2017;1
+Nariño;Guerrillas;2018;3
+Nariño;Nuevos Paramilitares (Narco-Para);2008;1
+Nariño;Nuevos Paramilitares (Narco-Para);2009;1
+Nariño;Nuevos Paramilitares (Narco-Para);2010;2
+Nariño;Nuevos Paramilitares (Narco-Para);2011;2
+Nariño;Nuevos Paramilitares (Narco-Para);2012;3
+Nariño;Nuevos Paramilitares (Narco-Para);2013;1
+Nariño;Nuevos Paramilitares (Narco-Para);2014;3
+Nariño;Nuevos Paramilitares (Narco-Para);2015;2
+Nariño;Paramilitares;2007;1
+Nariño;Pequeños Grupos Ilegales;2011;1
+Nariño;Pequeños Grupos Ilegales;2014;1
+Nariño;Pequeños Grupos Ilegales;2018;2
+Norte de Santander;Disidensias FARC;2021;1
+Norte de Santander;Guerrillas;2009;2
+Norte de Santander;Guerrillas;2011;3
+Norte de Santander;Guerrillas;2012;1
+Norte de Santander;Guerrillas;2013;1
+Norte de Santander;Guerrillas;2016;2
+Norte de Santander;Guerrillas;2018;1
+Norte de Santander;Guerrillas;2019;3
+Norte de Santander;Guerrillas;2020;2
+Norte de Santander;Guerrillas;2021;1
+Norte de Santander;Nuevos Paramilitares (Narco-Para);2011;2
+Norte de Santander;Nuevos Paramilitares (Narco-Para);2012;1
+Norte de Santander;Nuevos Paramilitares (Narco-Para);2014;1
+Norte de Santander;Nuevos Paramilitares (Narco-Para);2016;2
+Norte de Santander;Nuevos Paramilitares (Narco-Para);2019;1
+Norte de Santander;Paramilitares;2009;1
+Norte de Santander;Paramilitares;2011;1
+Norte de Santander;Pequeños Grupos Ilegales;2011;1
+Norte de Santander;Pequeños Grupos Ilegales;2020;2
+Norte de Santander;Pequeños Grupos Ilegales;2022;1
+Putumayo;Disidensias FARC;2022;1
+Putumayo;Guerrillas;2003;1
+Putumayo;Guerrillas;2005;1
+Putumayo;Guerrillas;2008;1
+Putumayo;Guerrillas;2010;1
+Putumayo;Guerrillas;2013;2
+Putumayo;Guerrillas;2016;1
+Putumayo;Guerrillas;2021;1
+Putumayo;Guerrillas;2022;1
+Putumayo;Nuevos Paramilitares (Narco-Para);2009;1
+Putumayo;Nuevos Paramilitares (Narco-Para);2010;3
+Putumayo;Paramilitares;2003;1
+Putumayo;Paramilitares;2005;1
+Putumayo;Pequeños Grupos Ilegales;2008;1
+Putumayo;Pequeños Grupos Ilegales;2016;1
+Putumayo;Pequeños Grupos Ilegales;2017;1
+Putumayo;Pequeños Grupos Ilegales;2018;1
+Putumayo;Pequeños Grupos Ilegales;2019;1
+Quindío;Guerrillas;2003;1
+Quindío;Guerrillas;2004;2
+Quindío;Guerrillas;2006;2
+Quindío;Guerrillas;2009;2
+Quindío;Guerrillas;2011;3
+Quindío;Guerrillas;2012;3
+Quindío;Guerrillas;2013;1
+Quindío;Guerrillas;2014;3
+Quindío;Guerrillas;2019;2
+Quindío;Nuevos Paramilitares (Narco-Para);2009;1
+Quindío;Nuevos Paramilitares (Narco-Para);2010;1
+Quindío;Nuevos Paramilitares (Narco-Para);2011;3
+Quindío;Nuevos Paramilitares (Narco-Para);2012;3
+Quindío;Nuevos Paramilitares (Narco-Para);2013;3
+Quindío;Nuevos Paramilitares (Narco-Para);2014;3
+Quindío;Nuevos Paramilitares (Narco-Para);2015;2
+Quindío;Paramilitares;2002;2
+Quindío;Paramilitares;2004;2
+Quindío;Paramilitares;2007;1
+Quindío;Paramilitares;2009;3
+Quindío;Paramilitares;2010;1
+Quindío;Paramilitares;2011;1
+Quindío;Paramilitares;2012;2
+Quindío;Paramilitares;2013;2
+Quindío;Paramilitares;2014;2
+Quindío;Paramilitares;2019;1
+Quindío;Pequeños Grupos Ilegales;2006;1
+Quindío;Pequeños Grupos Ilegales;2007;1
+Quindío;Pequeños Grupos Ilegales;2011;1
+Quindío;Pequeños Grupos Ilegales;2012;1
+Quindío;Pequeños Grupos Ilegales;2013;2
+Quindío;Pequeños Grupos Ilegales;2014;2
+Quindío;Pequeños Grupos Ilegales;2019;1
+Risaralda;Disidensias FARC;2019;1
+Risaralda;Guerrillas;2003;2
+Risaralda;Guerrillas;2008;1
+Risaralda;Guerrillas;2013;1
+Risaralda;Guerrillas;2014;1
+Risaralda;Guerrillas;2016;2
+Risaralda;Guerrillas;2019;2
+Risaralda;Guerrillas;2020;1
+Risaralda;Nuevos Paramilitares (Narco-Para);2014;2
+Risaralda;Nuevos Paramilitares (Narco-Para);2016;2
+Risaralda;Paramilitares;2003;1
+Risaralda;Paramilitares;2005;1
+Risaralda;Paramilitares;2008;1
+Risaralda;Paramilitares;2014;1
+Risaralda;Pequeños Grupos Ilegales;2005;1
+Risaralda;Pequeños Grupos Ilegales;2014;2
+Risaralda;Pequeños Grupos Ilegales;2019;1
+Risaralda;Pequeños Grupos Ilegales;2020;2
+Risaralda;Pequeños Grupos Ilegales;2022;1
+Santander;Nuevos Paramilitares (Narco-Para);2014;1
+Santander;Paramilitares;2014;1
+Sucre;Guerrillas;2012;1
+Sucre;Guerrillas;2020;1
+Sucre;Nuevos Paramilitares (Narco-Para);2009;1
+Sucre;Nuevos Paramilitares (Narco-Para);2013;2
+Sucre;Nuevos Paramilitares (Narco-Para);2018;1
+Sucre;Nuevos Paramilitares (Narco-Para);2020;1
+Sucre;Paramilitares;2008;1
+Sucre;Paramilitares;2009;1
+Sucre;Paramilitares;2011;1
+Sucre;Paramilitares;2015;1
+Sucre;Pequeños Grupos Ilegales;2009;1
+Sucre;Pequeños Grupos Ilegales;2013;1
+Sucre;Pequeños Grupos Ilegales;2020;1
+Tolima;Guerrillas;2004;1
+Tolima;Guerrillas;2006;1
+Tolima;Guerrillas;2007;1
+Tolima;Guerrillas;2009;2
+Tolima;Guerrillas;2012;1
+Tolima;Guerrillas;2019;1
+Tolima;Guerrillas;2020;1
+Tolima;Guerrillas;2022;1
+Tolima;Nuevos Paramilitares (Narco-Para);2022;1
+Tolima;Paramilitares;2004;1
+Tolima;Paramilitares;2019;1
+Tolima;Pequeños Grupos Ilegales;2007;1
+Tolima;Pequeños Grupos Ilegales;2009;1
+Tolima;Pequeños Grupos Ilegales;2019;1
+Valle del Cauca;Guerrillas;2004;3
+Valle del Cauca;Guerrillas;2005;3
+Valle del Cauca;Guerrillas;2010;2
+Valle del Cauca;Guerrillas;2011;1
+Valle del Cauca;Guerrillas;2012;1
+Valle del Cauca;Guerrillas;2013;1
+Valle del Cauca;Guerrillas;2014;1
+Valle del Cauca;Guerrillas;2016;1
+Valle del Cauca;Guerrillas;2017;2
+Valle del Cauca;Guerrillas;2018;3
+Valle del Cauca;Guerrillas;2019;2
+Valle del Cauca;Guerrillas;2021;2
+Valle del Cauca;Nuevos Paramilitares (Narco-Para);2009;2
+Valle del Cauca;Nuevos Paramilitares (Narco-Para);2010;2
+Valle del Cauca;Nuevos Paramilitares (Narco-Para);2011;1
+Valle del Cauca;Nuevos Paramilitares (Narco-Para);2012;2
+Valle del Cauca;Nuevos Paramilitares (Narco-Para);2013;3
+Valle del Cauca;Nuevos Paramilitares (Narco-Para);2014;3
+Valle del Cauca;Nuevos Paramilitares (Narco-Para);2015;3
+Valle del Cauca;Nuevos Paramilitares (Narco-Para);2016;1
+Valle del Cauca;Nuevos Paramilitares (Narco-Para);2017;1
+Valle del Cauca;Nuevos Paramilitares (Narco-Para);2018;1
+Valle del Cauca;Nuevos Paramilitares (Narco-Para);2019;1
+Valle del Cauca;Nuevos Paramilitares (Narco-Para);2021;1
+Valle del Cauca;Paramilitares;2004;2
+Valle del Cauca;Paramilitares;2009;1
+Valle del Cauca;Paramilitares;2014;1
+Valle del Cauca;Paramilitares;2015;1
+Valle del Cauca;Pequeños Grupos Ilegales;2005;2
+Valle del Cauca;Pequeños Grupos Ilegales;2009;1
+Valle del Cauca;Pequeños Grupos Ilegales;2012;1
+Valle del Cauca;Pequeños Grupos Ilegales;2015;2
+Valle del Cauca;Pequeños Grupos Ilegales;2016;1
+Valle del Cauca;Pequeños Grupos Ilegales;2021;1
+Vaupés;Disidensias FARC;2016;1
+Vaupés;Disidensias FARC;2017;1
+Vaupés;Disidensias FARC;2018;1
+Vaupés;Disidensias FARC;2020;1
+Vaupés;Guerrillas;2012;1
+Vaupés;Guerrillas;2015;1
+Vaupés;Guerrillas;2016;1
+Vaupés;Guerrillas;2017;1
+Vaupés;Guerrillas;2020;1
+Vichada;Guerrillas;2010;1
+Vichada;Guerrillas;2012;2
+Vichada;Guerrillas;2014;1
+Vichada;Guerrillas;2016;1
+Vichada;Guerrillas;2021;1
+Vichada;Paramilitares;2014;1
+Vichada;Paramilitares;2016;1
+actividades lúdicas y recreativas;Antioquia;2018;1
+actividades lúdicas y recreativas;Antioquia;2019;1
+actividades lúdicas y recreativas;Atlántico;2018;1
+actividades lúdicas y recreativas;Bolívar;2005;2
+actividades lúdicas y recreativas;Chocó;2016;1
+actividades lúdicas y recreativas;Córdoba;2009;1
+actividades lúdicas y recreativas;La Guajira;2019;1
+actividades lúdicas y recreativas;Meta;2009;1
+actividades lúdicas y recreativas;Quindío;2002;1
+actividades lúdicas y recreativas;Quindío;2010;1
+actividades lúdicas y recreativas;Quindío;2012;1
+apoyo a actividades/bandas criminales;Antioquia;2007;1
+apoyo a actividades/bandas criminales;Antioquia;2019;1
+apoyo a actividades/bandas criminales;Antioquia;2022;1
+apoyo a actividades/bandas criminales;Arauca;2009;1
+apoyo a actividades/bandas criminales;Arauca;2011;1
+apoyo a actividades/bandas criminales;Arauca;2013;1
+apoyo a actividades/bandas criminales;Atlántico;2011;1
+apoyo a actividades/bandas criminales;Bogotá;2018;2
+apoyo a actividades/bandas criminales;Bolívar;2020;1
+apoyo a actividades/bandas criminales;Boyacá;2013;1
+apoyo a actividades/bandas criminales;Caldas;2017;1
+apoyo a actividades/bandas criminales;Caldas;2018;1
+apoyo a actividades/bandas criminales;Cauca;2018;1
+apoyo a actividades/bandas criminales;Cauca;2019;2
+apoyo a actividades/bandas criminales;Cesar;2011;1
+apoyo a actividades/bandas criminales;Chocó;2018;1
+apoyo a actividades/bandas criminales;Cundinamarca;2004;2
+apoyo a actividades/bandas criminales;Córdoba;2010;1
+apoyo a actividades/bandas criminales;Magdalena;2009;1
+apoyo a actividades/bandas criminales;Magdalena;2019;1
+apoyo a actividades/bandas criminales;Meta;2018;1
+apoyo a actividades/bandas criminales;Nariño;2011;1
+apoyo a actividades/bandas criminales;Nariño;2014;1
+apoyo a actividades/bandas criminales;Nariño;2015;1
+apoyo a actividades/bandas criminales;Nariño;2018;1
+apoyo a actividades/bandas criminales;Nariño;2019;1
+apoyo a actividades/bandas criminales;Norte de Santander;2009;1
+apoyo a actividades/bandas criminales;Norte de Santander;2019;1
+apoyo a actividades/bandas criminales;Putumayo;2017;1
+apoyo a actividades/bandas criminales;Quindío;2004;1
+apoyo a actividades/bandas criminales;Quindío;2019;1
+apoyo a actividades/bandas criminales;Sucre;2011;1
+apoyo a actividades/bandas criminales;Sucre;2018;1
+apoyo a actividades/bandas criminales;Tolima;2019;1
+apoyo a actividades/bandas criminales;Valle del Cauca;2009;1
+apoyo a actividades/bandas criminales;Valle del Cauca;2011;1
+apoyo a actividades/bandas criminales;Valle del Cauca;2018;1
+apoyo a actividades/bandas criminales;Valle del Cauca;2019;1
+consumo de drogas;Antioquia;2007;1
+consumo de drogas;Antioquia;2016;1
+consumo de drogas;Arauca;2009;1
+consumo de drogas;Arauca;2014;1
+consumo de drogas;Atlántico;2018;1
+consumo de drogas;Bogotá;2018;1
+consumo de drogas;Bolívar;2005;1
+consumo de drogas;Bolívar;2019;1
+consumo de drogas;Boyacá;2017;1
+consumo de drogas;Cauca;2018;1
+consumo de drogas;Cesar;2016;1
+consumo de drogas;Chocó;2019;1
+consumo de drogas;Countrywide;2018;1
+consumo de drogas;Countrywide;2019;1
+consumo de drogas;Cundinamarca;2018;1
+consumo de drogas;Córdoba;2009;1
+consumo de drogas;Córdoba;2014;1
+consumo de drogas;Córdoba;2017;1
+consumo de drogas;Guaviare;2008;1
+consumo de drogas;Meta;2022;1
+consumo de drogas;Nariño;2018;1
+consumo de drogas;Quindío;2015;1
+consumo de drogas;Risaralda;2003;1
+consumo de drogas;San Andrés y Providencia;2018;1
+consumo de drogas;Valle del Cauca;2015;1
+cuota familiar de reclutamiento;Arauca;2014;1
+cuota familiar de reclutamiento;Caquetá;2011;1
+cuota familiar de reclutamiento;Chocó;2014;1
+cuota familiar de reclutamiento;Guaviare;2013;1
+cuota familiar de reclutamiento;Huila;2013;1
+cuota familiar de reclutamiento;Quindío;2002;1
+desaparición forzada;Antioquia;2018;1
+desaparición forzada;Boyacá;2020;1
+desaparición forzada;Caldas;2004;1
+desaparición forzada;Caquetá;2011;1
+desaparición forzada;Chocó;2017;2
+desaparición forzada;Cundinamarca;2005;1
+desaparición forzada;Córdoba;2008;1
+desaparición forzada;Guaviare;2019;1
+desaparición forzada;La Guajira;2012;1
+desaparición forzada;Nariño;2007;1
+desaparición forzada;Nariño;2018;1
+desaparición forzada;Nariño;2020;2
+desaparición forzada;Norte de Santander;2018;1
+desaparición forzada;Putumayo;2010;1
+desaparición forzada;Putumayo;2018;1
+desaparición forzada;Quindío;2008;1
+desaparición forzada;Santander;2014;1
+desaparición forzada;Sucre;2008;1
+desaparición forzada;Valle del Cauca;2018;1
+desaparición forzada;Vaupés;2018;1
+féminas como objetivo de reclutamiento/violencia;Antioquia;2016;1
+féminas como objetivo de reclutamiento/violencia;Arauca;2005;2
+féminas como objetivo de reclutamiento/violencia;Arauca;2013;1
+féminas como objetivo de reclutamiento/violencia;Arauca;2018;1
+féminas como objetivo de reclutamiento/violencia;Bolívar;2017;1
+féminas como objetivo de reclutamiento/violencia;Bolívar;2020;2
+féminas como objetivo de reclutamiento/violencia;Caldas;2016;1
+féminas como objetivo de reclutamiento/violencia;Caquetá;2011;1
+féminas como objetivo de reclutamiento/violencia;Cauca;2008;1
+féminas como objetivo de reclutamiento/violencia;Cauca;2019;1
+féminas como objetivo de reclutamiento/violencia;Córdoba;2016;1
+féminas como objetivo de reclutamiento/violencia;Guainía;2019;1
+féminas como objetivo de reclutamiento/violencia;La Guajira;2019;1
+féminas como objetivo de reclutamiento/violencia;Magdalena;2019;2
+féminas como objetivo de reclutamiento/violencia;Nariño;2016;1
+féminas como objetivo de reclutamiento/violencia;Quindío;2004;1
+féminas como objetivo de reclutamiento/violencia;Sucre;2020;1
+féminas como objetivo de reclutamiento/violencia;Tolima;2020;1
+féminas como objetivo de reclutamiento/violencia;Valle del Cauca;2012;1
+féminas como objetivo de reclutamiento/violencia;Valle del Cauca;2015;1
+missing;Amazonas;2021;1
+missing;Antioquia;2012;1
+missing;Antioquia;2013;1
+missing;Antioquia;2014;1
+missing;Antioquia;2016;1
+missing;Antioquia;2019;1
+missing;Antioquia;2020;2
+missing;Antioquia;2021;4
+missing;Arauca;2011;2
+missing;Arauca;2012;2
+missing;Arauca;2013;2
+missing;Arauca;2014;1
+missing;Arauca;2015;1
+missing;Arauca;2016;1
+missing;Arauca;2017;1
+missing;Arauca;2020;1
+missing;Arauca;2021;1
+missing;Atlántico;2015;1
+missing;Atlántico;2019;1
+missing;Atlántico;2020;1
+missing;Bogotá;2009;1
+missing;Bogotá;2013;1
+missing;Bogotá;2014;1
+missing;Bogotá;2015;2
+missing;Bogotá;2017;1
+missing;Bogotá;2019;1
+missing;Bogotá;2020;1
+missing;Bolívar;2009;1
+missing;Bolívar;2011;1
+missing;Bolívar;2012;2
+missing;Bolívar;2013;1
+missing;Bolívar;2014;3
+missing;Bolívar;2015;1
+missing;Bolívar;2016;2
+missing;Bolívar;2017;1
+missing;Bolívar;2019;2
+missing;Bolívar;2020;1
+missing;Bolívar;2021;2
+missing;Boyacá;2013;1
+missing;Caldas;2014;1
+missing;Caquetá;2008;1
+missing;Caquetá;2013;2
+missing;Caquetá;2019;1
+missing;Caquetá;2020;1
+missing;Casanare;2017;1
+missing;Cauca;2012;1
+missing;Cauca;2013;1
+missing;Cauca;2014;1
+missing;Cauca;2017;2
+missing;Cauca;2019;1
+missing;Cauca;2020;3
+missing;Chocó;2009;2
+missing;Chocó;2010;1
+missing;Chocó;2011;1
+missing;Chocó;2012;2
+missing;Chocó;2013;1
+missing;Chocó;2016;5
+missing;Chocó;2017;1
+missing;Chocó;2018;1
+missing;Chocó;2019;1
+missing;Chocó;2020;2
+missing;Chocó;2021;2
+missing;Countrywide;2022;1
+missing;Cundinamarca;2008;1
+missing;Cundinamarca;2011;1
+missing;Cundinamarca;2012;1
+missing;Cundinamarca;2013;2
+missing;Cundinamarca;2015;3
+missing;Cundinamarca;2016;2
+missing;Cundinamarca;2017;2
+missing;Cundinamarca;2020;1
+missing;Córdoba;2010;1
+missing;Córdoba;2011;2
+missing;Córdoba;2012;2
+missing;Córdoba;2013;2
+missing;Córdoba;2015;1
+missing;Córdoba;2016;1
+missing;Córdoba;2017;1
+missing;Córdoba;2019;1
+missing;Córdoba;2021;1
+missing;Guainía;2012;1
+missing;Guaviare;2014;2
+missing;Guaviare;2015;2
+missing;Guaviare;2016;1
+missing;Guaviare;2017;1
+missing;Guaviare;2021;2
+missing;Huila;2013;1
+missing;Huila;2014;1
+missing;Huila;2020;1
+missing;La Guajira;2009;1
+missing;La Guajira;2010;2
+missing;La Guajira;2021;1
+missing;Magdalena;2009;1
+missing;Magdalena;2021;2
+missing;Meta;2010;2
+missing;Meta;2011;2
+missing;Meta;2012;4
+missing;Meta;2014;1
+missing;Meta;2015;1
+missing;Meta;2016;2
+missing;Meta;2017;1
+missing;Meta;2019;1
+missing;Meta;2020;3
+missing;Meta;2021;1
+missing;Nariño;2008;1
+missing;Nariño;2009;1
+missing;Nariño;2011;1
+missing;Nariño;2013;2
+missing;Nariño;2014;1
+missing;Nariño;2021;1
+missing;Norte de Santander;2011;3
+missing;Norte de Santander;2014;1
+missing;Norte de Santander;2015;1
+missing;Norte de Santander;2016;3
+missing;Norte de Santander;2020;2
+missing;Norte de Santander;2021;3
+missing;Putumayo;2010;1
+missing;Putumayo;2013;1
+missing;Putumayo;2017;1
+missing;Putumayo;2021;3
+missing;Putumayo;2022;1
+missing;Quindío;2009;2
+missing;Quindío;2010;1
+missing;Quindío;2011;1
+missing;Quindío;2012;3
+missing;Quindío;2013;3
+missing;Quindío;2014;4
+missing;Quindío;2015;1
+missing;Quindío;2019;1
+missing;Quindío;2020;1
+missing;Quindío;2021;1
+missing;Risaralda;2008;1
+missing;Risaralda;2013;1
+missing;Risaralda;2014;2
+missing;Risaralda;2016;2
+missing;Risaralda;2020;2
+missing;Risaralda;2022;1
+missing;Sucre;2013;1
+missing;Sucre;2015;1
+missing;Sucre;2017;1
+missing;Sucre;2020;1
+missing;Tolima;2012;1
+missing;Tolima;2021;1
+missing;Tolima;2022;1
+missing;Valle del Cauca;2012;2
+missing;Valle del Cauca;2013;2
+missing;Valle del Cauca;2014;2
+missing;Valle del Cauca;2015;2
+missing;Valle del Cauca;2016;2
+missing;Valle del Cauca;2017;1
+missing;Valle del Cauca;2020;1
+missing;Valle del Cauca;2021;1
+missing;Valle del Cauca;2022;1
+missing;Vaupés;2012;1
+missing;Vaupés;2016;1
+missing;Vaupés;2020;1
+missing;Vichada;2014;1
+no data;Amazonas;2014;1
+no data;Amazonas;2017;1
+no data;Antioquia;2004;1
+no data;Antioquia;2009;1
+no data;Antioquia;2017;1
+no data;Antioquia;2018;4
+no data;Antioquia;2021;1
+no data;Arauca;2008;1
+no data;Arauca;2010;1
+no data;Arauca;2014;1
+no data;Arauca;2018;1
+no data;Arauca;2019;2
+no data;Atlántico;2005;1
+no data;Atlántico;2009;1
+no data;Bogotá;2006;1
+no data;Bogotá;2019;1
+no data;Bolívar;2012;1
+no data;Bolívar;2016;1
+no data;Bolívar;2018;1
+no data;Bolívar;2019;2
+no data;Bolívar;2020;2
+no data;Caldas;2007;1
+no data;Caldas;2019;1
+no data;Caldas;2020;1
+no data;Caquetá;2008;2
+no data;Caquetá;2009;1
+no data;Caquetá;2017;1
+no data;Casanare;2016;1
+no data;Casanare;2018;1
+no data;Cauca;2009;1
+no data;Cauca;2010;3
+no data;Cauca;2011;1
+no data;Cauca;2014;2
+no data;Cauca;2017;1
+no data;Cauca;2018;1
+no data;Cauca;2019;2
+no data;Cauca;2020;1
+no data;Cesar;2003;1
+no data;Cesar;2012;1
+no data;Cesar;2019;1
+no data;Chocó;2003;2
+no data;Chocó;2004;1
+no data;Chocó;2006;3
+no data;Chocó;2010;1
+no data;Chocó;2011;4
+no data;Chocó;2012;1
+no data;Chocó;2015;2
+no data;Chocó;2017;2
+no data;Chocó;2018;1
+no data;Chocó;2019;4
+no data;Chocó;2022;1
+no data;Countrywide;2017;1
+no data;Countrywide;2020;1
+no data;Cundinamarca;2003;2
+no data;Cundinamarca;2004;1
+no data;Cundinamarca;2007;1
+no data;Cundinamarca;2012;1
+no data;Cundinamarca;2017;1
+no data;Cundinamarca;2018;1
+no data;Córdoba;2005;1
+no data;Córdoba;2006;1
+no data;Córdoba;2009;1
+no data;Córdoba;2010;2
+no data;Córdoba;2014;1
+no data;Córdoba;2015;2
+no data;Córdoba;2016;1
+no data;Córdoba;2018;3
+no data;Huila;2009;1
+no data;Huila;2015;1
+no data;Huila;2018;1
+no data;Huila;2019;1
+no data;La Guajira;2005;1
+no data;La Guajira;2006;1
+no data;Magdalena;2002;1
+no data;Magdalena;2006;1
+no data;Magdalena;2012;1
+no data;Magdalena;2016;1
+no data;Magdalena;2018;1
+no data;Meta;2010;1
+no data;Meta;2011;1
+no data;Meta;2015;1
+no data;Meta;2016;1
+no data;Meta;2017;4
+no data;Meta;2018;1
+no data;Nariño;2004;1
+no data;Nariño;2007;1
+no data;Nariño;2009;2
+no data;Nariño;2011;2
+no data;Nariño;2012;1
+no data;Nariño;2013;1
+no data;Nariño;2014;2
+no data;Nariño;2015;2
+no data;Nariño;2017;1
+no data;Nariño;2018;1
+no data;Nariño;2019;1
+no data;Nariño;2020;1
+no data;Nariño;2021;1
+no data;Norte de Santander;2008;1
+no data;Norte de Santander;2009;1
+no data;Norte de Santander;2016;2
+no data;Norte de Santander;2017;1
+no data;Norte de Santander;2018;1
+no data;Norte de Santander;2019;1
+no data;Norte de Santander;2020;1
+no data;Norte de Santander;2021;2
+no data;Norte de Santander;2022;1
+no data;Putumayo;2003;1
+no data;Putumayo;2005;1
+no data;Putumayo;2008;1
+no data;Putumayo;2013;1
+no data;Putumayo;2017;1
+no data;Putumayo;2019;2
+no data;Putumayo;2020;1
+no data;Quindío;2002;1
+no data;Quindío;2004;3
+no data;Quindío;2007;1
+no data;Quindío;2009;1
+no data;Quindío;2011;1
+no data;Quindío;2012;1
+no data;Quindío;2015;1
+no data;Quindío;2020;1
+no data;Risaralda;2004;1
+no data;Risaralda;2013;1
+no data;Risaralda;2019;1
+no data;Sucre;2006;2
+no data;Sucre;2007;1
+no data;Sucre;2009;1
+no data;Sucre;2012;1
+no data;Tolima;2004;1
+no data;Tolima;2006;2
+no data;Tolima;2007;1
+no data;Tolima;2009;1
+no data;Tolima;2015;1
+no data;Tolima;2017;1
+no data;Tolima;2019;1
+no data;Valle del Cauca;2004;1
+no data;Valle del Cauca;2005;3
+no data;Valle del Cauca;2006;2
+no data;Valle del Cauca;2007;1
+no data;Valle del Cauca;2010;1
+no data;Valle del Cauca;2013;2
+no data;Valle del Cauca;2017;2
+no data;Valle del Cauca;2018;5
+no data;Valle del Cauca;2019;1
+no data;Valle del Cauca;2020;2
+no data;Valle del Cauca;2021;1
+no data;Valle del Cauca;2022;2
+no data;Vaupés;2017;1
+no data;Vichada;2016;1
+penetración de centros educativos;Antioquia;2016;1
+penetración de centros educativos;Arauca;2011;1
+penetración de centros educativos;Atlántico;2018;1
+penetración de centros educativos;Bolívar;2015;1
+penetración de centros educativos;Caldas;2009;1
+penetración de centros educativos;Cauca;2009;2
+penetración de centros educativos;Meta;2012;1
+penetración de centros educativos;Meta;2018;1
+penetración de centros educativos;Nariño;2018;1
+penetración de centros educativos;Norte de Santander;2013;1
+penetración de centros educativos;Norte de Santander;2019;1
+penetración de centros educativos;Putumayo;2018;1
+penetración de centros educativos;Quindío;2013;1
+penetración de centros educativos;Quindío;2019;1
+penetración de centros educativos;Santander;2014;1
+penetración de centros educativos;Valle del Cauca;2018;1
+penetración de centros educativos;Vichada;2010;1
+penetración de centros educativos;Vichada;2012;3
+persuación de incorporación voluntaria y adoctrinamiento;Antioquia;2008;1
+persuación de incorporación voluntaria y adoctrinamiento;Antioquia;2016;1
+persuación de incorporación voluntaria y adoctrinamiento;Antioquia;2018;1
+persuación de incorporación voluntaria y adoctrinamiento;Antioquia;2019;2
+persuación de incorporación voluntaria y adoctrinamiento;Antioquia;2020;1
+persuación de incorporación voluntaria y adoctrinamiento;Arauca;2009;1
+persuación de incorporación voluntaria y adoctrinamiento;Arauca;2015;1
+persuación de incorporación voluntaria y adoctrinamiento;Bolívar;2005;1
+persuación de incorporación voluntaria y adoctrinamiento;Bolívar;2015;1
+persuación de incorporación voluntaria y adoctrinamiento;Bolívar;2019;2
+persuación de incorporación voluntaria y adoctrinamiento;Boyacá;2017;1
+persuación de incorporación voluntaria y adoctrinamiento;Caldas;2009;1
+persuación de incorporación voluntaria y adoctrinamiento;Caldas;2016;1
+persuación de incorporación voluntaria y adoctrinamiento;Caquetá;2011;1
+persuación de incorporación voluntaria y adoctrinamiento;Caquetá;2022;1
+persuación de incorporación voluntaria y adoctrinamiento;Casanare;2018;1
+persuación de incorporación voluntaria y adoctrinamiento;Cauca;2009;1
+persuación de incorporación voluntaria y adoctrinamiento;Cauca;2011;1
+persuación de incorporación voluntaria y adoctrinamiento;Cesar;2010;1
+persuación de incorporación voluntaria y adoctrinamiento;Chocó;2015;1
+persuación de incorporación voluntaria y adoctrinamiento;Chocó;2018;1
+persuación de incorporación voluntaria y adoctrinamiento;Cundinamarca;2004;1
+persuación de incorporación voluntaria y adoctrinamiento;Córdoba;2008;1
+persuación de incorporación voluntaria y adoctrinamiento;Guaviare;2013;1
+persuación de incorporación voluntaria y adoctrinamiento;Huila;2011;1
+persuación de incorporación voluntaria y adoctrinamiento;Huila;2013;1
+persuación de incorporación voluntaria y adoctrinamiento;La Guajira;2012;1
+persuación de incorporación voluntaria y adoctrinamiento;Magdalena;2013;1
+persuación de incorporación voluntaria y adoctrinamiento;Meta;2012;1
+persuación de incorporación voluntaria y adoctrinamiento;Meta;2013;1
+persuación de incorporación voluntaria y adoctrinamiento;Meta;2018;1
+persuación de incorporación voluntaria y adoctrinamiento;Nariño;2010;1
+persuación de incorporación voluntaria y adoctrinamiento;Nariño;2012;1
+persuación de incorporación voluntaria y adoctrinamiento;Nariño;2015;1
+persuación de incorporación voluntaria y adoctrinamiento;Norte de Santander;2012;1
+persuación de incorporación voluntaria y adoctrinamiento;Putumayo;2018;2
+persuación de incorporación voluntaria y adoctrinamiento;Quindío;2002;1
+persuación de incorporación voluntaria y adoctrinamiento;Quindío;2007;1
+persuación de incorporación voluntaria y adoctrinamiento;Quindío;2010;1
+persuación de incorporación voluntaria y adoctrinamiento;Quindío;2012;1
+persuación de incorporación voluntaria y adoctrinamiento;Quindío;2015;1
+persuación de incorporación voluntaria y adoctrinamiento;Risaralda;2005;1
+persuación de incorporación voluntaria y adoctrinamiento;Sucre;2013;1
+persuación de incorporación voluntaria y adoctrinamiento;Tolima;2019;1
+persuación de incorporación voluntaria y adoctrinamiento;Valle del Cauca;2004;1
+persuación de incorporación voluntaria y adoctrinamiento;Valle del Cauca;2009;1
+persuación de incorporación voluntaria y adoctrinamiento;Valle del Cauca;2010;1
+persuación de incorporación voluntaria y adoctrinamiento;Valle del Cauca;2012;1
+persuación de incorporación voluntaria y adoctrinamiento;Valle del Cauca;2017;1
+persuación de incorporación voluntaria y adoctrinamiento;Valle del Cauca;2018;1
+persuación de incorporación voluntaria y adoctrinamiento;Valle del Cauca;2019;1
+persuación de incorporación voluntaria y adoctrinamiento;Valle del Cauca;2021;1
+persuación de incorporación voluntaria y adoctrinamiento;Vaupés;2006;1
+persuación de incorporación voluntaria y adoctrinamiento;Vaupés;2008;1
+persuación de incorporación voluntaria y adoctrinamiento;Vaupés;2018;1
+persuación de incorporación voluntaria y adoctrinamiento;Vichada;2012;2
+presión;Antioquia;2008;1
+presión;Antioquia;2016;2
+presión;Antioquia;2018;4
+presión;Antioquia;2019;2
+presión;Antioquia;2020;1
+presión;Arauca;2005;2
+presión;Arauca;2006;1
+presión;Arauca;2009;1
+presión;Arauca;2010;1
+presión;Arauca;2011;1
+presión;Arauca;2015;2
+presión;Arauca;2017;1
+presión;Bogotá;2018;2
+presión;Bolívar;2005;1
+presión;Bolívar;2010;1
+presión;Bolívar;2011;2
+presión;Bolívar;2017;1
+presión;Bolívar;2019;3
+presión;Boyacá;2014;1
+presión;Boyacá;2017;1
+presión;Boyacá;2020;1
+presión;Caldas;2009;1
+presión;Caldas;2016;1
+presión;Caquetá;2010;1
+presión;Caquetá;2011;1
+presión;Caquetá;2012;1
+presión;Casanare;2018;1
+presión;Casanare;2019;1
+presión;Cauca;2003;1
+presión;Cauca;2008;1
+presión;Cauca;2018;1
+presión;Cauca;2019;1
+presión;Cesar;2016;1
+presión;Chocó;2004;1
+presión;Chocó;2015;1
+presión;Chocó;2017;1
+presión;Chocó;2018;1
+presión;Cundinamarca;2003;1
+presión;Cundinamarca;2004;3
+presión;Cundinamarca;2005;1
+presión;Cundinamarca;2006;1
+presión;Córdoba;2008;2
+presión;Córdoba;2010;1
+presión;Guainía;2019;1
+presión;Guaviare;2009;1
+presión;Guaviare;2012;1
+presión;Guaviare;2013;1
+presión;Guaviare;2019;1
+presión;Huila;2011;1
+presión;Huila;2014;1
+presión;La Guajira;2013;1
+presión;Magdalena;2009;1
+presión;Magdalena;2022;1
+presión;Meta;2010;1
+presión;Meta;2013;1
+presión;Meta;2018;2
+presión;Meta;2019;1
+presión;Nariño;2005;1
+presión;Nariño;2010;2
+presión;Nariño;2012;1
+presión;Nariño;2020;1
+presión;Nariño;2021;1
+presión;Norte de Santander;2019;1
+presión;Putumayo;2017;1
+presión;Putumayo;2018;1
+presión;Quindío;2002;1
+presión;Quindío;2009;1
+presión;Quindío;2012;2
+presión;Quindío;2013;1
+presión;Quindío;2015;1
+presión;Risaralda;2019;1
+presión;Sucre;2008;1
+presión;Tolima;2015;1
+presión;Tolima;2020;1
+presión;Valle del Cauca;2005;1
+presión;Valle del Cauca;2009;1
+presión;Valle del Cauca;2011;2
+presión;Valle del Cauca;2017;2
+presión;Valle del Cauca;2018;1
+presión;Valle del Cauca;2019;1
+presión;Valle del Cauca;2021;2
+presión;Vaupés;2015;1
+presión;Vaupés;2018;1
+presión;Vichada;2012;1
+reclutamiento forzado;Antioquia;2016;1
+reclutamiento forzado;Antioquia;2017;1
+reclutamiento forzado;Antioquia;2018;2
+reclutamiento forzado;Antioquia;2019;1
+reclutamiento forzado;Antioquia;2020;1
+reclutamiento forzado;Antioquia;2022;1
+reclutamiento forzado;Arauca;2005;2
+reclutamiento forzado;Arauca;2006;1
+reclutamiento forzado;Arauca;2009;1
+reclutamiento forzado;Arauca;2010;1
+reclutamiento forzado;Arauca;2012;2
+reclutamiento forzado;Arauca;2015;1
+reclutamiento forzado;Arauca;2018;2
+reclutamiento forzado;Atlántico;2008;1
+reclutamiento forzado;Bolívar;2012;1
+reclutamiento forzado;Bolívar;2015;1
+reclutamiento forzado;Bolívar;2018;1
+reclutamiento forzado;Bolívar;2020;1
+reclutamiento forzado;Bolívar;2021;1
+reclutamiento forzado;Boyacá;2003;1
+reclutamiento forzado;Boyacá;2014;1
+reclutamiento forzado;Boyacá;2022;1
+reclutamiento forzado;Caldas;2005;1
+reclutamiento forzado;Caldas;2016;1
+reclutamiento forzado;Caquetá;2010;1
+reclutamiento forzado;Caquetá;2011;1
+reclutamiento forzado;Caquetá;2017;1
+reclutamiento forzado;Cauca;2003;1
+reclutamiento forzado;Cauca;2008;1
+reclutamiento forzado;Cauca;2009;3
+reclutamiento forzado;Cauca;2010;2
+reclutamiento forzado;Cauca;2011;3
+reclutamiento forzado;Cauca;2018;2
+reclutamiento forzado;Cauca;2019;1
+reclutamiento forzado;Cesar;2010;1
+reclutamiento forzado;Chocó;2004;2
+reclutamiento forzado;Chocó;2010;1
+reclutamiento forzado;Chocó;2012;1
+reclutamiento forzado;Chocó;2014;1
+reclutamiento forzado;Chocó;2017;1
+reclutamiento forzado;Chocó;2018;2
+reclutamiento forzado;Chocó;2020;1
+reclutamiento forzado;Cundinamarca;2003;1
+reclutamiento forzado;Cundinamarca;2004;1
+reclutamiento forzado;Cundinamarca;2010;1
+reclutamiento forzado;Cundinamarca;2018;1
+reclutamiento forzado;Cundinamarca;2019;1
+reclutamiento forzado;Córdoba;2008;1
+reclutamiento forzado;Córdoba;2009;1
+reclutamiento forzado;Córdoba;2011;1
+reclutamiento forzado;Córdoba;2018;1
+reclutamiento forzado;Córdoba;2019;1
+reclutamiento forzado;Guainía;2019;1
+reclutamiento forzado;Guaviare;2008;1
+reclutamiento forzado;Guaviare;2009;1
+reclutamiento forzado;Guaviare;2017;1
+reclutamiento forzado;Guaviare;2018;1
+reclutamiento forzado;Guaviare;2019;1
+reclutamiento forzado;La Guajira;2009;1
+reclutamiento forzado;La Guajira;2010;1
+reclutamiento forzado;La Guajira;2013;1
+reclutamiento forzado;La Guajira;2019;1
+reclutamiento forzado;Magdalena;2009;1
+reclutamiento forzado;Magdalena;2019;1
+reclutamiento forzado;Meta;2005;1
+reclutamiento forzado;Meta;2009;3
+reclutamiento forzado;Meta;2010;1
+reclutamiento forzado;Meta;2012;1
+reclutamiento forzado;Meta;2013;1
+reclutamiento forzado;Meta;2017;2
+reclutamiento forzado;Meta;2018;3
+reclutamiento forzado;Meta;2019;2
+reclutamiento forzado;Nariño;2005;4
+reclutamiento forzado;Nariño;2007;1
+reclutamiento forzado;Nariño;2010;2
+reclutamiento forzado;Nariño;2011;1
+reclutamiento forzado;Nariño;2012;1
+reclutamiento forzado;Nariño;2013;1
+reclutamiento forzado;Nariño;2015;1
+reclutamiento forzado;Nariño;2018;4
+reclutamiento forzado;Nariño;2019;2
+reclutamiento forzado;Nariño;2020;2
+reclutamiento forzado;Nariño;2021;2
+reclutamiento forzado;Norte de Santander;2005;1
+reclutamiento forzado;Norte de Santander;2008;1
+reclutamiento forzado;Norte de Santander;2009;2
+reclutamiento forzado;Norte de Santander;2012;1
+reclutamiento forzado;Putumayo;2010;1
+reclutamiento forzado;Putumayo;2018;3
+reclutamiento forzado;Quindío;2004;1
+reclutamiento forzado;Quindío;2008;1
+reclutamiento forzado;Quindío;2009;1
+reclutamiento forzado;Quindío;2010;1
+reclutamiento forzado;Quindío;2011;1
+reclutamiento forzado;Risaralda;2005;1
+reclutamiento forzado;Risaralda;2019;1
+reclutamiento forzado;Sucre;2004;2
+reclutamiento forzado;Sucre;2008;1
+reclutamiento forzado;Sucre;2009;1
+reclutamiento forzado;Sucre;2013;1
+reclutamiento forzado;Sucre;2018;1
+reclutamiento forzado;Tolima;2007;1
+reclutamiento forzado;Tolima;2020;1
+reclutamiento forzado;Valle del Cauca;2004;1
+reclutamiento forzado;Valle del Cauca;2005;1
+reclutamiento forzado;Valle del Cauca;2006;1
+reclutamiento forzado;Valle del Cauca;2010;1
+reclutamiento forzado;Valle del Cauca;2011;1
+reclutamiento forzado;Valle del Cauca;2015;1
+reclutamiento forzado;Valle del Cauca;2017;1
+reclutamiento forzado;Valle del Cauca;2018;1
+reclutamiento forzado;Valle del Cauca;2019;2
+reclutamiento forzado;Valle del Cauca;2021;2
+reclutamiento forzado;Vaupés;2006;1
+reclutamiento forzado;Vaupés;2018;1
+reclutamiento forzado;Vichada;2008;2
+reclutamiento forzado;Vichada;2010;1
+reclutamiento forzado;Vichada;2021;1
+regalos o promesas o protección;Antioquia;2008;1
+regalos o promesas o protección;Antioquia;2016;1
+regalos o promesas o protección;Antioquia;2017;2
+regalos o promesas o protección;Antioquia;2018;2
+regalos o promesas o protección;Antioquia;2019;2
+regalos o promesas o protección;Arauca;2005;1
+regalos o promesas o protección;Arauca;2009;1
+regalos o promesas o protección;Arauca;2015;1
+regalos o promesas o protección;Arauca;2017;1
+regalos o promesas o protección;Atlántico;2008;1
+regalos o promesas o protección;Bogotá;2018;1
+regalos o promesas o protección;Bolívar;2009;1
+regalos o promesas o protección;Bolívar;2010;1
+regalos o promesas o protección;Bolívar;2016;1
+regalos o promesas o protección;Bolívar;2017;1
+regalos o promesas o protección;Bolívar;2018;1
+regalos o promesas o protección;Bolívar;2019;1
+regalos o promesas o protección;Bolívar;2020;1
+regalos o promesas o protección;Caldas;2005;1
+regalos o promesas o protección;Caldas;2009;1
+regalos o promesas o protección;Caldas;2017;1
+regalos o promesas o protección;Caquetá;2009;1
+regalos o promesas o protección;Caquetá;2010;1
+regalos o promesas o protección;Caquetá;2011;3
+regalos o promesas o protección;Caquetá;2012;1
+regalos o promesas o protección;Casanare;2019;1
+regalos o promesas o protección;Cauca;2007;1
+regalos o promesas o protección;Cauca;2009;1
+regalos o promesas o protección;Cauca;2010;2
+regalos o promesas o protección;Cauca;2019;2
+regalos o promesas o protección;Cesar;2016;1
+regalos o promesas o protección;Cesar;2019;1
+regalos o promesas o protección;Chocó;2017;1
+regalos o promesas o protección;Chocó;2018;2
+regalos o promesas o protección;Cundinamarca;2004;2
+regalos o promesas o protección;Cundinamarca;2006;1
+regalos o promesas o protección;Cundinamarca;2011;1
+regalos o promesas o protección;Córdoba;2006;1
+regalos o promesas o protección;Córdoba;2008;1
+regalos o promesas o protección;Córdoba;2011;1
+regalos o promesas o protección;Córdoba;2013;1
+regalos o promesas o protección;Córdoba;2014;2
+regalos o promesas o protección;Córdoba;2018;1
+regalos o promesas o protección;Guaviare;2012;1
+regalos o promesas o protección;Guaviare;2013;1
+regalos o promesas o protección;Guaviare;2019;1
+regalos o promesas o protección;Huila;2013;1
+regalos o promesas o protección;Huila;2018;1
+regalos o promesas o protección;La Guajira;2009;1
+regalos o promesas o protección;La Guajira;2010;1
+regalos o promesas o protección;La Guajira;2013;1
+regalos o promesas o protección;La Guajira;2019;1
+regalos o promesas o protección;Magdalena;2010;1
+regalos o promesas o protección;Magdalena;2013;1
+regalos o promesas o protección;Magdalena;2019;1
+regalos o promesas o protección;Magdalena;2022;1
+regalos o promesas o protección;Meta;2010;1
+regalos o promesas o protección;Meta;2017;1
+regalos o promesas o protección;Meta;2018;1
+regalos o promesas o protección;Nariño;2005;1
+regalos o promesas o protección;Nariño;2010;1
+regalos o promesas o protección;Nariño;2012;1
+regalos o promesas o protección;Nariño;2015;1
+regalos o promesas o protección;Nariño;2018;1
+regalos o promesas o protección;Nariño;2021;1
+regalos o promesas o protección;Norte de Santander;2012;1
+regalos o promesas o protección;Norte de Santander;2018;1
+regalos o promesas o protección;Norte de Santander;2019;1
+regalos o promesas o protección;Putumayo;2016;1
+regalos o promesas o protección;Putumayo;2017;1
+regalos o promesas o protección;Putumayo;2018;2
+regalos o promesas o protección;Quindío;2006;1
+regalos o promesas o protección;Quindío;2007;1
+regalos o promesas o protección;Quindío;2008;1
+regalos o promesas o protección;Quindío;2009;1
+regalos o promesas o protección;Quindío;2010;1
+regalos o promesas o protección;Quindío;2011;1
+regalos o promesas o protección;Quindío;2012;1
+regalos o promesas o protección;Quindío;2019;2
+regalos o promesas o protección;Sucre;2008;1
+regalos o promesas o protección;Sucre;2009;1
+regalos o promesas o protección;Sucre;2011;1
+regalos o promesas o protección;Sucre;2013;1
+regalos o promesas o protección;Sucre;2018;1
+regalos o promesas o protección;Sucre;2020;1
+regalos o promesas o protección;Valle del Cauca;2005;1
+regalos o promesas o protección;Valle del Cauca;2008;1
+regalos o promesas o protección;Valle del Cauca;2009;1
+regalos o promesas o protección;Valle del Cauca;2010;1
+regalos o promesas o protección;Valle del Cauca;2011;3
+regalos o promesas o protección;Valle del Cauca;2012;1
+regalos o promesas o protección;Valle del Cauca;2014;1
+regalos o promesas o protección;Valle del Cauca;2015;2
+regalos o promesas o protección;Valle del Cauca;2017;2
+regalos o promesas o protección;Valle del Cauca;2019;4
+relaciones familiares y de parentezco;Tolima;2009;1
+vinculación sentimental/sexual;Arauca;2005;1
+vinculación sentimental/sexual;Arauca;2010;1
+vinculación sentimental/sexual;Arauca;2011;1
+vinculación sentimental/sexual;Caldas;2005;1
+vinculación sentimental/sexual;Córdoba;2016;1
+vinculación sentimental/sexual;Córdoba;2018;2
+vinculación sentimental/sexual;Norte de Santander;2019;1
+vinculación sentimental/sexual;Putumayo;2018;1
+vinculación sentimental/sexual;Valle del Cauca;2009;1
+vinculación sentimental/sexual;Valle del Cauca;2010;1
+vinculación sentimental/sexual;Valle del Cauca;2011;1
+vinculación sentimental/sexual;Vichada;2012;1
+violencia;Antioquia;2018;4
+violencia;Arauca;2011;1
+violencia;Bogotá;2018;1
+violencia;Bolívar;2019;1
+violencia;Boyacá;2017;1
+violencia;Casanare;2018;1
+violencia;Cauca;2018;1
+violencia;Chocó;2012;1
+violencia;Countrywide;2018;1
+violencia;Cundinamarca;2004;2
+violencia;Magdalena;2013;1
+violencia;Meta;2018;1
+violencia;Meta;2022;1
+violencia;Nariño;2012;1
+violencia;Norte de Santander;2018;1
+violencia;Quindío;2007;1
+violencia;Risaralda;2005;1
+violencia;Sucre;2008;1
+violencia;Valle del Cauca;2008;1
+violencia;Valle del Cauca;2015;1
+violencia;Valle del Cauca;2017;2
+violencia;Valle del Cauca;2018;1
