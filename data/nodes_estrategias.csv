@@ -46,8 +46,6 @@ reclutamiento forzado;Estrategia
 Putumayo;Departamento
 regalos o promesas o protección;Estrategia
 Putumayo;Departamento
-desaparición forzada;Estrategia
-Putumayo;Departamento
 persuación de incorporación voluntaria y adoctrinamiento;Estrategia
 Chocó;Departamento
 apoyo a actividades/bandas criminales;Estrategia
@@ -70,11 +68,9 @@ violencia;Estrategia
 Cauca;Departamento
 presión;Estrategia
 Vaupés;Departamento
-presión;Estrategia
-Vaupés;Departamento
 reclutamiento forzado;Estrategia
 Vaupés;Departamento
-desaparición forzada;Estrategia
+presión;Estrategia
 Vaupés;Departamento
 persuación de incorporación voluntaria y adoctrinamiento;Estrategia
 Cauca;Departamento
@@ -90,11 +86,11 @@ no data;Estrategia
 Putumayo;Departamento
 reclutamiento forzado;Estrategia
 Norte de Santander;Departamento
+reclutamiento forzado;Estrategia
+Norte de Santander;Departamento
 violencia;Estrategia
 Norte de Santander;Departamento
 regalos o promesas o protección;Estrategia
-Norte de Santander;Departamento
-desaparición forzada;Estrategia
 Antioquia;Departamento
 violencia;Estrategia
 Antioquia;Departamento
@@ -176,8 +172,6 @@ reclutamiento forzado;Estrategia
 Antioquia;Departamento
 violencia;Estrategia
 Antioquia;Departamento
-desaparición forzada;Estrategia
-Antioquia;Departamento
 presión;Estrategia
 Meta;Departamento
 reclutamiento forzado;Estrategia
@@ -190,9 +184,9 @@ regalos o promesas o protección;Estrategia
 Chocó;Departamento
 regalos o promesas o protección;Estrategia
 Nariño;Departamento
-penetración de centros educativos;Estrategia
+reclutamiento forzado;Estrategia
 Nariño;Departamento
-desaparición forzada;Estrategia
+penetración de centros educativos;Estrategia
 Córdoba;Departamento
 no data;Estrategia
 Nariño;Departamento
@@ -200,9 +194,9 @@ no data;Estrategia
 Chocó;Departamento
 no data;Estrategia
 Valle del Cauca;Departamento
-penetración de centros educativos;Estrategia
+reclutamiento forzado;Estrategia
 Valle del Cauca;Departamento
-desaparición forzada;Estrategia
+penetración de centros educativos;Estrategia
 Casanare;Departamento
 violencia;Estrategia
 Casanare;Departamento
@@ -269,8 +263,6 @@ Guaviare;Departamento
 reclutamiento forzado;Estrategia
 Guaviare;Departamento
 regalos o promesas o protección;Estrategia
-Guaviare;Departamento
-desaparición forzada;Estrategia
 Guaviare;Departamento
 presión;Estrategia
 Valle del Cauca;Departamento
@@ -406,7 +398,7 @@ féminas como objetivo de reclutamiento/violencia;Estrategia
 Guainía;Departamento
 presión;Estrategia
 Nariño;Departamento
-desaparición forzada;Estrategia
+reclutamiento forzado;Estrategia
 Nariño;Departamento
 presión;Estrategia
 Bolívar;Departamento
@@ -420,57 +412,81 @@ regalos o promesas o protección;Estrategia
 Sucre;Departamento
 féminas como objetivo de reclutamiento/violencia;Estrategia
 Antioquia;Departamento
-missing;Estrategia
+apoyo a actividades/bandas criminales;Estrategia
+Antioquia;Departamento
+violencia;Estrategia
+Antioquia;Departamento
+vinculación sentimental/sexual;Estrategia
 Bolívar;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
+Bolívar;Departamento
+regalos o promesas o protección;Estrategia
+Bolívar;Departamento
+presión;Estrategia
 Caquetá;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
+Caquetá;Departamento
+regalos o promesas o protección;Estrategia
 Chocó;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
+Chocó;Departamento
+regalos o promesas o protección;Estrategia
+Chocó;Departamento
+vinculación sentimental/sexual;Estrategia
 Cauca;Departamento
 no data;Estrategia
 Norte de Santander;Departamento
 no data;Estrategia
 Meta;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
+Meta;Departamento
+regalos o promesas o protección;Estrategia
 Countrywide;Departamento
 no data;Estrategia
 Cauca;Departamento
-missing;Estrategia
+regalos o promesas o protección;Estrategia
 Chocó;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
+Chocó;Departamento
+apoyo a actividades/bandas criminales;Estrategia
 Vaupés;Departamento
-missing;Estrategia
+persuación de incorporación voluntaria y adoctrinamiento;Estrategia
 Bolívar;Departamento
 no data;Estrategia
 Meta;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
+Meta;Departamento
+regalos o promesas o protección;Estrategia
 Nariño;Departamento
 reclutamiento forzado;Estrategia
-Nariño;Departamento
-desaparición forzada;Estrategia
 Atlántico;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
+Atlántico;Departamento
+regalos o promesas o protección;Estrategia
 Cundinamarca;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
 Cauca;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
 Risaralda;Departamento
-missing;Estrategia
+apoyo a actividades/bandas criminales;Estrategia
+Risaralda;Departamento
+regalos o promesas o protección;Estrategia
 Boyacá;Departamento
-desaparición forzada;Estrategia
+reclutamiento forzado;Estrategia
 Boyacá;Departamento
 presión;Estrategia
 Huila;Departamento
-missing;Estrategia
+no data;Estrategia
 Valle del Cauca;Departamento
 no data;Estrategia
 Cauca;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
+Cauca;Departamento
+apoyo a actividades/bandas criminales;Estrategia
 Norte de Santander;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
 Antioquia;Departamento
-missing;Estrategia
+no data;Estrategia
 Antioquia;Departamento
 reclutamiento forzado;Estrategia
 Antioquia;Departamento
@@ -480,7 +496,9 @@ persuación de incorporación voluntaria y adoctrinamiento;Estrategia
 Nariño;Departamento
 no data;Estrategia
 Putumayo;Departamento
-missing;Estrategia
+cuota familiar de reclutamiento;Estrategia
+Putumayo;Departamento
+regalos o promesas o protección;Estrategia
 Nariño;Departamento
 regalos o promesas o protección;Estrategia
 Nariño;Departamento
@@ -488,47 +506,69 @@ presión;Estrategia
 Valle del Cauca;Departamento
 presión;Estrategia
 Norte de Santander;Departamento
-missing;Estrategia
+regalos o promesas o protección;Estrategia
 Vichada;Departamento
 reclutamiento forzado;Estrategia
 Antioquia;Departamento
 no data;Estrategia
 Magdalena;Departamento
-missing;Estrategia
+no data;Estrategia
 Putumayo;Departamento
-missing;Estrategia
+regalos o promesas o protección;Estrategia
+Putumayo;Departamento
+féminas como objetivo de reclutamiento/violencia;Estrategia
 Chocó;Departamento
-missing;Estrategia
+regalos o promesas o protección;Estrategia
+Chocó;Departamento
+actividades lúdicas y recreativas;Estrategia
 Valle del Cauca;Departamento
 persuación de incorporación voluntaria y adoctrinamiento;Estrategia
 Valle del Cauca;Departamento
-missing;Estrategia
+apoyo a actividades/bandas criminales;Estrategia
+Valle del Cauca;Departamento
+regalos o promesas o protección;Estrategia
 Valle del Cauca;Departamento
 no data;Estrategia
 Amazonas;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
+Amazonas;Departamento
+regalos o promesas o protección;Estrategia
+Amazonas;Departamento
+féminas como objetivo de reclutamiento/violencia;Estrategia
+Amazonas;Departamento
+presión;Estrategia
 Arauca;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
+Arauca;Departamento
+apoyo a actividades/bandas criminales;Estrategia
+Arauca;Departamento
+regalos o promesas o protección;Estrategia
 Valle del Cauca;Departamento
 reclutamiento forzado;Estrategia
 Valle del Cauca;Departamento
 presión;Estrategia
 Norte de Santander;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
+Norte de Santander;Departamento
+regalos o promesas o protección;Estrategia
+Norte de Santander;Departamento
+féminas como objetivo de reclutamiento/violencia;Estrategia
 Chocó;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
 Antioquia;Departamento
-missing;Estrategia
+;Estrategia
 Valle del Cauca;Departamento
-missing;Estrategia
+regalos o promesas o protección;Estrategia
+Valle del Cauca;Departamento
+persuación de incorporación voluntaria y adoctrinamiento;Estrategia
 Putumayo;Departamento
-missing;Estrategia
+no data;Estrategia
 Risaralda;Departamento
-missing;Estrategia
+no data;Estrategia
 Countrywide;Departamento
-missing;Estrategia
+no data;Estrategia
 Tolima;Departamento
-missing;Estrategia
+no data;Estrategia
 Magdalena;Departamento
 regalos o promesas o protección;Estrategia
 Magdalena;Departamento
@@ -630,7 +670,7 @@ vinculación sentimental/sexual;Estrategia
 Bolívar;Departamento
 actividades lúdicas y recreativas;Estrategia
 Cundinamarca;Departamento
-desaparición forzada;Estrategia
+reclutamiento forzado;Estrategia
 Cundinamarca;Departamento
 presión;Estrategia
 Atlántico;Departamento
@@ -699,8 +739,6 @@ Tolima;Departamento
 reclutamiento forzado;Estrategia
 Nariño;Departamento
 reclutamiento forzado;Estrategia
-Nariño;Departamento
-desaparición forzada;Estrategia
 Antioquia;Departamento
 consumo de drogas;Estrategia
 Antioquia;Departamento
@@ -716,15 +754,13 @@ consumo de drogas;Estrategia
 Guaviare;Departamento
 reclutamiento forzado;Estrategia
 Sucre;Departamento
-desaparición forzada;Estrategia
-Sucre;Departamento
-presión;Estrategia
-Sucre;Departamento
 reclutamiento forzado;Estrategia
+Sucre;Departamento
+regalos o promesas o protección;Estrategia
 Sucre;Departamento
 violencia;Estrategia
 Sucre;Departamento
-regalos o promesas o protección;Estrategia
+presión;Estrategia
 Caquetá;Departamento
 no data;Estrategia
 Norte de Santander;Departamento
@@ -734,15 +770,15 @@ persuación de incorporación voluntaria y adoctrinamiento;Estrategia
 Vichada;Departamento
 reclutamiento forzado;Estrategia
 Risaralda;Departamento
-missing;Estrategia
+apoyo a actividades/bandas criminales;Estrategia
+Risaralda;Departamento
+regalos o promesas o protección;Estrategia
 Quindío;Departamento
 reclutamiento forzado;Estrategia
 Quindío;Departamento
 regalos o promesas o protección;Estrategia
-Quindío;Departamento
-desaparición forzada;Estrategia
 Caquetá;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
 Córdoba;Departamento
 reclutamiento forzado;Estrategia
 Córdoba;Departamento
@@ -756,13 +792,13 @@ féminas como objetivo de reclutamiento/violencia;Estrategia
 Cauca;Departamento
 presión;Estrategia
 Córdoba;Departamento
-regalos o promesas o protección;Estrategia
+reclutamiento forzado;Estrategia
 Córdoba;Departamento
-desaparición forzada;Estrategia
+regalos o promesas o protección;Estrategia
 Córdoba;Departamento
 presión;Estrategia
 Cundinamarca;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
 Vichada;Departamento
 reclutamiento forzado;Estrategia
 Atlántico;Departamento
@@ -772,7 +808,9 @@ regalos o promesas o protección;Estrategia
 Arauca;Departamento
 no data;Estrategia
 Nariño;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
+Nariño;Departamento
+apoyo a actividades/bandas criminales;Estrategia
 Antioquia;Departamento
 regalos o promesas o protección;Estrategia
 Antioquia;Departamento
@@ -784,11 +822,15 @@ violencia;Estrategia
 Valle del Cauca;Departamento
 regalos o promesas o protección;Estrategia
 Bolívar;Departamento
-missing;Estrategia
+no data;Estrategia
 La Guajira;Departamento
 regalos o promesas o protección;Estrategia
 Quindío;Departamento
-missing;Estrategia
+regalos o promesas o protección;Estrategia
+Quindío;Departamento
+presión;Estrategia
+Quindío;Departamento
+persuación de incorporación voluntaria y adoctrinamiento;Estrategia
 Valle del Cauca;Departamento
 presión;Estrategia
 Valle del Cauca;Departamento
@@ -806,11 +848,15 @@ no data;Estrategia
 Magdalena;Departamento
 reclutamiento forzado;Estrategia
 Chocó;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
+Chocó;Departamento
+apoyo a actividades/bandas criminales;Estrategia
+Chocó;Departamento
+regalos o promesas o protección;Estrategia
 Quindío;Departamento
-missing;Estrategia
+no data;Estrategia
 Nariño;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
 Magdalena;Departamento
 apoyo a actividades/bandas criminales;Estrategia
 Magdalena;Departamento
@@ -820,7 +866,9 @@ reclutamiento forzado;Estrategia
 Quindío;Departamento
 presión;Estrategia
 La Guajira;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
+La Guajira;Departamento
+apoyo a actividades/bandas criminales;Estrategia
 Arauca;Departamento
 consumo de drogas;Estrategia
 Arauca;Departamento
@@ -834,7 +882,9 @@ vinculación sentimental/sexual;Estrategia
 Córdoba;Departamento
 reclutamiento forzado;Estrategia
 Magdalena;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
+Magdalena;Departamento
+regalos o promesas o protección;Estrategia
 Córdoba;Departamento
 consumo de drogas;Estrategia
 Córdoba;Departamento
@@ -848,7 +898,7 @@ regalos o promesas o protección;Estrategia
 Atlántico;Departamento
 no data;Estrategia
 Chocó;Departamento
-missing;Estrategia
+no data;Estrategia
 Cauca;Departamento
 reclutamiento forzado;Estrategia
 Valle del Cauca;Departamento
@@ -856,21 +906,29 @@ reclutamiento forzado;Estrategia
 Cundinamarca;Departamento
 reclutamiento forzado;Estrategia
 Meta;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
+Meta;Departamento
+regalos o promesas o protección;Estrategia
+Meta;Departamento
+vinculación sentimental/sexual;Estrategia
 La Guajira;Departamento
-missing;Estrategia
+presión;Estrategia
 Córdoba;Departamento
 no data;Estrategia
 Córdoba;Departamento
-missing;Estrategia
+regalos o promesas o protección;Estrategia
+Córdoba;Departamento
+féminas como objetivo de reclutamiento/violencia;Estrategia
+Córdoba;Departamento
+vinculación sentimental/sexual;Estrategia
 Córdoba;Departamento
 no data;Estrategia
 Putumayo;Departamento
 reclutamiento forzado;Estrategia
 Putumayo;Departamento
-desaparición forzada;Estrategia
+regalos o promesas o protección;Estrategia
 Putumayo;Departamento
-missing;Estrategia
+presión;Estrategia
 Quindío;Departamento
 regalos o promesas o protección;Estrategia
 Quindío;Departamento
@@ -880,7 +938,7 @@ actividades lúdicas y recreativas;Estrategia
 Quindío;Departamento
 persuación de incorporación voluntaria y adoctrinamiento;Estrategia
 Quindío;Departamento
-missing;Estrategia
+presión;Estrategia
 Cauca;Departamento
 regalos o promesas o protección;Estrategia
 Vichada;Departamento
@@ -888,19 +946,27 @@ reclutamiento forzado;Estrategia
 Vichada;Departamento
 penetración de centros educativos;Estrategia
 Chocó;Departamento
-missing;Estrategia
+apoyo a actividades/bandas criminales;Estrategia
 Chocó;Departamento
 no data;Estrategia
 Cauca;Departamento
 no data;Estrategia
 Córdoba;Departamento
-missing;Estrategia
+apoyo a actividades/bandas criminales;Estrategia
+Córdoba;Departamento
+reclutamiento forzado;Estrategia
+Córdoba;Departamento
+regalos o promesas o protección;Estrategia
 Chocó;Departamento
 no data;Estrategia
 Quindío;Departamento
 reclutamiento forzado;Estrategia
 Cundinamarca;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
+Cundinamarca;Departamento
+apoyo a actividades/bandas criminales;Estrategia
+Cundinamarca;Departamento
+regalos o promesas o protección;Estrategia
 Chocó;Departamento
 no data;Estrategia
 Quindío;Departamento
@@ -908,23 +974,37 @@ no data;Estrategia
 Bolívar;Departamento
 presión;Estrategia
 Chocó;Departamento
-missing;Estrategia
+regalos o promesas o protección;Estrategia
+Chocó;Departamento
+penetración de centros educativos;Estrategia
+Chocó;Departamento
+presión;Estrategia
 Nariño;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
 Norte de Santander;Departamento
-missing;Estrategia
+regalos o promesas o protección;Estrategia
+Norte de Santander;Departamento
+penetración de centros educativos;Estrategia
+Norte de Santander;Departamento
+persuación de incorporación voluntaria y adoctrinamiento;Estrategia
 Huila;Departamento
 persuación de incorporación voluntaria y adoctrinamiento;Estrategia
 Huila;Departamento
 presión;Estrategia
 Bolívar;Departamento
-missing;Estrategia
+regalos o promesas o protección;Estrategia
+Bolívar;Departamento
+presión;Estrategia
 Norte de Santander;Departamento
-missing;Estrategia
+apoyo a actividades/bandas criminales;Estrategia
+Norte de Santander;Departamento
+regalos o promesas o protección;Estrategia
+Norte de Santander;Departamento
+féminas como objetivo de reclutamiento/violencia;Estrategia
 Bolívar;Departamento
 presión;Estrategia
 Quindío;Departamento
-missing;Estrategia
+regalos o promesas o protección;Estrategia
 Arauca;Departamento
 violencia;Estrategia
 Arauca;Departamento
@@ -940,19 +1020,29 @@ no data;Estrategia
 Norte de Santander;Departamento
 persuación de incorporación voluntaria y adoctrinamiento;Estrategia
 Quindío;Departamento
-missing;Estrategia
+regalos o promesas o protección;Estrategia
 Meta;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
+Meta;Departamento
+presión;Estrategia
 Bolívar;Departamento
 no data;Estrategia
 Bolívar;Departamento
-missing;Estrategia
+regalos o promesas o protección;Estrategia
+Bolívar;Departamento
+presión;Estrategia
 Sucre;Departamento
 no data;Estrategia
 Valle del Cauca;Departamento
-missing;Estrategia
+cuota familiar de reclutamiento;Estrategia
+Valle del Cauca;Departamento
+regalos o promesas o protección;Estrategia
+Valle del Cauca;Departamento
+persuación de incorporación voluntaria y adoctrinamiento;Estrategia
+Valle del Cauca;Departamento
+presión;Estrategia
 Quindío;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
 Guaviare;Departamento
 regalos o promesas o protección;Estrategia
 Guaviare;Departamento
@@ -962,7 +1052,9 @@ regalos o promesas o protección;Estrategia
 Caquetá;Departamento
 presión;Estrategia
 Meta;Departamento
-missing;Estrategia
+apoyo a actividades/bandas criminales;Estrategia
+Meta;Departamento
+regalos o promesas o protección;Estrategia
 Vichada;Departamento
 presión;Estrategia
 Vichada;Departamento
@@ -972,9 +1064,13 @@ persuación de incorporación voluntaria y adoctrinamiento;Estrategia
 Magdalena;Departamento
 no data;Estrategia
 Tolima;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
+Tolima;Departamento
+apoyo a actividades/bandas criminales;Estrategia
+Tolima;Departamento
+presión;Estrategia
 La Guajira;Departamento
-desaparición forzada;Estrategia
+reclutamiento forzado;Estrategia
 La Guajira;Departamento
 persuación de incorporación voluntaria y adoctrinamiento;Estrategia
 Norte de Santander;Departamento
@@ -982,15 +1078,19 @@ reclutamiento forzado;Estrategia
 Norte de Santander;Departamento
 regalos o promesas o protección;Estrategia
 Antioquia;Departamento
-missing;Estrategia
+apoyo a actividades/bandas criminales;Estrategia
+Antioquia;Departamento
+regalos o promesas o protección;Estrategia
+Antioquia;Departamento
+presión;Estrategia
 Guainía;Departamento
-missing;Estrategia
+no data;Estrategia
 Cesar;Departamento
 no data;Estrategia
 Arauca;Departamento
 reclutamiento forzado;Estrategia
 Quindío;Departamento
-missing;Estrategia
+presión;Estrategia
 Nariño;Departamento
 no data;Estrategia
 Bolívar;Departamento
@@ -998,11 +1098,11 @@ reclutamiento forzado;Estrategia
 Arauca;Departamento
 reclutamiento forzado;Estrategia
 Vaupés;Departamento
-missing;Estrategia
+no data;Estrategia
 Valle del Cauca;Departamento
 no data;Estrategia
 Risaralda;Departamento
-missing;Estrategia
+no data;Estrategia
 Sucre;Departamento
 reclutamiento forzado;Estrategia
 Sucre;Departamento
@@ -1012,13 +1112,25 @@ persuación de incorporación voluntaria y adoctrinamiento;Estrategia
 Risaralda;Departamento
 no data;Estrategia
 Bogotá;Departamento
-missing;Estrategia
+apoyo a actividades/bandas criminales;Estrategia
+Bogotá;Departamento
+presión;Estrategia
+Bogotá;Departamento
+persuación de incorporación voluntaria y adoctrinamiento;Estrategia
 Quindío;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
+Quindío;Departamento
+regalos o promesas o protección;Estrategia
+Quindío;Departamento
+féminas como objetivo de reclutamiento/violencia;Estrategia
+Quindío;Departamento
+persuación de incorporación voluntaria y adoctrinamiento;Estrategia
 Putumayo;Departamento
 no data;Estrategia
 Sucre;Departamento
-missing;Estrategia
+apoyo a actividades/bandas criminales;Estrategia
+Sucre;Departamento
+regalos o promesas o protección;Estrategia
 Magdalena;Departamento
 violencia;Estrategia
 Magdalena;Departamento
@@ -1026,11 +1138,19 @@ regalos o promesas o protección;Estrategia
 Magdalena;Departamento
 persuación de incorporación voluntaria y adoctrinamiento;Estrategia
 Chocó;Departamento
-missing;Estrategia
+regalos o promesas o protección;Estrategia
+Chocó;Departamento
+féminas como objetivo de reclutamiento/violencia;Estrategia
+Chocó;Departamento
+presión;Estrategia
 Córdoba;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
+Córdoba;Departamento
+féminas como objetivo de reclutamiento/violencia;Estrategia
+Córdoba;Departamento
+presión;Estrategia
 Boyacá;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
 La Guajira;Departamento
 reclutamiento forzado;Estrategia
 La Guajira;Departamento
@@ -1038,23 +1158,33 @@ regalos o promesas o protección;Estrategia
 La Guajira;Departamento
 presión;Estrategia
 Quindío;Departamento
-missing;Estrategia
+apoyo a actividades/bandas criminales;Estrategia
+Quindío;Departamento
+presión;Estrategia
 Cauca;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
+Cauca;Departamento
+apoyo a actividades/bandas criminales;Estrategia
 Nariño;Departamento
 no data;Estrategia
 Huila;Departamento
-missing;Estrategia
+regalos o promesas o protección;Estrategia
+Huila;Departamento
+actividades lúdicas y recreativas;Estrategia
 Valle del Cauca;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
 Nariño;Departamento
 reclutamiento forzado;Estrategia
 Putumayo;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
+Putumayo;Departamento
+presión;Estrategia
 Valle del Cauca;Departamento
 no data;Estrategia
 Córdoba;Departamento
-missing;Estrategia
+regalos o promesas o protección;Estrategia
+Córdoba;Departamento
+actividades lúdicas y recreativas;Estrategia
 Guaviare;Departamento
 presión;Estrategia
 Guaviare;Departamento
@@ -1072,23 +1202,31 @@ presión;Estrategia
 Boyacá;Departamento
 apoyo a actividades/bandas criminales;Estrategia
 Nariño;Departamento
-missing;Estrategia
+regalos o promesas o protección;Estrategia
 Valle del Cauca;Departamento
-missing;Estrategia
+regalos o promesas o protección;Estrategia
 Cauca;Departamento
 no data;Estrategia
 Risaralda;Departamento
-missing;Estrategia
+apoyo a actividades/bandas criminales;Estrategia
+Risaralda;Departamento
+regalos o promesas o protección;Estrategia
+Risaralda;Departamento
+presión;Estrategia
 Córdoba;Departamento
 regalos o promesas o protección;Estrategia
 Nariño;Departamento
 no data;Estrategia
 Quindío;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
 Huila;Departamento
-missing;Estrategia
+regalos o promesas o protección;Estrategia
+Huila;Departamento
+persuación de incorporación voluntaria y adoctrinamiento;Estrategia
+Huila;Departamento
+presión;Estrategia
 Risaralda;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
 Amazonas;Departamento
 no data;Estrategia
 Córdoba;Departamento
@@ -1096,21 +1234,37 @@ consumo de drogas;Estrategia
 Córdoba;Departamento
 regalos o promesas o protección;Estrategia
 Valle del Cauca;Departamento
-missing;Estrategia
+apoyo a actividades/bandas criminales;Estrategia
+Valle del Cauca;Departamento
+regalos o promesas o protección;Estrategia
 Quindío;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
+Quindío;Departamento
+regalos o promesas o protección;Estrategia
+Quindío;Departamento
+presión;Estrategia
 Bolívar;Departamento
-missing;Estrategia
+apoyo a actividades/bandas criminales;Estrategia
 Bolívar;Departamento
-missing;Estrategia
+regalos o promesas o protección;Estrategia
+Bolívar;Departamento
+reclutamiento forzado;Estrategia
+Bolívar;Departamento
+regalos o promesas o protección;Estrategia
+Bolívar;Departamento
+féminas como objetivo de reclutamiento/violencia;Estrategia
 Arauca;Departamento
 no data;Estrategia
 Nariño;Departamento
 no data;Estrategia
 Caldas;Departamento
-missing;Estrategia
+cuota familiar de reclutamiento;Estrategia
+Caldas;Departamento
+presión;Estrategia
 Quindío;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
+Quindío;Departamento
+apoyo a actividades/bandas criminales;Estrategia
 Córdoba;Departamento
 no data;Estrategia
 Cauca;Departamento
@@ -1120,17 +1274,25 @@ consumo de drogas;Estrategia
 Arauca;Departamento
 cuota familiar de reclutamiento;Estrategia
 Quindío;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
 Cundinamarca;Departamento
-missing;Estrategia
+regalos o promesas o protección;Estrategia
+Cundinamarca;Departamento
+presión;Estrategia
 Quindío;Departamento
 no data;Estrategia
 Tolima;Departamento
 no data;Estrategia
 Bogotá;Departamento
-missing;Estrategia
+apoyo a actividades/bandas criminales;Estrategia
+Bogotá;Departamento
+regalos o promesas o protección;Estrategia
 Norte de Santander;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
+Norte de Santander;Departamento
+regalos o promesas o protección;Estrategia
+Norte de Santander;Departamento
+persuación de incorporación voluntaria y adoctrinamiento;Estrategia
 Córdoba;Departamento
 no data;Estrategia
 Tolima;Departamento
@@ -1156,7 +1318,7 @@ regalos o promesas o protección;Estrategia
 Casanare;Departamento
 no data;Estrategia
 Chocó;Departamento
-missing;Estrategia
+no data;Estrategia
 Antioquia;Departamento
 penetración de centros educativos;Estrategia
 Antioquia;Departamento
@@ -1166,19 +1328,27 @@ regalos o promesas o protección;Estrategia
 Magdalena;Departamento
 no data;Estrategia
 Bolívar;Departamento
-missing;Estrategia
+regalos o promesas o protección;Estrategia
 Bolívar;Departamento
 no data;Estrategia
 Chocó;Departamento
-missing;Estrategia
+regalos o promesas o protección;Estrategia
 Chocó;Departamento
 actividades lúdicas y recreativas;Estrategia
 Meta;Departamento
-missing;Estrategia
+féminas como objetivo de reclutamiento/violencia;Estrategia
+Meta;Departamento
+presión;Estrategia
 Chocó;Departamento
-missing;Estrategia
+apoyo a actividades/bandas criminales;Estrategia
+Chocó;Departamento
+regalos o promesas o protección;Estrategia
 Norte de Santander;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
+Norte de Santander;Departamento
+apoyo a actividades/bandas criminales;Estrategia
+Norte de Santander;Departamento
+féminas como objetivo de reclutamiento/violencia;Estrategia
 Antioquia;Departamento
 consumo de drogas;Estrategia
 Antioquia;Departamento
@@ -1186,9 +1356,11 @@ regalos o promesas o protección;Estrategia
 Antioquia;Departamento
 presión;Estrategia
 Bolívar;Departamento
-missing;Estrategia
+apoyo a actividades/bandas criminales;Estrategia
+Bolívar;Departamento
+regalos o promesas o protección;Estrategia
 Risaralda;Departamento
-missing;Estrategia
+regalos o promesas o protección;Estrategia
 Norte de Santander;Departamento
 no data;Estrategia
 Antioquia;Departamento
@@ -1200,9 +1372,15 @@ persuación de incorporación voluntaria y adoctrinamiento;Estrategia
 Córdoba;Departamento
 no data;Estrategia
 Risaralda;Departamento
-missing;Estrategia
+apoyo a actividades/bandas criminales;Estrategia
+Risaralda;Departamento
+regalos o promesas o protección;Estrategia
 Norte de Santander;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
+Norte de Santander;Departamento
+féminas como objetivo de reclutamiento/violencia;Estrategia
+Norte de Santander;Departamento
+presión;Estrategia
 Cesar;Departamento
 consumo de drogas;Estrategia
 Cesar;Departamento
@@ -1230,13 +1408,17 @@ persuación de incorporación voluntaria y adoctrinamiento;Estrategia
 Norte de Santander;Departamento
 no data;Estrategia
 Valle del Cauca;Departamento
-missing;Estrategia
+consumo de drogas;Estrategia
+Valle del Cauca;Departamento
+apoyo a actividades/bandas criminales;Estrategia
+Valle del Cauca;Departamento
+regalos o promesas o protección;Estrategia
 Putumayo;Departamento
-missing;Estrategia
+consumo de drogas;Estrategia
+Putumayo;Departamento
+apoyo a actividades/bandas criminales;Estrategia
 Chocó;Departamento
 reclutamiento forzado;Estrategia
-Chocó;Departamento
-desaparición forzada;Estrategia
 Chocó;Departamento
 no data;Estrategia
 Countrywide;Departamento
@@ -1246,13 +1428,13 @@ no data;Estrategia
 Meta;Departamento
 no data;Estrategia
 Chocó;Departamento
-desaparición forzada;Estrategia
+reclutamiento forzado;Estrategia
 Meta;Departamento
 no data;Estrategia
 Arauca;Departamento
-missing;Estrategia
+no data;Estrategia
 Chocó;Departamento
-missing;Estrategia
+no data;Estrategia
 Cauca;Departamento
 no data;Estrategia
 Amazonas;Departamento
@@ -1260,23 +1442,31 @@ no data;Estrategia
 Cundinamarca;Departamento
 no data;Estrategia
 Cauca;Departamento
-missing;Estrategia
+regalos o promesas o protección;Estrategia
+Cauca;Departamento
+persuación de incorporación voluntaria y adoctrinamiento;Estrategia
+Cauca;Departamento
+presión;Estrategia
 Guaviare;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
 Meta;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
 Valle del Cauca;Departamento
 no data;Estrategia
 Córdoba;Departamento
 consumo de drogas;Estrategia
 Córdoba;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
+Córdoba;Departamento
+regalos o promesas o protección;Estrategia
+Córdoba;Departamento
+féminas como objetivo de reclutamiento/violencia;Estrategia
 Caldas;Departamento
 apoyo a actividades/bandas criminales;Estrategia
 Caldas;Departamento
 regalos o promesas o protección;Estrategia
 Cauca;Departamento
-missing;Estrategia
+regalos o promesas o protección;Estrategia
 Antioquia;Departamento
 no data;Estrategia
 Caquetá;Departamento
@@ -1284,17 +1474,25 @@ no data;Estrategia
 Antioquia;Departamento
 reclutamiento forzado;Estrategia
 Casanare;Departamento
-missing;Estrategia
+no data;Estrategia
 Antioquia;Departamento
 regalos o promesas o protección;Estrategia
 Tolima;Departamento
 no data;Estrategia
 Cundinamarca;Departamento
-missing;Estrategia
+apoyo a actividades/bandas criminales;Estrategia
+Cundinamarca;Departamento
+regalos o promesas o protección;Estrategia
 Antioquia;Departamento
 regalos o promesas o protección;Estrategia
 Sucre;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
+Sucre;Departamento
+regalos o promesas o protección;Estrategia
+Sucre;Departamento
+presión;Estrategia
+Sucre;Departamento
+vinculación sentimental/sexual;Estrategia
 Nariño;Departamento
 no data;Estrategia
 Valle del Cauca;Departamento
@@ -1352,7 +1550,7 @@ no data;Estrategia
 Quindío;Departamento
 no data;Estrategia
 Caldas;Departamento
-desaparición forzada;Estrategia
+reclutamiento forzado;Estrategia
 Cundinamarca;Departamento
 no data;Estrategia
 Cundinamarca;Departamento
@@ -1434,7 +1632,7 @@ presión;Estrategia
 Caldas;Departamento
 persuación de incorporación voluntaria y adoctrinamiento;Estrategia
 Bogotá;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
 Meta;Departamento
 reclutamiento forzado;Estrategia
 Meta;Departamento
@@ -1536,7 +1734,13 @@ presión;Estrategia
 Arauca;Departamento
 no data;Estrategia
 La Guajira;Departamento
-missing;Estrategia
+regalos o promesas o protección;Estrategia
+La Guajira;Departamento
+féminas como objetivo de reclutamiento/violencia;Estrategia
+La Guajira;Departamento
+persuación de incorporación voluntaria y adoctrinamiento;Estrategia
+La Guajira;Departamento
+presión;Estrategia
 Arauca;Departamento
 vinculación sentimental/sexual;Estrategia
 Valle del Cauca;Departamento
@@ -1550,13 +1754,19 @@ no data;Estrategia
 Valle del Cauca;Departamento
 persuación de incorporación voluntaria y adoctrinamiento;Estrategia
 Meta;Departamento
-missing;Estrategia
+apoyo a actividades/bandas criminales;Estrategia
+Meta;Departamento
+regalos o promesas o protección;Estrategia
+Meta;Departamento
+presión;Estrategia
 Meta;Departamento
 no data;Estrategia
 Cesar;Departamento
 apoyo a actividades/bandas criminales;Estrategia
 Norte de Santander;Departamento
-missing;Estrategia
+regalos o promesas o protección;Estrategia
+Norte de Santander;Departamento
+presión;Estrategia
 Cauca;Departamento
 reclutamiento forzado;Estrategia
 Arauca;Departamento
@@ -1566,7 +1776,7 @@ vinculación sentimental/sexual;Estrategia
 Chocó;Departamento
 no data;Estrategia
 Meta;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
 Nariño;Departamento
 no data;Estrategia
 Sucre;Departamento
@@ -1578,9 +1788,9 @@ reclutamiento forzado;Estrategia
 Nariño;Departamento
 apoyo a actividades/bandas criminales;Estrategia
 Córdoba;Departamento
-missing;Estrategia
+presión;Estrategia
 Meta;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
 Atlántico;Departamento
 apoyo a actividades/bandas criminales;Estrategia
 Cauca;Departamento
@@ -1588,9 +1798,9 @@ reclutamiento forzado;Estrategia
 Cauca;Departamento
 persuación de incorporación voluntaria y adoctrinamiento;Estrategia
 Caquetá;Departamento
-regalos o promesas o protección;Estrategia
+reclutamiento forzado;Estrategia
 Caquetá;Departamento
-desaparición forzada;Estrategia
+regalos o promesas o protección;Estrategia
 Valle del Cauca;Departamento
 reclutamiento forzado;Estrategia
 Valle del Cauca;Departamento
@@ -1614,7 +1824,7 @@ reclutamiento forzado;Estrategia
 Córdoba;Departamento
 regalos o promesas o protección;Estrategia
 Arauca;Departamento
-missing;Estrategia
+regalos o promesas o protección;Estrategia
 Meta;Departamento
 no data;Estrategia
 Valle del Cauca;Departamento
@@ -1640,15 +1850,15 @@ regalos o promesas o protección;Estrategia
 Caquetá;Departamento
 féminas como objetivo de reclutamiento/violencia;Estrategia
 Arauca;Departamento
-missing;Estrategia
+no data;Estrategia
 Cundinamarca;Departamento
 regalos o promesas o protección;Estrategia
 Meta;Departamento
 reclutamiento forzado;Estrategia
 Meta;Departamento
-missing;Estrategia
+no data;Estrategia
 Arauca;Departamento
-missing;Estrategia
+no data;Estrategia
 Quindío;Departamento
 actividades lúdicas y recreativas;Estrategia
 Quindío;Departamento
@@ -1658,21 +1868,33 @@ presión;Estrategia
 Vichada;Departamento
 penetración de centros educativos;Estrategia
 Córdoba;Departamento
-missing;Estrategia
+regalos o promesas o protección;Estrategia
 Meta;Departamento
 penetración de centros educativos;Estrategia
 Meta;Departamento
 persuación de incorporación voluntaria y adoctrinamiento;Estrategia
 Meta;Departamento
-missing;Estrategia
+no data;Estrategia
 Arauca;Departamento
-missing;Estrategia
+no data;Estrategia
 Córdoba;Departamento
-missing;Estrategia
+regalos o promesas o protección;Estrategia
+Córdoba;Departamento
+presión;Estrategia
 Bolívar;Departamento
-missing;Estrategia
+regalos o promesas o protección;Estrategia
+Bolívar;Departamento
+féminas como objetivo de reclutamiento/violencia;Estrategia
 Valle del Cauca;Departamento
-missing;Estrategia
+féminas como objetivo de reclutamiento/violencia;Estrategia
+Valle del Cauca;Departamento
+vinculación sentimental/sexual;Estrategia
+Valle del Cauca;Departamento
+apoyo a actividades/bandas criminales;Estrategia
+Valle del Cauca;Departamento
+persuación de incorporación voluntaria y adoctrinamiento;Estrategia
+Valle del Cauca;Departamento
+presión;Estrategia
 Vichada;Departamento
 vinculación sentimental/sexual;Estrategia
 Vichada;Departamento
@@ -1680,7 +1902,9 @@ penetración de centros educativos;Estrategia
 Vichada;Departamento
 persuación de incorporación voluntaria y adoctrinamiento;Estrategia
 Chocó;Departamento
-missing;Estrategia
+apoyo a actividades/bandas criminales;Estrategia
+Chocó;Departamento
+regalos o promesas o protección;Estrategia
 Nariño;Departamento
 persuación de incorporación voluntaria y adoctrinamiento;Estrategia
 Nariño;Departamento
@@ -1692,7 +1916,11 @@ violencia;Estrategia
 Nariño;Departamento
 regalos o promesas o protección;Estrategia
 Chocó;Departamento
-missing;Estrategia
+regalos o promesas o protección;Estrategia
+Chocó;Departamento
+presión;Estrategia
+Chocó;Departamento
+vinculación sentimental/sexual;Estrategia
 Chocó;Departamento
 reclutamiento forzado;Estrategia
 Chocó;Departamento
@@ -1704,13 +1932,17 @@ féminas como objetivo de reclutamiento/violencia;Estrategia
 Valle del Cauca;Departamento
 persuación de incorporación voluntaria y adoctrinamiento;Estrategia
 Cauca;Departamento
-missing;Estrategia
+no data;Estrategia
 Cundinamarca;Departamento
 no data;Estrategia
 Chocó;Departamento
 no data;Estrategia
 Cundinamarca;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
+Cundinamarca;Departamento
+violencia;Estrategia
+Cundinamarca;Departamento
+penetración de centros educativos;Estrategia
 Meta;Departamento
 persuación de incorporación voluntaria y adoctrinamiento;Estrategia
 Meta;Departamento
@@ -1720,23 +1952,31 @@ penetración de centros educativos;Estrategia
 Córdoba;Departamento
 regalos o promesas o protección;Estrategia
 Antioquia;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
 Valle del Cauca;Departamento
-missing;Estrategia
+cuota familiar de reclutamiento;Estrategia
+Valle del Cauca;Departamento
+presión;Estrategia
 Arauca;Departamento
-missing;Estrategia
+no data;Estrategia
 Cundinamarca;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
+Cundinamarca;Departamento
+regalos o promesas o protección;Estrategia
 Quindío;Departamento
-missing;Estrategia
+apoyo a actividades/bandas criminales;Estrategia
+Quindío;Departamento
+presión;Estrategia
 Caquetá;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
+Caquetá;Departamento
+persuación de incorporación voluntaria y adoctrinamiento;Estrategia
 Arauca;Departamento
 apoyo a actividades/bandas criminales;Estrategia
 Arauca;Departamento
 féminas como objetivo de reclutamiento/violencia;Estrategia
 Bolívar;Departamento
-missing;Estrategia
+presión;Estrategia
 Meta;Departamento
 reclutamiento forzado;Estrategia
 Guaviare;Departamento
@@ -1744,47 +1984,63 @@ cuota familiar de reclutamiento;Estrategia
 Guaviare;Departamento
 regalos o promesas o protección;Estrategia
 Cundinamarca;Departamento
-missing;Estrategia
+no data;Estrategia
 Caquetá;Departamento
-missing;Estrategia
+penetración de centros educativos;Estrategia
+Caquetá;Departamento
+regalos o promesas o protección;Estrategia
+Caquetá;Departamento
+persuación de incorporación voluntaria y adoctrinamiento;Estrategia
+Caquetá;Departamento
+presión;Estrategia
 Arauca;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
 Nariño;Departamento
-missing;Estrategia
+no data;Estrategia
 Valle del Cauca;Departamento
 regalos o promesas o protección;Estrategia
 Meta;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
 Vichada;Departamento
-missing;Estrategia
+no data;Estrategia
 Bolívar;Departamento
-missing;Estrategia
+regalos o promesas o protección;Estrategia
+Santander;Departamento
+reclutamiento forzado;Estrategia
 Santander;Departamento
 penetración de centros educativos;Estrategia
-Santander;Departamento
-desaparición forzada;Estrategia
 Arauca;Departamento
-missing;Estrategia
+regalos o promesas o protección;Estrategia
 Nariño;Departamento
-missing;Estrategia
+no data;Estrategia
 Chocó;Departamento
 cuota familiar de reclutamiento;Estrategia
 Chocó;Departamento
 reclutamiento forzado;Estrategia
 Antioquia;Departamento
-missing;Estrategia
+regalos o promesas o protección;Estrategia
+Antioquia;Departamento
+féminas como objetivo de reclutamiento/violencia;Estrategia
 Bogotá;Departamento
-missing;Estrategia
+presión;Estrategia
 Norte de Santander;Departamento
-missing;Estrategia
+no data;Estrategia
 Guaviare;Departamento
-missing;Estrategia
+no data;Estrategia
 Nariño;Departamento
 apoyo a actividades/bandas criminales;Estrategia
 Guaviare;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
+Guaviare;Departamento
+regalos o promesas o protección;Estrategia
+Guaviare;Departamento
+vinculación sentimental/sexual;Estrategia
 Cauca;Departamento
-missing;Estrategia
+regalos o promesas o protección;Estrategia
+Cauca;Departamento
+persuación de incorporación voluntaria y adoctrinamiento;Estrategia
+Cauca;Departamento
+vinculación sentimental/sexual;Estrategia
 Huila;Departamento
 presión;Estrategia
 Boyacá;Departamento
@@ -1792,21 +2048,25 @@ reclutamiento forzado;Estrategia
 Boyacá;Departamento
 presión;Estrategia
 Quindío;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
+Quindío;Departamento
+regalos o promesas o protección;Estrategia
+Quindío;Departamento
+féminas como objetivo de reclutamiento/violencia;Estrategia
 Chocó;Departamento
 presión;Estrategia
 Chocó;Departamento
 persuación de incorporación voluntaria y adoctrinamiento;Estrategia
 Cundinamarca;Departamento
-missing;Estrategia
+no data;Estrategia
 Valle del Cauca;Departamento
-missing;Estrategia
+no data;Estrategia
 Arauca;Departamento
 persuación de incorporación voluntaria y adoctrinamiento;Estrategia
 Arauca;Departamento
 presión;Estrategia
 Meta;Departamento
-missing;Estrategia
+no data;Estrategia
 Córdoba;Departamento
 no data;Estrategia
 Bolívar;Departamento
@@ -1818,13 +2078,13 @@ violencia;Estrategia
 Nariño;Departamento
 no data;Estrategia
 Guaviare;Departamento
-missing;Estrategia
+no data;Estrategia
 Nariño;Departamento
 reclutamiento forzado;Estrategia
 Chocó;Departamento
 no data;Estrategia
 Bolívar;Departamento
-missing;Estrategia
+no data;Estrategia
 Huila;Departamento
 no data;Estrategia
 Valle del Cauca;Departamento
@@ -1832,9 +2092,9 @@ reclutamiento forzado;Estrategia
 Valle del Cauca;Departamento
 regalos o promesas o protección;Estrategia
 Bogotá;Departamento
-missing;Estrategia
+no data;Estrategia
 Cundinamarca;Departamento
-missing;Estrategia
+no data;Estrategia
 Nariño;Departamento
 apoyo a actividades/bandas criminales;Estrategia
 Arauca;Departamento
@@ -1848,41 +2108,47 @@ regalos o promesas o protección;Estrategia
 Valle del Cauca;Departamento
 féminas como objetivo de reclutamiento/violencia;Estrategia
 Guaviare;Departamento
-missing;Estrategia
+no data;Estrategia
 Nariño;Departamento
 regalos o promesas o protección;Estrategia
 Nariño;Departamento
 persuación de incorporación voluntaria y adoctrinamiento;Estrategia
 Sucre;Departamento
-missing;Estrategia
+no data;Estrategia
 Arauca;Departamento
-missing;Estrategia
+no data;Estrategia
 Valle del Cauca;Departamento
-missing;Estrategia
+no data;Estrategia
 Nariño;Departamento
 no data;Estrategia
 Atlántico;Departamento
-missing;Estrategia
+no data;Estrategia
 Córdoba;Departamento
-missing;Estrategia
+no data;Estrategia
 Chocó;Departamento
-missing;Estrategia
+no data;Estrategia
 Chocó;Departamento
-missing;Estrategia
+apoyo a actividades/bandas criminales;Estrategia
 Antioquia;Departamento
-missing;Estrategia
+no data;Estrategia
 Meta;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
 Córdoba;Departamento
-missing;Estrategia
+apoyo a actividades/bandas criminales;Estrategia
+Córdoba;Departamento
+regalos o promesas o protección;Estrategia
 Norte de Santander;Departamento
-missing;Estrategia
+apoyo a actividades/bandas criminales;Estrategia
+Norte de Santander;Departamento
+regalos o promesas o protección;Estrategia
+Norte de Santander;Departamento
+presión;Estrategia
 Cundinamarca;Departamento
-missing;Estrategia
+no data;Estrategia
 Guaviare;Departamento
-missing;Estrategia
+no data;Estrategia
 Arauca;Departamento
-missing;Estrategia
+no data;Estrategia
 Caldas;Departamento
 reclutamiento forzado;Estrategia
 Caldas;Departamento
@@ -1892,19 +2158,27 @@ féminas como objetivo de reclutamiento/violencia;Estrategia
 Caldas;Departamento
 presión;Estrategia
 Valle del Cauca;Departamento
-missing;Estrategia
+cuota familiar de reclutamiento;Estrategia
 Valle del Cauca;Departamento
-missing;Estrategia
+regalos o promesas o protección;Estrategia
+Valle del Cauca;Departamento
+presión;Estrategia
+Valle del Cauca;Departamento
+apoyo a actividades/bandas criminales;Estrategia
 Cundinamarca;Departamento
-missing;Estrategia
+no data;Estrategia
 Vaupés;Departamento
-missing;Estrategia
+no data;Estrategia
 Nariño;Departamento
 féminas como objetivo de reclutamiento/violencia;Estrategia
 Meta;Departamento
 no data;Estrategia
 Bogotá;Departamento
-missing;Estrategia
+apoyo a actividades/bandas criminales;Estrategia
+Bogotá;Departamento
+regalos o promesas o protección;Estrategia
+Bogotá;Departamento
+presión;Estrategia
 Vaupés;Departamento
 no data;Estrategia
 Chocó;Departamento
@@ -1924,7 +2198,7 @@ féminas como objetivo de reclutamiento/violencia;Estrategia
 Bolívar;Departamento
 presión;Estrategia
 Cundinamarca;Departamento
-missing;Estrategia
+no data;Estrategia
 Arauca;Departamento
 presión;Estrategia
 Valle del Cauca;Departamento
@@ -1938,7 +2212,7 @@ regalos o promesas o protección;Estrategia
 Putumayo;Departamento
 presión;Estrategia
 Bolívar;Departamento
-missing;Estrategia
+no data;Estrategia
 Meta;Departamento
 reclutamiento forzado;Estrategia
 Cauca;Departamento
@@ -1946,37 +2220,41 @@ no data;Estrategia
 Bolívar;Departamento
 no data;Estrategia
 Chocó;Departamento
-missing;Estrategia
+no data;Estrategia
 Quindío;Departamento
 regalos o promesas o protección;Estrategia
 Atlántico;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
 Cundinamarca;Departamento
 reclutamiento forzado;Estrategia
 Bogotá;Departamento
-missing;Estrategia
+apoyo a actividades/bandas criminales;Estrategia
+Bogotá;Departamento
+regalos o promesas o protección;Estrategia
 Caquetá;Departamento
-missing;Estrategia
+no data;Estrategia
 Arauca;Departamento
 no data;Estrategia
 Cesar;Departamento
 regalos o promesas o protección;Estrategia
 Cauca;Departamento
-missing;Estrategia
+apoyo a actividades/bandas criminales;Estrategia
+Cauca;Departamento
+regalos o promesas o protección;Estrategia
 Chocó;Departamento
-missing;Estrategia
+no data;Estrategia
 Cesar;Departamento
 no data;Estrategia
 Bolívar;Departamento
-missing;Estrategia
+no data;Estrategia
 Quindío;Departamento
-missing;Estrategia
+no data;Estrategia
 Putumayo;Departamento
 no data;Estrategia
 Bolívar;Departamento
 no data;Estrategia
 Bolívar;Departamento
-missing;Estrategia
+no data;Estrategia
 Risaralda;Departamento
 reclutamiento forzado;Estrategia
 Risaralda;Departamento
@@ -1984,7 +2262,7 @@ presión;Estrategia
 Magdalena;Departamento
 féminas como objetivo de reclutamiento/violencia;Estrategia
 Meta;Departamento
-missing;Estrategia
+no data;Estrategia
 Bolívar;Departamento
 no data;Estrategia
 Huila;Departamento
@@ -1998,31 +2276,31 @@ apoyo a actividades/bandas criminales;Estrategia
 Nariño;Departamento
 no data;Estrategia
 Antioquia;Departamento
-missing;Estrategia
+no data;Estrategia
 Nariño;Departamento
 reclutamiento forzado;Estrategia
 Córdoba;Departamento
-missing;Estrategia
+no data;Estrategia
 Valle del Cauca;Departamento
 reclutamiento forzado;Estrategia
 Valle del Cauca;Departamento
 regalos o promesas o protección;Estrategia
 Bogotá;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
 Sucre;Departamento
-missing;Estrategia
+no data;Estrategia
 Arauca;Departamento
-missing;Estrategia
+no data;Estrategia
 Chocó;Departamento
 reclutamiento forzado;Estrategia
 Valle del Cauca;Departamento
-missing;Estrategia
+no data;Estrategia
 Bolívar;Departamento
 reclutamiento forzado;Estrategia
 Bolívar;Departamento
 féminas como objetivo de reclutamiento/violencia;Estrategia
 Quindío;Departamento
-missing;Estrategia
+no data;Estrategia
 Tolima;Departamento
 reclutamiento forzado;Estrategia
 Tolima;Departamento
@@ -2034,7 +2312,7 @@ no data;Estrategia
 Caldas;Departamento
 no data;Estrategia
 Risaralda;Departamento
-missing;Estrategia
+no data;Estrategia
 Putumayo;Departamento
 no data;Estrategia
 Meta;Departamento
@@ -2046,19 +2324,27 @@ no data;Estrategia
 Nariño;Departamento
 reclutamiento forzado;Estrategia
 Norte de Santander;Departamento
-missing;Estrategia
+no data;Estrategia
 Nariño;Departamento
 no data;Estrategia
 Guaviare;Departamento
-missing;Estrategia
+no data;Estrategia
 Antioquia;Departamento
-missing;Estrategia
+vinculación sentimental/sexual;Estrategia
+Antioquia;Departamento
+regalos o promesas o protección;Estrategia
+Antioquia;Departamento
+penetración de centros educativos;Estrategia
+Antioquia;Departamento
+persuación de incorporación voluntaria y adoctrinamiento;Estrategia
 Córdoba;Departamento
-missing;Estrategia
+regalos o promesas o protección;Estrategia
 Quindío;Departamento
-missing;Estrategia
+apoyo a actividades/bandas criminales;Estrategia
+Quindío;Departamento
+presión;Estrategia
 Magdalena;Departamento
-missing;Estrategia
+reclutamiento forzado;Estrategia
 Norte de Santander;Departamento
 no data;Estrategia
 Norte de Santander;Departamento
@@ -2068,29 +2354,31 @@ reclutamiento forzado;Estrategia
 Nariño;Departamento
 reclutamiento forzado;Estrategia
 Bolívar;Departamento
-missing;Estrategia
+no data;Estrategia
 Putumayo;Departamento
-missing;Estrategia
+no data;Estrategia
 La Guajira;Departamento
-missing;Estrategia
+féminas como objetivo de reclutamiento/violencia;Estrategia
+La Guajira;Departamento
+presión;Estrategia
 Meta;Departamento
-missing;Estrategia
+no data;Estrategia
 Tolima;Departamento
-missing;Estrategia
+no data;Estrategia
 Nariño;Departamento
-missing;Estrategia
+no data;Estrategia
 Antioquia;Departamento
-missing;Estrategia
+no data;Estrategia
 Guaviare;Departamento
-missing;Estrategia
+no data;Estrategia
 Bolívar;Departamento
 reclutamiento forzado;Estrategia
 Bolívar;Departamento
-missing;Estrategia
+no data;Estrategia
 Norte de Santander;Departamento
-missing;Estrategia
+no data;Estrategia
 Antioquia;Departamento
-missing;Estrategia
+no data;Estrategia
 Valle del Cauca;Departamento
 reclutamiento forzado;Estrategia
 Valle del Cauca;Departamento
