@@ -1,6 +1,5 @@
 backup/
-*.pdf
-*.docx
+data/
 wetransfer_advertencia-sat_2022-07-01_0455.zip
 datos-20221212T211618Z-001.zip
 data-20221213T035341Z-001.zip
