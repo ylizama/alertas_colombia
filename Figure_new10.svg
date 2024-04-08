@@ -1,0 +1,2766 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg contentScriptType="text/ecmascript" width="2870.4556"
+     xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
+     contentStyleType="text/css"
+     viewBox="-1624.619751 -1075.943848 2870.455566 2201.191650"
+     height="2201.1917" preserveAspectRatio="xMidYMid meet"
+     xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <g id="edges">
+        <path stroke-linecap="round" fill="none"
+              class="id_Nariño id_Pequeños_Grupos_Ilegales"
+              d="M -374.274200,762.533875 A 659.573948,659.573948 0,0 1,90.433250,183.842926"
+              stroke="#61a4a7" stroke-width="0.458479" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_Nariño id_Guerrillas"
+              d="M -381.456146,763.300049 A 831.619128,831.619128 0,0 1,-111.090683,-90.973572"
+              stroke="#61a4a7" stroke-width="2.8654938" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_regalos_o_promesas_o_protección id_Nariño"
+              d="M 313.636719,56.378441 A 848.576321,848.576321 0,0 1,-348.392029,778.520691"
+              stroke="#c98694" stroke-width="0.80233824" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_reclutamiento_forzado id_Nariño"
+              d="M -18.166027,-384.639893 A 1031.752482,1031.752482 0,0 1,-340.228668,756.382629"
+              stroke="#c98694" stroke-width="2.9801133" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_presión id_Nariño"
+              d="M -312.571228,-263.867950 A 888.156805,888.156805 0,0 1,-358.785583,763.020386"
+              stroke="#c98694" stroke-width="0.68771845" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_penetración_de_centros_educativos id_Nariño"
+              d="M 57.431610,1046.763184 A 435.579715,435.579715 0,0 1,-366.287048,804.282898"
+              stroke="#c98694" stroke-width="0.11461975" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_consumo_de_drogas id_Nariño"
+              d="M 109.578362,517.740295 A 474.633923,474.633923 0,0 1,-353.359772,786.124512"
+              stroke="#c98694" stroke-width="0.11461975" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_apoyo_a_actividades/bandas_criminales id_Nariño"
+              d="M 237.738617,-320.794678 A 1066.380776,1066.380776 0,0 1,-351.341492,772.454895"
+              stroke="#c98694" stroke-width="0.68771845" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_reclutamiento_forzado id_Vichada"
+              d="M -13.130502,-419.575806 A 770.696381,770.696381 0,0 1,833.441650,-690.879333"
+              stroke="#c98694" stroke-width="0.458479" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_reclutamiento_forzado id_Vaupés"
+              d="M -29.574541,-383.989532 A 1062.676349,1062.676349 0,0 1,-975.059998,420.338501"
+              stroke="#c98694" stroke-width="0.2292395" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_reclutamiento_forzado id_Valle_del_Cauca"
+              d="M -13.519969,-387.045898 A 943.875695,943.875695 0,0 1,-29.853323,699.589844"
+              stroke="#c98694" stroke-width="1.6046765" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_reclutamiento_forzado id_Tolima"
+              d="M -44.850605,-405.549866 A 266.725275,266.725275 0,0 1,-260.641327,-587.286926"
+              stroke="#c98694" stroke-width="0.34385923" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_reclutamiento_forzado id_Sucre"
+              d="M -44.702782,-406.654388 A 559.234037,559.234037 0,0 1,-494.510345,-851.824463"
+              stroke="#c98694" stroke-width="0.80233824" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_reclutamiento_forzado id_Risaralda"
+              d="M -43.821079,-396.794159 A 469.233990,469.233990 0,0 1,-551.206238,-542.369202"
+              stroke="#c98694" stroke-width="0.34385923" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_reclutamiento_forzado id_Putumayo"
+              d="M -33.681126,-385.451233 A 772.448801,772.448801 0,0 1,-817.796997,35.574631"
+              stroke="#c98694" stroke-width="0.5730987" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_reclutamiento_forzado id_Norte_de_Santander"
+              d="M -30.002317,-384.095917 A 838.199023,838.199023 0,0 1,-772.796204,230.580826"
+              stroke="#c98694" stroke-width="1.2608172" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_reclutamiento_forzado id_Meta"
+              d="M -5.544837,-398.653534 A 917.034876,917.034876 0,0 1,677.085693,395.712952"
+              stroke="#c98694" stroke-width="2.636254" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_reclutamiento_forzado id_Magdalena"
+              d="M -25.986130,-423.423889 A 556.791258,556.791258 0,0 1,315.498627,-955.575500"
+              stroke="#c98694" stroke-width="0.458479" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_reclutamiento_forzado id_La_Guajira"
+              d="M -19.141380,-422.584717 A 665.049717,665.049717 0,0 1,585.619019,-883.955994"
+              stroke="#c98694" stroke-width="0.68771845" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_reclutamiento_forzado id_Guaviare"
+              d="M -39.073673,-389.278503 A 533.463215,533.463215 0,0 1,-632.298157,-287.805939"
+              stroke="#c98694" stroke-width="0.80233824" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_reclutamiento_forzado id_Guainía"
+              d="M -41.996952,-413.927795 A 582.537513,582.537513 0,0 1,-297.548035,-1028.739258"
+              stroke="#c98694" stroke-width="0.11461975" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_reclutamiento_forzado id_Córdoba"
+              d="M -17.978455,-384.708710 A 732.464316,732.464316 0,0 1,-238.436432,423.960724"
+              stroke="#c98694" stroke-width="1.0315777" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_reclutamiento_forzado id_Cundinamarca"
+              d="M -5.806477,-409.203369 A 975.215619,975.215619 0,0 1,1060.113770,-37.222878"
+              stroke="#c98694" stroke-width="1.2608172" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_reclutamiento_forzado id_Chocó"
+              d="M -5.005338,-402.121094 A 645.957209,645.957209 0,0 1,561.641357,58.845249"
+              stroke="#c98694" stroke-width="1.6046765" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_reclutamiento_forzado id_Cauca"
+              d="M -26.231976,-423.409760 A 283.086715,283.086715 0,0 1,118.510361,-678.449646"
+              stroke="#c98694" stroke-width="1.833916" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_reclutamiento_forzado id_Caquetá"
+              d="M -5.459952,-399.011230 A 1169.860285,1169.860285 0,0 1,890.086792,632.153198"
+              stroke="#c98694" stroke-width="0.80233824" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_reclutamiento_forzado id_Boyacá"
+              d="M -24.897835,-383.450256 A 1101.908831,1101.908831 0,0 1,-781.592896,656.479858"
+              stroke="#c98694" stroke-width="0.5730987" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_reclutamiento_forzado id_Bolívar"
+              d="M -14.984999,-420.784424 A 413.642104,413.642104 0,0 1,398.418823,-615.119568"
+              stroke="#c98694" stroke-width="0.80233824" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_reclutamiento_forzado id_Bogotá"
+              d="M -6.211723,-410.411469 A 725.955477,725.955477 0,0 1,799.714111,-185.174026"
+              stroke="#c98694" stroke-width="0.2292395" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_reclutamiento_forzado id_Atlántico"
+              d="M -4.961864,-403.278625 A 1166.658686,1166.658686 0,0 1,1088.297485,414.297638"
+              stroke="#c98694" stroke-width="0.34385923" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_reclutamiento_forzado id_Arauca"
+              d="M -31.801670,-384.656372 A 865.254787,865.254787 0,0 1,-854.941467,175.174637"
+              stroke="#c98694" stroke-width="1.3754369" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_reclutamiento_forzado id_Antioquia"
+              d="M -23.285059,-383.520508 A 474.342429,474.342429 0,0 1,-289.528015,72.970047"
+              stroke="#c98694" stroke-width="0.916958" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_reclutamiento_forzado id_Amazonas"
+              d="M -9.952424,-416.669037 A 588.519925,588.519925 0,0 1,659.890137,-481.475616"
+              stroke="#c98694" stroke-width="0.11461975" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Córdoba id_Pequeños_Grupos_Ilegales"
+              d="M -254.468781,422.037170 A 395.202163,395.202163 0,0 1,87.249878,174.027161"
+              stroke="#61a4a7" stroke-width="0.68771845" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Córdoba id_Nuevos_Paramilitares_(Narco-Para)"
+              d="M -246.357285,427.233063 A 559.428689,559.428689 0,0 1,339.007965,308.739960"
+              stroke="#61a4a7" stroke-width="2.1777751" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Córdoba id_Guerrillas"
+              d="M -267.579163,421.360901 A 532.355834,532.355834 0,0 1,-99.379494,-99.354858"
+              stroke="#61a4a7" stroke-width="1.0315777" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_vinculación_sentimental/sexual id_Córdoba"
+              d="M -1007.186157,-220.545883 A 844.764269,844.764269 0,0 1,-267.928345,417.741638"
+              stroke="#c98694" stroke-width="0.458479" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_regalos_o_promesas_o_protección id_Córdoba"
+              d="M 309.419434,55.421272 A 588.841478,588.841478 0,0 1,-226.389420,442.921967"
+              stroke="#c98694" stroke-width="1.7192961" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_féminas_como_objetivo_de_reclutamiento/violencia id_Córdoba"
+              d="M -79.430466,-805.102905 A 1064.473123,1064.473123 0,0 1,-244.187469,424.317535"
+              stroke="#c98694" stroke-width="0.458479" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_consumo_de_drogas id_Córdoba"
+              d="M 99.950958,508.480042 A 320.121778,320.121778 0,0 1,-243.920105,459.945526"
+              stroke="#c98694" stroke-width="0.34385923" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_regalos_o_promesas_o_protección id_Valle_del_Cauca"
+              d="M 318.713989,56.315334 A 653.388798,653.388798 0,0 1,-11.328809,708.010498"
+              stroke="#c98694" stroke-width="2.7508738" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_regalos_o_promesas_o_protección id_Sucre"
+              d="M 296.366150,32.350521 A 1021.060547,1021.060547 0,0 1,-496.224365,-850.690674"
+              stroke="#c98694" stroke-width="0.916958" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_regalos_o_promesas_o_protección id_Risaralda"
+              d="M 295.942383,37.247288 A 887.325811,887.325811 0,0 1,-557.144897,-537.032898"
+              stroke="#c98694" stroke-width="0.5730987" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_regalos_o_promesas_o_protección id_Quindío"
+              d="M 333.480408,26.921616 A 485.250530,485.250530 0,0 1,866.828186,83.760574"
+              stroke="#c98694" stroke-width="1.7192961" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_regalos_o_promesas_o_protección id_Putumayo"
+              d="M 299.759979,48.281776 A 965.968691,965.968691 0,0 1,-821.078247,48.302586"
+              stroke="#c98694" stroke-width="0.80233824" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_regalos_o_promesas_o_protección id_Norte_de_Santander"
+              d="M 302.082764,50.942371 A 947.675642,947.675642 0,0 1,-776.745300,245.901901"
+              stroke="#c98694" stroke-width="1.1461974" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_regalos_o_promesas_o_protección id_Meta"
+              d="M 335.465302,40.790993 A 453.861066,453.861066 0,0 1,676.600586,409.327942"
+              stroke="#c98694" stroke-width="0.916958" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_regalos_o_promesas_o_protección id_Magdalena"
+              d="M 304.480042,20.111258 A 834.312864,834.312864 0,0 1,322.808899,-944.472534"
+              stroke="#c98694" stroke-width="0.5730987" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_regalos_o_promesas_o_protección id_La_Guajira"
+              d="M 309.631561,17.527466 A 806.182931,806.182931 0,0 1,591.393616,-869.637756"
+              stroke="#c98694" stroke-width="0.5730987" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_regalos_o_promesas_o_protección id_Huila"
+              d="M 296.457642,41.079021 A 1128.939368,1128.939368 0,0 1,-917.261230,-475.285614"
+              stroke="#c98694" stroke-width="0.458479" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_regalos_o_promesas_o_protección id_Guaviare"
+              d="M 296.816071,42.401157 A 857.559577,857.559577 0,0 1,-642.693604,-279.696320"
+              stroke="#c98694" stroke-width="0.458479" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_regalos_o_promesas_o_protección id_Cundinamarca"
+              d="M 331.343445,23.767042 A 636.099523,636.099523 0,0 1,1053.623535,-26.620466"
+              stroke="#c98694" stroke-width="0.916958" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_regalos_o_promesas_o_protección id_Chocó"
+              d="M 334.498413,29.082596 A 217.348700,217.348700 0,0 1,547.131958,69.222870"
+              stroke="#c98694" stroke-width="1.3754369" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_regalos_o_promesas_o_protección id_Cesar"
+              d="M 329.447937,51.249035 A 800.602283,800.602283 0,0 1,433.528351,972.122131"
+              stroke="#c98694" stroke-width="0.2292395" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_regalos_o_promesas_o_protección id_Cauca"
+              d="M 300.909973,23.302843 A 624.087042,624.087042 0,0 1,138.850922,-664.908691"
+              stroke="#c98694" stroke-width="1.2608172" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_regalos_o_promesas_o_protección id_Casanare"
+              d="M 325.786438,53.912136 A 636.060817,636.060817 0,0 1,244.564560,779.359192"
+              stroke="#c98694" stroke-width="0.11461975" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_regalos_o_promesas_o_protección id_Caquetá"
+              d="M 335.550690,40.380753 A 707.123029,707.123029 0,0 1,888.814087,631.378540"
+              stroke="#c98694" stroke-width="0.916958" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_regalos_o_promesas_o_protección id_Caldas"
+              d="M 312.426971,56.201260 A 1050.034443,1050.034443 0,0 1,-573.289978,902.303284"
+              stroke="#c98694" stroke-width="0.34385923" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_regalos_o_promesas_o_protección id_Bolívar"
+              d="M 307.121429,18.553873 A 546.592742,546.592742 0,0 1,400.714172,-584.056274"
+              stroke="#c98694" stroke-width="1.833916" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_regalos_o_promesas_o_protección id_Bogotá"
+              d="M 326.561188,19.570557 A 448.262871,448.262871 0,0 1,789.999573,-173.016205"
+              stroke="#c98694" stroke-width="0.458479" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_regalos_o_promesas_o_protección id_Atlántico"
+              d="M 335.687683,33.413929 A 729.833548,729.833548 0,0 1,1084.943115,416.607147"
+              stroke="#c98694" stroke-width="0.2292395" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_regalos_o_promesas_o_protección id_Arauca"
+              d="M 301.258881,50.104099 A 1009.681356,1009.681356 0,0 1,-863.119568,188.055344"
+              stroke="#c98694" stroke-width="0.80233824" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_regalos_o_promesas_o_protección id_Antioquia"
+              d="M 300.649811,49.415730 A 528.906229,528.906229 0,0 1,-288.797394,101.880035"
+              stroke="#c98694" stroke-width="1.2608172" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_regalos_o_promesas_o_protección id_Amazonas"
+              d="M 315.841492,16.510406 A 519.433827,519.433827 0,0 1,658.122620,-464.069366"
+              stroke="#c98694" stroke-width="0.11461975" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_vinculación_sentimental/sexual id_Sucre"
+              d="M -1026.148193,-242.200897 A 702.014132,702.014132 0,0 1,-519.848938,-872.837219"
+              stroke="#c98694" stroke-width="0.11461975" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_vinculación_sentimental/sexual id_Putumayo"
+              d="M -1008.256653,-215.565552 A 261.499878,261.499878 0,0 1,-843.773376,9.983850"
+              stroke="#c98694" stroke-width="0.11461975" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_vinculación_sentimental/sexual id_Norte_de_Santander"
+              d="M -1009.519043,-212.718430 A 421.966002,421.966002 0,0 1,-800.658203,210.222290"
+              stroke="#c98694" stroke-width="0.11461975" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_vinculación_sentimental/sexual id_Chocó"
+              d="M -1009.033752,-230.771072 A 1357.066800,1357.066800 0,0 1,554.292297,74.823189"
+              stroke="#c98694" stroke-width="0.2292395" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_vinculación_sentimental/sexual id_Antioquia"
+              d="M -1007.595398,-226.578934 A 644.922968,644.922968 0,0 1,-329.474823,64.099953"
+              stroke="#c98694" stroke-width="0.2292395" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Arauca id_Pequeños_Grupos_Ilegales"
+              d="M -869.983582,160.973557 A 846.701830,846.701830 0,0 1,98.559601,152.303329"
+              stroke="#61a4a7" stroke-width="0.11461975" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Arauca id_Paramilitares"
+              d="M -866.947510,166.767975 A 1140.566056,1140.566056 0,0 1,392.239777,541.230530"
+              stroke="#61a4a7" stroke-width="0.458479" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_Arauca id_Guerrillas"
+              d="M -875.736877,155.508942 A 765.847595,765.847595 0,0 1,-126.863327,-173.193329"
+              stroke="#61a4a7" stroke-width="2.636254" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Arauca id_Disidensias_FARC"
+              d="M -866.219666,178.701584 A 398.326680,398.326680 0,0 1,-567.993530,500.833008"
+              stroke="#61a4a7" stroke-width="0.11461975" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_presión id_Arauca"
+              d="M -328.840118,-261.261597 A 603.839036,603.839036 0,0 1,-857.675537,172.228195"
+              stroke="#c98694" stroke-width="1.0315777" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_féminas_como_objetivo_de_reclutamiento/violencia id_Arauca"
+              d="M -89.817406,-802.689514 A 1064.456440,1064.456440 0,0 1,-863.011475,167.323273"
+              stroke="#c98694" stroke-width="0.458479" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_apoyo_a_actividades/bandas_criminales id_Arauca"
+              d="M 225.298065,-323.126556 A 1029.326131,1029.326131 0,0 1,-862.641052,179.176956"
+              stroke="#c98694" stroke-width="0.458479" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Meta id_Pequeños_Grupos_Ilegales"
+              d="M 656.184631,445.186340 A 511.484355,511.484355 0,0 1,146.972336,206.819397"
+              stroke="#61a4a7" stroke-width="0.34385923" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Meta id_Paramilitares"
+              d="M 668.840881,462.831665 A 245.312160,245.312160 0,0 1,477.408478,580.250671"
+              stroke="#61a4a7" stroke-width="1.9485357" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Meta id_Nuevos_Paramilitares_(Narco-Para)"
+              d="M 656.524353,446.841522 A 248.939174,248.939174 0,0 1,441.986237,385.655487"
+              stroke="#61a4a7" stroke-width="1.7192961" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_Meta id_Guerrillas"
+              d="M 655.893372,439.336121 A 770.147725,770.147725 0,0 1,4.172714,-46.941906"
+              stroke="#61a4a7" stroke-width="3.7824516" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Meta id_Disidensias_FARC"
+              d="M 661.655457,456.987762 A 1040.127014,1040.127014 0,0 1,-542.255798,540.302612"
+              stroke="#61a4a7" stroke-width="0.2292395" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_violencia id_Meta"
+              d="M 579.069397,-254.906387 A 599.509610,599.509610 0,0 1,692.383362,417.235901"
+              stroke="#c98694" stroke-width="0.2292395" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_presión id_Meta"
+              d="M -303.589722,-280.773865 A 1030.470133,1030.470133 0,0 1,670.550964,410.696808"
+              stroke="#c98694" stroke-width="0.916958" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_persuación_de_incorporación_voluntaria_y_adoctrinamiento id_Meta"
+              d="M -564.466553,-33.848415 A 1123.838965,1123.838965 0,0 1,665.454285,418.128967"
+              stroke="#c98694" stroke-width="0.34385923" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_penetración_de_centros_educativos id_Meta"
+              d="M 80.433800,1025.046875 A 711.247785,711.247785 0,0 1,654.378235,445.296234"
+              stroke="#c98694" stroke-width="0.2292395" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_consumo_de_drogas id_Meta"
+              d="M 132.792114,486.248047 A 471.494681,471.494681 0,0 1,658.234619,428.450134"
+              stroke="#c98694" stroke-width="0.11461975" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_apoyo_a_actividades/bandas_criminales id_Meta"
+              d="M 253.254807,-332.406921 A 749.775564,749.775564 0,0 1,683.530945,413.734497"
+              stroke="#c98694" stroke-width="0.34385923" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_penetración_de_centros_educativos id_Valle_del_Cauca"
+              d="M 60.538925,1033.948486 A 284.487929,284.487929 0,0 1,-57.261818,753.354736"
+              stroke="#c98694" stroke-width="0.11461975" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_penetración_de_centros_educativos id_Quindío"
+              d="M 78.993385,1024.874268 A 1035.646932,1035.646932 0,0 1,869.925232,113.292107"
+              stroke="#c98694" stroke-width="0.2292395" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_penetración_de_centros_educativos id_Putumayo"
+              d="M 57.727570,1040.864990 A 1140.512955,1140.512955 0,0 1,-840.935608,54.000908"
+              stroke="#c98694" stroke-width="0.11461975" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_penetración_de_centros_educativos id_Norte_de_Santander"
+              d="M 57.458729,1042.589111 A 999.003968,999.003968 0,0 1,-799.559082,256.334686"
+              stroke="#c98694" stroke-width="0.34385923" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_penetración_de_centros_educativos id_Atlántico"
+              d="M 85.100029,1026.374146 A 988.009909,988.009909 0,0 1,1073.676758,434.536377"
+              stroke="#c98694" stroke-width="0.11461975" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_penetración_de_centros_educativos id_Antioquia"
+              d="M 60.275284,1034.367676 A 864.521959,864.521959 0,0 1,-322.716400,109.068977"
+              stroke="#c98694" stroke-width="0.2292395" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Cundinamarca id_Pequeños_Grupos_Ilegales"
+              d="M 1063.298584,3.989821 A 806.183134,806.183134 0,0 1,166.296936,190.769669"
+              stroke="#61a4a7" stroke-width="0.80233824" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Cundinamarca id_Paramilitares"
+              d="M 1073.284668,9.183059 A 736.011934,736.011934 0,0 1,479.668365,570.096619"
+              stroke="#61a4a7" stroke-width="2.2923949" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Cundinamarca id_Nuevos_Paramilitares_(Narco-Para)"
+              d="M 1068.139648,7.362547 A 634.404170,634.404170 0,0 1,463.488464,344.073853"
+              stroke="#61a4a7" stroke-width="1.6046765" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Cundinamarca id_Guerrillas"
+              d="M 1059.170776,-1.279876 A 929.216577,929.216577 0,0 1,40.442497,-91.192719"
+              stroke="#61a4a7" stroke-width="1.4900566" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_consumo_de_drogas id_Cundinamarca"
+              d="M 126.515800,481.506317 A 906.236536,906.236536 0,0 1,1055.833130,-14.699461"
+              stroke="#c98694" stroke-width="0.11461975" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_apoyo_a_actividades/bandas_criminales id_Cundinamarca"
+              d="M 254.351761,-345.710938 A 753.898540,753.898540 0,0 1,1064.306152,-32.445641"
+              stroke="#c98694" stroke-width="0.458479" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_consumo_de_drogas id_Valle_del_Cauca"
+              d="M 117.113358,519.510437 A 237.834921,237.834921 0,0 1,-27.613377,720.122131"
+              stroke="#c98694" stroke-width="0.2292395" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_consumo_de_drogas id_San_Andrés_y_Providencia"
+              d="M 98.801086,493.377289 A 1294.314219,1294.314219 0,0 1,-788.242737,-741.163574"
+              stroke="#c98694" stroke-width="0.11461975" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_consumo_de_drogas id_Putumayo"
+              d="M 98.154823,503.095123 A 890.601364,890.601364 0,0 1,-832.896912,51.554333"
+              stroke="#c98694" stroke-width="0.11461975" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_consumo_de_drogas id_Countrywide"
+              d="M 137.780487,498.070740 A 530.840179,530.840179 0,0 1,651.695923,813.114868"
+              stroke="#c98694" stroke-width="0.2292395" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_consumo_de_drogas id_Chocó"
+              d="M 122.100136,479.983826 A 507.283356,507.283356 0,0 1,547.487122,95.250221"
+              stroke="#c98694" stroke-width="0.11461975" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_consumo_de_drogas id_Cauca"
+              d="M 106.447426,483.080688 A 994.998740,994.998740 0,0 1,137.201767,-676.199646"
+              stroke="#c98694" stroke-width="0.11461975" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_consumo_de_drogas id_Boyacá"
+              d="M 104.000435,513.968140 A 781.418528,781.418528 0,0 1,-786.179749,673.347290"
+              stroke="#c98694" stroke-width="0.11461975" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_consumo_de_drogas id_Bolívar"
+              d="M 110.753105,480.818542 A 959.716148,959.716148 0,0 1,407.608795,-595.210510"
+              stroke="#c98694" stroke-width="0.2292395" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_consumo_de_drogas id_Bogotá"
+              d="M 121.323860,479.830322 A 803.260110,803.260110 0,0 1,792.269226,-164.662170"
+              stroke="#c98694" stroke-width="0.11461975" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_consumo_de_drogas id_Atlántico"
+              d="M 133.186661,486.706421 A 816.018441,816.018441 0,0 1,1076.926758,425.047180"
+              stroke="#c98694" stroke-width="0.11461975" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Antioquia id_Pequeños_Grupos_Ilegales"
+              d="M -296.074493,75.968201 A 378.124476,378.124476 0,0 1,99.902184,145.178864"
+              stroke="#61a4a7" stroke-width="0.5730987" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Antioquia id_Paramilitares"
+              d="M -294.135864,84.317856 A 738.577902,738.577902 0,0 1,401.607239,530.883362"
+              stroke="#61a4a7" stroke-width="1.0315777" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Antioquia id_Nuevos_Paramilitares_(Narco-Para)"
+              d="M -295.060272,78.720703 A 633.642502,633.642502 0,0 1,361.238159,283.818451"
+              stroke="#61a4a7" stroke-width="1.9485357" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Antioquia id_Guerrillas"
+              d="M -310.676727,63.294788 A 311.000532,311.000532 0,0 1,-118.504929,-134.161087"
+              stroke="#61a4a7" stroke-width="1.4900566" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_violencia id_Antioquia"
+              d="M 554.296387,-252.039719 A 791.880462,791.880462 0,0 1,-290.428528,91.796898"
+              stroke="#c98694" stroke-width="0.5730987" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_presión id_Antioquia"
+              d="M -311.821686,-264.387604 A 304.851520,304.851520 0,0 1,-299.215424,57.723991"
+              stroke="#c98694" stroke-width="1.2608172" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_persuación_de_incorporación_voluntaria_y_adoctrinamiento id_Antioquia"
+              d="M -564.090271,-32.307083 A 241.631587,241.631587 0,0 1,-332.944000,60.967415"
+              stroke="#c98694" stroke-width="0.80233824" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_apoyo_a_actividades/bandas_criminales id_Antioquia"
+              d="M 229.344971,-321.428345 A 580.893023,580.893023 0,0 1,-289.637512,84.188911"
+              stroke="#c98694" stroke-width="0.5730987" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_actividades_lúdicas_y_recreativas id_Antioquia"
+              d="M 1043.090088,-385.039734 A 1212.525587,1212.525587 0,0 1,-293.360321,92.278656"
+              stroke="#c98694" stroke-width="0.2292395" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_violencia id_Valle_del_Cauca"
+              d="M 566.475037,-249.069809 A 977.648683,977.648683 0,0 1,-25.521484,718.038635"
+              stroke="#c98694" stroke-width="0.5730987" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_violencia id_Norte_de_Santander"
+              d="M 553.850830,-252.326065 A 1215.086011,1215.086011 0,0 1,-782.637207,238.758057"
+              stroke="#c98694" stroke-width="0.11461975" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_violencia id_Countrywide"
+              d="M 578.057007,-253.956345 A 922.224288,922.224288 0,0 1,671.270630,815.385254"
+              stroke="#c98694" stroke-width="0.11461975" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_violencia id_Cauca"
+              d="M 545.192322,-272.496887 A 494.350159,494.350159 0,0 1,154.427872,-671.722534"
+              stroke="#c98694" stroke-width="0.11461975" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_violencia id_Casanare"
+              d="M 571.330200,-250.073380 A 929.444441,929.444441 0,0 1,247.350861,782.455383"
+              stroke="#c98694" stroke-width="0.11461975" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_violencia id_Boyacá"
+              d="M 558.277527,-250.129654 A 1381.427761,1381.427761 0,0 1,-784.041443,664.822266"
+              stroke="#c98694" stroke-width="0.11461975" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_violencia id_Bolívar"
+              d="M 548.091797,-279.868225 A 306.735675,306.735675 0,0 1,421.350311,-587.573730"
+              stroke="#c98694" stroke-width="0.11461975" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_violencia id_Bogotá"
+              d="M 584.439514,-273.205933 A 223.872392,223.872392 0,0 1,801.673157,-185.485916"
+              stroke="#c98694" stroke-width="0.11461975" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Chocó id_Pequeños_Grupos_Ilegales"
+              d="M 554.943115,108.632629 A 374.813574,374.813574 0,0 1,161.539612,188.179321"
+              stroke="#61a4a7" stroke-width="0.11461975" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Chocó id_Paramilitares"
+              d="M 577.585693,113.941170 A 423.334410,423.334410 0,0 1,462.838654,542.216553"
+              stroke="#61a4a7" stroke-width="1.7192961" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Chocó id_Nuevos_Paramilitares_(Narco-Para)"
+              d="M 570.405396,115.047394 A 247.726863,247.726863 0,0 1,462.267609,306.265594"
+              stroke="#61a4a7" stroke-width="2.2923949" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_Chocó id_Guerrillas"
+              d="M 548.860657,97.883987 A 539.188618,539.188618 0,0 1,40.272964,-60.489761"
+              stroke="#61a4a7" stroke-width="4.3555503" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Chocó id_Disidensias_FARC"
+              d="M 558.482483,111.465576 A 1012.699138,1012.699138 0,0 1,-536.490234,533.806274"
+              stroke="#61a4a7" stroke-width="0.5730987" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_presión id_Chocó"
+              d="M -304.141663,-285.230835 A 807.483336,807.483336 0,0 1,555.644226,68.196533"
+              stroke="#c98694" stroke-width="0.80233824" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_persuación_de_incorporación_voluntaria_y_adoctrinamiento id_Chocó"
+              d="M -566.423462,-38.426884 A 967.206891,967.206891 0,0 1,552.694519,76.430878"
+              stroke="#c98694" stroke-width="0.2292395" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_apoyo_a_actividades/bandas_criminales id_Chocó"
+              d="M 254.177856,-334.886841 A 456.709475,456.709475 0,0 1,569.284119,64.002197"
+              stroke="#c98694" stroke-width="0.80233824" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_actividades_lúdicas_y_recreativas id_Chocó"
+              d="M 1051.333008,-381.829346 A 576.283292,576.283292 0,0 1,594.456421,88.478165"
+              stroke="#c98694" stroke-width="0.2292395" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_persuación_de_incorporación_voluntaria_y_adoctrinamiento id_Vaupés"
+              d="M -586.064087,-8.479383 A 509.343801,509.343801 0,0 1,-973.718689,416.973969"
+              stroke="#c98694" stroke-width="0.458479" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_persuación_de_incorporación_voluntaria_y_adoctrinamiento id_Valle_del_Cauca"
+              d="M -564.759399,-21.893255 A 771.023987,771.023987 0,0 1,-51.707073,694.846924"
+              stroke="#c98694" stroke-width="1.2608172" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_persuación_de_incorporación_voluntaria_y_adoctrinamiento id_Tolima"
+              d="M -586.268188,-48.171726 A 553.464283,553.464283 0,0 1,-289.194031,-601.785583"
+              stroke="#c98694" stroke-width="0.11461975" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_persuación_de_incorporación_voluntaria_y_adoctrinamiento id_Putumayo"
+              d="M -597.233337,-13.619402 A 222.054409,222.054409 0,0 1,-821.751770,40.208355"
+              stroke="#c98694" stroke-width="0.2292395" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_persuación_de_incorporación_voluntaria_y_adoctrinamiento id_Cauca"
+              d="M -579.655212,-47.926540 A 826.192696,826.192696 0,0 1,125.924263,-691.294250"
+              stroke="#c98694" stroke-width="0.458479" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_persuación_de_incorporación_voluntaria_y_adoctrinamiento id_Casanare"
+              d="M -563.941406,-25.192764 A 964.822451,964.822451 0,0 1,227.234955,774.073425"
+              stroke="#c98694" stroke-width="0.11461975" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_persuación_de_incorporación_voluntaria_y_adoctrinamiento id_Caquetá"
+              d="M -564.091736,-32.314415 A 1356.902208,1356.902208 0,0 1,880.498413,637.773132"
+              stroke="#c98694" stroke-width="0.458479" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_persuación_de_incorporación_voluntaria_y_adoctrinamiento id_Boyacá"
+              d="M -577.454712,-9.335904 A 605.801520,605.801520 0,0 1,-788.179443,651.375916"
+              stroke="#c98694" stroke-width="0.11461975" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_persuación_de_incorporación_voluntaria_y_adoctrinamiento id_Bolívar"
+              d="M -575.627197,-46.639942 A 971.329307,971.329307 0,0 1,400.809418,-612.800842"
+              stroke="#c98694" stroke-width="0.458479" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Norte_de_Santander id_Pequeños_Grupos_Ilegales"
+              d="M -787.626282,218.647507 A 778.597330,778.597330 0,0 1,94.925919,152.887451"
+              stroke="#61a4a7" stroke-width="0.458479" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Norte_de_Santander id_Nuevos_Paramilitares_(Narco-Para)"
+              d="M -785.791626,221.219315 A 1007.905945,1007.905945 0,0 1,357.251373,299.864746"
+              stroke="#61a4a7" stroke-width="0.80233824" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Norte_de_Santander id_Guerrillas"
+              d="M -794.234558,213.300446 A 721.395082,721.395082 0,0 1,-122.231850,-162.804245"
+              stroke="#61a4a7" stroke-width="1.833916" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Norte_de_Santander id_Disidensias_FARC"
+              d="M -783.466003,238.383743 A 315.889524,315.889524 0,0 1,-566.725464,500.697784"
+              stroke="#61a4a7" stroke-width="0.11461975" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_presión id_Norte_de_Santander"
+              d="M -326.110535,-260.719452 A 585.857317,585.857317 0,0 1,-779.522949,227.549942"
+              stroke="#c98694" stroke-width="0.458479" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_féminas_como_objetivo_de_reclutamiento/violencia id_Norte_de_Santander"
+              d="M -88.219872,-802.686951 A 1062.277586,1062.277586 0,0 1,-780.513428,223.966873"
+              stroke="#c98694" stroke-width="0.458479" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_apoyo_a_actividades/bandas_criminales id_Norte_de_Santander"
+              d="M 226.612946,-322.458038 A 989.011191,989.011191 0,0 1,-778.348389,235.756531"
+              stroke="#c98694" stroke-width="0.5730987" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Atlántico id_Paramilitares"
+              d="M 1081.190552,451.735260 A 574.776894,574.776894 0,0 1,460.502167,594.897827"
+              stroke="#61a4a7" stroke-width="0.2292395" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Atlántico id_Nuevos_Paramilitares_(Narco-Para)"
+              d="M 1076.832031,446.089203 A 584.552284,584.552284 0,0 1,441.445129,373.722412"
+              stroke="#61a4a7" stroke-width="0.5730987" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_actividades_lúdicas_y_recreativas id_Atlántico"
+              d="M 1066.831299,-386.030029 A 699.289065,699.289065 0,0 1,1106.774048,418.604401"
+              stroke="#c98694" stroke-width="0.11461975" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_actividades_lúdicas_y_recreativas id_La_Guajira"
+              d="M 1034.704346,-405.658997 A 545.860269,545.860269 0,0 1,614.323364,-863.054810"
+              stroke="#c98694" stroke-width="0.11461975" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Bolívar id_Pequeños_Grupos_Ilegales"
+              d="M 432.149292,-588.684509 A 698.647077,698.647077 0,0 1,160.666840,151.689835"
+              stroke="#61a4a7" stroke-width="0.458479" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Bolívar id_Paramilitares"
+              d="M 439.351746,-592.123413 A 989.866599,989.866599 0,0 1,447.277283,539.884399"
+              stroke="#61a4a7" stroke-width="0.5730987" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Bolívar id_Nuevos_Paramilitares_(Narco-Para)"
+              d="M 438.909210,-591.811035 A 789.144052,789.144052 0,0 1,437.488678,286.283478"
+              stroke="#61a4a7" stroke-width="1.4900566" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Bolívar id_Guerrillas"
+              d="M 422.883911,-588.195679 A 538.134337,538.134337 0,0 1,66.771370,-174.666855"
+              stroke="#61a4a7" stroke-width="2.2923949" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_presión id_Bolívar"
+              d="M -313.512299,-297.836060 A 682.622959,682.622959 0,0 1,394.152527,-616.750427"
+              stroke="#c98694" stroke-width="1.3754369" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_féminas_como_objetivo_de_reclutamiento/violencia id_Bolívar"
+              d="M -69.516182,-827.244568 A 464.589418,464.589418 0,0 1,412.134521,-632.520874"
+              stroke="#c98694" stroke-width="0.5730987" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_apoyo_a_actividades/bandas_criminales id_Bolívar"
+              d="M 235.221619,-360.607117 A 275.392267,275.392267 0,0 1,403.105865,-601.413879"
+              stroke="#c98694" stroke-width="0.34385923" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Putumayo id_Pequeños_Grupos_Ilegales"
+              d="M -824.504639,22.160524 A 818.046283,818.046283 0,0 1,99.264008,145.830414"
+              stroke="#61a4a7" stroke-width="0.5730987" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Putumayo id_Guerrillas"
+              d="M -829.253479,16.141806 A 695.991641,695.991641 0,0 1,-110.993713,-182.568390"
+              stroke="#61a4a7" stroke-width="1.0315777" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Putumayo id_Disidensias_FARC"
+              d="M -824.037354,40.996151 A 472.710654,472.710654 0,0 1,-562.017029,500.749115"
+              stroke="#61a4a7" stroke-width="0.11461975" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_presión id_Putumayo"
+              d="M -331.478058,-262.181671 A 505.350627,505.350627 0,0 1,-818.527832,33.963947"
+              stroke="#c98694" stroke-width="0.458479" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_féminas_como_objetivo_de_reclutamiento/violencia id_Putumayo"
+              d="M -90.785149,-802.753296 A 949.935468,949.935468 0,0 1,-821.666016,27.320532"
+              stroke="#c98694" stroke-width="0.11461975" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_cuota_familiar_de_reclutamiento id_Putumayo"
+              d="M -1077.164917,73.264420 A 211.522107,211.522107 0,0 1,-863.806030,24.074980"
+              stroke="#c98694" stroke-width="0.11461975" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_apoyo_a_actividades/bandas_criminales id_Putumayo"
+              d="M 223.637558,-324.158722 A 950.683861,950.683861 0,0 1,-821.270569,38.807529"
+              stroke="#c98694" stroke-width="0.2292395" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_apoyo_a_actividades/bandas_criminales id_Valle_del_Cauca"
+              d="M 242.254456,-321.964935 A 922.778385,922.778385 0,0 1,-27.011749,708.546204"
+              stroke="#c98694" stroke-width="1.0315777" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_apoyo_a_actividades/bandas_criminales id_Tolima"
+              d="M 215.173950,-338.081116 A 476.035188,476.035188 0,0 1,-256.354736,-589.864685"
+              stroke="#c98694" stroke-width="0.2292395" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_apoyo_a_actividades/bandas_criminales id_Sucre"
+              d="M 215.013702,-340.650818 A 758.307923,758.307923 0,0 1,-491.791382,-856.177368"
+              stroke="#c98694" stroke-width="0.34385923" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_apoyo_a_actividades/bandas_criminales id_Risaralda"
+              d="M 216.301804,-333.546570 A 691.960981,691.960981 0,0 1,-550.508118,-541.774780"
+              stroke="#c98694" stroke-width="0.458479" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_apoyo_a_actividades/bandas_criminales id_Quindío"
+              d="M 255.004196,-341.223175 A 664.160791,664.160791 0,0 1,884.176880,81.482529"
+              stroke="#c98694" stroke-width="0.68771845" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_apoyo_a_actividades/bandas_criminales id_Magdalena"
+              d="M 226.118240,-358.521088 A 526.880320,526.880320 0,0 1,322.165741,-948.612061"
+              stroke="#c98694" stroke-width="0.2292395" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_apoyo_a_actividades/bandas_criminales id_Cauca"
+              d="M 220.070404,-353.901031 A 302.706897,302.706897 0,0 1,141.359131,-668.751099"
+              stroke="#c98694" stroke-width="0.68771845" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_apoyo_a_actividades/bandas_criminales id_Caldas"
+              d="M 235.951157,-320.630157 A 1248.353120,1248.353120 0,0 1,-575.353638,897.594727"
+              stroke="#c98694" stroke-width="0.2292395" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_apoyo_a_actividades/bandas_criminales id_Bogotá"
+              d="M 253.914917,-347.145935 A 503.290996,503.290996 0,0 1,797.605225,-188.095261"
+              stroke="#c98694" stroke-width="0.68771845" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_presión id_Vaupés"
+              d="M -326.243896,-260.736877 A 810.950794,810.950794 0,0 1,-975.347534,418.025696"
+              stroke="#c98694" stroke-width="0.2292395" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_presión id_Valle_del_Cauca"
+              d="M -307.986572,-268.046722 A 871.106940,871.106940 0,0 1,-39.096233,694.495056"
+              stroke="#c98694" stroke-width="1.6046765" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_presión id_Tolima"
+              d="M -332.111267,-298.653015 A 280.437916,280.437916 0,0 1,-285.437531,-593.617371"
+              stroke="#c98694" stroke-width="0.34385923" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_presión id_Sucre"
+              d="M -339.372742,-292.842316 A 519.278696,519.278696 0,0 1,-506.399384,-857.222107"
+              stroke="#c98694" stroke-width="0.2292395" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_presión id_Risaralda"
+              d="M -342.981628,-285.449493 A 308.492318,308.492318 0,0 1,-563.297852,-538.369751"
+              stroke="#c98694" stroke-width="0.2292395" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_presión id_Quindío"
+              d="M -304.637146,-286.950745 A 1064.913695,1064.913695 0,0 1,873.434570,80.170891"
+              stroke="#c98694" stroke-width="1.4900566" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_presión id_Magdalena"
+              d="M -320.838318,-300.369812 A 792.917907,792.917907 0,0 1,315.953613,-960.581116"
+              stroke="#c98694" stroke-width="0.2292395" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_presión id_La_Guajira"
+              d="M -316.455292,-299.244476 A 927.855900,927.855900 0,0 1,587.451538,-885.951538"
+              stroke="#c98694" stroke-width="0.458479" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_presión id_Guaviare"
+              d="M -340.638855,-270.105774 A 278.018559,278.018559 0,0 1,-637.320007,-284.815979"
+              stroke="#c98694" stroke-width="0.458479" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_presión id_Guainía"
+              d="M -334.678314,-297.203644 A 641.038844,641.038844 0,0 1,-305.711731,-1032.681030"
+              stroke="#c98694" stroke-width="0.11461975" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_presión id_Cauca"
+              d="M -319.034393,-300.034393 A 524.539265,524.539265 0,0 1,125.003014,-691.453552"
+              stroke="#c98694" stroke-width="0.5730987" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_presión id_Casanare"
+              d="M -305.681915,-271.651825 A 1008.157614,1008.157614 0,0 1,233.775757,773.215881"
+              stroke="#c98694" stroke-width="0.2292395" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_presión id_Boyacá"
+              d="M -320.391113,-260.817047 A 883.605413,883.605413 0,0 1,-784.718018,653.576294"
+              stroke="#c98694" stroke-width="0.34385923" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_presión id_Bogotá"
+              d="M -306.372498,-290.738556 A 952.355716,952.355716 0,0 1,794.876038,-184.315033"
+              stroke="#c98694" stroke-width="0.5730987" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_presión id_Amazonas"
+              d="M -309.936310,-295.175415 A 849.618649,849.618649 0,0 1,659.037537,-479.864532"
+              stroke="#c98694" stroke-width="0.11461975" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Countrywide id_Pequeños_Grupos_Ilegales"
+              d="M 640.596313,828.252075 A 706.480532,706.480532 0,0 1,130.473587,210.784012"
+              stroke="#61a4a7" stroke-width="0.2292395" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Countrywide id_Guerrillas"
+              d="M 640.975891,827.004211 A 1001.734071,1001.734071 0,0 1,-27.882504,-69.868355"
+              stroke="#61a4a7" stroke-width="0.2292395" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Bogotá id_Pequeños_Grupos_Ilegales"
+              d="M 804.063171,-149.238220 A 638.015976,638.015976 0,0 1,169.555969,179.728592"
+              stroke="#61a4a7" stroke-width="0.80233824" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Bogotá id_Paramilitares"
+              d="M 816.577332,-147.096649 A 702.447990,702.447990 0,0 1,463.852692,555.106018"
+              stroke="#61a4a7" stroke-width="0.916958" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Bogotá id_Nuevos_Paramilitares_(Narco-Para)"
+              d="M 812.361389,-146.925751 A 543.044565,543.044565 0,0 1,455.199951,320.127899"
+              stroke="#61a4a7" stroke-width="0.80233824" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_Bogotá id_Guerrillas"
+              d="M 797.158997,-155.082687 A 701.898115,701.898115 0,0 1,42.903000,-106.465294"
+              stroke="#61a4a7" stroke-width="0.5730987" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Cauca id_Pequeños_Grupos_Ilegales"
+              d="M 163.290054,-676.172913 A 723.193585,723.193585 0,0 1,150.600174,143.660217"
+              stroke="#61a4a7" stroke-width="0.2292395" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Cauca id_Nuevos_Paramilitares_(Narco-Para)"
+              d="M 167.559067,-680.036438 A 883.684454,883.684454 0,0 1,421.191833,284.455078"
+              stroke="#61a4a7" stroke-width="0.68771845" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_Cauca id_Guerrillas"
+              d="M 157.447342,-673.338562 A 476.071606,476.071606 0,0 1,46.400822,-216.260132"
+              stroke="#61a4a7" stroke-width="2.4070146" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_féminas_como_objetivo_de_reclutamiento/violencia id_Cauca"
+              d="M -69.101646,-824.815186 A 226.935034,226.935034 0,0 1,140.054672,-714.737671"
+              stroke="#c98694" stroke-width="0.2292395" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_Vaupés id_Guerrillas"
+              d="M -989.104370,403.275055 A 938.042362,938.042362 0,0 1,-112.819351,-157.053085"
+              stroke="#61a4a7" stroke-width="0.5730987" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Vaupés id_Disidensias_FARC"
+              d="M -978.245667,414.396637 A 370.669287,370.669287 0,0 1,-583.476685,505.094757"
+              stroke="#61a4a7" stroke-width="0.458479" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Huila id_Pequeños_Grupos_Ilegales"
+              d="M -908.956543,-497.672424 A 1043.359842,1043.359842 0,0 1,113.958305,138.025986"
+              stroke="#61a4a7" stroke-width="0.34385923" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_Huila id_Guerrillas"
+              d="M -909.633179,-501.679932 A 803.990040,803.990040 0,0 1,-78.897202,-222.821411"
+              stroke="#61a4a7" stroke-width="0.916958" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Valle_del_Cauca id_Pequeños_Grupos_Ilegales"
+              d="M -59.267681,705.858704 A 486.553987,486.553987 0,0 1,94.355270,199.634537"
+              stroke="#61a4a7" stroke-width="0.916958" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Valle_del_Cauca id_Nuevos_Paramilitares_(Narco-Para)"
+              d="M -46.345093,705.422791 A 499.213644,499.213644 0,0 1,331.896515,346.299866"
+              stroke="#61a4a7" stroke-width="2.4070146" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Valle_del_Cauca id_Guerrillas"
+              d="M -65.655319,708.965149 A 734.048128,734.048128 0,0 1,-85.022545,-69.421021"
+              stroke="#61a4a7" stroke-width="2.5216343" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Magdalena id_Pequeños_Grupos_Ilegales"
+              d="M 346.947327,-945.904968 A 964.266726,964.266726 0,0 1,156.408325,146.407104"
+              stroke="#61a4a7" stroke-width="0.458479" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Magdalena id_Nuevos_Paramilitares_(Narco-Para)"
+              d="M 350.960144,-948.456482 A 1085.436663,1085.436663 0,0 1,429.525421,291.731262"
+              stroke="#61a4a7" stroke-width="0.34385923" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_féminas_como_objetivo_de_reclutamiento/violencia id_Magdalena"
+              d="M -77.148170,-838.792236 A 374.909933,374.909933 0,0 1,316.575562,-970.885803"
+              stroke="#c98694" stroke-width="0.2292395" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Guaviare id_Pequeños_Grupos_Ilegales"
+              d="M -635.913635,-301.549347 A 763.737915,763.737915 0,0 1,113.330437,139.262924"
+              stroke="#61a4a7" stroke-width="0.2292395" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Guaviare id_Paramilitares"
+              d="M -635.859802,-298.706757 A 1157.418879,1157.418879 0,0 1,407.730835,532.652954"
+              stroke="#61a4a7" stroke-width="0.5730987" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Guaviare id_Nuevos_Paramilitares_(Narco-Para)"
+              d="M -635.921814,-301.640411 A 1028.405314,1028.405314 0,0 1,380.163483,289.362701"
+              stroke="#61a4a7" stroke-width="0.11461975" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Guaviare id_Guerrillas"
+              d="M -637.419250,-307.703064 A 537.819294,537.819294 0,0 1,-91.682930,-215.609970"
+              stroke="#61a4a7" stroke-width="1.2608172" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Guaviare id_Disidensias_FARC"
+              d="M -642.626465,-284.347809 A 692.524183,692.524183 0,0 1,-550.794373,501.540680"
+              stroke="#61a4a7" stroke-width="0.458479" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Sucre id_Pequeños_Grupos_Ilegales"
+              d="M -479.837677,-870.430176 A 1020.641541,1020.641541 0,0 1,131.513336,135.426819"
+              stroke="#61a4a7" stroke-width="0.34385923" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Sucre id_Nuevos_Paramilitares_(Narco-Para)"
+              d="M -479.116150,-872.412659 A 1259.928844,1259.928844 0,0 1,399.858398,281.488068"
+              stroke="#61a4a7" stroke-width="0.5730987" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_Sucre id_Guerrillas"
+              d="M -479.583923,-871.058960 A 721.512423,721.512423 0,0 1,-27.482420,-233.459869"
+              stroke="#61a4a7" stroke-width="0.2292395" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_féminas_como_objetivo_de_reclutamiento/violencia id_Sucre"
+              d="M -106.734467,-813.452148 A 344.792696,344.792696 0,0 1,-483.072510,-863.790771"
+              stroke="#c98694" stroke-width="0.11461975" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Casanare id_Nuevos_Paramilitares_(Narco-Para)"
+              d="M 225.079086,775.439331 A 407.519439,407.519439 0,0 1,359.244507,367.129242"
+              stroke="#61a4a7" stroke-width="0.11461975" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Casanare id_Guerrillas"
+              d="M 214.515869,782.366211 A 817.816689,817.816689 0,0 1,-55.223110,-72.455193"
+              stroke="#61a4a7" stroke-width="0.458479" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Casanare id_Disidensias_FARC"
+              d="M 211.030472,801.002991 A 699.325025,699.325025 0,0 1,-549.800232,547.004089"
+              stroke="#61a4a7" stroke-width="0.11461975" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_féminas_como_objetivo_de_reclutamiento/violencia id_Tolima"
+              d="M -91.056488,-802.779663 A 229.846945,229.846945 0,0 1,-244.173340,-618.966675"
+              stroke="#c98694" stroke-width="0.11461975" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_féminas_como_objetivo_de_reclutamiento/violencia id_La_Guajira"
+              d="M -73.878548,-835.777588 A 586.238482,586.238482 0,0 1,591.594788,-896.532776"
+              stroke="#c98694" stroke-width="0.34385923" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_féminas_como_objetivo_de_reclutamiento/violencia id_Guainía"
+              d="M -108.440414,-827.313965 A 253.874629,253.874629 0,0 1,-289.977112,-1028.352661"
+              stroke="#c98694" stroke-width="0.11461975" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_féminas_como_objetivo_de_reclutamiento/violencia id_Amazonas"
+              d="M -69.382080,-826.630310 A 703.224765,703.224765 0,0 1,667.730347,-489.176941"
+              stroke="#c98694" stroke-width="0.11461975" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Caldas id_Paramilitares"
+              d="M -584.422241,888.416321 A 890.048589,890.048589 0,0 1,377.923187,564.473022"
+              stroke="#61a4a7" stroke-width="0.2292395" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Tolima id_Pequeños_Grupos_Ilegales"
+              d="M -246.753448,-601.681030 A 733.209708,733.209708 0,0 1,133.936707,135.716888"
+              stroke="#61a4a7" stroke-width="0.34385923" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Tolima id_Paramilitares"
+              d="M -246.120926,-603.006470 A 1145.319575,1145.319575 0,0 1,424.332947,533.960510"
+              stroke="#61a4a7" stroke-width="0.2292395" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Tolima id_Nuevos_Paramilitares_(Narco-Para)"
+              d="M -245.381607,-604.913818 A 967.159385,967.159385 0,0 1,400.898773,285.081543"
+              stroke="#61a4a7" stroke-width="0.11461975" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_Tolima id_Guerrillas"
+              d="M -246.742233,-601.702820 A 432.487572,432.487572 0,0 1,-22.944666,-239.591324"
+              stroke="#61a4a7" stroke-width="1.0315777" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Risaralda id_Pequeños_Grupos_Ilegales"
+              d="M -545.404480,-556.904297 A 841.790331,841.790331 0,0 1,122.406311,132.082275"
+              stroke="#61a4a7" stroke-width="0.80233824" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Risaralda id_Guerrillas"
+              d="M -545.069702,-560.113159 A 562.611367,562.611367 0,0 1,-59.488991,-235.093536"
+              stroke="#61a4a7" stroke-width="1.1461974" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Risaralda id_Disidensias_FARC"
+              d="M -553.473145,-544.035828 A 905.687016,905.687016 0,0 1,-549.615295,505.499176"
+              stroke="#61a4a7" stroke-width="0.11461975" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_La_Guajira id_Guerrillas"
+              d="M 609.960999,-863.883179 A 810.981871,810.981871 0,0 1,52.281281,-173.224365"
+              stroke="#61a4a7" stroke-width="0.458479" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Quindío id_Pequeños_Grupos_Ilegales"
+              d="M 876.630005,122.716133 A 640.385818,640.385818 0,0 1,165.966476,195.348053"
+              stroke="#61a4a7" stroke-width="1.0315777" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Quindío id_Paramilitares"
+              d="M 890.071594,130.288818 A 556.160307,556.160307 0,0 1,476.432190,566.952942"
+              stroke="#61a4a7" stroke-width="1.9485357" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Quindío id_Guerrillas"
+              d="M 872.538086,115.781998 A 798.461882,798.461882 0,0 1,35.082741,-78.271553"
+              stroke="#61a4a7" stroke-width="2.1777751" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Caquetá id_Pequeños_Grupos_Ilegales"
+              d="M 871.376160,660.624084 A 754.527558,754.527558 0,0 1,142.230530,208.110962"
+              stroke="#61a4a7" stroke-width="0.2292395" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Caquetá id_Guerrillas"
+              d="M 871.416748,657.442505 A 1022.477376,1022.477376 0,0 1,-6.320214,-64.542870"
+              stroke="#61a4a7" stroke-width="1.2608172" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Boyacá id_Nuevos_Paramilitares_(Narco-Para)"
+              d="M -792.627136,648.046570 A 1041.423095,1041.423095 0,0 1,352.403107,318.750244"
+              stroke="#61a4a7" stroke-width="0.11461975" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Vichada id_Guerrillas"
+              d="M 848.496704,-664.095520 A 860.326097,860.326097 0,0 1,56.788876,-147.142593"
+              stroke="#61a4a7" stroke-width="0.68771845" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Amazonas id_Guerrillas"
+              d="M 668.059570,-453.350281 A 646.066309,646.066309 0,0 1,52.317383,-138.969376"
+              stroke="#61a4a7" stroke-width="0.2292395" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Amazonas id_Disidensias_FARC"
+              d="M 672.888123,-451.373108 A 1327.679187,1327.679187 0,0 1,-539.099915,525.104248"
+              stroke="#61a4a7" stroke-width="0.11461975" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Cesar id_Pequeños_Grupos_Ilegales"
+              d="M 405.810272,979.918701 A 724.296999,724.296999 0,0 1,118.146637,209.480072"
+              stroke="#61a4a7" stroke-width="0.2292395" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Cesar id_Paramilitares"
+              d="M 410.802338,974.801086 A 344.595883,344.595883 0,0 1,394.718506,617.167175"
+              stroke="#61a4a7" stroke-width="0.5730987" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Cesar id_Nuevos_Paramilitares_(Narco-Para)"
+              d="M 410.188141,975.257874 A 545.890380,545.890380 0,0 1,371.468781,383.292877"
+              stroke="#61a4a7" stroke-width="0.5730987" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_Cesar id_Guerrillas"
+              d="M 405.428650,980.503052 A 1023.960124,1023.960124 0,0 1,-46.784294,-72.861435"
+              stroke="#61a4a7" stroke-width="0.11461975" stroke-opacity="1.0"/>
+    </g>
+    <g id="arrows">
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Nariño id_Pequeños_Grupos_Ilegales"
+                  points="93.905708,182.893173 90.908134,185.579163 89.958382,182.106689"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Nariño id_Guerrillas"
+                  points="-92.959099,-104.296326 -104.429306,-81.907776 -117.752060,-100.039368"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_regalos_o_promesas_o_protección id_Nariño"
+                  points="-354.570068,779.754272 -349.008820,775.431641 -347.775238,781.609741"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_reclutamiento_forzado id_Nariño"
+                  points="-358.687408,770.764465 -347.419556,747.153259 -333.037781,765.612000"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0" class="id_presión id_Nariño"
+                  points="-362.169373,767.228699 -360.889740,761.328491 -356.681427,764.712280"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_penetración_de_centros_educativos id_Nariño"
+                  points="-366.662628,803.465027 -365.878113,804.095093 -366.695984,804.470703"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_consumo_de_drogas id_Nariño"
+                  points="-354.255524,786.037292 -353.316162,785.676636 -353.403381,786.572388"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_apoyo_a_actividades/bandas_criminales id_Nariño"
+                  points="-356.221527,774.766907 -352.497498,770.014893 -350.185486,774.894897"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_reclutamiento_forzado id_Vichada"
+                  points="836.858398,-689.745544 832.874756,-689.170959 834.008545,-692.587708"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_reclutamiento_forzado id_Vaupés"
+                  points="-976.855469,420.465851 -975.123657,419.440765 -974.996338,421.236237"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_reclutamiento_forzado id_Valle_del_Cauca"
+                  points="-37.457954,709.636230 -34.876507,695.787537 -24.830135,703.392151"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_reclutamiento_forzado id_Tolima"
+                  points="-261.348114,-589.892822 -259.338409,-587.640320 -261.944244,-586.933533"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_reclutamiento_forzado id_Sucre"
+                  points="-495.544891,-858.038940 -491.403107,-852.341736 -497.617584,-851.307190"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_reclutamiento_forzado id_Risaralda"
+                  points="-552.881226,-544.486877 -550.147400,-543.206665 -552.265076,-541.531738"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_reclutamiento_forzado id_Putumayo"
+                  points="-822.254333,34.956532 -817.487976,33.345955 -818.106018,37.803307"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_reclutamiento_forzado id_Norte_de_Santander"
+                  points="-782.678589,231.171783 -773.091675,225.639648 -772.500732,235.522003"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_reclutamiento_forzado id_Meta"
+                  points="678.684082,416.351135 666.766602,396.512146 687.404785,394.913757"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_reclutamiento_forzado id_Magdalena"
+                  points="318.848785,-956.893250 316.157471,-953.900391 314.839783,-957.250610"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_reclutamiento_forzado id_La_Guajira"
+                  points="591.017578,-884.081482 585.681763,-881.256714 585.556274,-886.655273"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_reclutamiento_forzado id_Guaviare"
+                  points="-637.956299,-290.576477 -630.912903,-290.634979 -633.683411,-284.976898"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_reclutamiento_forzado id_Guainía"
+                  points="-297.340759,-1029.614990 -297.110138,-1028.635620 -297.985931,-1028.842896"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_reclutamiento_forzado id_Córdoba"
+                  points="-244.761169,429.021118 -240.966629,420.798340 -235.906235,427.123108"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_reclutamiento_forzado id_Cundinamarca"
+                  points="1065.718384,-29.062061 1056.033325,-34.420605 1064.194214,-40.025158"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_reclutamiento_forzado id_Chocó"
+                  points="564.878845,71.022217 555.552856,60.463997 567.729858,57.226501"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_reclutamiento_forzado id_Cauca"
+                  points="131.499100,-684.666809 121.618927,-671.955261 115.401794,-684.944031"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_reclutamiento_forzado id_Caquetá"
+                  points="890.591370,638.432922 886.946899,632.405457 893.226685,631.900940"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_reclutamiento_forzado id_Boyacá"
+                  points="-785.882080,657.841187 -782.273560,654.335266 -780.912231,658.624451"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_reclutamiento_forzado id_Bolívar"
+                  points="404.617157,-613.992371 397.855225,-612.020386 398.982422,-618.218750"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_reclutamiento_forzado id_Bogotá"
+                  points="800.829834,-183.761520 799.007874,-184.616165 800.420349,-185.731888"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_reclutamiento_forzado id_Atlántico"
+                  points="1089.079224,416.881958 1087.005371,414.688538 1089.589600,413.906738"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_reclutamiento_forzado id_Arauca"
+                  points="-865.734985,174.800095 -854.754211,169.777878 -855.128723,180.571396"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_reclutamiento_forzado id_Antioquia"
+                  points="-296.101135,75.908386 -290.997192,69.683479 -288.058838,76.256615"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_reclutamiento_forzado id_Amazonas"
+                  points="660.666626,-481.020569 659.662598,-481.087372 660.117676,-481.863861"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Córdoba id_Pequeños_Grupos_Ilegales"
+                  points="92.649460,173.959991 87.283463,176.726959 87.216293,171.327362"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Córdoba id_Nuevos_Paramilitares_(Narco-Para)"
+                  points="354.594452,315.773590 335.491150,316.533203 342.524780,300.946716"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Córdoba id_Guerrillas"
+                  points="-92.861954,-104.164398 -96.974716,-96.096092 -101.784256,-102.613625"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_vinculación_sentimental/sexual id_Córdoba"
+                  points="-267.118500,421.249359 -269.682220,418.146576 -266.174469,417.336700"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_regalos_o_promesas_o_protección id_Córdoba"
+                  points="-239.889420,442.916748 -226.386810,436.171967 -226.392029,449.671967"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_féminas_como_objetivo_de_reclutamiento/violencia id_Córdoba"
+                  points="-246.686646,426.908722 -245.483063,423.067963 -242.891876,425.567108"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_consumo_de_drogas id_Córdoba"
+                  points="-245.891113,458.100220 -242.997452,458.959991 -244.842758,460.931000"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_regalos_o_promesas_o_protección id_Valle_del_Cauca"
+                  points="-30.549213,717.866272 -16.256695,698.400269 -6.400928,717.620728"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_regalos_o_promesas_o_protección id_Sucre"
+                  points="-496.927124,-857.856323 -492.641541,-851.042053 -499.807190,-850.339294"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_regalos_o_promesas_o_protección id_Risaralda"
+                  points="-558.671265,-541.266113 -555.028320,-537.796082 -559.261475,-536.269714"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_regalos_o_promesas_o_protección id_Quindío"
+                  points="876.896484,92.753860 862.331543,88.794724 871.324829,78.726425"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_regalos_o_promesas_o_protección id_Putumayo"
+                  points="-826.157166,44.575058 -819.214478,45.763119 -822.942017,50.842052"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_regalos_o_promesas_o_protección id_Norte_de_Santander"
+                  points="-784.832947,241.953491 -774.771118,241.858078 -778.719482,249.945724"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_regalos_o_promesas_o_protección id_Meta"
+                  points="677.500671,416.471466 673.028809,409.777985 680.172363,408.877899"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_regalos_o_promesas_o_protección id_Magdalena"
+                  points="325.534088,-948.053528 324.599396,-943.109924 321.018402,-945.835144"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_regalos_o_promesas_o_protección id_La_Guajira"
+                  points="595.023987,-872.296814 592.723145,-867.822571 590.064087,-871.452942"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_regalos_o_promesas_o_protección id_Huila"
+                  points="-919.093262,-478.384583 -915.711731,-476.201630 -918.810730,-474.369598"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_regalos_o_promesas_o_protección id_Guaviare"
+                  points="-644.752014,-282.649780 -641.216858,-280.725525 -644.170349,-278.667114"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_regalos_o_promesas_o_protección id_Cundinamarca"
+                  points="1059.730835,-22.807335 1051.716919,-23.566778 1055.530151,-29.674154"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_regalos_o_promesas_o_protección id_Chocó"
+                  points="554.778931,76.849373 543.318726,73.046364 550.945190,65.399376"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_regalos_o_promesas_o_protección id_Cesar"
+                  points="432.636353,973.685547 432.746613,971.676147 434.310089,972.568115"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_regalos_o_promesas_o_protección id_Cauca"
+                  points="142.671585,-674.041687 143.417450,-662.998352 134.284393,-666.819031"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_regalos_o_promesas_o_protección id_Casanare"
+                  points="243.958191,780.024292 244.232025,779.056030 244.897095,779.662354"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_regalos_o_promesas_o_protección id_Caquetá"
+                  points="889.697998,638.524048 885.241333,631.820496 892.386841,630.936584"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_regalos_o_promesas_o_protección id_Caldas"
+                  points="-575.967651,902.649414 -573.463013,900.964417 -573.116943,903.642151"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_regalos_o_promesas_o_protección id_Bolívar"
+                  points="410.834076,-594.300659 405.836365,-578.996338 395.591980,-589.116211"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_regalos_o_promesas_o_protección id_Bogotá"
+                  points="793.506897,-172.204803 789.593872,-171.262527 790.405273,-174.769882"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_regalos_o_promesas_o_protección id_Atlántico"
+                  points="1085.755493,418.213409 1084.140015,417.013336 1085.746216,416.200958"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_regalos_o_promesas_o_protección id_Arauca"
+                  points="-868.600342,184.948700 -861.566223,185.314957 -864.672913,190.795731"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_regalos_o_promesas_o_protección id_Antioquia"
+                  points="-297.309906,96.825615 -286.270142,97.623779 -291.324585,106.136292"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_regalos_o_promesas_o_protección id_Amazonas"
+                  points="658.974731,-464.359009 658.267456,-463.643311 657.977783,-464.495422"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_vinculación_sentimental/sexual id_Sucre"
+                  points="-518.980347,-873.072998 -519.731018,-872.402954 -519.966858,-873.271484"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_vinculación_sentimental/sexual id_Putumayo"
+                  points="-843.751038,10.883572 -844.223267,9.995028 -843.323486,9.972673"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_vinculación_sentimental/sexual id_Norte_de_Santander"
+                  points="-800.802551,211.110641 -801.102356,210.150101 -800.214050,210.294479"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_vinculación_sentimental/sexual id_Chocó"
+                  points="555.508179,76.150467 553.628662,75.431122 554.955933,74.215256"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_vinculación_sentimental/sexual id_Antioquia"
+                  points="-328.552704,65.645821 -330.247772,64.561005 -328.701874,63.638897"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Arauca id_Pequeños_Grupos_Ilegales"
+                  points="99.291321,152.827347 98.297592,152.669189 98.821609,151.937469"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Arauca id_Paramilitares"
+                  points="394.412567,544.100891 390.804596,542.316895 393.674957,540.144165"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Arauca id_Guerrillas"
+                  points="-106.641861,-168.768158 -129.075912,-163.082596 -124.650749,-183.304062"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Arauca id_Disidensias_FARC"
+                  points="-567.875793,501.725281 -568.439636,500.891876 -567.547424,500.774139"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0" class="id_presión id_Arauca"
+                  points="-865.761108,172.711502 -857.917175,168.185410 -857.433899,176.270981"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_féminas_como_objetivo_de_reclutamiento/violencia id_Arauca"
+                  points="-866.487000,168.261703 -863.480713,165.585510 -862.542236,169.061035"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_apoyo_a_actividades/bandas_criminales id_Arauca"
+                  points="-866.168396,178.457352 -862.281250,177.413269 -863.000854,180.940613"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Meta id_Pequeños_Grupos_Ilegales"
+                  points="145.645569,204.467880 148.148102,206.156006 145.796570,207.482788"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Meta id_Paramilitares"
+                  points="462.122498,579.595764 477.735931,572.607666 477.081024,587.893677"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Meta id_Nuevos_Paramilitares_(Narco-Para)"
+                  points="433.297302,375.323395 447.152283,381.311005 436.820190,389.999969"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Meta id_Guerrillas"
+                  points="-4.670671,-75.294762 18.349144,-51.363602 -10.003715,-42.520218"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Meta id_Disidensias_FARC"
+                  points="-543.778442,539.342651 -541.775818,539.541260 -542.735779,541.063965"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0" class="id_violencia id_Meta"
+                  points="691.584534,418.848938 691.576843,416.836517 693.189880,417.635284"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0" class="id_presión id_Meta"
+                  points="672.813843,417.531952 667.133362,411.828247 673.968567,409.565369"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_persuación_de_incorporación_voluntaria_y_adoctrinamiento id_Meta"
+                  points="666.942993,420.381439 664.328064,418.873352 666.580505,417.384583"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_penetración_de_centros_educativos id_Meta"
+                  points="656.154968,445.007690 654.522522,446.184601 654.233948,444.407867"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_consumo_de_drogas id_Meta"
+                  points="659.018921,428.891632 658.013855,428.842255 658.455383,428.058014"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_apoyo_a_actividades/bandas_criminales id_Meta"
+                  points="683.242432,416.419037 682.188660,413.590210 684.873230,413.878784"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_penetración_de_centros_educativos id_Valle_del_Cauca"
+                  points="-57.073444,752.474670 -56.821785,753.448914 -57.701851,753.260559"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_penetración_de_centros_educativos id_Quindío"
+                  points="871.680908,112.895248 870.123657,114.169960 869.726807,112.414253"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_penetración_de_centros_educativos id_Putumayo"
+                  points="-841.028931,53.105762 -840.488037,53.954227 -841.383179,54.047588"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_penetración_de_centros_educativos id_Norte_de_Santander"
+                  points="-800.082092,253.685837 -798.234680,256.073181 -800.883484,256.596191"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_penetración_de_centros_educativos id_Atlántico"
+                  points="1074.572876,434.620789 1073.634521,434.984406 1073.718994,434.088348"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_penetración_de_centros_educativos id_Antioquia"
+                  points="-322.289429,107.320351 -321.842102,109.282463 -323.590698,108.855492"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Cundinamarca id_Pequeños_Grupos_Ilegales"
+                  points="160.557495,188.171783 167.595871,187.899948 164.998001,193.639389"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Cundinamarca id_Paramilitares"
+                  points="461.815613,572.394287 478.519531,561.170227 480.817200,579.023010"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Cundinamarca id_Nuevos_Paramilitares_(Narco-Para)"
+                  points="450.977112,342.582092 464.234344,337.818176 462.742584,350.329529"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Cundinamarca id_Guerrillas"
+                  points="31.647247,-98.908508 44.300396,-95.590347 36.584599,-86.795090"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_consumo_de_drogas id_Cundinamarca"
+                  points="1056.723999,-14.572062 1055.769409,-14.253992 1055.896851,-15.144930"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_apoyo_a_actividades/bandas_criminales id_Cundinamarca"
+                  points="1066.253418,-29.417736 1062.792236,-31.472010 1065.820068,-33.419262"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_consumo_de_drogas id_Valle_del_Cauca"
+                  points="-29.307682,720.729797 -27.917238,719.274963 -27.309515,720.969299"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_consumo_de_drogas id_San_Andrés_y_Providencia"
+                  points="-788.231323,-742.063477 -787.792786,-741.157837 -788.692688,-741.169312"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_consumo_de_drogas id_Putumayo"
+                  points="-833.318054,50.758949 -832.499207,51.343758 -833.294617,51.764908"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_consumo_de_drogas id_Countrywide"
+                  points="652.390564,814.775452 650.865662,813.462158 652.526184,812.767578"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_consumo_de_drogas id_Chocó"
+                  points="548.381531,95.150101 547.537170,95.697426 547.437073,94.803017"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_consumo_de_drogas id_Cauca"
+                  points="137.753555,-676.910706 137.557266,-675.923767 136.846268,-676.475525"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_consumo_de_drogas id_Boyacá"
+                  points="-786.988770,672.952942 -785.982605,672.942810 -786.376892,673.751770"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_consumo_de_drogas id_Bolívar"
+                  points="409.021332,-596.326233 408.166656,-594.504272 407.050934,-595.916748"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_consumo_de_drogas id_Bogotá"
+                  points="793.161133,-164.782639 792.329468,-164.216232 792.208984,-165.108139"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_consumo_de_drogas id_Atlántico"
+                  points="1077.686401,425.529816 1076.685425,425.427002 1077.168091,424.667358"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Antioquia id_Pequeños_Grupos_Ilegales"
+                  points="103.080894,148.364105 98.309563,146.768219 101.494804,143.589508"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Antioquia id_Paramilitares"
+                  points="404.552032,538.429077 397.834381,532.355774 405.380096,529.410950"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Antioquia id_Nuevos_Paramilitares_(Narco-Para)"
+                  points="370.404358,296.068817 355.112976,288.401550 367.363342,279.235352"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Antioquia id_Guerrillas"
+                  points="-107.020088,-136.394547 -117.388199,-128.418671 -119.621658,-139.903503"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_violencia id_Antioquia"
+                  points="-294.794891,90.708397 -289.884277,89.613716 -290.972778,93.980080"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_presión id_Antioquia"
+                  points="-304.570892,66.050385 -303.378632,55.046249 -295.052216,60.401733"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_persuación_de_incorporación_voluntaria_y_adoctrinamiento id_Antioquia"
+                  points="-329.464386,66.219292 -335.569946,62.707226 -330.318054,59.227604"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_apoyo_a_actividades/bandas_criminales id_Antioquia"
+                  points="-294.134399,84.355873 -289.721008,81.940453 -289.554016,86.437355"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_actividades_lúdicas_y_recreativas id_Antioquia"
+                  points="-295.084015,91.760117 -293.101044,91.416809 -293.619598,93.140503"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_violencia id_Valle_del_Cauca"
+                  points="-29.686592,719.742126 -26.373230,715.956055 -24.669739,720.121216"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_violencia id_Norte_de_Santander"
+                  points="-783.501343,238.506607 -782.511475,238.325974 -782.762939,239.190140"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_violencia id_Countrywide"
+                  points="670.803467,816.154541 670.885986,815.151672 671.655273,815.618835"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_violencia id_Cauca"
+                  points="154.292130,-672.612244 154.872726,-671.790405 153.983017,-671.654663"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_violencia id_Casanare"
+                  points="246.625763,782.988525 247.084290,782.092834 247.617432,782.817932"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_violencia id_Boyacá"
+                  points="-784.940796,664.788086 -784.024353,664.372620 -784.058533,665.271912"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_violencia id_Bolívar"
+                  points="421.546875,-588.451965 421.789459,-587.475464 420.911163,-587.671997"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_violencia id_Bogotá"
+                  points="802.172546,-184.737152 801.298767,-185.236206 802.047546,-185.735596"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Chocó id_Pequeños_Grupos_Ilegales"
+                  points="160.715683,187.817184 161.720688,187.767365 161.358536,188.591278"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Chocó id_Paramilitares"
+                  points="452.443726,550.830200 458.531830,537.019104 467.145477,547.414001"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Chocó id_Nuevos_Paramilitares_(Narco-Para)"
+                  points="446.121277,314.221466 458.289673,298.192444 466.245544,314.338806"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Chocó id_Guerrillas"
+                  points="19.679832,-87.794754 53.925461,-70.786331 26.620466,-50.193195"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Chocó id_Disidensias_FARC"
+                  points="-540.833923,532.630615 -535.902405,531.634399 -537.078064,535.978149"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0" class="id_presión id_Chocó"
+                  points="558.935425,73.568527 552.958252,69.842117 558.330200,66.550949"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_persuación_de_incorporación_voluntaria_y_adoctrinamiento id_Chocó"
+                  points="554.029297,77.638519 552.090698,77.098259 553.298340,75.763496"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_apoyo_a_actividades/bandas_criminales id_Chocó"
+                  points="569.580017,70.295242 566.137573,64.150146 572.430664,63.854248"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_actividades_lúdicas_y_recreativas id_Chocó"
+                  points="592.683533,88.789322 594.300842,87.591713 594.612000,89.364616"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_persuación_de_incorporación_voluntaria_y_adoctrinamiento id_Vaupés"
+                  points="-977.241150,417.717316 -974.090393,415.212769 -973.346985,418.735168"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_persuación_de_incorporación_voluntaria_y_adoctrinamiento id_Valle_del_Cauca"
+                  points="-51.798851,704.746460 -56.656860,694.801025 -46.757286,694.892822"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_persuación_de_incorporación_voluntaria_y_adoctrinamiento id_Tolima"
+                  points="-288.384766,-602.179382 -288.997131,-601.380920 -289.390930,-602.190247"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_persuación_de_incorporación_voluntaria_y_adoctrinamiento id_Putumayo"
+                  points="-823.434387,39.568966 -821.432068,39.367050 -822.071472,41.049660"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_persuación_de_incorporación_voluntaria_y_adoctrinamiento id_Cauca"
+                  points="129.503326,-691.682007 126.118134,-689.504700 125.730392,-693.083801"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_persuación_de_incorporación_voluntaria_y_adoctrinamiento id_Casanare"
+                  points="227.366943,774.963684 226.789825,774.139404 227.680084,774.007446"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_persuación_de_incorporación_voluntaria_y_adoctrinamiento id_Caquetá"
+                  points="882.225403,640.931824 878.919067,638.636658 882.077759,636.909607"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_persuación_de_incorporación_voluntaria_y_adoctrinamiento id_Boyacá"
+                  points="-788.903931,651.909851 -788.446411,651.013672 -787.912476,651.738159"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_persuación_de_incorporación_voluntaria_y_adoctrinamiento id_Bolívar"
+                  points="404.388550,-612.413696 400.615845,-611.011292 401.002991,-614.590393"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Norte_de_Santander id_Pequeños_Grupos_Ilegales"
+                  points="97.985115,154.785156 93.977058,154.417053 95.874779,151.357849"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Norte_de_Santander id_Nuevos_Paramilitares_(Narco-Para)"
+                  points="362.063904,303.930389 355.218567,302.271027 359.284180,297.458466"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Norte_de_Santander id_Guerrillas"
+                  points="-107.932434,-161.105209 -123.081367,-155.654541 -121.382332,-169.953949"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Norte_de_Santander id_Disidensias_FARC"
+                  points="-566.652344,501.594818 -567.173950,500.734314 -566.276978,500.661255"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_presión id_Norte_de_Santander"
+                  points="-783.054016,228.250900 -779.873413,225.784393 -779.172485,229.315491"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_féminas_como_objetivo_de_reclutamiento/violencia id_Norte_de_Santander"
+                  points="-783.903198,225.179047 -781.119507,222.271988 -779.907349,225.661758"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_apoyo_a_actividades/bandas_criminales id_Norte_de_Santander"
+                  points="-782.812500,235.189392 -778.064819,233.524475 -778.631958,237.988586"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Atlántico id_Paramilitares"
+                  points="458.843536,594.198669 460.851807,594.068481 460.152588,595.727173"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Atlántico id_Nuevos_Paramilitares_(Narco-Para)"
+                  points="438.119995,370.690308 442.961151,372.059845 439.929108,375.384979"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_actividades_lúdicas_y_recreativas id_Atlántico"
+                  points="1106.281128,419.357391 1106.397583,418.357941 1107.150513,418.850861"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_actividades_lúdicas_y_recreativas id_La_Guajira"
+                  points="614.217346,-863.948547 614.770203,-863.107849 613.876526,-863.001770"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Bolívar id_Pequeños_Grupos_Ilegales"
+                  points="157.678802,153.697708 159.662903,150.195801 161.670776,153.183838"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Bolívar id_Paramilitares"
+                  points="444.643158,543.532837 445.453033,538.567322 449.101532,541.201477"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Bolívar id_Nuevos_Paramilitares_(Narco-Para)"
+                  points="430.585236,295.729767 432.765533,282.831757 442.211823,289.735199"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Bolívar id_Guerrillas"
+                  points="49.274155,-170.442230 64.659058,-183.415466 68.883682,-165.918243"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_presión id_Bolívar"
+                  points="404.725403,-614.547180 393.050873,-611.463989 395.254181,-622.036865"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_féminas_como_objetivo_de_reclutamiento/violencia id_Bolívar"
+                  points="414.542450,-628.719299 410.233734,-631.316895 414.035309,-633.724854"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_apoyo_a_actividades/bandas_criminales id_Bolívar"
+                  points="405.637695,-602.351807 403.574829,-600.147949 402.636902,-602.679810"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Putumayo id_Pequeños_Grupos_Ilegales"
+                  points="102.514450,148.942413 97.708000,147.455627 100.820015,144.205200"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Putumayo id_Guerrillas"
+                  points="-103.408356,-179.727203 -112.414299,-178.775711 -109.573112,-186.361069"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Putumayo id_Disidensias_FARC"
+                  points="-562.109619,501.644348 -562.464661,500.702789 -561.569397,500.795441"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_presión id_Putumayo"
+                  points="-822.117065,33.685577 -818.388672,32.169338 -818.666992,35.758556"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_féminas_como_objetivo_de_reclutamiento/violencia id_Putumayo"
+                  points="-822.545166,27.513323 -821.762390,26.880978 -821.569641,27.760086"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_cuota_familiar_de_reclutamiento id_Putumayo"
+                  points="-862.966797,24.400114 -863.968567,24.494589 -863.643494,23.655371"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_apoyo_a_actividades/bandas_criminales id_Putumayo"
+                  points="-822.990906,38.277905 -821.005737,37.947369 -821.535400,39.667690"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_apoyo_a_actividades/bandas_criminales id_Valle_del_Cauca"
+                  points="-33.297070,713.655518 -29.566391,705.403564 -24.457108,711.688843"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_apoyo_a_actividades/bandas_criminales id_Tolima"
+                  points="-257.150391,-591.479309 -255.547424,-590.262512 -257.162048,-589.466858"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_apoyo_a_actividades/bandas_criminales id_Sucre"
+                  points="-492.615845,-858.748413 -490.505859,-856.589600 -493.076904,-855.765137"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_apoyo_a_actividades/bandas_criminales id_Risaralda"
+                  points="-552.762207,-544.581726 -549.104614,-542.901855 -551.911621,-540.647705"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_apoyo_a_actividades/bandas_criminales id_Quindío"
+                  points="886.032471,86.553703 881.641296,82.410316 886.712463,80.554741"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_apoyo_a_actividades/bandas_criminales id_Magdalena"
+                  points="323.439148,-949.884216 322.801880,-947.975342 321.529663,-949.248779"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_apoyo_a_actividades/bandas_criminales id_Cauca"
+                  points="143.289108,-673.794434 143.880798,-667.786133 138.837463,-669.716064"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_apoyo_a_actividades/bandas_criminales id_Caldas"
+                  points="-577.045898,898.208191 -575.660400,896.748596 -575.046875,898.440857"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_apoyo_a_actividades/bandas_criminales id_Bogotá"
+                  points="800.927002,-183.837814 795.476501,-186.434372 799.733948,-189.756149"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0" class="id_presión id_Vaupés"
+                  points="-977.119507,418.341858 -975.505615,417.139679 -975.189453,418.911713"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_presión id_Valle_del_Cauca"
+                  points="-43.530304,706.289063 -44.993248,692.278015 -33.199226,696.712097"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0" class="id_presión id_Tolima"
+                  points="-283.568115,-595.565491 -284.463440,-592.682678 -286.411621,-594.552063"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0" class="id_presión id_Sucre"
+                  points="-505.805023,-858.921143 -505.549866,-856.924927 -507.248901,-857.519287"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_presión id_Risaralda"
+                  points="-563.487427,-540.159790 -562.402832,-538.464539 -564.192871,-538.274963"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_presión id_Quindío"
+                  points="880.370911,89.593040 868.723511,83.639069 878.145630,76.702713"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_presión id_Magdalena"
+                  points="317.726868,-960.890198 316.108154,-959.694458 315.799072,-961.467773"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_presión id_La_Guajira"
+                  points="591.045654,-885.746460 587.348999,-884.154480 587.554077,-887.748596"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_presión id_Guaviare"
+                  points="-640.170471,-287.014862 -636.220581,-286.241211 -638.419434,-283.390747"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_presión id_Guainía"
+                  points="-305.154785,-1033.388062 -305.358246,-1032.402588 -306.065216,-1032.959473"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0" class="id_presión id_Cauca"
+                  points="129.481400,-691.894104 125.223305,-689.214355 124.782722,-693.692749"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_presión id_Casanare"
+                  points="233.494354,774.993774 232.886826,773.075195 234.664688,773.356567"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0" class="id_presión id_Boyacá"
+                  points="-787.126831,654.796082 -785.327881,652.371887 -784.108154,654.780701"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0" class="id_presión id_Bogotá"
+                  points="798.231262,-181.316330 793.376709,-182.637405 796.375366,-185.992661"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_presión id_Amazonas"
+                  points="659.850525,-479.478424 658.844482,-479.458038 659.230591,-480.271027"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Countrywide id_Pequeños_Grupos_Ilegales"
+                  points="130.363159,208.987396 131.371887,210.728806 129.575287,210.839218"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Countrywide id_Guerrillas"
+                  points="-27.895897,-71.668312 -26.982527,-69.875053 -28.782476,-69.861656"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Bogotá id_Pequeños_Grupos_Ilegales"
+                  points="163.325775,178.793350 170.023590,176.613495 169.088348,182.843689"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Bogotá id_Paramilitares"
+                  points="457.454773,558.408508 462.201447,551.907043 465.503937,558.304993"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Bogotá id_Nuevos_Paramilitares_(Narco-Para)"
+                  points="449.169312,321.950317 454.288727,317.112579 456.111176,323.143219"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Bogotá id_Guerrillas"
+                  points="39.100937,-108.872437 44.106571,-108.366325 41.699429,-104.564262"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Cauca id_Pequeños_Grupos_Ilegales"
+                  points="149.519440,145.099655 149.880447,143.119858 151.319901,144.200577"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Cauca id_Nuevos_Paramilitares_(Narco-Para)"
+                  points="419.218475,289.481598 418.678589,283.468384 423.705078,285.441772"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Cauca id_Guerrillas"
+                  points="32.088787,-203.916077 40.228790,-223.416153 52.572845,-209.104111"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_féminas_como_objetivo_de_reclutamiento/violencia id_Cauca"
+                  points="140.896881,-713.146851 139.259262,-714.316589 140.850082,-715.158752"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Vaupés id_Guerrillas"
+                  points="-108.328506,-156.766205 -112.962791,-154.807663 -112.675911,-159.298508"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Vaupés id_Disidensias_FARC"
+                  points="-581.079224,507.780304 -584.819458,506.293488 -582.133911,503.896027"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Huila id_Pequeños_Grupos_Ilegales"
+                  points="114.962769,140.532196 112.705200,138.528229 115.211411,137.523773"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Huila id_Guerrillas"
+                  points="-74.735237,-216.946198 -81.834808,-220.740433 -75.959595,-224.902390"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Valle_del_Cauca id_Pequeños_Grupos_Ilegales"
+                  points="100.054405,195.234543 96.555260,202.484100 92.155281,196.784973"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Valle_del_Cauca id_Nuevos_Paramilitares_(Narco-Para)"
+                  points="350.611206,343.659760 333.216583,355.657227 330.576447,336.942505"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Valle_del_Cauca id_Guerrillas"
+                  points="-73.806915,-85.738182 -76.863976,-63.813206 -93.181129,-75.028839"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Magdalena id_Pequeños_Grupos_Ilegales"
+                  points="153.811996,148.900925 155.161423,145.108948 157.655228,147.705261"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Magdalena id_Nuevos_Paramilitares_(Narco-Para)"
+                  points="428.066681,294.003296 428.389404,291.001892 430.661438,292.460632"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_féminas_como_objetivo_de_reclutamiento/violencia id_Magdalena"
+                  points="318.298767,-970.365723 316.315521,-970.024170 316.835602,-971.747437"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Guaviare id_Pequeños_Grupos_Ilegales"
+                  points="114.046494,140.914368 112.504715,139.620956 114.156158,138.904892"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Guaviare id_Paramilitares"
+                  points="408.903381,536.997498 405.558563,533.239197 409.903107,532.066711"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Guaviare id_Nuevos_Paramilitares_(Narco-Para)"
+                  points="380.522736,290.187897 379.750885,289.542328 380.576080,289.183075"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Guaviare id_Guerrillas"
+                  points="-84.724113,-208.568329 -95.203766,-212.130569 -88.162109,-219.089401"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Guaviare id_Disidensias_FARC"
+                  points="-552.558533,504.678802 -552.363403,500.658600 -549.225342,502.422760"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Sucre id_Pequeños_Grupos_Ilegales"
+                  points="131.278183,138.116562 130.168472,135.309235 132.858200,135.544403"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Sucre id_Nuevos_Paramilitares_(Narco-Para)"
+                  points="399.929077,285.987488 397.608673,281.523376 402.108124,281.452698"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Sucre id_Guerrillas"
+                  points="-27.504623,-231.660004 -28.382355,-233.470963 -26.582493,-233.448776"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_féminas_como_objetivo_de_reclutamiento/violencia id_Sucre"
+                  points="-483.732574,-864.402527 -482.766602,-864.120789 -483.378418,-863.460754"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Casanare id_Nuevos_Paramilitares_(Narco-Para)"
+                  points="359.969269,366.595642 359.511292,367.491608 358.977722,366.766876"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Casanare id_Guerrillas"
+                  points="-54.071976,-75.866180 -53.517612,-71.879623 -56.928608,-73.030762"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Casanare id_Disidensias_FARC"
+                  points="-550.322815,546.271362 -549.433838,546.742798 -550.166626,547.265381"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_féminas_como_objetivo_de_reclutamiento/violencia id_Tolima"
+                  points="-245.039200,-618.721130 -244.296082,-619.399597 -244.050598,-618.533752"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_féminas_como_objetivo_de_reclutamiento/violencia id_La_Guajira"
+                  points="593.916992,-895.155273 590.906067,-895.371704 592.283508,-897.693848"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_féminas_como_objetivo_de_reclutamiento/violencia id_Guainía"
+                  points="-290.094116,-1029.244995 -289.530945,-1028.411133 -290.423279,-1028.294189"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_féminas_como_objetivo_de_reclutamiento/violencia id_Amazonas"
+                  points="668.171387,-488.392426 667.338074,-488.956390 668.122620,-489.397491"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Caldas id_Paramilitares"
+                  points="379.638977,565.017090 377.651154,565.330933 378.195221,563.615112"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Tolima id_Pequeños_Grupos_Ilegales"
+                  points="133.530426,138.386139 132.602081,135.513748 135.271332,135.920029"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Tolima id_Paramilitares"
+                  points="424.152313,535.751404 423.437500,533.870178 425.228394,534.050842"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Tolima id_Nuevos_Paramilitares_(Narco-Para)"
+                  points="400.895721,285.981537 400.448761,285.080017 401.348785,285.083069"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Tolima id_Guerrillas"
+                  points="-23.454622,-231.507385 -26.986631,-239.846283 -18.902700,-239.336334"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Risaralda id_Pequeños_Grupos_Ilegales"
+                  points="123.276222,138.321930 119.286484,132.517227 125.526138,131.647324"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Risaralda id_Guerrillas"
+                  points="-56.354382,-226.657059 -63.707226,-233.526230 -55.270741,-236.660843"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Risaralda id_Disidensias_FARC"
+                  points="-550.144409,506.227203 -549.979309,505.234619 -549.251282,505.763733"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_La_Guajira id_Guerrillas"
+                  points="48.803040,-172.296021 51.817108,-174.963486 52.745453,-171.485245"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Quindío id_Pequeños_Grupos_Ilegales"
+                  points="158.952942,191.295837 167.992569,191.841293 163.940353,198.854813"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Quindío id_Paramilitares"
+                  points="461.405762,569.833374 474.991974,559.439758 477.872406,574.466125"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Quindío id_Guerrillas"
+                  points="23.886909,-91.196846 41.545387,-83.869461 28.620087,-72.673630"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Caquetá id_Pequeños_Grupos_Ilegales"
+                  points="141.553299,206.443222 143.064407,207.772354 141.396652,208.449570"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Caquetá id_Guerrillas"
+                  points="-8.761744,-74.137085 -1.523111,-65.763634 -11.117327,-63.322105"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Boyacá id_Nuevos_Paramilitares_(Narco-Para)"
+                  points="353.247375,319.061981 352.247253,319.172394 352.558960,318.328094"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Vichada id_Guerrillas"
+                  points="51.396454,-147.428635 56.931885,-149.838821 56.645859,-144.446396"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Amazonas id_Guerrillas"
+                  points="50.539200,-139.248764 52.457077,-139.858475 52.177689,-138.080276"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Amazonas id_Disidensias_FARC"
+                  points="-539.999146,525.142273 -539.118958,524.654663 -539.080872,525.553833"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Cesar id_Pequeños_Grupos_Ilegales"
+                  points="118.630493,207.746338 119.013512,209.722000 117.279762,209.238144"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Cesar id_Paramilitares"
+                  points="397.143616,613.376526 396.613831,618.379700 392.823181,615.954651"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Cesar id_Nuevos_Paramilitares_(Narco-Para)"
+                  points="373.857666,379.479309 373.375549,384.487305 369.562012,382.098450"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Cesar id_Guerrillas"
+                  points="-46.580788,-73.738121 -46.345951,-72.759674 -47.222637,-72.963181"
+                  stroke="none"/>
+    </g>
+    <g id="nodes">
+        <circle fill-opacity="1.0" fill="#9a96e5" r="19.748646" cx="-375.62045"
+                class="id_Nariño" cy="783.9575" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.312223"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="18.4" cx="-24.961128"
+                class="id_reclutamiento_forzado" cy="-403.45016"
+                stroke="#ae532e" stroke-opacity="1.0" stroke-width="1.2226105"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="20.45028" cx="-262.11798"
+                class="id_Córdoba" cy="442.90817" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.3588439"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="18.4" cx="315.9288"
+                class="id_regalos_o_promesas_o_protección" cy="36.510216"
+                stroke="#ae532e" stroke-opacity="1.0" stroke-width="1.2226105"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="18.4" cx="-1027.1156"
+                class="id_vinculación_sentimental/sexual" cy="-222.2243"
+                stroke="#ae532e" stroke-opacity="1.0" stroke-width="1.2226105"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="20.366371" cx="-887.859"
+                class="id_Arauca" cy="174.03236" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.3532684"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="22.780447" cx="680.5961"
+                class="id_Meta" cy="441.03857" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.5136749"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="18.4" cx="77.335556"
+                class="id_penetración_de_centros_educativos" cy="1044.8054"
+                stroke="#ae532e" stroke-opacity="1.0" stroke-width="1.2226105"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="19.524569" cx="1077.7327"
+                class="id_Cundinamarca" cy="-11.567941" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.2973338"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="18.4" cx="117.833305"
+                class="id_consumo_de_drogas" cy="499.52338" stroke="#ae532e"
+                stroke-opacity="1.0" stroke-width="1.2226105"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="20.947975" cx="-316.88828"
+                class="id_Antioquia" cy="85.20069" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.391914"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="18.4" cx="564.8854"
+                class="id_violencia" cy="-269.00653" stroke="#ae532e"
+                stroke-opacity="1.0" stroke-width="1.2226105"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="20.597881" cx="570.6316"
+                class="id_Chocó" cy="92.65954" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.3686514"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="18.4" cx="-583.6925"
+                class="id_persuación_de_incorporación_voluntaria_y_adoctrinamiento"
+                cy="-28.338278" stroke="#ae532e" stroke-opacity="1.0"
+                stroke-width="1.2226105"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="19.901926" cx="-804.2725"
+                class="id_Norte_de_Santander" cy="232.46306" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.3224078"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="18.902374" cx="1095.0283"
+                class="id_Atlántico" cy="436.5479" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.2559913"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="18.4" cx="1054.2902"
+                class="id_actividades_lúdicas_y_recreativas" cy="-401.60953"
+                stroke="#ae532e" stroke-opacity="1.0" stroke-width="1.2226105"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="20.34769" cx="426.37732"
+                class="id_Bolívar" cy="-610.0351" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.3520273"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="19.477753" cx="-843.22516"
+                class="id_Putumayo" cy="32.04851" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.2942232"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="18.4" cx="235.01366"
+                class="id_apoyo_a_actividades/bandas_criminales" cy="-340.6082"
+                stroke="#ae532e" stroke-opacity="1.0" stroke-width="1.2226105"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="18.4" cx="-323.58856"
+                class="id_presión" cy="-280.5598" stroke="#ae532e"
+                stroke-opacity="1.0" stroke-width="1.2226105"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="18.719574" cx="660.24274"
+                class="id_Countrywide" cy="833.54663" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.243845"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="19.008646" cx="813.63684"
+                class="id_Bogotá" cy="-167.54791" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.2630528"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="19.917263" cx="151.02658"
+                class="id_Cauca" cy="-694.01373" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.323427"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="18.629227" cx="-997.0539"
+                class="id_Vaupés" cy="421.89853" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.2378417"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="19.082514" cx="-929.64886"
+                class="id_Huila" cy="-496.2397" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.267961"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="22.201328" cx="-52.022564"
+                class="id_Valle_del_Cauca" cy="728.8773" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.4751945"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="18.923967" cx="337.9909"
+                class="id_Magdalena" cy="-964.4222" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.2574263"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="18.499205" cx="-787.9754"
+                class="id_San_Andrés_y_Providencia" cy="-762.1697"
+                stroke="#6b69a0" stroke-opacity="1.0" stroke-width="1.2292024"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="19.158932" cx="-656.65936"
+                class="id_Guaviare" cy="-299.73465" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.2730387"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="19.092224" cx="-498.95273"
+                class="id_Sucre" cy="-878.50964" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.2686063"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="18.605556" cx="230.3326"
+                class="id_Casanare" cy="794.9685" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.236269"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="18.4" cx="-88.98651"
+                class="id_féminas_como_objetivo_de_reclutamiento/violencia"
+                cy="-822.67224" stroke="#ae532e" stroke-opacity="1.0"
+                stroke-width="1.2226105"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="19.217094" cx="-596.6835"
+                class="id_Caldas" cy="905.3272" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.2769034"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="21.425014" cx="-267.44415"
+                class="id_Tolima" cy="-612.36884" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.4236114"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="18.946167" cx="-565.6567"
+                class="id_Risaralda" cy="-560.63885" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.2589012"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="19.099092" cx="611.77185"
+                class="id_La_Guajira" cy="-884.5639" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.2690626"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="20.899118" cx="893.8384"
+                class="id_Quindío" cy="107.88686" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.3886675"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="18.5031" cx="-292.70862"
+                class="id_Guainía" cy="-1049.1864" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.2294611"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="19.258974" cx="892.2679"
+                class="id_Caquetá" cy="659.2994" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.2796862"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="18.770626" cx="-805.3289"
+                class="id_Boyacá" cy="664.0134" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.2472373"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="18.4" cx="-1090.8401"
+                class="id_cuota_familiar_de_reclutamiento" cy="87.85856"
+                stroke="#ae532e" stroke-opacity="1.0" stroke-width="1.2226105"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="19.083195" cx="856.5455"
+                class="id_Vichada" cy="-683.2129" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.2680062"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="18.525896" cx="678.0402"
+                class="id_Amazonas" cy="-470.8397" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.2309757"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="18.650509" cx="422.59048"
+                class="id_Cesar" cy="991.2937" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.2392559"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="18.514769" cx="-295.18076"
+                class="id_Santander" cy="1098.4904" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.2302365"/>
+        <circle fill-opacity="1.0" fill="#28b36a" r="73.6" cx="-28.491241"
+                class="id_Guerrillas" cy="-151.66609" stroke="#1c7d4a"
+                stroke-opacity="1.0" stroke-width="4.890442"/>
+        <circle fill-opacity="1.0" fill="#28b36a" r="46.560295" cx="400.72403"
+                class="id_Nuevos_Paramilitares_(Narco-Para)" cy="336.59027"
+                stroke="#1c7d4a" stroke-opacity="1.0" stroke-width="3.093756"/>
+        <circle fill-opacity="1.0" fill="#28b36a" r="22.697983" cx="-564.6488"
+                class="id_Disidensias_FARC" cy="526.18506" stroke="#1c7d4a"
+                stroke-opacity="1.0" stroke-width="1.5081953"/>
+        <circle fill-opacity="1.0" fill="#28b36a" r="32.693497" cx="128.18312"
+                class="id_Pequeños_Grupos_Ilegales" cy="173.51793"
+                stroke="#1c7d4a" stroke-opacity="1.0" stroke-width="2.1723592"/>
+        <circle fill-opacity="1.0" fill="#28b36a" r="38.86927" cx="419.91202"
+                class="id_Paramilitares" cy="577.7873" stroke="#1c7d4a"
+                stroke-opacity="1.0" stroke-width="2.5827162"/>
+    </g>
+    <g id="node-labels-outline">
+        <text stroke-linecap="round" font-size="43" x="-375.62045" y="791.94305"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Nariño" stroke="#080808"
+              stroke-opacity="0.8" stroke-width="0.25670046px">
+            Nariño
+        </text>
+        <text stroke-linecap="round" font-size="40" x="-24.961128"
+              y="-395.93063" fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_reclutamiento_forzado"
+              stroke="#080808" stroke-opacity="0.8" stroke-width="0.23879112px">
+            Forced Recruitment
+        </text>
+        <text stroke-linecap="round" font-size="44" x="-262.11798" y="451.3408"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Córdoba" stroke="#080808"
+              stroke-opacity="0.8" stroke-width="0.26267025px">
+            Córdoba
+        </text>
+        <text stroke-linecap="round" font-size="40" x="315.9288" y="45.309044"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI"
+              class="id_regalos_o_promesas_o_protección" stroke="#080808"
+              stroke-opacity="0.8" stroke-width="0.23879112px">
+            Gifts, Promises, Handouts
+        </text>
+        <text stroke-linecap="round" font-size="40" x="-1027.1156"
+              y="-212.36102" fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI"
+              class="id_vinculación_sentimental/sexual" stroke="#080808"
+              stroke-opacity="0.8" stroke-width="0.23879112px">
+            Sentimental/sexual relationship with members of the armed groups
+        </text>
+        <text stroke-linecap="round" font-size="44" x="-887.859" y="181.86342"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Arauca" stroke="#080808"
+              stroke-opacity="0.8" stroke-width="0.26267025px">
+            Arauca
+        </text>
+        <text stroke-linecap="round" font-size="50" x="680.5961" y="449.9375"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Meta" stroke="#080808"
+              stroke-opacity="0.8" stroke-width="0.29848891px">
+            Meta
+        </text>
+        <text stroke-linecap="round" font-size="40" x="77.335556" y="1052.4324"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI"
+              class="id_penetración_de_centros_educativos" stroke="#080808"
+              stroke-opacity="0.8" stroke-width="0.23879112px">
+            Penetration of educational centers
+        </text>
+        <text stroke-linecap="round" font-size="42" x="1077.7327" y="-3.672433"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Cundinamarca"
+              stroke="#080808" stroke-opacity="0.8" stroke-width="0.2507307px">
+            Cundinamarca
+        </text>
+        <text stroke-linecap="round" font-size="40" x="117.833305" y="509.27924"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_consumo_de_drogas"
+              stroke="#080808" stroke-opacity="0.8" stroke-width="0.23879112px">
+            Instigation to drug consumption and dependency
+        </text>
+        <text stroke-linecap="round" font-size="46" x="-316.88828" y="96.25522"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Antioquia" stroke="#080808"
+              stroke-opacity="0.8" stroke-width="0.2746098px">
+            Antioquia
+        </text>
+        <text stroke-linecap="round" font-size="40" x="564.8854" y="-261.487"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_violencia" stroke="#080808"
+              stroke-opacity="0.8" stroke-width="0.23879112px">
+            Violence
+        </text>
+        <text stroke-linecap="round" font-size="45" x="570.6316" y="101.283806"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Chocó" stroke="#080808"
+              stroke-opacity="0.8" stroke-width="0.26864px">
+            Chocó
+        </text>
+        <text stroke-linecap="round" font-size="40" x="-583.6925" y="-18.474997"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI"
+              class="id_persuación_de_incorporación_voluntaria_y_adoctrinamiento"
+              stroke="#080808" stroke-opacity="0.8" stroke-width="0.23879112px">
+            Persuasion of voluntary incorporation and indoctrination
+        </text>
+        <text stroke-linecap="round" font-size="43" x="-804.2725" y="240.54655"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Norte_de_Santander"
+              stroke="#080808" stroke-opacity="0.8" stroke-width="0.25670046px">
+            Norte de Santander
+        </text>
+        <text stroke-linecap="round" font-size="41" x="1095.0283" y="444.40558"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Atlántico" stroke="#080808"
+              stroke-opacity="0.8" stroke-width="0.2447609px">
+            Atlántico
+        </text>
+        <text stroke-linecap="round" font-size="40" x="1054.2902" y="-394.09"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI"
+              class="id_actividades_lúdicas_y_recreativas" stroke="#080808"
+              stroke-opacity="0.8" stroke-width="0.23879112px">
+            Recreational activities
+        </text>
+        <text stroke-linecap="round" font-size="44" x="426.37732" y="-601.6025"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Bolívar" stroke="#080808"
+              stroke-opacity="0.8" stroke-width="0.26267025px">
+            Bolívar
+        </text>
+        <text stroke-linecap="round" font-size="42" x="-843.22516" y="41.871754"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Putumayo" stroke="#080808"
+              stroke-opacity="0.8" stroke-width="0.2507307px">
+            Putumayo
+        </text>
+        <text stroke-linecap="round" font-size="40" x="235.01366" y="-330.7449"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI"
+              class="id_apoyo_a_actividades/bandas_criminales" stroke="#080808"
+              stroke-opacity="0.8" stroke-width="0.23879112px">
+            Support and creation of criminal gangs
+        </text>
+        <text stroke-linecap="round" font-size="40" x="-323.58856"
+              y="-273.44067" fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_presión" stroke="#080808"
+              stroke-opacity="0.8" stroke-width="0.23879112px">
+            Pressure
+        </text>
+        <text stroke-linecap="round" font-size="41" x="660.24274" y="843.5464"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Countrywide"
+              stroke="#080808" stroke-opacity="0.8" stroke-width="0.2447609px">
+            Countrywide
+        </text>
+        <text stroke-linecap="round" font-size="41" x="813.63684" y="-157.39801"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Bogotá" stroke="#080808"
+              stroke-opacity="0.8" stroke-width="0.2447609px">
+            Bogotá
+        </text>
+        <text stroke-linecap="round" font-size="43" x="151.02658" y="-686.2347"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Cauca" stroke="#080808"
+              stroke-opacity="0.8" stroke-width="0.25670046px">
+            Cauca
+        </text>
+        <text stroke-linecap="round" font-size="40" x="-997.0539" y="431.74878"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Vaupés" stroke="#080808"
+              stroke-opacity="0.8" stroke-width="0.23879112px">
+            Vaupés
+        </text>
+        <text stroke-linecap="round" font-size="41" x="-929.64886"
+              y="-488.53217" fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Huila" stroke="#080808"
+              stroke-opacity="0.8" stroke-width="0.2447609px">
+            Huila
+        </text>
+        <text stroke-linecap="round" font-size="48" x="-52.022564" y="737.90076"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Valle_del_Cauca"
+              stroke="#080808" stroke-opacity="0.8" stroke-width="0.28654936px">
+            Valle del Cauca
+        </text>
+        <text stroke-linecap="round" font-size="41" x="337.9909" y="-954.4224"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Magdalena" stroke="#080808"
+              stroke-opacity="0.8" stroke-width="0.2447609px">
+            Magdalena
+        </text>
+        <text stroke-linecap="round" font-size="40" x="-787.9754" y="-752.26733"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_San_Andrés_y_Providencia"
+              stroke="#080808" stroke-opacity="0.8" stroke-width="0.23879112px">
+            San Andrés y Providencia
+        </text>
+        <text stroke-linecap="round" font-size="42" x="-656.65936"
+              y="-291.93484" fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Guaviare" stroke="#080808"
+              stroke-opacity="0.8" stroke-width="0.2507307px">
+            Guaviare
+        </text>
+        <text stroke-linecap="round" font-size="42" x="-498.95273" y="-870.9115"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Sucre" stroke="#080808"
+              stroke-opacity="0.8" stroke-width="0.2507307px">
+            Sucre
+        </text>
+        <text stroke-linecap="round" font-size="40" x="230.3326" y="802.20483"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Casanare" stroke="#080808"
+              stroke-opacity="0.8" stroke-width="0.23879112px">
+            Casanare
+        </text>
+        <text stroke-linecap="round" font-size="40" x="-88.98651" y="-812.80896"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI"
+              class="id_féminas_como_objetivo_de_reclutamiento/violencia"
+              stroke="#080808" stroke-opacity="0.8" stroke-width="0.23879112px">
+            Girls and young women as the target of recruitment and use
+        </text>
+        <text stroke-linecap="round" font-size="42" x="-596.6835" y="913.2227"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Caldas" stroke="#080808"
+              stroke-opacity="0.8" stroke-width="0.2507307px">
+            Caldas
+        </text>
+        <text stroke-linecap="round" font-size="47" x="-267.44415" y="-603.5334"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Tolima" stroke="#080808"
+              stroke-opacity="0.8" stroke-width="0.28057957px">
+            Tolima
+        </text>
+        <text stroke-linecap="round" font-size="41" x="-565.6567" y="-552.93134"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Risaralda" stroke="#080808"
+              stroke-opacity="0.8" stroke-width="0.2447609px">
+            Risaralda
+        </text>
+        <text stroke-linecap="round" font-size="42" x="611.77185" y="-874.41595"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_La_Guajira" stroke="#080808"
+              stroke-opacity="0.8" stroke-width="0.2507307px">
+            La Guajira
+        </text>
+        <text stroke-linecap="round" font-size="45" x="893.8384" y="117.44131"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Quindío" stroke="#080808"
+              stroke-opacity="0.8" stroke-width="0.26864px">
+            Quindío
+        </text>
+        <text stroke-linecap="round" font-size="40" x="-292.70862"
+              y="-1041.5204" fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Guainía" stroke="#080808"
+              stroke-opacity="0.8" stroke-width="0.23879112px">
+            Guainía
+        </text>
+        <text stroke-linecap="round" font-size="42" x="892.2679" y="669.64215"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Caquetá" stroke="#080808"
+              stroke-opacity="0.8" stroke-width="0.2507307px">
+            Caquetá
+        </text>
+        <text stroke-linecap="round" font-size="41" x="-805.3289" y="674.1633"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Boyacá" stroke="#080808"
+              stroke-opacity="0.8" stroke-width="0.2447609px">
+            Boyacá
+        </text>
+        <text stroke-linecap="round" font-size="40" x="-1090.8401" y="97.72184"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI"
+              class="id_cuota_familiar_de_reclutamiento" stroke="#080808"
+              stroke-opacity="0.8" stroke-width="0.23879112px">
+            Recruitment family quota
+        </text>
+        <text stroke-linecap="round" font-size="41" x="856.5455" y="-675.5054"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Vichada" stroke="#080808"
+              stroke-opacity="0.8" stroke-width="0.2447609px">
+            Vichada
+        </text>
+        <text stroke-linecap="round" font-size="40" x="678.0402" y="-463.72055"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Amazonas" stroke="#080808"
+              stroke-opacity="0.8" stroke-width="0.23879112px">
+            Amazonas
+        </text>
+        <text stroke-linecap="round" font-size="41" x="422.59048" y="998.71094"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Cesar" stroke="#080808"
+              stroke-opacity="0.8" stroke-width="0.2447609px">
+            Cesar
+        </text>
+        <text stroke-linecap="round" font-size="40" x="-295.18076" y="1106.0099"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Santander" stroke="#080808"
+              stroke-opacity="0.8" stroke-width="0.23879112px">
+            Santander
+        </text>
+        <text stroke-linecap="round" font-size="160" x="-28.491241"
+              y="-121.58797" fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Guerrillas" stroke="#080808"
+              stroke-opacity="0.8" stroke-width="0.9551645px">
+            Guerrillas
+        </text>
+        <text stroke-linecap="round" font-size="101" x="400.72403" y="361.22382"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI"
+              class="id_Nuevos_Paramilitares_(Narco-Para)" stroke="#080808"
+              stroke-opacity="0.8" stroke-width="0.6029476px">
+            Strongholds
+        </text>
+        <text stroke-linecap="round" font-size="49" x="-564.6488" y="535.3965"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Disidensias_FARC"
+              stroke="#080808" stroke-opacity="0.8" stroke-width="0.29251912px">
+            FARC Dissidents
+        </text>
+        <text stroke-linecap="round" font-size="71" x="128.18312" y="190.74213"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Pequeños_Grupos_Ilegales"
+              stroke="#080808" stroke-opacity="0.8" stroke-width="0.42385426px">
+            Localized Armed Groups
+        </text>
+        <text stroke-linecap="round" font-size="84" x="419.91202" y="598.2746"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Paramilitares"
+              stroke="#080808" stroke-opacity="0.8" stroke-width="0.5014614px">
+            Paramilitary Groups
+        </text>
+    </g>
+    <g id="node-labels">
+        <text font-size="43" x="-375.62045" y="791.94305" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Nariño">
+            Nariño
+        </text>
+        <text font-size="40" x="-24.961128" y="-395.93063" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_reclutamiento_forzado">
+            Forced Recruitment
+        </text>
+        <text font-size="44" x="-262.11798" y="451.3408" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Córdoba">
+            Córdoba
+        </text>
+        <text font-size="40" x="315.9288" y="45.309044" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI"
+              class="id_regalos_o_promesas_o_protección">
+            Gifts, Promises, Handouts
+        </text>
+        <text font-size="40" x="-1027.1156" y="-212.36102" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI"
+              class="id_vinculación_sentimental/sexual">
+            Sentimental/sexual relationship with members of the armed groups
+        </text>
+        <text font-size="44" x="-887.859" y="181.86342" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Arauca">
+            Arauca
+        </text>
+        <text font-size="50" x="680.5961" y="449.9375" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Meta">
+            Meta
+        </text>
+        <text font-size="40" x="77.335556" y="1052.4324" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI"
+              class="id_penetración_de_centros_educativos">
+            Penetration of educational centers
+        </text>
+        <text font-size="42" x="1077.7327" y="-3.672433" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Cundinamarca">
+            Cundinamarca
+        </text>
+        <text font-size="40" x="117.833305" y="509.27924" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_consumo_de_drogas">
+            Instigation to drug consumption and dependency
+        </text>
+        <text font-size="46" x="-316.88828" y="96.25522" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Antioquia">
+            Antioquia
+        </text>
+        <text font-size="40" x="564.8854" y="-261.487" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_violencia">
+            Violence
+        </text>
+        <text font-size="45" x="570.6316" y="101.283806" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Chocó">
+            Chocó
+        </text>
+        <text font-size="40" x="-583.6925" y="-18.474997" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI"
+              class="id_persuación_de_incorporación_voluntaria_y_adoctrinamiento">
+            Persuasion of voluntary incorporation and indoctrination
+        </text>
+        <text font-size="43" x="-804.2725" y="240.54655" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Norte_de_Santander">
+            Norte de Santander
+        </text>
+        <text font-size="41" x="1095.0283" y="444.40558" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Atlántico">
+            Atlántico
+        </text>
+        <text font-size="40" x="1054.2902" y="-394.09" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI"
+              class="id_actividades_lúdicas_y_recreativas">
+            Recreational activities
+        </text>
+        <text font-size="44" x="426.37732" y="-601.6025" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Bolívar">
+            Bolívar
+        </text>
+        <text font-size="42" x="-843.22516" y="41.871754" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Putumayo">
+            Putumayo
+        </text>
+        <text font-size="40" x="235.01366" y="-330.7449" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI"
+              class="id_apoyo_a_actividades/bandas_criminales">
+            Support and creation of criminal gangs
+        </text>
+        <text font-size="40" x="-323.58856" y="-273.44067" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_presión">
+            Pressure
+        </text>
+        <text font-size="41" x="660.24274" y="843.5464" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Countrywide">
+            Countrywide
+        </text>
+        <text font-size="41" x="813.63684" y="-157.39801" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Bogotá">
+            Bogotá
+        </text>
+        <text font-size="43" x="151.02658" y="-686.2347" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Cauca">
+            Cauca
+        </text>
+        <text font-size="40" x="-997.0539" y="431.74878" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Vaupés">
+            Vaupés
+        </text>
+        <text font-size="41" x="-929.64886" y="-488.53217" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Huila">
+            Huila
+        </text>
+        <text font-size="48" x="-52.022564" y="737.90076" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Valle_del_Cauca">
+            Valle del Cauca
+        </text>
+        <text font-size="41" x="337.9909" y="-954.4224" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Magdalena">
+            Magdalena
+        </text>
+        <text font-size="40" x="-787.9754" y="-752.26733" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_San_Andrés_y_Providencia">
+            San Andrés y Providencia
+        </text>
+        <text font-size="42" x="-656.65936" y="-291.93484" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Guaviare">
+            Guaviare
+        </text>
+        <text font-size="42" x="-498.95273" y="-870.9115" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Sucre">
+            Sucre
+        </text>
+        <text font-size="40" x="230.3326" y="802.20483" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Casanare">
+            Casanare
+        </text>
+        <text font-size="40" x="-88.98651" y="-812.80896" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI"
+              class="id_féminas_como_objetivo_de_reclutamiento/violencia">
+            Girls and young women as the target of recruitment and use
+        </text>
+        <text font-size="42" x="-596.6835" y="913.2227" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Caldas">
+            Caldas
+        </text>
+        <text font-size="47" x="-267.44415" y="-603.5334" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Tolima">
+            Tolima
+        </text>
+        <text font-size="41" x="-565.6567" y="-552.93134" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Risaralda">
+            Risaralda
+        </text>
+        <text font-size="42" x="611.77185" y="-874.41595" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_La_Guajira">
+            La Guajira
+        </text>
+        <text font-size="45" x="893.8384" y="117.44131" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Quindío">
+            Quindío
+        </text>
+        <text font-size="40" x="-292.70862" y="-1041.5204" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Guainía">
+            Guainía
+        </text>
+        <text font-size="42" x="892.2679" y="669.64215" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Caquetá">
+            Caquetá
+        </text>
+        <text font-size="41" x="-805.3289" y="674.1633" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Boyacá">
+            Boyacá
+        </text>
+        <text font-size="40" x="-1090.8401" y="97.72184" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI"
+              class="id_cuota_familiar_de_reclutamiento">
+            Recruitment family quota
+        </text>
+        <text font-size="41" x="856.5455" y="-675.5054" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Vichada">
+            Vichada
+        </text>
+        <text font-size="40" x="678.0402" y="-463.72055" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Amazonas">
+            Amazonas
+        </text>
+        <text font-size="41" x="422.59048" y="998.71094" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Cesar">
+            Cesar
+        </text>
+        <text font-size="40" x="-295.18076" y="1106.0099" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Santander">
+            Santander
+        </text>
+        <text font-size="160" x="-28.491241" y="-121.58797" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Guerrillas">
+            Guerrillas
+        </text>
+        <text font-size="101" x="400.72403" y="361.22382" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI"
+              class="id_Nuevos_Paramilitares_(Narco-Para)">
+            Strongholds
+        </text>
+        <text font-size="49" x="-564.6488" y="535.3965" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Disidensias_FARC">
+            FARC Dissidents
+        </text>
+        <text font-size="71" x="128.18312" y="190.74213" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Pequeños_Grupos_Ilegales">
+            Localized Armed Groups
+        </text>
+        <text font-size="84" x="419.91202" y="598.2746" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Paramilitares">
+            Paramilitary Groups
+        </text>
+    </g>
+</svg>

@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg contentScriptType="text/ecmascript" width="2009.168"
+     xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
+     contentStyleType="text/css"
+     viewBox="-1068.634766 -689.635742 2009.167969 1517.841187"
+     height="1517.8412" preserveAspectRatio="xMidYMid meet"
+     xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <g id="edges">
+        <path stroke-linecap="round" fill="none"
+              class="id_Nariño id_Paramilitares"
+              d="M -627.761902,491.417969 A 403.279250,403.279250 0,0 1,-199.771713,520.052124"
+              stroke="#61a4a7" stroke-width="0.5540764" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_violencia id_Nariño"
+              d="M -113.603302,-375.441895 A 868.898281,868.898281 0,0 1,-623.919312,492.404236"
+              stroke="#c98694" stroke-width="0.5540764" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_reclutamiento_forzado id_Cesar"
+              d="M 211.662643,508.709015 A 121.374736,121.374736 0,0 1,266.129913,602.956848"
+              stroke="#c98694" stroke-width="0.5540764" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_persuación_de_incorporación_voluntaria_y_adoctrinamiento id_Córdoba"
+              d="M -150.084625,175.220657 A 466.717409,466.717409 0,0 1,88.899590,640.685303"
+              stroke="#c98694" stroke-width="0.5540764" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_vinculación_sentimental/sexual id_Vichada"
+              d="M -456.129761,-105.160896 A 619.270758,619.270758 0,0 1,232.560120,57.648952"
+              stroke="#c98694" stroke-width="0.5540764" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_vinculación_sentimental/sexual id_Valle_del_Cauca"
+              d="M -493.660156,-91.422478 A 332.092018,332.092018 0,0 1,-832.216064,-188.570145"
+              stroke="#c98694" stroke-width="2.2163055" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_vinculación_sentimental/sexual id_Meta"
+              d="M -471.156128,-117.215981 A 437.142724,437.142724 0,0 1,-127.799294,-460.591858"
+              stroke="#c98694" stroke-width="0.5540764" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_vinculación_sentimental/sexual id_Arauca"
+              d="M -480.264130,-78.332191 A 211.289054,211.289054 0,0 1,-639.546204,59.825768"
+              stroke="#c98694" stroke-width="1.6622291" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Arauca id_Nuevos_Paramilitares_(Narco-Para)"
+              d="M -650.143311,72.280540 A 175.551624,175.551624 0,0 1,-559.501465,186.027771"
+              stroke="#61a4a7" stroke-width="0.5540764" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_violencia id_Arauca"
+              d="M -120.564240,-375.983093 A 600.037665,600.037665 0,0 1,-645.387146,61.784733"
+              stroke="#c98694" stroke-width="0.5540764" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_penetración_de_centros_educativos id_Arauca"
+              d="M 362.146667,601.785522 A 983.792686,983.792686 0,0 1,-659.087952,85.917053"
+              stroke="#c98694" stroke-width="0.5540764" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_actividades_lúdicas_y_recreativas id_Meta"
+              d="M 597.386169,-229.770401 A 627.103501,627.103501 0,0 1,-83.833969,-442.879944"
+              stroke="#c98694" stroke-width="0.5540764" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_penetración_de_centros_educativos id_Vichada"
+              d="M 366.571747,585.671692 A 449.798719,449.798719 0,0 1,236.631042,106.317558"
+              stroke="#c98694" stroke-width="2.2163055" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_penetración_de_centros_educativos id_Cundinamarca"
+              d="M 383.650513,578.618896 A 478.957450,478.957450 0,0 1,733.516724,168.906082"
+              stroke="#c98694" stroke-width="0.5540764" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_penetración_de_centros_educativos id_Chocó"
+              d="M 369.463928,582.862549 A 768.858510,768.858510 0,0 1,331.484863,-302.244049"
+              stroke="#c98694" stroke-width="0.5540764" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_penetración_de_centros_educativos id_Cauca"
+              d="M 364.317993,588.973999 A 1144.396215,1144.396215 0,0 1,-205.013626,-618.384399"
+              stroke="#c98694" stroke-width="1.1081527" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_penetración_de_centros_educativos id_Caldas"
+              d="M 367.284119,612.212097 A 611.660386,611.660386 0,0 1,-325.356445,701.838135"
+              stroke="#c98694" stroke-width="0.5540764" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_violencia id_Cundinamarca"
+              d="M -95.596458,-396.597473 A 863.334723,863.334723 0,0 1,745.953430,134.998581"
+              stroke="#c98694" stroke-width="1.6622291" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_consumo_de_drogas id_Guaviare"
+              d="M -8.113804,14.733351 A 278.839100,278.839100 0,0 1,-302.767090,62.753902"
+              stroke="#c98694" stroke-width="0.5540764" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_violencia id_Sucre"
+              d="M -135.191269,-391.537506 A 262.657740,262.657740 0,0 1,-391.551666,-501.944489"
+              stroke="#c98694" stroke-width="0.5540764" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_violencia id_Quindío"
+              d="M -95.772141,-398.269928 A 879.253302,879.253302 0,0 1,806.326233,73.856964"
+              stroke="#c98694" stroke-width="0.5540764" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_violencia id_Chocó"
+              d="M -97.662537,-404.278076 A 388.916712,388.916712 0,0 1,327.256775,-340.969879"
+              stroke="#c98694" stroke-width="0.5540764" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_persuación_de_incorporación_voluntaria_y_adoctrinamiento id_Vichada"
+              d="M -154.315674,151.237045 A 354.654629,354.654629 0,0 1,223.344269,65.420975"
+              stroke="#c98694" stroke-width="1.1081527" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_persuación_de_incorporación_voluntaria_y_adoctrinamiento id_La_Guajira"
+              d="M -170.828827,146.212158 A 546.853565,546.853565 0,0 1,108.191498,-405.466949"
+              stroke="#c98694" stroke-width="1.1081527" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_persuación_de_incorporación_voluntaria_y_adoctrinamiento id_Cesar"
+              d="M -148.189255,169.786987 A 526.637654,526.637654 0,0 1,262.168518,603.148376"
+              stroke="#c98694" stroke-width="0.5540764" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Norte_de_Santander id_Paramilitares"
+              d="M -378.335663,386.103912 A 238.366410,238.366410 0,0 1,-184.530212,504.651764"
+              stroke="#61a4a7" stroke-width="1.1081527" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Atlántico id_Pequeños_Grupos_Ilegales"
+              d="M 599.788025,270.502075 A 300.538598,300.538598 0,0 1,541.498230,-35.688522"
+              stroke="#61a4a7" stroke-width="0.5540764" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_apoyo_a_actividades/bandas_criminales id_Atlántico"
+              d="M 298.876648,215.618790 A 282.497980,282.497980 0,0 1,597.379883,268.662903"
+              stroke="#c98694" stroke-width="0.5540764" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_actividades_lúdicas_y_recreativas id_Quindío"
+              d="M 634.689331,-227.973923 A 324.230614,324.230614 0,0 1,819.274353,65.264565"
+              stroke="#c98694" stroke-width="1.6622291" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Putumayo id_Nuevos_Paramilitares_(Narco-Para)"
+              d="M -99.190002,795.314392 A 613.040340,613.040340 0,0 1,-547.608887,301.630615"
+              stroke="#61a4a7" stroke-width="2.2163055" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_apoyo_a_actividades/bandas_criminales id_La_Guajira"
+              d="M 265.598389,210.728226 A 548.874337,548.874337 0,0 1,122.836517,-395.822449"
+              stroke="#c98694" stroke-width="0.5540764" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_apoyo_a_actividades/bandas_criminales id_Cesar"
+              d="M 291.547943,240.661484 A 335.520922,335.520922 0,0 1,279.298645,607.645142"
+              stroke="#c98694" stroke-width="0.5540764" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none" class="id_presión id_Vichada"
+              d="M 387.157471,168.282684 A 152.934272,152.934272 0,0 1,259.083435,96.662598"
+              stroke="#c98694" stroke-width="0.5540764" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Magdalena id_Guerrillas"
+              d="M 491.609650,-440.222565 A 481.686331,481.686331 0,0 1,85.996727,-166.541962"
+              stroke="#61a4a7" stroke-width="1.1081527" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_féminas_como_objetivo_de_reclutamiento/violencia id_Caquetá"
+              d="M -270.656860,-310.516632 A 891.672226,891.672226 0,0 1,447.278625,434.357178"
+              stroke="#c98694" stroke-width="0.5540764" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_La_Guajira id_Pequeños_Grupos_Ilegales"
+              d="M 152.678391,-416.444946 A 457.360211,457.360211 0,0 1,546.411316,-107.836594"
+              stroke="#61a4a7" stroke-width="0.5540764" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Guainía id_Guerrillas"
+              d="M 78.252853,-645.201355 A 415.682382,415.682382 0,0 1,52.357803,-233.427826"
+              stroke="#61a4a7" stroke-width="0.5540764" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Caquetá id_Paramilitares"
+              d="M 435.456329,472.638580 A 518.179046,518.179046 0,0 1,-124.020279,568.465210"
+              stroke="#61a4a7" stroke-width="0.5540764" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Caquetá id_Nuevos_Paramilitares_(Narco-Para)"
+              d="M 431.353394,466.553741 A 857.132433,857.132433 0,0 1,-516.129089,280.978577"
+              stroke="#61a4a7" stroke-width="1.1081527" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_cuota_familiar_de_reclutamiento id_Caquetá"
+              d="M -552.461609,-417.680817 A 1122.952328,1122.952328 0,0 1,445.058228,434.765503"
+              stroke="#c98694" stroke-width="0.5540764" stroke-opacity="1.0"/>
+    </g>
+    <g id="arrows">
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Nariño id_Paramilitares"
+                  points="-197.445969,521.947144 -200.719193,521.215027 -198.824234,518.889221"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_violencia id_Nariño"
+                  points="-626.673950,493.592438 -624.513428,491.026917 -623.325195,493.781555"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_reclutamiento_forzado id_Cesar"
+                  points="266.018951,605.954773 264.630951,602.901367 267.628876,603.012329"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_persuación_de_incorporación_voluntaria_y_adoctrinamiento id_Córdoba"
+                  points="88.457985,643.652588 87.415932,640.464478 90.383247,640.906128"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_vinculación_sentimental/sexual id_Vichada"
+                  points="234.518570,59.921494 231.423843,58.628185 233.696396,56.669727"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_vinculación_sentimental/sexual id_Valle_del_Cauca"
+                  points="-839.742676,-197.916290 -827.542969,-192.333435 -836.889160,-184.806854"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_vinculación_sentimental/sexual id_Meta"
+                  points="-124.839943,-461.084045 -127.553215,-459.112183 -128.045395,-462.071533"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_vinculación_sentimental/sexual id_Arauca"
+                  points="-648.483215,60.888367 -640.077515,55.357243 -639.014893,64.294296"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Arauca id_Nuevos_Paramilitares_(Narco-Para)"
+                  points="-559.224609,189.014969 -560.995056,186.166199 -558.007874,185.889343"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_violencia id_Arauca"
+                  points="-648.380127,61.989685 -645.489624,60.288239 -645.284668,63.281227"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_penetración_de_centros_educativos id_Arauca"
+                  points="-660.445801,83.241951 -657.750427,85.238113 -660.425476,86.595993"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_actividades_lúdicas_y_recreativas id_Meta"
+                  points="-85.625679,-445.286133 -82.630875,-443.775787 -85.037064,-441.984100"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_penetración_de_centros_educativos id_Vichada"
+                  points="240.819611,95.072296 242.253677,108.411842 231.008408,104.223274"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_penetración_de_centros_educativos id_Cundinamarca"
+                  points="736.429688,168.188889 733.875305,170.362595 733.158142,167.449570"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_penetración_de_centros_educativos id_Chocó"
+                  points="333.147980,-304.740845 332.733276,-301.412476 330.236450,-303.075623"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_penetración_de_centros_educativos id_Cauca"
+                  points="-203.856140,-624.271667 -202.069977,-617.805664 -207.957275,-618.963135"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_penetración_de_centros_educativos id_Caldas"
+                  points="-327.991394,700.403870 -324.639313,700.520691 -326.073578,703.155579"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_violencia id_Cundinamarca"
+                  points="749.253967,143.371552 741.766968,136.648834 750.139893,133.348328"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_consumo_de_drogas id_Guaviare"
+                  points="-305.473511,61.459610 -302.119934,61.400684 -303.414246,64.107124"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_violencia id_Sucre"
+                  points="-393.141937,-504.488312 -390.279755,-502.739624 -392.823578,-501.149353"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_violencia id_Quindío"
+                  points="807.648682,76.549759 804.979858,74.518181 807.672607,73.195747"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_violencia id_Chocó"
+                  points="329.419495,-338.890778 326.217224,-339.888519 328.296326,-342.051239"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_persuación_de_incorporación_voluntaria_y_adoctrinamiento id_Vichada"
+                  points="228.889465,67.712448 222.198532,68.193573 224.490005,62.648376"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_persuación_de_incorporación_voluntaria_y_adoctrinamiento id_La_Guajira"
+                  points="113.520844,-408.223419 109.569733,-402.802277 106.813263,-408.131622"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_persuación_de_incorporación_voluntaria_y_adoctrinamiento id_Cesar"
+                  points="262.568237,606.121643 260.681885,603.348206 263.655151,602.948547"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Norte_de_Santander id_Paramilitares"
+                  points="-182.063293,510.121155 -187.264908,505.885223 -181.795517,503.418304"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Atlántico id_Pequeños_Grupos_Ilegales"
+                  points="542.724731,-38.426327 542.867126,-35.075249 540.129333,-36.301796"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_apoyo_a_actividades/bandas_criminales id_Atlántico"
+                  points="599.504272,270.781158 596.320740,269.725098 598.439026,267.600708"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_actividades_lúdicas_y_recreativas id_Quindío"
+                  points="818.816895,74.252937 814.780151,65.035858 823.768555,65.493286"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Putumayo id_Nuevos_Paramilitares_(Narco-Para)"
+                  points="-548.940002,289.704681 -541.645935,300.965057 -553.571838,302.296173"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_apoyo_a_actividades/bandas_criminales id_La_Guajira"
+                  points="123.988510,-398.592468 124.221527,-395.246460 121.451523,-396.398438"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_apoyo_a_actividades/bandas_criminales id_Cesar"
+                  points="277.490112,610.038757 278.101868,606.740906 280.495422,608.549377"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_presión id_Vichada"
+                  points="257.690552,94.005562 260.411957,95.966148 257.754913,97.359047"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Magdalena id_Guerrillas"
+                  points="79.999176,-166.713425 86.082451,-169.540726 85.910988,-163.543167"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_féminas_como_objetivo_de_reclutamiento/violencia id_Caquetá"
+                  points="447.681488,437.329987 445.792206,434.558624 448.765045,434.155731"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_La_Guajira id_Pequeños_Grupos_Ilegales"
+                  points="547.255371,-104.957779 544.971924,-107.414558 547.850708,-108.258629"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Guainía id_Guerrillas"
+                  points="50.466499,-231.099091 51.193436,-234.373474 53.522163,-232.482178"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Caquetá id_Paramilitares"
+                  points="-126.716812,567.150452 -123.362885,567.116943 -124.677673,569.813477"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Caquetá id_Nuevos_Paramilitares_(Narco-Para)"
+                  points="-520.201721,276.572510 -513.926025,278.942261 -518.332153,283.014893"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_cuota_familiar_de_reclutamiento id_Caquetá"
+                  points="445.739441,437.687164 443.597412,435.106110 446.519043,434.424896"
+                  stroke="none"/>
+    </g>
+    <g id="nodes">
+        <circle fill-opacity="1.0" fill="#9a96e5" r="19.748646" cx="-646.3844"
+                class="id_Nariño" cy="502.0945" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.9030013"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="18.4" cx="194.10419"
+                class="id_reclutamiento_forzado" cy="499.13297" stroke="#ae532e"
+                stroke-opacity="1.0" stroke-width="1.7730443"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="20.45028" cx="85.185905"
+                class="id_Córdoba" cy="665.63904" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.9706116"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="18.4" cx="-474.61127"
+                class="id_vinculación_sentimental/sexual" cy="-97.51669"
+                stroke="#ae532e" stroke-opacity="1.0" stroke-width="1.7730443"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="20.366371" cx="-670.46576"
+                class="id_Arauca" cy="63.50205" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.962526"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="22.780447" cx="-100.414085"
+                class="id_Meta" cy="-465.14633" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="2.1951492"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="18.4" cx="381.88165"
+                class="id_penetración_de_centros_educativos" cy="598.5405"
+                stroke="#ae532e" stroke-opacity="1.0" stroke-width="1.7730443"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="19.524569" cx="757.0367"
+                class="id_Cundinamarca" cy="163.11534" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.8814089"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="18.4" cx="6.3509226"
+                class="id_consumo_de_drogas" cy="0.9213379" stroke="#ae532e"
+                stroke-opacity="1.0" stroke-width="1.7730443"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="18.4" cx="-115.55728"
+                class="id_violencia" cy="-395.34622" stroke="#ae532e"
+                stroke-opacity="1.0" stroke-width="1.7730443"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="20.597881" cx="345.55988"
+                class="id_Chocó" cy="-323.37448" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.9848346"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="18.4" cx="-167.8246"
+                class="id_persuación_de_incorporación_voluntaria_y_adoctrinamiento"
+                cy="165.98523" stroke="#ae532e" stroke-opacity="1.0"
+                stroke-width="1.7730443"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="19.901926" cx="-399.96768"
+                class="id_Norte_de_Santander" cy="385.95578" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.9177717"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="18.902374" cx="614.0534"
+                class="id_Atlántico" cy="285.2885" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.8214537"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="18.4" cx="616.3823"
+                class="id_actividades_lúdicas_y_recreativas" cy="-236.02705"
+                stroke="#ae532e" stroke-opacity="1.0" stroke-width="1.7730443"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="19.477753" cx="-78.63036"
+                class="id_Putumayo" cy="800.3674" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.8768978"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="18.4" cx="280.66373"
+                class="id_apoyo_a_actividades/bandas_criminales" cy="223.8825"
+                stroke="#ae532e" stroke-opacity="1.0" stroke-width="1.7730443"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="18.4" cx="407.12622"
+                class="id_presión" cy="167.165" stroke="#ae532e"
+                stroke-opacity="1.0" stroke-width="1.7730443"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="19.917263" cx="-199.67969"
+                class="id_Cauca" cy="-645.5142" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.9192495"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="22.201328" cx="-854.87854"
+                class="id_Valle_del_Cauca" cy="-216.7113" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="2.1393445"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="18.923967" cx="500.0556"
+                class="id_Magdalena" cy="-458.97812" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.8235345"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="19.158932" cx="-324.26065"
+                class="id_Guaviare" cy="52.475105" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.8461759"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="19.092224" cx="-404.1427"
+                class="id_Sucre" cy="-522.0851" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.8397479"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="18.4" cx="-290.35577"
+                class="id_féminas_como_objetivo_de_reclutamiento/violencia"
+                cy="-313.97385" stroke="#ae532e" stroke-opacity="1.0"
+                stroke-width="1.7730443"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="19.217094" cx="-346.33777"
+                class="id_Caldas" cy="690.41766" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.8517804"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="21.425014" cx="-208.38034"
+                class="id_Tolima" cy="-63.941616" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="2.0645382"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="19.099092" cx="131.96025"
+                class="id_La_Guajira" cy="-417.76077" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.8404098"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="20.899118" cx="817.66235"
+                class="id_Quindío" cy="96.94001" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="2.0138621"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="18.5031" cx="68.95313"
+                class="id_Guainía" cy="-663.0342" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.7829791"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="19.258974" cx="450.4927"
+                class="id_Caquetá" cy="458.07404" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.8558161"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="18.4" cx="-572.40643"
+                class="id_cuota_familiar_de_reclutamiento" cy="-419.1653"
+                stroke="#ae532e" stroke-opacity="1.0" stroke-width="1.7730443"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="19.083195" cx="248.05975"
+                class="id_Vichada" cy="75.63429" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.8388778"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="18.650509" cx="265.26913"
+                class="id_Cesar" cy="626.2132" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="1.7971838"/>
+        <circle fill-opacity="1.0" fill="#28b36a" r="73.6" cx="0.03184873"
+                class="id_Guerrillas" cy="-168.99962" stroke="#1c7d4a"
+                stroke-opacity="1.0" stroke-width="7.0921774"/>
+        <circle fill-opacity="1.0" fill="#28b36a" r="46.560295" cx="-554.5539"
+                class="id_Nuevos_Paramilitares_(Narco-Para)" cy="239.40799"
+                stroke="#1c7d4a" stroke-opacity="1.0" stroke-width="4.486602"/>
+        <circle fill-opacity="1.0" fill="#28b36a" r="32.693497" cx="557.2538"
+                class="id_Pequeños_Grupos_Ilegales" cy="-70.856926"
+                stroke="#1c7d4a" stroke-opacity="1.0" stroke-width="3.1503813"/>
+        <circle fill-opacity="1.0" fill="#28b36a" r="38.86927" cx="-164.69234"
+                class="id_Paramilitares" cy="548.6341" stroke="#1c7d4a"
+                stroke-opacity="1.0" stroke-width="3.7454858"/>
+    </g>
+    <g id="node-labels">
+        <text font-size="43" x="-646.3844" y="510.08002" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Nariño">
+            Nariño
+        </text>
+        <text font-size="40" x="194.10419" y="506.6525" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_reclutamiento_forzado">
+            Forced Recruitment
+        </text>
+        <text font-size="44" x="85.185905" y="674.07166" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Córdoba">
+            Córdoba
+        </text>
+        <text font-size="40" x="-474.61127" y="-87.65341" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI"
+              class="id_vinculación_sentimental/sexual">
+            Sentimental/sexual relationship with members of the armed groups
+        </text>
+        <text font-size="44" x="-670.46576" y="71.3331" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Arauca">
+            Arauca
+        </text>
+        <text font-size="50" x="-100.414085" y="-456.2474" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Meta">
+            Meta
+        </text>
+        <text font-size="40" x="381.88165" y="606.1675" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI"
+              class="id_penetración_de_centros_educativos">
+            Penetration of educational centers
+        </text>
+        <text font-size="42" x="757.0367" y="171.01085" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Cundinamarca">
+            Cundinamarca
+        </text>
+        <text font-size="40" x="6.3509226" y="10.677197" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_consumo_de_drogas">
+            Instigation to drug consumption and dependency
+        </text>
+        <text font-size="40" x="-115.55728" y="-387.8267" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_violencia">
+            Violence
+        </text>
+        <text font-size="45" x="345.55988" y="-314.7502" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Chocó">
+            Chocó
+        </text>
+        <text font-size="40" x="-167.8246" y="175.84851" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI"
+              class="id_persuación_de_incorporación_voluntaria_y_adoctrinamiento">
+            Persuasion of voluntary incorporation and indoctrination
+        </text>
+        <text font-size="43" x="-399.96768" y="394.03928" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Norte_de_Santander">
+            Norte de Santander
+        </text>
+        <text font-size="41" x="614.0534" y="293.14618" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Atlántico">
+            Atlántico
+        </text>
+        <text font-size="40" x="616.3823" y="-228.50752" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI"
+              class="id_actividades_lúdicas_y_recreativas">
+            Recreational activities
+        </text>
+        <text font-size="42" x="-78.63036" y="810.1906" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Putumayo">
+            Putumayo
+        </text>
+        <text font-size="40" x="280.66373" y="233.74579" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI"
+              class="id_apoyo_a_actividades/bandas_criminales">
+            Support and creation of criminal gangs
+        </text>
+        <text font-size="40" x="407.12622" y="174.28413" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_presión">
+            Pressure
+        </text>
+        <text font-size="43" x="-199.67969" y="-637.73517" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Cauca">
+            Cauca
+        </text>
+        <text font-size="48" x="-854.87854" y="-207.68787" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Valle_del_Cauca">
+            Valle del Cauca
+        </text>
+        <text font-size="41" x="500.0556" y="-448.97836" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Magdalena">
+            Magdalena
+        </text>
+        <text font-size="42" x="-324.26065" y="60.27491" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Guaviare">
+            Guaviare
+        </text>
+        <text font-size="42" x="-404.1427" y="-514.48694" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Sucre">
+            Sucre
+        </text>
+        <text font-size="40" x="-290.35577" y="-304.11057" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI"
+              class="id_féminas_como_objetivo_de_reclutamiento/violencia">
+            Girls and young women as the target of recruitment and use
+        </text>
+        <text font-size="42" x="-346.33777" y="698.3132" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Caldas">
+            Caldas
+        </text>
+        <text font-size="47" x="-208.38034" y="-55.106167" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Tolima">
+            Tolima
+        </text>
+        <text font-size="42" x="131.96025" y="-407.61282" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_La_Guajira">
+            La Guajira
+        </text>
+        <text font-size="45" x="817.66235" y="106.49445" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Quindío">
+            Quindío
+        </text>
+        <text font-size="40" x="68.95313" y="-655.36816" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Guainía">
+            Guainía
+        </text>
+        <text font-size="42" x="450.4927" y="468.4168" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Caquetá">
+            Caquetá
+        </text>
+        <text font-size="40" x="-572.40643" y="-409.30203" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI"
+              class="id_cuota_familiar_de_reclutamiento">
+            Recruitment family quota
+        </text>
+        <text font-size="41" x="248.05975" y="83.34181" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Vichada">
+            Vichada
+        </text>
+        <text font-size="41" x="265.26913" y="633.63043" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Cesar">
+            Cesar
+        </text>
+        <text font-size="160" x="0.03184873" y="-138.9215" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Guerrillas">
+            Guerrillas
+        </text>
+        <text font-size="101" x="-554.5539" y="264.04153" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI"
+              class="id_Nuevos_Paramilitares_(Narco-Para)">
+            Strongholds
+        </text>
+        <text font-size="71" x="557.2538" y="-53.632725" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Pequeños_Grupos_Ilegales">
+            Localized Armed Groups
+        </text>
+        <text font-size="84" x="-164.69234" y="569.1214" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Paramilitares">
+            Paramilitary Groups
+        </text>
+    </g>
+</svg>

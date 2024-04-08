@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg contentScriptType="text/ecmascript" width="1924.3296"
+     xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
+     contentStyleType="text/css"
+     viewBox="-1153.863647 -474.171021 1924.329590 877.256348"
+     height="877.25635" preserveAspectRatio="xMidYMid meet"
+     xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <g id="edges">
+        <path stroke-linecap="round" fill="none"
+              class="id_vinculación_sentimental/sexual id_Caldas"
+              d="M -540.170288,-231.272400 A 667.747522,667.747522 0,0 1,-10.824864,322.062531"
+              stroke="#c98694" stroke-width="0.95867074" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_persuación_de_incorporación_voluntaria_y_adoctrinamiento id_Cundinamarca"
+              d="M 290.878967,-70.452950 A 214.690213,214.690213 0,0 1,437.534119,94.781891"
+              stroke="#c98694" stroke-width="0.95867074" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_consumo_de_drogas id_Risaralda"
+              d="M -156.563644,-177.608551 A 240.713110,240.713110 0,0 1,-128.895462,-428.922180"
+              stroke="#c98694" stroke-width="0.95867074" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_violencia id_Risaralda"
+              d="M 113.021156,139.302338 A 537.042724,537.042724 0,0 1,-118.961166,-423.840118"
+              stroke="#c98694" stroke-width="0.95867074" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_persuación_de_incorporación_voluntaria_y_adoctrinamiento id_Risaralda"
+              d="M 251.753174,-78.464455 A 445.707583,445.707583 0,0 1,-109.110641,-423.606018"
+              stroke="#c98694" stroke-width="0.95867074" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_actividades_lúdicas_y_recreativas id_Bolívar"
+              d="M 419.451782,-200.690903 A 277.642074,277.642074 0,0 1,198.052658,-393.309204"
+              stroke="#c98694" stroke-width="1.9173415" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_Putumayo id_Paramilitares"
+              d="M -317.580841,377.781128 A 282.532261,282.532261 0,0 1,-571.723816,257.823578"
+              stroke="#61a4a7" stroke-width="1.9173415" stroke-opacity="1.0"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_cuota_familiar_de_reclutamiento id_Quindío"
+              d="M -433.260010,32.770435 A 257.918487,257.918487 0,0 1,-171.435883,105.541138"
+              stroke="#c98694" stroke-width="0.95867074" stroke-opacity="1.0"/>
+    </g>
+    <g id="arrows">
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_vinculación_sentimental/sexual id_Caldas"
+                  points="-10.421927,325.035339 -12.311273,322.264008 -9.338456,321.861053"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_persuación_de_incorporación_voluntaria_y_adoctrinamiento id_Cundinamarca"
+                  points="437.920013,97.756966 436.046570,94.974846 439.021667,94.588936"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_consumo_de_drogas id_Risaralda"
+                  points="-126.936325,-431.194122 -127.759483,-427.942627 -130.031433,-429.901733"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_violencia id_Risaralda"
+                  points="-118.265205,-426.758270 -117.502090,-423.492096 -120.420242,-424.188080"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_persuación_de_incorporación_voluntaria_y_adoctrinamiento id_Risaralda"
+                  points="-109.667198,-426.553925 -107.636681,-423.884308 -110.584602,-423.327728"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_actividades_lúdicas_y_recreativas id_Bolívar"
+                  points="196.583771,-399.126648 200.961365,-394.043640 195.143951,-392.574768"
+                  stroke="none"/>
+        <polyline fill="#61a4a7" fill-opacity="1.0"
+                  class="id_Putumayo id_Paramilitares"
+                  points="-574.724731,252.627930 -569.125977,256.323151 -574.321655,259.324005"
+                  stroke="none"/>
+        <polyline fill="#c98694" fill-opacity="1.0"
+                  class="id_cuota_familiar_de_reclutamiento id_Quindío"
+                  points="-169.514755,107.845337 -172.587982,106.501694 -170.283783,104.580582"
+                  stroke="none"/>
+    </g>
+    <g id="nodes">
+        <circle fill-opacity="1.0" fill="#f97743" r="18.4" cx="-559.8402"
+                class="id_vinculación_sentimental/sexual" cy="-234.89113"
+                stroke="#ae532e" stroke-opacity="1.0" stroke-width="3.0677462"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="19.524569" cx="440.64993"
+                class="id_Cundinamarca" cy="118.80301" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="3.2552402"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="18.4" cx="-147.24265"
+                class="id_consumo_de_drogas" cy="-159.91338" stroke="#ae532e"
+                stroke-opacity="1.0" stroke-width="3.0677462"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="18.4" cx="129.98212"
+                class="id_violencia" cy="149.90073" stroke="#ae532e"
+                stroke-opacity="1.0" stroke-width="3.0677462"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="18.4" cx="271.5401"
+                class="id_persuación_de_incorporación_voluntaria_y_adoctrinamiento"
+                cy="-75.55281" stroke="#ae532e" stroke-opacity="1.0"
+                stroke-width="3.0677462"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="18.4" cx="439.30032"
+                class="id_actividades_lúdicas_y_recreativas" cy="-198.23413"
+                stroke="#ae532e" stroke-opacity="1.0" stroke-width="3.0677462"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="20.34769" cx="191.16924"
+                class="id_Bolívar" cy="-420.57068" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="3.3924758"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="19.477753" cx="-296.55414"
+                class="id_Putumayo" cy="375.3096" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="3.247435"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="19.217094" cx="-7.616392"
+                class="id_Caldas" cy="345.73422" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="3.2039766"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="18.946167" cx="-113.48773"
+                class="id_Risaralda" cy="-446.7901" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="3.158806"/>
+        <circle fill-opacity="1.0" fill="#9a96e5" r="20.899118" cx="-154.9678"
+                class="id_Quindío" cy="125.29304" stroke="#6b69a0"
+                stroke-opacity="1.0" stroke-width="3.4844124"/>
+        <circle fill-opacity="1.0" fill="#f97743" r="18.4" cx="-452.22873"
+                class="id_cuota_familiar_de_reclutamiento" cy="39.10981"
+                stroke="#ae532e" stroke-opacity="1.0" stroke-width="3.0677462"/>
+        <circle fill-opacity="1.0" fill="#28b36a" r="38.86927" cx="-595.85547"
+                class="id_Paramilitares" cy="216.0426" stroke="#1c7d4a"
+                stroke-opacity="1.0" stroke-width="6.480492"/>
+    </g>
+    <g id="node-labels-outline">
+        <text stroke-linecap="round" font-size="40" x="-559.8402" y="-225.02785"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI"
+              class="id_vinculación_sentimental/sexual" stroke="#0d0d0d"
+              stroke-opacity="0.8" stroke-width="0.5991692px">
+            Sentimental/sexual relationship with members of the armed groups
+        </text>
+        <text stroke-linecap="round" font-size="42" x="440.64993" y="126.69852"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Cundinamarca"
+              stroke="#0d0d0d" stroke-opacity="0.8" stroke-width="0.6291277px">
+            Cundinamarca
+        </text>
+        <text stroke-linecap="round" font-size="40" x="-147.24265"
+              y="-150.15752" fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_consumo_de_drogas"
+              stroke="#0d0d0d" stroke-opacity="0.8" stroke-width="0.5991692px">
+            Instigation to drug consumption and dependency
+        </text>
+        <text stroke-linecap="round" font-size="40" x="129.98212" y="157.42026"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_violencia" stroke="#0d0d0d"
+              stroke-opacity="0.8" stroke-width="0.5991692px">
+            Violence
+        </text>
+        <text stroke-linecap="round" font-size="40" x="271.5401" y="-65.68953"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI"
+              class="id_persuación_de_incorporación_voluntaria_y_adoctrinamiento"
+              stroke="#0d0d0d" stroke-opacity="0.8" stroke-width="0.5991692px">
+            Persuasion of voluntary incorporation and indoctrination
+        </text>
+        <text stroke-linecap="round" font-size="40" x="439.30032" y="-190.7146"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI"
+              class="id_actividades_lúdicas_y_recreativas" stroke="#0d0d0d"
+              stroke-opacity="0.8" stroke-width="0.5991692px">
+            Recreational activities
+        </text>
+        <text stroke-linecap="round" font-size="44" x="191.16924" y="-412.13806"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Bolívar" stroke="#0d0d0d"
+              stroke-opacity="0.8" stroke-width="0.6590861px">
+            Bolívar
+        </text>
+        <text stroke-linecap="round" font-size="42" x="-296.55414" y="385.13284"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Putumayo" stroke="#0d0d0d"
+              stroke-opacity="0.8" stroke-width="0.6291277px">
+            Putumayo
+        </text>
+        <text stroke-linecap="round" font-size="42" x="-7.616392" y="353.62973"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Caldas" stroke="#0d0d0d"
+              stroke-opacity="0.8" stroke-width="0.6291277px">
+            Caldas
+        </text>
+        <text stroke-linecap="round" font-size="41" x="-113.48773"
+              y="-439.08258" fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Risaralda" stroke="#0d0d0d"
+              stroke-opacity="0.8" stroke-width="0.61414844px">
+            Risaralda
+        </text>
+        <text stroke-linecap="round" font-size="45" x="-154.9678" y="134.84747"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Quindío" stroke="#0d0d0d"
+              stroke-opacity="0.8" stroke-width="0.67406535px">
+            Quindío
+        </text>
+        <text stroke-linecap="round" font-size="40" x="-452.22873" y="48.97309"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI"
+              class="id_cuota_familiar_de_reclutamiento" stroke="#0d0d0d"
+              stroke-opacity="0.8" stroke-width="0.5991692px">
+            Recruitment family quota
+        </text>
+        <text stroke-linecap="round" font-size="84" x="-595.85547" y="236.5299"
+              fill="#696969" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Paramilitares"
+              stroke="#0d0d0d" stroke-opacity="0.8" stroke-width="1.2582554px">
+            Paramilitary Groups
+        </text>
+    </g>
+    <g id="node-labels">
+        <text font-size="40" x="-559.8402" y="-225.02785" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI"
+              class="id_vinculación_sentimental/sexual">
+            Sentimental/sexual relationship with members of the armed groups
+        </text>
+        <text font-size="42" x="440.64993" y="126.69852" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Cundinamarca">
+            Cundinamarca
+        </text>
+        <text font-size="40" x="-147.24265" y="-150.15752" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_consumo_de_drogas">
+            Instigation to drug consumption and dependency
+        </text>
+        <text font-size="40" x="129.98212" y="157.42026" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_violencia">
+            Violence
+        </text>
+        <text font-size="40" x="271.5401" y="-65.68953" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI"
+              class="id_persuación_de_incorporación_voluntaria_y_adoctrinamiento">
+            Persuasion of voluntary incorporation and indoctrination
+        </text>
+        <text font-size="40" x="439.30032" y="-190.7146" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI"
+              class="id_actividades_lúdicas_y_recreativas">
+            Recreational activities
+        </text>
+        <text font-size="44" x="191.16924" y="-412.13806" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Bolívar">
+            Bolívar
+        </text>
+        <text font-size="42" x="-296.55414" y="385.13284" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Putumayo">
+            Putumayo
+        </text>
+        <text font-size="42" x="-7.616392" y="353.62973" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Caldas">
+            Caldas
+        </text>
+        <text font-size="41" x="-113.48773" y="-439.08258" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Risaralda">
+            Risaralda
+        </text>
+        <text font-size="45" x="-154.9678" y="134.84747" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Quindío">
+            Quindío
+        </text>
+        <text font-size="40" x="-452.22873" y="48.97309" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI"
+              class="id_cuota_familiar_de_reclutamiento">
+            Recruitment family quota
+        </text>
+        <text font-size="84" x="-595.85547" y="236.5299" fill="#696969"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Leelawadee UI" class="id_Paramilitares">
+            Paramilitary Groups
+        </text>
+    </g>
+</svg>
